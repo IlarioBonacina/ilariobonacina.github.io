@@ -1,0 +1,18 @@
+<div>
+{{entry.author}}, "{{entry.title}}", {{entry.school}}, {{entry.month}} {{entry.year}}.
+<br>
+{% if entry.doi %}
+<a href="http://dx.doi.org/{{entry.doi}}"><button type="button">DOI</button></a>
+{% endif %}
+<button type="button" data-toggle="collapse" data-target="#{{key}}-bibtex">BibTeX</button>
+{% for static_file in site.static_files %}
+{% if static_file.basename == {{key}} %}
+      <a href="/pdf/{{key}}.pdf"><button type="button">pdf</button></a>
+{% endif %}
+{% if static_file.basename == "{{key}}-20pages-abstract" %}
+      <a href="/pdf/{{key}}-20-pages-abstract.pdf"><button type="button">20 pages summary</button></a>
+{% endif %}
+{% endfor %}
+<pre id="{{key}}-bibtex" class="collapse">{{entry.bibtex}}</pre>
+</div>
+<br>
