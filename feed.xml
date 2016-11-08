@@ -1,5 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-11-05T14:56:12+01:00</updated><id>http://localhost:4000//</id><title type="html">Ilario Bonacina</title><subtitle>I'm currently a Postdoctoral researcher at the KTH Royal Institute of Technology in Stockholm (Sweden).
-</subtitle><entry><title type="html">New website is online</title><link href="http://localhost:4000/website/update/2016/11/05/new-webpage-is-on.html" rel="alternate" type="text/html" title="New website is online" /><published>2016-11-05T13:33:49+01:00</published><updated>2016-11-05T13:33:49+01:00</updated><id>http://localhost:4000/website/update/2016/11/05/new-webpage-is-on</id><content type="html" xml:base="http://localhost:4000/website/update/2016/11/05/new-webpage-is-on.html">&lt;p&gt;I’ve migrated my old webpage to &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt; and &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;.&lt;/p&gt;</content><summary type="html">I’ve migrated my old webpage to GitHub and Jekyll.</summary></entry><entry><title type="html">Best Italian PhD Thesis in TCS 2016</title><link href="http://localhost:4000/awards/2016/09/13/best-phd-italian-thesis-in-tcs-2015.html" rel="alternate" type="text/html" title="Best Italian PhD Thesis in TCS 2016" /><published>2016-09-13T16:53:49+02:00</published><updated>2016-09-13T16:53:49+02:00</updated><id>http://localhost:4000/awards/2016/09/13/best-phd-italian-thesis-in-tcs-2015</id><content type="html" xml:base="http://localhost:4000/awards/2016/09/13/best-phd-italian-thesis-in-tcs-2015.html">&lt;p&gt;My PhD thesis “&lt;em&gt;Space in weak propositional proof systems&lt;/em&gt;” was awarded “Best Italian PhD Thesis in Theoretical Computer Science” for the year 2016 by the &lt;a href=&quot;https://www.eatcs.org/index.php/italian-chapter&quot;&gt;Italian chapter of the EATCS&lt;/a&gt;. See &lt;a href=&quot;https://www.eatcs.org/index.php/italian-chapter/565&quot;&gt;here&lt;/a&gt; for the list of all previous winners.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-11-08T14:14:04+01:00</updated><id>http://localhost:4000//</id><title type="html">Ilario Bonacina</title><subtitle>I'm currently a Postdoctoral researcher at the KTH Royal Institute of Technology in Stockholm (Sweden).
+</subtitle><entry><title type="html">Talk: Strong size lower bounds in regular resolution via games</title><link href="http://localhost:4000/talks/2016/11/08/Talk-Strong-size-lower-bounds-in-regular-resolution-via-games.html" rel="alternate" type="text/html" title="Talk: Strong size lower bounds in regular resolution via games" /><published>2016-11-08T13:53:49+01:00</published><updated>2016-11-08T13:53:49+01:00</updated><id>http://localhost:4000/talks/2016/11/08/Talk-Strong-size-lower-bounds-in-regular-resolution-via-games</id><content type="html" xml:base="http://localhost:4000/talks/2016/11/08/Talk-Strong-size-lower-bounds-in-regular-resolution-via-games.html">&lt;p&gt;Monday Nov 21 at 12:00 in 4523, Lindstedtsvägen 5 KTH Stockholm&lt;/p&gt;
+
+&lt;h4 id=&quot;astract&quot;&gt;Astract&lt;/h4&gt;
+
+&lt;p&gt;The Strong Exponential Time Hypothesis (SETH) says that solving the SATISFIABILITY problem on formulas that are k-CNFs in n variables require running time 2^(n(1 - c_k)) where c_k goes to 0 as k goes to infinity. Beck and Impagliazzo (2013) proved that regular resolution cannot disprove SETH, that is they prove that there are unsatisfiable  k-CNF formulas in n variables such that each regular resolution refutation of those has size at least 2^(n(1 - c_k)) where c_k goes to 0 as k goes to infinity. We give a different/simpler proof of such lower bound based on the known characterizations of width and size in resolution and our technique indeed works for a proof system stronger than regular resolution. The problem of finding k-CNF formulas for which we can prove such strong size lower bounds in general resolution is still open.&lt;/p&gt;
+
+&lt;p&gt;This is based on the following work
+&lt;a href=&quot;#BT16-algorithmica&quot;&gt;(Bonacina &amp;amp; Talebanfard, 2016)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+&lt;none class=&quot;bibliography&quot; reversed=&quot;reversed&quot;&gt;&lt;none&gt;&lt;div id=&quot;BT16-algorithmica&quot;&gt;
+  &lt;span id=&quot;BT16-algorithmica&quot;&gt;Bonacina, I., &amp;amp; Talebanfard, N. (2016). Strong ETH and Resolution via Games and the Multiplicity of Strategies. &lt;i&gt;Algorithmica&lt;/i&gt;, 1–13.&lt;/span&gt;
+  &lt;br /&gt;
+  
+  &lt;a href=&quot;http://dx.doi.org/10.1007/s00453-016-0228-6&quot; target=&quot;_blank&quot;&gt;&lt;button type=&quot;button&quot;&gt;DOI&lt;/button&gt;&lt;/a&gt;
+  
+  &lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BT16-algorithmica-bibtex&quot;&gt;BibTeX&lt;/button&gt;
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  &lt;pre id=&quot;BT16-algorithmica-bibtex&quot; class=&quot;collapse&quot;&gt;@article{BT16-algorithmica,
+  author = {Bonacina, Ilario and Talebanfard, Navid},
+  title = {Strong ETH and Resolution via Games and the Multiplicity of Strategies},
+  journal = {Algorithmica},
+  pages = {1--13},
+  year = {2016},
+  month = oct,
+  doi = {10.1007/s00453-016-0228-6}
+}
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;/none&gt;&lt;/none&gt;</content><summary type="html">Monday Nov 21 at 12:00 in 4523, Lindstedtsvägen 5 KTH Stockholm</summary></entry><entry><title type="html">New website is online</title><link href="http://localhost:4000/website/update/2016/11/05/new-webpage-is-on.html" rel="alternate" type="text/html" title="New website is online" /><published>2016-11-05T13:33:49+01:00</published><updated>2016-11-05T13:33:49+01:00</updated><id>http://localhost:4000/website/update/2016/11/05/new-webpage-is-on</id><content type="html" xml:base="http://localhost:4000/website/update/2016/11/05/new-webpage-is-on.html">&lt;p&gt;I’ve migrated my old webpage to &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt; and &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;.&lt;/p&gt;</content><summary type="html">I’ve migrated my old webpage to GitHub and Jekyll.</summary></entry><entry><title type="html">Best Italian PhD Thesis in TCS 2016</title><link href="http://localhost:4000/awards/2016/09/13/best-phd-italian-thesis-in-tcs-2015.html" rel="alternate" type="text/html" title="Best Italian PhD Thesis in TCS 2016" /><published>2016-09-13T16:53:49+02:00</published><updated>2016-09-13T16:53:49+02:00</updated><id>http://localhost:4000/awards/2016/09/13/best-phd-italian-thesis-in-tcs-2015</id><content type="html" xml:base="http://localhost:4000/awards/2016/09/13/best-phd-italian-thesis-in-tcs-2015.html">&lt;p&gt;My PhD thesis “&lt;em&gt;Space in weak propositional proof systems&lt;/em&gt;” was awarded “Best Italian PhD Thesis in Theoretical Computer Science” for the year 2016 by the &lt;a href=&quot;https://www.eatcs.org/index.php/italian-chapter&quot;&gt;Italian chapter of the EATCS&lt;/a&gt;. See &lt;a href=&quot;https://www.eatcs.org/index.php/italian-chapter/565&quot;&gt;here&lt;/a&gt; for the list of all previous winners.&lt;/p&gt;
 
 &lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
 &lt;none class=&quot;bibliography&quot; reversed=&quot;reversed&quot;&gt;&lt;none&gt;&lt;div&gt;
