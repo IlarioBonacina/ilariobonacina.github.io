@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-09-12T12:06:36+02:00</updated><id>http://localhost:4000//</id><title type="html">Ilario Bonacina</title><subtitle>I'm currently a Postdoctoral researcher at the KTH Royal Institute of Technology in Stockholm (Sweden).
+</subtitle><entry><title type="html">Moving to Universitat Politècnica de Catalunya</title><link href="http://localhost:4000/work/2017/09/12/postdoc-at-UPC.html" rel="alternate" type="text/html" title="Moving to Universitat Politècnica de Catalunya" /><published>2017-09-12T10:33:49+02:00</published><updated>2017-09-12T10:33:49+02:00</updated><id>http://localhost:4000/work/2017/09/12/postdoc-at-UPC</id><content type="html" xml:base="http://localhost:4000/work/2017/09/12/postdoc-at-UPC.html">&lt;p&gt;I just started a postdoc at &lt;a href=&quot;http://www.upc.edu&quot;&gt;Universitat Politècnica de Catalunya&lt;/a&gt;, hosted by &lt;a href=&quot;http://www.lsi.upc.edu/~atserias/&quot;&gt;Albert Atserias&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;My new address is as in the main page. That is:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Visiting address:&lt;/strong&gt;	Jordi Girona Salgado 31, Omega-223&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mailing address&lt;/strong&gt;&lt;br /&gt;
+Universitat Politècnica de Catalunya &lt;br /&gt; Dept. Ciències de la Computació &lt;br /&gt; Jordi Girona Salgado 31, Omega-223 &lt;br /&gt; 08034 Barcelona, &lt;br /&gt; SPAIN&lt;/p&gt;</content><summary type="html">I just started a postdoc at Universitat Politècnica de Catalunya, hosted by Albert Atserias.</summary></entry><entry><title type="html">Total space in resolution</title><link href="http://localhost:4000/talks/2017/02/06/Talk-Total-space-at-least-width-squared.html" rel="alternate" type="text/html" title="Total space in resolution" /><published>2017-02-06T12:00:00+01:00</published><updated>2017-02-06T12:00:00+01:00</updated><id>http://localhost:4000/talks/2017/02/06/Talk-Total-space-at-least-width-squared</id><content type="html" xml:base="http://localhost:4000/talks/2017/02/06/Talk-Total-space-at-least-width-squared.html">&lt;p&gt;In this series of talks we cover some results on the space complexity of Resolution and in particular a connection between total space and width. Given a k-CNF formula F, the width is the minimal integer W such that there exists a Resolution refutation of F with clauses of at most W literals. The total space is the minimal size T of a memory used to write down a Resolution refutation of F, where the size of the memory is measured as the total number of literals it can contain. We show that T=\Omega((W-k)^2). This connection between total space and width relies on some basic properties of another, perhaps less known, complexity measure in Resolution: the “asymmetric width”.&lt;/p&gt;
+
+&lt;p&gt;This series of talks is based on the following works &lt;a href=&quot;#Bon16-icalp&quot;&gt;(Bonacina, 2016; Bonacina, Galesi, &amp;amp; Thapen, 2016; Bonacina, Galesi, &amp;amp; Thapen, 2014)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Talks on this theme were given in:&lt;/p&gt;
+
+&lt;p&gt;Feb 06, 2017 &lt;strong&gt;Universidad Politecnica de Catalunya&lt;/strong&gt; – &lt;em&gt;ALBCOM Seminar on Algorithms and Theory of Computation&lt;/em&gt;&lt;br /&gt;
+Aug 19, 2016 &lt;strong&gt;Fields Institute, Toronto&lt;/strong&gt; – &lt;em&gt;Workshop on Theoretical Foundations of SAT Solving&lt;/em&gt; &lt;br /&gt; Jul 14, 2016 &lt;strong&gt;43rd International Colloquium on Automata, Languages and Programming (ICALP)&lt;/strong&gt;&lt;br /&gt; May 30, 2016 &lt;strong&gt;Steklov Institute of Mathematics, St.Petersburg&lt;/strong&gt; – &lt;em&gt;Special Semester on Complexity Theory&lt;/em&gt;&lt;br /&gt; May 19, 2016 &lt;strong&gt;Steklov Institute of Mathematics, St.Petersburg&lt;/strong&gt; – &lt;em&gt;Proof Complexity Workshop&lt;/em&gt;&lt;br /&gt; Oct 20, 2014 &lt;strong&gt;55th Annual Symposium on Foundations of Computer Science (FOCS), Philadelphia&lt;/strong&gt;&lt;br /&gt; Oct 16, 2014 &lt;strong&gt;Dagstuhl Seminar 14421&lt;/strong&gt; –  &lt;em&gt;Optimal algorithms and proofs&lt;/em&gt;&lt;br /&gt; Jul 13, 2014 &lt;strong&gt;Vienna Summer of Logic, Wien&lt;/strong&gt; – &lt;em&gt;Workshop on proof complexity&lt;/em&gt;&lt;br /&gt; Feb 07, 2014 &lt;strong&gt;KTH Royal Institute of Technology, Stockholm&lt;/strong&gt; – Complexity Seminar&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+&lt;none class=&quot;bibliography&quot; reversed=&quot;reversed&quot;&gt;&lt;none&gt;&lt;div id=&quot;BGT16-siamjcomp&quot;&gt;
+  &lt;span id=&quot;BGT16-siamjcomp&quot;&gt;Bonacina, I., Galesi, N., &amp;amp; Thapen, N. (2016). Total Space in Resolution. &lt;i&gt;SIAM J. Comput.&lt;/i&gt;, &lt;i&gt;45&lt;/i&gt;(5), 1894–1909.&lt;/span&gt;
+  &lt;br /&gt;
+  
+  &lt;a href=&quot;http://dx.doi.org/10.1137/15M1023269&quot; target=&quot;_blank&quot;&gt;&lt;button type=&quot;button&quot;&gt;DOI&lt;/button&gt;&lt;/a&gt;
+  
+  &lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BGT16-siamjcomp-bibtex&quot;&gt;BibTeX&lt;/button&gt;
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+        &lt;a href=&quot;/pdf/BGT16-siamjcomp.pdf&quot;&gt;&lt;button type=&quot;button&quot;&gt;pdf&lt;/button&gt;&lt;/a&gt;
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  &lt;pre id=&quot;BGT16-siamjcomp-bibtex&quot; class=&quot;collapse&quot;&gt;@article{BGT16-siamjcomp,
+  author = {Bonacina, Ilario and Galesi, Nicola and Thapen, Neil},
+  title = {{Total Space in Resolution}},
+  journal = {SIAM J. Comput.},
+  volume = {45},
+  number = {5},
+  pages = {1894--1909},
+  month = jan,
+  year = {2016},
+  doi = {10.1137/15M1023269}
+}
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;/none&gt;
+&lt;none&gt;&lt;div id=&quot;Bon16-icalp&quot;&gt;
+  &lt;span id=&quot;Bon16-icalp&quot;&gt;Bonacina, I. (2016). Total Space in Resolution is at Least Width Squared. In &lt;i&gt;43rd International Colloquium on Automata, Languages, and Programming – ICALP&lt;/i&gt; (Vol. 55, pp. 56:1–56:13).&lt;/span&gt;
+  &lt;br /&gt;
+  
+  &lt;a href=&quot;http://dx.doi.org/10.4230/LIPIcs.ICALP.2016.56&quot; target=&quot;_blank&quot;&gt;&lt;button type=&quot;button&quot;&gt;DOI&lt;/button&gt;&lt;/a&gt;
+  
+  &lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#Bon16-icalp-bibtex&quot;&gt;BibTeX&lt;/button&gt;
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+        &lt;a href=&quot;/pdf/Bon16-icalp.pdf&quot;&gt;&lt;button type=&quot;button&quot;&gt;pdf&lt;/button&gt;&lt;/a&gt;
+  
+
+  
+
+  
+
+  &lt;pre id=&quot;Bon16-icalp-bibtex&quot; class=&quot;collapse&quot;&gt;@inproceedings{Bon16-icalp,
+  author = {Bonacina, Ilario},
+  title = {{Total Space in Resolution is at Least Width Squared}},
+  booktitle = {43rd International Colloquium on Automata, Languages, and Programming -- ICALP},
+  pages = {56:1--56:13},
+  year = {2016},
+  volume = {55},
+  doi = {10.4230/LIPIcs.ICALP.2016.56}
+}
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;/none&gt;
+&lt;none&gt;&lt;div id=&quot;BGT14-focs&quot;&gt;
+  &lt;span id=&quot;BGT14-focs&quot;&gt;Bonacina, I., Galesi, N., &amp;amp; Thapen, N. (2014). Total Space in Resolution. In &lt;i&gt;55th Annu. Symp. Found. Comput. Sci. – FOCS&lt;/i&gt; (Vol. 38, pp. 641–650).&lt;/span&gt;
+  &lt;br /&gt;
+  
+  &lt;a href=&quot;http://dx.doi.org/10.1109/FOCS.2014.74&quot; target=&quot;_blank&quot;&gt;&lt;button type=&quot;button&quot;&gt;DOI&lt;/button&gt;&lt;/a&gt;
+  
+  &lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BGT14-focs-bibtex&quot;&gt;BibTeX&lt;/button&gt;
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+        &lt;a href=&quot;/pdf/BGT14-focs.pdf&quot;&gt;&lt;button type=&quot;button&quot;&gt;pdf&lt;/button&gt;&lt;/a&gt;
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  &lt;pre id=&quot;BGT14-focs-bibtex&quot; class=&quot;collapse&quot;&gt;@inproceedings{BGT14-focs,
+  author = {Bonacina, Ilario and Galesi, Nicola and Thapen, Neil},
+  title = {{Total Space in Resolution}},
+  booktitle = {55th Annu. Symp. Found. Comput. Sci. -- FOCS},
+  pages = {641--650},
+  volume = {38},
+  year = {2014},
+  month = oct,
+  doi = {10.1109/FOCS.2014.74}
+}
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;/none&gt;&lt;/none&gt;</content><summary type="html">In this series of talks we cover some results on the space complexity of Resolution and in particular a connection between total space and width. Given a k-CNF formula F, the width is the minimal integer W such that there exists a Resolution refutation of F with clauses of at most W literals. The total space is the minimal size T of a memory used to write down a Resolution refutation of F, where the size of the memory is measured as the total number of literals it can contain. We show that T=\Omega((W-k)^2). This connection between total space and width relies on some basic properties of another, perhaps less known, complexity measure in Resolution: the “asymmetric width”.</summary></entry><entry><title type="html">Strong size lower bounds in regular resolution via games</title><link href="http://localhost:4000/talks/2016/11/08/Talk-Strong-size-lower-bounds-in-regular-resolution-via-games.html" rel="alternate" type="text/html" title="Strong size lower bounds in regular resolution via games" /><published>2016-11-08T12:00:00+01:00</published><updated>2016-11-08T12:00:00+01:00</updated><id>http://localhost:4000/talks/2016/11/08/Talk-Strong-size-lower-bounds-in-regular-resolution-via-games</id><content type="html" xml:base="http://localhost:4000/talks/2016/11/08/Talk-Strong-size-lower-bounds-in-regular-resolution-via-games.html">&lt;h4 id=&quot;astract&quot;&gt;Astract&lt;/h4&gt;
+
+&lt;p&gt;The Strong Exponential Time Hypothesis (SETH) says that solving the SATISFIABILITY problem on formulas that are k-CNFs in n variables require running time 2^(n(1 - c_k)) where c_k goes to 0 as k goes to infinity. Beck and Impagliazzo (2013) proved that regular resolution cannot disprove SETH, that is they prove that there are unsatisfiable  k-CNF formulas in n variables such that each regular resolution refutation of those has size at least 2^(n(1 - c_k)) where c_k goes to 0 as k goes to infinity. We give a different/simpler proof of such lower bound based on the known characterizations of width and size in resolution and our technique indeed works for a proof system stronger than regular resolution. The problem of finding k-CNF formulas for which we can prove such strong size lower bounds in general resolution is still open.&lt;/p&gt;
+
+&lt;p&gt;This series of talks is based on the following works
+&lt;a href=&quot;#BT16-algorithmica&quot;&gt;(Bonacina &amp;amp; Talebanfard, 2016; Bonacina &amp;amp; Talebanfard, 2015; Bonacina &amp;amp; Talebanfard, 2016)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Talks on this theme were given in:&lt;/p&gt;
+
+&lt;p&gt;Nov 21, 2016 &lt;strong&gt;KTH Royal Institute of Technology, Stockholm&lt;/strong&gt; – &lt;em&gt;Complexity Seminar&lt;/em&gt;&lt;br /&gt;
+Sep 19, 2016 &lt;strong&gt;Dagstuhl Seminar 16381&lt;/strong&gt; – &lt;em&gt;SAT and Interactions&lt;/em&gt;&lt;br /&gt; Oct 01, 2015 &lt;strong&gt;Universitat Politècnica de Catalunya, Barcelona&lt;/strong&gt; – Complexity Seminar&lt;br /&gt; Jun 24, 2015 &lt;strong&gt;University of Edinburgh, UK&lt;/strong&gt; – Complexity Seminar&lt;br /&gt; Jun 17, 2015 &lt;strong&gt;University of Leeds, UK&lt;/strong&gt; – Logic Seminar&lt;br /&gt; Mar 21, 2014 &lt;strong&gt;KTH Royal Institute of Technology&lt;/strong&gt; – Complexity Seminar (joint talk with &lt;em&gt;Navid Talebanfard&lt;/em&gt;)&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+&lt;none class=&quot;bibliography&quot; reversed=&quot;reversed&quot;&gt;&lt;none&gt;&lt;div id=&quot;BT16-algorithmica&quot;&gt;
+  &lt;span id=&quot;BT16-algorithmica&quot;&gt;Bonacina, I., &amp;amp; Talebanfard, N. (2016). Strong ETH and Resolution via Games and the Multiplicity of Strategies. &lt;i&gt;Algorithmica&lt;/i&gt;, 1–13.&lt;/span&gt;
+  &lt;br /&gt;
+  
+  &lt;a href=&quot;http://dx.doi.org/10.1007/s00453-016-0228-6&quot; target=&quot;_blank&quot;&gt;&lt;button type=&quot;button&quot;&gt;DOI&lt;/button&gt;&lt;/a&gt;
+  
+  &lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BT16-algorithmica-bibtex&quot;&gt;BibTeX&lt;/button&gt;
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  &lt;pre id=&quot;BT16-algorithmica-bibtex&quot; class=&quot;collapse&quot;&gt;@article{BT16-algorithmica,
+  author = {Bonacina, Ilario and Talebanfard, Navid},
+  title = {Strong ETH and Resolution via Games and the Multiplicity of Strategies},
+  journal = {Algorithmica},
+  pages = {1--13},
+  year = {2016},
+  month = oct,
+  doi = {10.1007/s00453-016-0228-6}
+}
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;/none&gt;
+&lt;none&gt;&lt;div id=&quot;BT16-ipl&quot;&gt;
+  &lt;span id=&quot;BT16-ipl&quot;&gt;Bonacina, I., &amp;amp; Talebanfard, N. (2016). Improving resolution width lower bounds for k-CNFs with applications to the Strong Exponential Time Hypothesis. &lt;i&gt;Inf. Process. Lett.&lt;/i&gt;, &lt;i&gt;116&lt;/i&gt;(2), 120–124.&lt;/span&gt;
+  &lt;br /&gt;
+  
+  &lt;a href=&quot;http://dx.doi.org/10.1016/j.ipl.2015.09.013&quot; target=&quot;_blank&quot;&gt;&lt;button type=&quot;button&quot;&gt;DOI&lt;/button&gt;&lt;/a&gt;
+  
+  &lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BT16-ipl-bibtex&quot;&gt;BibTeX&lt;/button&gt;
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+        &lt;a href=&quot;/pdf/BT16-ipl.pdf&quot;&gt;&lt;button type=&quot;button&quot;&gt;pdf&lt;/button&gt;&lt;/a&gt;
+  
+
+  
+
+  
+
+  
+
+  &lt;pre id=&quot;BT16-ipl-bibtex&quot; class=&quot;collapse&quot;&gt;@article{BT16-ipl,
+  author = {Bonacina, Ilario and Talebanfard, Navid},
+  title = {{Improving resolution width lower bounds for k-CNFs with applications to the Strong Exponential Time Hypothesis}},
+  journal = {Inf. Process. Lett.},
+  volume = {116},
+  number = {2},
+  pages = {120--124},
+  year = {2016},
+  doi = {10.1016/j.ipl.2015.09.013}
+}
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;/none&gt;
+&lt;none&gt;&lt;div id=&quot;BT15-ipec&quot;&gt;
+  &lt;span id=&quot;BT15-ipec&quot;&gt;Bonacina, I., &amp;amp; Talebanfard, N. (2015). Strong ETH and Resolution via Games and the Multiplicity of Strategies. In &lt;i&gt;10th International Symposium on Parameterized and Exact Computation – IPEC&lt;/i&gt; (pp. 248–257).&lt;/span&gt;
+  &lt;br /&gt;
+  
+  &lt;a href=&quot;http://dx.doi.org/10.4230/LIPIcs.IPEC.2015.248&quot; target=&quot;_blank&quot;&gt;&lt;button type=&quot;button&quot;&gt;DOI&lt;/button&gt;&lt;/a&gt;
+  
+  &lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BT15-ipec-bibtex&quot;&gt;BibTeX&lt;/button&gt;
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+        &lt;a href=&quot;/pdf/BT15-ipec.pdf&quot;&gt;&lt;button type=&quot;button&quot;&gt;pdf&lt;/button&gt;&lt;/a&gt;
+  
+
+  
+
+  
+
+  
+
+  
+
+  &lt;pre id=&quot;BT15-ipec-bibtex&quot; class=&quot;collapse&quot;&gt;@inproceedings{BT15-ipec,
+  author = {Bonacina, Ilario and Talebanfard, Navid},
+  title = {{Strong ETH and Resolution via Games and the Multiplicity of Strategies}},
+  booktitle = {10th International Symposium on Parameterized and Exact Computation -- IPEC},
+  pages = {248--257},
+  year = {2015},
+  doi = {10.4230/LIPIcs.IPEC.2015.248}
+}
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;/none&gt;&lt;/none&gt;</content><summary type="html">Astract</summary></entry><entry><title type="html">New website is online</title><link href="http://localhost:4000/website_updates/2016/11/05/new-webpage-is-on.html" rel="alternate" type="text/html" title="New website is online" /><published>2016-11-05T13:33:49+01:00</published><updated>2016-11-05T13:33:49+01:00</updated><id>http://localhost:4000/website_updates/2016/11/05/new-webpage-is-on</id><content type="html" xml:base="http://localhost:4000/website_updates/2016/11/05/new-webpage-is-on.html">&lt;p&gt;I’ve migrated my old webpage to &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt; and &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;.&lt;/p&gt;</content><summary type="html">I’ve migrated my old webpage to GitHub and Jekyll.</summary></entry><entry><title type="html">Best Italian PhD Thesis in TCS 2016</title><link href="http://localhost:4000/awards/2016/09/13/best-phd-italian-thesis-in-tcs-2015.html" rel="alternate" type="text/html" title="Best Italian PhD Thesis in TCS 2016" /><published>2016-09-13T16:53:49+02:00</published><updated>2016-09-13T16:53:49+02:00</updated><id>http://localhost:4000/awards/2016/09/13/best-phd-italian-thesis-in-tcs-2015</id><content type="html" xml:base="http://localhost:4000/awards/2016/09/13/best-phd-italian-thesis-in-tcs-2015.html">&lt;p&gt;My PhD thesis “&lt;em&gt;Space in weak propositional proof systems&lt;/em&gt;” was awarded “Best Italian PhD Thesis in Theoretical Computer Science” for the year 2016 by the &lt;a href=&quot;https://www.eatcs.org/index.php/italian-chapter&quot;&gt;Italian chapter of the EATCS&lt;/a&gt;. See &lt;a href=&quot;https://www.eatcs.org/index.php/italian-chapter/565&quot;&gt;here&lt;/a&gt; for the list of all previous winners.&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+&lt;none class=&quot;bibliography&quot; reversed=&quot;reversed&quot;&gt;&lt;none&gt;&lt;div&gt;
+Bonacina, Ilario, &quot;Space in weak propositional proof systems&quot;, Sapienza University of Rome, dec 2015.
+&lt;br /&gt;
+
+&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#Bonacina-phdthesis-bibtex&quot;&gt;BibTeX&lt;/button&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      &lt;a href=&quot;/pdf/Bonacina-phdthesis-20pages-abstract.pdf&quot;&gt;&lt;button type=&quot;button&quot;&gt;20 pages summary&lt;/button&gt;&lt;/a&gt;
+
+
+
+      &lt;a href=&quot;/pdf/Bonacina-phdthesis.pdf&quot;&gt;&lt;button type=&quot;button&quot;&gt;pdf&lt;/button&gt;&lt;/a&gt;
+
+
+
+&lt;pre id=&quot;Bonacina-phdthesis-bibtex&quot; class=&quot;collapse&quot;&gt;@phdthesis{Bonacina-phdthesis,
+  author = {Bonacina, Ilario},
+  title = {Space in weak propositional proof systems},
+  school = {Sapienza University of Rome},
+  year = {2015},
+  month = dec
+}
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;/none&gt;&lt;/none&gt;</content><summary type="html">My PhD thesis “Space in weak propositional proof systems” was awarded “Best Italian PhD Thesis in Theoretical Computer Science” for the year 2016 by the Italian chapter of the EATCS. See here for the list of all previous winners.</summary></entry><entry><title type="html">Space in algebraic proof systems</title><link href="http://localhost:4000/talks/2016/09/13/Talk-Space-in-algebraic-proof-systems.html" rel="alternate" type="text/html" title="Space in algebraic proof systems" /><published>2016-09-13T13:00:00+02:00</published><updated>2016-09-13T13:00:00+02:00</updated><id>http://localhost:4000/talks/2016/09/13/Talk-Space-in-algebraic-proof-systems</id><content type="html" xml:base="http://localhost:4000/talks/2016/09/13/Talk-Space-in-algebraic-proof-systems.html">&lt;p&gt;We consider logical proof systems from the point of view of their space complexity, in particular we focus on the following two: Resolution (RES), a well studied proof system that is at the core of state-of-the-art algorithms to solve SAT instances; Polynomial Calculus (PC), a proof system that uses polynomials to refute contradictions. Informally speaking, the space of a proof measures the size of an auxiliary memory that a verifier needs to check the correctness of the proof. For Polynomial Calculus the space measure counts the number of distinct monomials to be kept in memory (monomial space). For Resolution the measure refers to the number of clauses to be kept in memory (clause space) or to the total number of symbols (total space). We introduce abstract frameworks to prove monomial space lower bounds in PC and total space lower bound in RES. We then exemplify such frameworks proving new (asymptotically) optimal lower bounds both for monomial space and total space. We prove that every Polynomial Calculus refutation of a random k-CNF F, for k &amp;gt; 2, in n variables requires, with high probability, \Omega(n) distinct monomials to be kept simultaneously in memory.&lt;/p&gt;
+
+&lt;p&gt;This series of talks is based on the following works &lt;a href=&quot;#Bonacina-phdthesis&quot;&gt;(Bonacina, 2015; Bonacina &amp;amp; Galesi, 2013; Bonacina &amp;amp; Galesi, 2015; Bennett et al., 2015)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Talks on this theme were given in:&lt;/p&gt;
+
+&lt;p&gt;Sep 13, 2016 &lt;strong&gt;17th Italian Conference on Theoretical Computer Science (ICTCS), Lecce&lt;/strong&gt; – &lt;em&gt;Best Italian PhD Thesis in TCS 2016&lt;/em&gt;&lt;br /&gt;
+May 25, 2015 &lt;strong&gt;Institute of Mathematics, Prague&lt;/strong&gt; – &lt;em&gt;Logic Seminar&lt;/em&gt;&lt;br /&gt; Apr 24, 2015 &lt;strong&gt;Dagstuhl Seminar 15171&lt;/strong&gt; – &lt;em&gt;Theory and Practice of SAT Solving&lt;/em&gt;&lt;br /&gt; Apr 08, 2015 &lt;strong&gt;KTH Royal Institute of Technology&lt;/strong&gt; – &lt;em&gt;Complexity Seminar&lt;/em&gt;&lt;br /&gt; Apr 07, 2015 &lt;strong&gt;KTH Royal Institute of Technology&lt;/strong&gt; – &lt;em&gt;Complexity Seminar&lt;/em&gt;&lt;br /&gt; May 19, 2014 &lt;strong&gt;Aarhus University&lt;/strong&gt; – &lt;em&gt;Complexity Seminar&lt;/em&gt;&lt;br /&gt; Sep 10, 2013 &lt;strong&gt;14th Italian Conference on Theoretical Computer Science (ICTCS), Palermo&lt;/strong&gt;&lt;br /&gt; Jun 30, 2013 &lt;strong&gt;CSEDays. Theory 2013, Ekaterinburg&lt;/strong&gt; – &lt;em&gt;Summer School&lt;/em&gt;&lt;br /&gt; Jan 13, 2013 &lt;strong&gt;4th Innovations in Theoretical Computer Science (ITCS), Berkeley&lt;/strong&gt;&lt;br /&gt; Sep 27, 2012 &lt;strong&gt;Limits of Theorem Proving, Rome&lt;/strong&gt; – &lt;em&gt;Workshop&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+&lt;none class=&quot;bibliography&quot; reversed=&quot;reversed&quot;&gt;&lt;none&gt;&lt;div id=&quot;Bonacina-phdthesis&quot;&gt;
+  &lt;span id=&quot;Bonacina-phdthesis&quot;&gt;Bonacina, I. (2015, December). &lt;i&gt;Space in weak propositional proof systems&lt;/i&gt; (PhD thesis). Sapienza University of Rome.&lt;/span&gt;
+  &lt;br /&gt;
+  
+  &lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#Bonacina-phdthesis-bibtex&quot;&gt;BibTeX&lt;/button&gt;
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+        &lt;a href=&quot;/pdf/Bonacina-phdthesis.pdf&quot;&gt;&lt;button type=&quot;button&quot;&gt;pdf&lt;/button&gt;&lt;/a&gt;
+  
+
+  &lt;pre id=&quot;Bonacina-phdthesis-bibtex&quot; class=&quot;collapse&quot;&gt;@phdthesis{Bonacina-phdthesis,
+  author = {Bonacina, Ilario},
+  title = {Space in weak propositional proof systems},
+  school = {Sapienza University of Rome},
+  year = {2015},
+  month = dec
+}
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;/none&gt;
+&lt;none&gt;&lt;div id=&quot;BG15-jacm&quot;&gt;
+  &lt;span id=&quot;BG15-jacm&quot;&gt;Bonacina, I., &amp;amp; Galesi, N. (2015). A Framework for Space Complexity in Algebraic Proof Systems. &lt;i&gt;J. ACM&lt;/i&gt;, &lt;i&gt;62&lt;/i&gt;(3), 1–20.&lt;/span&gt;
+  &lt;br /&gt;
+  
+  &lt;a href=&quot;http://dx.doi.org/10.1145/2699438&quot; target=&quot;_blank&quot;&gt;&lt;button type=&quot;button&quot;&gt;DOI&lt;/button&gt;&lt;/a&gt;
+  
+  &lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BG15-jacm-bibtex&quot;&gt;BibTeX&lt;/button&gt;
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+        &lt;a href=&quot;/pdf/BG15-jacm.pdf&quot;&gt;&lt;button type=&quot;button&quot;&gt;pdf&lt;/button&gt;&lt;/a&gt;
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  &lt;pre id=&quot;BG15-jacm-bibtex&quot; class=&quot;collapse&quot;&gt;@article{BG15-jacm,
+  author = {Bonacina, Ilario and Galesi, Nicola},
+  title = {{A Framework for Space Complexity in Algebraic Proof Systems}},
+  journal = {J. ACM},
+  volume = {62},
+  number = {3},
+  pages = {1--20},
+  year = {2015},
+  month = jun,
+  doi = {10.1145/2699438}
+}
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;/none&gt;
+&lt;none&gt;&lt;div id=&quot;BBGHMW15-preprint&quot;&gt;
+  &lt;span id=&quot;BBGHMW15-preprint&quot;&gt;Bennett, P., Bonacina, I., Galesi, N., Huynh, T., Molloy, M., &amp;amp; Wollan, P. (2015). Space proof complexity for random 3-CNFs. &lt;i&gt;CoRR&lt;/i&gt;, &lt;i&gt;abs/1503.01613&lt;/i&gt;.&lt;/span&gt;
+  &lt;br /&gt;
+  
+  &lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BBGHMW15-preprint-bibtex&quot;&gt;BibTeX&lt;/button&gt;
+  
+  
+
+  
+
+  
+        &lt;a href=&quot;/pdf/BBGHMW15-preprint.pdf&quot;&gt;&lt;button type=&quot;button&quot;&gt;pdf&lt;/button&gt;&lt;/a&gt;
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  &lt;pre id=&quot;BBGHMW15-preprint-bibtex&quot; class=&quot;collapse&quot;&gt;@article{BBGHMW15-preprint,
+  author = {Bennett, Patrick and Bonacina, Ilario and Galesi, Nicola and Huynh, Tony and Molloy, Mike and Wollan, Paul},
+  title = {Space proof complexity for random 3-CNFs},
+  journal = {CoRR},
+  volume = {abs/1503.01613},
+  year = {2015}
+}
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;/none&gt;
+&lt;none&gt;&lt;div id=&quot;BG13-itcs&quot;&gt;
+  &lt;span id=&quot;BG13-itcs&quot;&gt;Bonacina, I., &amp;amp; Galesi, N. (2013). Pseudo-partitions, transversality and locality: A Combinatorial Characterization for the Space Measure in Algebraic Proof Systems. In &lt;i&gt;4th Conf. Innov. Theor. Comput. Sci. – ITCS&lt;/i&gt; (pp. 455–472).&lt;/span&gt;
+  &lt;br /&gt;
+  
+  &lt;a href=&quot;http://dx.doi.org/10.1145/2422436.2422486&quot; target=&quot;_blank&quot;&gt;&lt;button type=&quot;button&quot;&gt;DOI&lt;/button&gt;&lt;/a&gt;
+  
+  &lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BG13-itcs-bibtex&quot;&gt;BibTeX&lt;/button&gt;
+  
+  
+
+  
+
+  
+
+  
+
+  
+        &lt;a href=&quot;/pdf/BG13-itcs.pdf&quot;&gt;&lt;button type=&quot;button&quot;&gt;pdf&lt;/button&gt;&lt;/a&gt;
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  &lt;pre id=&quot;BG13-itcs-bibtex&quot; class=&quot;collapse&quot;&gt;@inproceedings{BG13-itcs,
+  author = {Bonacina, Ilario and Galesi, Nicola},
+  title = {{Pseudo-partitions, transversality and locality: A Combinatorial Characterization for the Space Measure in Algebraic Proof Systems}},
+  booktitle = {4th Conf. Innov. Theor. Comput. Sci. -- ITCS},
+  pages = {455--472},
+  year = {2013},
+  doi = {10.1145/2422436.2422486}
+}
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;/none&gt;&lt;/none&gt;</content><summary type="html">We consider logical proof systems from the point of view of their space complexity, in particular we focus on the following two: Resolution (RES), a well studied proof system that is at the core of state-of-the-art algorithms to solve SAT instances; Polynomial Calculus (PC), a proof system that uses polynomials to refute contradictions. Informally speaking, the space of a proof measures the size of an auxiliary memory that a verifier needs to check the correctness of the proof. For Polynomial Calculus the space measure counts the number of distinct monomials to be kept in memory (monomial space). For Resolution the measure refers to the number of clauses to be kept in memory (clause space) or to the total number of symbols (total space). We introduce abstract frameworks to prove monomial space lower bounds in PC and total space lower bound in RES. We then exemplify such frameworks proving new (asymptotically) optimal lower bounds both for monomial space and total space. We prove that every Polynomial Calculus refutation of a random k-CNF F, for k &amp;gt; 2, in n variables requires, with high probability, \Omega(n) distinct monomials to be kept simultaneously in memory.</summary></entry><entry><title type="html">Lower bounds: from circuits to QBF proof systems</title><link href="http://localhost:4000/talks/2016/08/26/Talk-Lower-bounds-QBF.html" rel="alternate" type="text/html" title="Lower bounds: from circuits to QBF proof systems" /><published>2016-08-26T13:00:00+02:00</published><updated>2016-08-26T13:00:00+02:00</updated><id>http://localhost:4000/talks/2016/08/26/Talk-Lower-bounds-QBF</id><content type="html" xml:base="http://localhost:4000/talks/2016/08/26/Talk-Lower-bounds-QBF.html">&lt;p&gt;A general and long-standing belief in the proof complexity community asserts that there is a close connection between progress in lower bounds for Boolean circuits and progress in proof size lower bounds for strong propositional proof systems. Although there are famous examples where a transfer from ideas and techniques from circuit complexity to proof complexity has been effective, a formal connection between the two areas has never been established so far. Here we provide such a formal relation between lower bounds for circuit classes and lower bounds for Frege systems for quantified Boolean formulas (QBF). Using the full spectrum of the state-of-the-art circuit complexity lower bounds we will prove lower bounds for very strong QBF proof systems (e.g. for what we called AC0[p]-FREGE + \forall red). Such lower bounds corresponds, in the propositional case, to major open problems in proof complexity.&lt;/p&gt;
+
+&lt;p&gt;This series of talks is based on the following works &lt;a href=&quot;#BBC16-itcs&quot;&gt;(Beyersdorff, Bonacina, &amp;amp; Leroy, 2016)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Talks on this theme were given in:&lt;/p&gt;
+
+&lt;p&gt;Aug 26 , 2016 &lt;strong&gt;University of Toronto&lt;/strong&gt; – &lt;em&gt;Theory Seminars&lt;/em&gt;&lt;br /&gt;
+Jun 20, 2016 &lt;strong&gt;Technion Israel Institute of Technology, Haifa&lt;/strong&gt;&lt;br /&gt; Jan 15, 2016 &lt;strong&gt;7th Annual Innovations in Theoretical Computer Science (ITCS), Cambridge MA&lt;/strong&gt;&lt;br /&gt; Nov 23,2015 &lt;strong&gt;KTH Royal Institute of Technology&lt;/strong&gt; – &lt;em&gt;Complexity Seminar&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+&lt;none class=&quot;bibliography&quot; reversed=&quot;reversed&quot;&gt;&lt;none&gt;&lt;div id=&quot;BBC16-itcs&quot;&gt;
+  &lt;span id=&quot;BBC16-itcs&quot;&gt;Beyersdorff, O., Bonacina, I., &amp;amp; Leroy, C. (2016). Lower Bounds: From Circuits to QBF Proof Systems. In &lt;i&gt;7th Conf. Innov. Theor. Comput. Sci. – ITCS&lt;/i&gt; (pp. 249–260).&lt;/span&gt;
+  &lt;br /&gt;
+  
+  &lt;a href=&quot;http://dx.doi.org/10.1145/2840728.2840740&quot; target=&quot;_blank&quot;&gt;&lt;button type=&quot;button&quot;&gt;DOI&lt;/button&gt;&lt;/a&gt;
+  
+  &lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BBC16-itcs-bibtex&quot;&gt;BibTeX&lt;/button&gt;
+  
+  
+
+  
+        &lt;a href=&quot;/pdf/BBC16-itcs.pdf&quot;&gt;&lt;button type=&quot;button&quot;&gt;pdf&lt;/button&gt;&lt;/a&gt;
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  &lt;pre id=&quot;BBC16-itcs-bibtex&quot; class=&quot;collapse&quot;&gt;@inproceedings{BBC16-itcs,
+  author = {Beyersdorff, Olaf and Bonacina, Ilario and Leroy, Chew},
+  title = {{Lower Bounds: From Circuits to QBF Proof Systems}},
+  booktitle = {7th Conf. Innov. Theor. Comput. Sci. -- ITCS},
+  pages = {249--260},
+  year = {2016},
+  doi = {10.1145/2840728.2840740}
+}
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;/none&gt;&lt;/none&gt;</content><summary type="html">A general and long-standing belief in the proof complexity community asserts that there is a close connection between progress in lower bounds for Boolean circuits and progress in proof size lower bounds for strong propositional proof systems. Although there are famous examples where a transfer from ideas and techniques from circuit complexity to proof complexity has been effective, a formal connection between the two areas has never been established so far. Here we provide such a formal relation between lower bounds for circuit classes and lower bounds for Frege systems for quantified Boolean formulas (QBF). Using the full spectrum of the state-of-the-art circuit complexity lower bounds we will prove lower bounds for very strong QBF proof systems (e.g. for what we called AC0[p]-FREGE + \forall red). Such lower bounds corresponds, in the propositional case, to major open problems in proof complexity.</summary></entry><entry><title type="html">Proof of Space: an application of Pebbling Games to Cryptography</title><link href="http://localhost:4000/talks/2013/11/11/Talk-proof-of-space-cryptography.html" rel="alternate" type="text/html" title="Proof of Space: an application of Pebbling Games to Cryptography" /><published>2013-11-11T12:00:00+01:00</published><updated>2013-11-11T12:00:00+01:00</updated><id>http://localhost:4000/talks/2013/11/11/Talk-proof-of-space-cryptography</id><content type="html" xml:base="http://localhost:4000/talks/2013/11/11/Talk-proof-of-space-cryptography.html">&lt;p&gt;In the context of delegation of computation a delegator outsources to a worker the computation of a function f on a certain input x. The delegation problem can be described as follows: the worker computes y=f(x) and proves to delegator, using an interactive proof systems, that indeed y=f(x). Killian showed, using the PCP Theorem, that we can rule out malicious workers provided that they are computationally bounded. What happens if we are just interested to force the worker to carry on a space consuming computation? This means that, with high probability, delegator will accept as valid answers a variety of possible answers all of them space consuming. Clearly using the PCP theorem is an overkill. We propose a model for this problem, that we called Proof-of-Space, and we provide a direct interactive protocol that solve that problem. The protocol ultimately is based on the graph labeling problem, pebbling games and super-concentrator graphs. In particular, as we allow the worker to lie (a bit) we devise a variation of the standard Pebbling Game on graphs to model this behaviour.&lt;/p&gt;
+
+&lt;p&gt;This series of talks is based on the following works &lt;a href=&quot;#ABFG14-scn&quot;&gt;(Ateniese, Bonacina, Faonio, &amp;amp; Galesi, 2014)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Talks on this theme were given in:&lt;/p&gt;
+
+&lt;p&gt;Nov 11, 2013 &lt;strong&gt;Institute of Mathematics, Prague&lt;/strong&gt; – &lt;em&gt;Logic Seminar&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+&lt;none class=&quot;bibliography&quot; reversed=&quot;reversed&quot;&gt;&lt;none&gt;&lt;div id=&quot;ABFG14-scn&quot;&gt;
+  &lt;span id=&quot;ABFG14-scn&quot;&gt;Ateniese, G., Bonacina, I., Faonio, A., &amp;amp; Galesi, N. (2014). Proofs of Space: When Space Is of the Essence. In &lt;i&gt;Security and Cryptography for Networks - 9th International Conference – SCN&lt;/i&gt; (pp. 538–557).&lt;/span&gt;
+  &lt;br /&gt;
+  
+  &lt;a href=&quot;http://dx.doi.org/10.1007/978-3-319-10879-7_31&quot; target=&quot;_blank&quot;&gt;&lt;button type=&quot;button&quot;&gt;DOI&lt;/button&gt;&lt;/a&gt;
+  
+  &lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#ABFG14-scn-bibtex&quot;&gt;BibTeX&lt;/button&gt;
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  &lt;pre id=&quot;ABFG14-scn-bibtex&quot; class=&quot;collapse&quot;&gt;@inproceedings{ABFG14-scn,
+  author = {Ateniese, Giuseppe and Bonacina, Ilario and Faonio, Antonio and Galesi, Nicola},
+  title = {Proofs of Space: When Space Is of the Essence},
+  booktitle = {Security and Cryptography for Networks - 9th International Conference -- SCN},
+  pages = {538--557},
+  year = {2014},
+  doi = {10.1007/978-3-319-10879-7_31}
+}
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;/none&gt;&lt;/none&gt;</content><summary type="html">In the context of delegation of computation a delegator outsources to a worker the computation of a function f on a certain input x. The delegation problem can be described as follows: the worker computes y=f(x) and proves to delegator, using an interactive proof systems, that indeed y=f(x). Killian showed, using the PCP Theorem, that we can rule out malicious workers provided that they are computationally bounded. What happens if we are just interested to force the worker to carry on a space consuming computation? This means that, with high probability, delegator will accept as valid answers a variety of possible answers all of them space consuming. Clearly using the PCP theorem is an overkill. We propose a model for this problem, that we called Proof-of-Space, and we provide a direct interactive protocol that solve that problem. The protocol ultimately is based on the graph labeling problem, pebbling games and super-concentrator graphs. In particular, as we allow the worker to lie (a bit) we devise a variation of the standard Pebbling Game on graphs to model this behaviour.</summary></entry></feed>

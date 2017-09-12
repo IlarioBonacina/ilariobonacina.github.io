@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <title>Space in algebraic proof systems</title>
+  <meta name="description" content="We consider logical proof systems from the point of view of their space complexity, in particular we focus on the following two: Resolution (RES), a well stu...">
+
+  <link rel="stylesheet" href="../../../../assets/main.css">
+  <link rel="canonical" href="Talk-Space-in-algebraic-proof-systems.html">
+  <link rel="alternate" type="application/rss+xml" title="Ilario Bonacina" href="../../../../feed.xml">
+
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<base target="_parent" />
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+  <div class="wrapper">
+    <a class="site-title" style="color:red" font-size="xx-large;" href="../../../../index.html">Ilario Bonacina</a></h1>
+    <nav class="site-nav">
+      <span class="menu-icon">
+        <svg viewBox="0 0 18 15" width="18px" height="15px">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </span>
+
+      <div class="trigger">
+        
+        
+          
+        
+          
+        
+          
+              <a class="page-link active" href="../../../../news/index.html">All news</a>
+          
+        
+          
+              <a class="page-link active" href="../../../../research/index.html">Research</a>
+          
+        
+          
+        
+          
+        
+          
+              <a class="page-link active" href="../../../index.html">Talks</a>
+          
+        
+          
+              <a class="page-link active" href="../../../../teaching/index.html">Teaching</a>
+          
+        
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <p><a href="../../../index.html">Talks list</a> </p>
+  <header class="post-header">
+    <h2 class="post-title" itemprop="name headline">Space in algebraic proof systems</h2>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+  <p>We consider logical proof systems from the point of view of their space complexity, in particular we focus on the following two: Resolution (RES), a well studied proof system that is at the core of state-of-the-art algorithms to solve SAT instances; Polynomial Calculus (PC), a proof system that uses polynomials to refute contradictions. Informally speaking, the space of a proof measures the size of an auxiliary memory that a verifier needs to check the correctness of the proof. For Polynomial Calculus the space measure counts the number of distinct monomials to be kept in memory (monomial space). For Resolution the measure refers to the number of clauses to be kept in memory (clause space) or to the total number of symbols (total space). We introduce abstract frameworks to prove monomial space lower bounds in PC and total space lower bound in RES. We then exemplify such frameworks proving new (asymptotically) optimal lower bounds both for monomial space and total space. We prove that every Polynomial Calculus refutation of a random k-CNF F, for k &gt; 2, in n variables requires, with high probability, \Omega(n) distinct monomials to be kept simultaneously in memory.</p>
+
+<p>This series of talks is based on the following works <a href="Talk-Space-in-algebraic-proof-systems.html#Bonacina-phdthesis">(Bonacina, 2015; Bonacina &amp; Galesi, 2013; Bonacina &amp; Galesi, 2015; Bennett et al., 2015)</a>.</p>
+
+<p>Talks on this theme were given in:</p>
+
+<p>Sep 13, 2016 <strong>17th Italian Conference on Theoretical Computer Science (ICTCS), Lecce</strong> – <em>Best Italian PhD Thesis in TCS 2016</em><br />
+May 25, 2015 <strong>Institute of Mathematics, Prague</strong> – <em>Logic Seminar</em><br /> Apr 24, 2015 <strong>Dagstuhl Seminar 15171</strong> – <em>Theory and Practice of SAT Solving</em><br /> Apr 08, 2015 <strong>KTH Royal Institute of Technology</strong> – <em>Complexity Seminar</em><br /> Apr 07, 2015 <strong>KTH Royal Institute of Technology</strong> – <em>Complexity Seminar</em><br /> May 19, 2014 <strong>Aarhus University</strong> – <em>Complexity Seminar</em><br /> Sep 10, 2013 <strong>14th Italian Conference on Theoretical Computer Science (ICTCS), Palermo</strong><br /> Jun 30, 2013 <strong>CSEDays. Theory 2013, Ekaterinburg</strong> – <em>Summer School</em><br /> Jan 13, 2013 <strong>4th Innovations in Theoretical Computer Science (ITCS), Berkeley</strong><br /> Sep 27, 2012 <strong>Limits of Theorem Proving, Rome</strong> – <em>Workshop</em></p>
+
+<h2 id="references">References</h2>
+<none class="bibliography" reversed="reversed"><none><div id="Bonacina-phdthesis">
+  <span id="Bonacina-phdthesis">Bonacina, I. (2015, December). <i>Space in weak propositional proof systems</i> (PhD thesis). Sapienza University of Rome.</span>
+  <br />
+  
+  <button type="button" data-toggle="collapse" data-target="#Bonacina-phdthesis-bibtex">BibTeX</button>
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+        <a href="../../../../pdf/Bonacina-phdthesis.pdf"><button type="button">pdf</button></a>
+  
+
+  <pre id="Bonacina-phdthesis-bibtex" class="collapse">@phdthesis{Bonacina-phdthesis,
+  author = {Bonacina, Ilario},
+  title = {Space in weak propositional proof systems},
+  school = {Sapienza University of Rome},
+  year = {2015},
+  month = dec
+}
+</pre>
+</div>
+<br />
+</none>
+<none><div id="BG15-jacm">
+  <span id="BG15-jacm">Bonacina, I., &amp; Galesi, N. (2015). A Framework for Space Complexity in Algebraic Proof Systems. <i>J. ACM</i>, <i>62</i>(3), 1–20.</span>
+  <br />
+  
+  <a href="http://dx.doi.org/10.1145/2699438" target="_blank"><button type="button">DOI</button></a>
+  
+  <button type="button" data-toggle="collapse" data-target="#BG15-jacm-bibtex">BibTeX</button>
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+        <a href="../../../../pdf/BG15-jacm.pdf"><button type="button">pdf</button></a>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  <pre id="BG15-jacm-bibtex" class="collapse">@article{BG15-jacm,
+  author = {Bonacina, Ilario and Galesi, Nicola},
+  title = {{A Framework for Space Complexity in Algebraic Proof Systems}},
+  journal = {J. ACM},
+  volume = {62},
+  number = {3},
+  pages = {1--20},
+  year = {2015},
+  month = jun,
+  doi = {10.1145/2699438}
+}
+</pre>
+</div>
+<br />
+</none>
+<none><div id="BBGHMW15-preprint">
+  <span id="BBGHMW15-preprint">Bennett, P., Bonacina, I., Galesi, N., Huynh, T., Molloy, M., &amp; Wollan, P. (2015). Space proof complexity for random 3-CNFs. <i>CoRR</i>, <i>abs/1503.01613</i>.</span>
+  <br />
+  
+  <button type="button" data-toggle="collapse" data-target="#BBGHMW15-preprint-bibtex">BibTeX</button>
+  
+  
+
+  
+
+  
+        <a href="../../../../pdf/BBGHMW15-preprint.pdf"><button type="button">pdf</button></a>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  <pre id="BBGHMW15-preprint-bibtex" class="collapse">@article{BBGHMW15-preprint,
+  author = {Bennett, Patrick and Bonacina, Ilario and Galesi, Nicola and Huynh, Tony and Molloy, Mike and Wollan, Paul},
+  title = {Space proof complexity for random 3-CNFs},
+  journal = {CoRR},
+  volume = {abs/1503.01613},
+  year = {2015}
+}
+</pre>
+</div>
+<br />
+</none>
+<none><div id="BG13-itcs">
+  <span id="BG13-itcs">Bonacina, I., &amp; Galesi, N. (2013). Pseudo-partitions, transversality and locality: A Combinatorial Characterization for the Space Measure in Algebraic Proof Systems. In <i>4th Conf. Innov. Theor. Comput. Sci. – ITCS</i> (pp. 455–472).</span>
+  <br />
+  
+  <a href="http://dx.doi.org/10.1145/2422436.2422486" target="_blank"><button type="button">DOI</button></a>
+  
+  <button type="button" data-toggle="collapse" data-target="#BG13-itcs-bibtex">BibTeX</button>
+  
+  
+
+  
+
+  
+
+  
+
+  
+        <a href="../../../../pdf/BG13-itcs.pdf"><button type="button">pdf</button></a>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  <pre id="BG13-itcs-bibtex" class="collapse">@inproceedings{BG13-itcs,
+  author = {Bonacina, Ilario and Galesi, Nicola},
+  title = {{Pseudo-partitions, transversality and locality: A Combinatorial Characterization for the Space Measure in Algebraic Proof Systems}},
+  booktitle = {4th Conf. Innov. Theor. Comput. Sci. -- ITCS},
+  pages = {455--472},
+  year = {2013},
+  doi = {10.1145/2422436.2422486}
+}
+</pre>
+</div>
+<br />
+</none></none>
+
+  </div>
+
+  
+</article>
+
+      </div>
+    </main>
+
+    <footer>
+  <div class="wrapper">
+  Last modified on <font style="color: #ff8000;">Sep 12, 2017</font>.
+  <p class="rss-subscribe">subscribe <a href="../../../../feed.xml">via RSS</a></p>
+</div>
+<br>
+</footer>
+
+
+  </body>
+
+</html>
