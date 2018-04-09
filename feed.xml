@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-13T16:22:38+01:00</updated><id>http://localhost:4000//</id><title type="html">Ilario Bonacina</title><subtitle></subtitle><entry><title type="html">A Springer Book from my PhD Thesis</title><link href="http://localhost:4000/work/2018/02/06/Springer-PhD-thesis.html" rel="alternate" type="text/html" title="A Springer Book from my PhD Thesis" /><published>2018-02-06T09:33:49+01:00</published><updated>2018-02-06T09:33:49+01:00</updated><id>http://localhost:4000/work/2018/02/06/Springer-PhD-thesis</id><content type="html" xml:base="http://localhost:4000/work/2018/02/06/Springer-PhD-thesis.html">&lt;p&gt;&lt;img src=&quot;https://images.springer.com/sgw/books/medium/9783319734521.jpg&quot; alt=&quot;Space in weak propositional proof systems&quot; style=&quot;float: right;margin-right: 7px;margin-top: 7px;&quot; /&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-09T17:51:57+02:00</updated><id>http://localhost:4000//</id><title type="html">Ilario Bonacina</title><subtitle></subtitle><entry><title type="html">A Springer Book from my PhD Thesis</title><link href="http://localhost:4000/work/2018/02/06/Springer-PhD-thesis.html" rel="alternate" type="text/html" title="A Springer Book from my PhD Thesis" /><published>2018-02-06T09:33:49+01:00</published><updated>2018-02-06T09:33:49+01:00</updated><id>http://localhost:4000/work/2018/02/06/Springer-PhD-thesis</id><content type="html" xml:base="http://localhost:4000/work/2018/02/06/Springer-PhD-thesis.html">&lt;p&gt;&lt;img src=&quot;https://images.springer.com/sgw/books/medium/9783319734521.jpg&quot; alt=&quot;Space in weak propositional proof systems&quot; style=&quot;float: right;margin-right: 7px;margin-top: 7px;&quot; /&gt;
 My PhD thesis &lt;a href=&quot;http://www.springer.com/us/book/9783319734521&quot;&gt;“Space in weak propositional proof systems”&lt;/a&gt; was
    just published with Springer. I have few spare copies so if you are interested in having a free one just contact me.&lt;/p&gt;
 
@@ -11,11 +11,10 @@ My PhD thesis &lt;a href=&quot;http://www.springer.com/us/book/9783319734521&quo
 
 &lt;p&gt;Jan 30 , 2018 &lt;strong&gt;Dagstuhl Seminar 18051&lt;/strong&gt; – &lt;em&gt;Proof Complexity&lt;/em&gt; – &lt;a href=&quot;/slides/ABDLNR-dagstuhl.pdf&quot;&gt;Slides&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Deciding whether a graph G with n vertices has a &lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt;-clique is one of the most basic computational problems on graphs. In this talk we show
-that certifying &lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt;-clique-freeness of Erdos-Renyi random graphs is hard for regular resolution. More precisely we show that for
-&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
-k&lt;\!\!&lt;\sqrt{n} %]]&gt;&lt;/script&gt; regular resolution asymptotically almost surely requires length &lt;script type=&quot;math/tex&quot;&gt;n^{\Omega(k)}&lt;/script&gt; to establish that an Erdos-Renyi random graph
-(with appropriate edge density) does not contain a &lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt;-clique. This
+&lt;p&gt;Deciding whether a graph G with n vertices has a k-clique is one of the most basic computational problems on graphs. In this talk we show
+that certifying k-clique-freeness of Erdos-Renyi random graphs is hard for regular resolution. More precisely we show that for
+k«\sqrt{n} regular resolution asymptotically almost surely requires length n^{\Omega(k)} to establish that an Erdos-Renyi random graph
+(with appropriate edge density) does not contain a k-clique. This
 asymptotically optimal result implies unconditional lower bunds on
 the running time of several state-of-the-art algorithms used in
 practice.&lt;/p&gt;
@@ -23,7 +22,7 @@ practice.&lt;/p&gt;
 &lt;p&gt;This talk is based on:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;span id=&quot;ABDLNR-manuscript&quot;&gt;Atserias, A., Bonacina, I., De Rezende, S., Lauria, M., Nordström, J. and Razborov, A. 2017. &lt;b&gt;Clique Is Hard on Average for Regular Resolution&lt;/b&gt;. &lt;i&gt;to appear in STOC2018&lt;/i&gt;.&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;span id=&quot;ABDLNR-manuscript&quot;&gt;Atserias, A., Bonacina, I., De Rezende, S., Lauria, M., Nordström, J. and Razborov, A. 2018. &lt;b&gt;Clique Is Hard on Average for Regular Resolution&lt;/b&gt;. &lt;i&gt;to appear in 50th Annual ACM SIGACT Symposium on the Theory of Computing (STOC’ 18)&lt;/i&gt;.&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;</content><summary type="html">All Talks ⇦</summary></entry><entry><title type="html">Moving to Universitat Politècnica de Catalunya</title><link href="http://localhost:4000/work/2017/09/12/postdoc-at-UPC.html" rel="alternate" type="text/html" title="Moving to Universitat Politècnica de Catalunya" /><published>2017-09-12T10:33:49+02:00</published><updated>2017-09-12T10:33:49+02:00</updated><id>http://localhost:4000/work/2017/09/12/postdoc-at-UPC</id><content type="html" xml:base="http://localhost:4000/work/2017/09/12/postdoc-at-UPC.html">&lt;p&gt;I just started a postdoc at &lt;a href=&quot;http://www.upc.edu&quot;&gt;Universitat Politècnica de Catalunya&lt;/a&gt;, hosted by &lt;a href=&quot;http://www.lsi.upc.edu/~atserias/&quot;&gt;Albert Atserias&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;My new address is:&lt;/p&gt;
@@ -37,7 +36,7 @@ Universitat Politècnica de Catalunya &lt;br /&gt; Dept. Ciències de la Computa
 
 &lt;p&gt;Feb 06, 2017 &lt;strong&gt;Universidad Politecnica de Catalunya&lt;/strong&gt; – &lt;em&gt;ALBCOM Seminar on Algorithms and Theory of Computation&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;In this series of talks we cover some results on the space complexity of Resolution and in particular a connection between total space and width. Given a &lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt;-CNF formula &lt;script type=&quot;math/tex&quot;&gt;F&lt;/script&gt;, the width is the minimal integer W such that there exists a Resolution refutation of &lt;script type=&quot;math/tex&quot;&gt;F&lt;/script&gt; with clauses of at most &lt;script type=&quot;math/tex&quot;&gt;W&lt;/script&gt; literals. The total space is the minimal size &lt;script type=&quot;math/tex&quot;&gt;T&lt;/script&gt; of a memory used to write down a Resolution refutation of &lt;script type=&quot;math/tex&quot;&gt;F&lt;/script&gt;, where the size of the memory is measured as the total number of literals it can contain. We show that &lt;script type=&quot;math/tex&quot;&gt;T=\Omega((W-k)^2)&lt;/script&gt;. This connection between total space and width relies on some basic properties of another, perhaps less known, complexity measure in Resolution: the “asymmetric width”.&lt;/p&gt;
+&lt;p&gt;In this series of talks we cover some results on the space complexity of Resolution and in particular a connection between total space and width. Given a k-CNF formula F, the width is the minimal integer W such that there exists a Resolution refutation of &lt;script type=&quot;math/tex&quot;&gt;F&lt;/script&gt; with clauses of at most W literals. The total space is the minimal size T of a memory used to write down a Resolution refutation of F, where the size of the memory is measured as the total number of literals it can contain. We show that T=\Omega((W-k)^2). This connection between total space and width relies on some basic properties of another, perhaps less known, complexity measure in Resolution: the “asymmetric width”.&lt;/p&gt;
 
 &lt;p&gt;Previous talks on this theme were given in:&lt;/p&gt;
 
@@ -62,7 +61,7 @@ Feb 07, 2014 &lt;strong&gt;KTH Royal Institute of Technology, Stockholm&lt;/stro
 
 &lt;p&gt;Nov 21, 2016 &lt;strong&gt;KTH Royal Institute of Technology, Stockholm&lt;/strong&gt; – &lt;em&gt;Complexity Seminar&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;The Strong Exponential Time Hypothesis (SETH) says that solving the SATISFIABILITY problem on formulas that are &lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt;-CNFs in n variables require running time &lt;script type=&quot;math/tex&quot;&gt;2^{(n(1 - c_k))}&lt;/script&gt; where &lt;script type=&quot;math/tex&quot;&gt;c_k\rightarrow 0&lt;/script&gt; as &lt;script type=&quot;math/tex&quot;&gt;k\rightarrow \infty&lt;/script&gt;. Beck and Impagliazzo (2013) proved that regular resolution cannot disprove SETH, that is they prove that there are unsatisfiable  &lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt;-CNF formulas in n variables such that each regular resolution refutation of those has size at least &lt;script type=&quot;math/tex&quot;&gt;2^{(n(1 - c_k))}&lt;/script&gt; where where &lt;script type=&quot;math/tex&quot;&gt;c_k\rightarrow 0&lt;/script&gt; as &lt;script type=&quot;math/tex&quot;&gt;k\rightarrow \infty&lt;/script&gt;. We give a different/simpler proof of such lower bound based on the known characterizations of width and size in resolution and our technique indeed works for a proof system stronger than regular resolution. The problem of finding &lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt;-CNF formulas for which we can prove such strong size lower bounds in general resolution is still open.&lt;/p&gt;
+&lt;p&gt;The Strong Exponential Time Hypothesis (SETH) says that solving the SATISFIABILITY problem on formulas that are k-CNFs in n variables require running time 2^{(n(1 - c_k))} where c_k goes to 0 as k goes to infinity. Beck and Impagliazzo (2013) proved that regular resolution cannot disprove SETH, that is they prove that there are unsatisfiable  k-CNF formulas in n variables such that each regular resolution refutation of those has size at least 2^{(n(1 - c_k))} where where c_k goes to 0 as k goes to infinity. We give a different/simpler proof of such lower bound based on the known characterizations of width and size in resolution and our technique indeed works for a proof system stronger than regular resolution. The problem of finding k-CNF formulas for which we can prove such strong size lower bounds in general resolution is still open.&lt;/p&gt;
 
 &lt;p&gt;Previous talks on this theme were given on:&lt;/p&gt;
 
@@ -100,8 +99,8 @@ number of clauses to be kept in memory (clause space) or to the total number of 
 We introduce abstract frameworks to prove monomial space lower bounds in PC
 and total space lower bound in RES. We then exemplify such frameworks proving
 new (asymptotically) optimal lower bounds both for monomial space and total space.
-We prove that every Polynomial Calculus refutation of a random &lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt;-CNF &lt;script type=&quot;math/tex&quot;&gt;F&lt;/script&gt;, for &lt;script type=&quot;math/tex&quot;&gt;k &gt; 2&lt;/script&gt;,
-in n variables requires, with high probability, &lt;script type=&quot;math/tex&quot;&gt;\Omega(n)&lt;/script&gt; distinct monomials
+We prove that every Polynomial Calculus refutation of a random k-CNF F, for k &amp;gt; 2,
+in n variables requires, with high probability, \Omega(n) distinct monomials
 to be kept simultaneously in memory.&lt;/p&gt;
 
 &lt;p&gt;Previous talks on this theme were given in:&lt;/p&gt;
@@ -138,7 +137,7 @@ between the two areas has never been established so far. Here we provide such a
 formal relation between lower bounds for circuit classes and lower bounds for Frege
 systems for quantified Boolean formulas (QBF). Using the full spectrum of the
 state-of-the-art circuit complexity lower bounds we will prove lower bounds for
-very strong QBF proof systems (e.g. for what we called &lt;script type=&quot;math/tex&quot;&gt;AC_0[p]\text{-}FREGE + \forall\! red&lt;/script&gt;).
+very strong QBF proof systems (e.g. for what we called AC_0[p]-FREGE + \forall red).
 Such lower bounds corresponds, in the propositional case, to major open problems
 in proof complexity.&lt;/p&gt;
 
@@ -158,9 +157,9 @@ Nov 23,2015 &lt;strong&gt;KTH Royal Institute of Technology&lt;/strong&gt; – &
 &lt;p&gt;Nov 11, 2013 &lt;strong&gt;Institute of Mathematics, Prague&lt;/strong&gt; – &lt;em&gt;Logic Seminar&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;In the context of delegation of computation a delegator outsources to a worker
-the computation of a function &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt; on a certain input &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;. The delegation problem
-can be described as follows: the worker computes &lt;script type=&quot;math/tex&quot;&gt;y=f(x)&lt;/script&gt; and proves to delegator,
-using an interactive proof systems, that indeed &lt;script type=&quot;math/tex&quot;&gt;y=f(x)&lt;/script&gt;. Killian showed, using
+the computation of a function f on a certain input x. The delegation problem
+can be described as follows: the worker computes y=f(x) and proves to delegator,
+using an interactive proof systems, that indeed y=f(x). Killian showed, using
 the PCP Theorem, that we can rule out malicious workers provided that they are
 computationally bounded. What happens if we are just interested to force the
 worker to carry on a space consuming computation? This means that, with high
