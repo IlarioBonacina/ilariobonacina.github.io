@@ -1,15 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-06-18T12:17:18+02:00</updated><id>http://localhost:4000//</id><title type="html">Ilario Bonacina</title><subtitle></subtitle><entry><title type="html">Note on Razborov’ Switching Lemma for Resolution over k-DNFs</title><link href="http://localhost:4000/notes/2018/04/23/Note-Switching-Lemma-for-Resk.html" rel="alternate" type="text/html" title="Note on Razborov' Switching Lemma for Resolution over k-DNFs" /><published>2018-04-23T10:33:49+02:00</published><updated>2018-04-23T10:33:49+02:00</updated><id>http://localhost:4000/notes/2018/04/23/Note-Switching-Lemma-for-Resk</id><content type="html" xml:base="http://localhost:4000/notes/2018/04/23/Note-Switching-Lemma-for-Resk.html">&lt;p&gt;In the &lt;a href=&quot;/teaching&quot;&gt;Teaching&lt;/a&gt; section of this site there is a new note/exposition of Razborov’ Switching Lemma for small restrictions.&lt;/p&gt;</content><summary type="html">In the Teaching section of this site there is a new note/exposition of Razborov’ Switching Lemma for small restrictions.</summary></entry><entry><title type="html">A Springer Book from my PhD Thesis</title><link href="http://localhost:4000/work/2018/02/06/Springer-PhD-thesis.html" rel="alternate" type="text/html" title="A Springer Book from my PhD Thesis" /><published>2018-02-06T09:33:49+01:00</published><updated>2018-02-06T09:33:49+01:00</updated><id>http://localhost:4000/work/2018/02/06/Springer-PhD-thesis</id><content type="html" xml:base="http://localhost:4000/work/2018/02/06/Springer-PhD-thesis.html">&lt;p&gt;&lt;img src=&quot;https://images.springer.com/sgw/books/medium/9783319734521.jpg&quot; alt=&quot;Space in weak propositional proof systems&quot; style=&quot;float: right;margin-right: 7px;margin-top: 7px;&quot; /&gt;
-My PhD thesis &lt;a href=&quot;http://www.springer.com/us/book/9783319734521&quot;&gt;“Space in weak propositional proof systems”&lt;/a&gt; was
-   just published with Springer. I have few spare copies so if you are interested in having a free one just contact me.&lt;/p&gt;
-
-&lt;h4 id=&quot;references&quot;&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/h4&gt;
-
-&lt;none class=&quot;bibliography&quot; reversed=&quot;reversed&quot;&gt;&lt;none&gt;bib-thesis&lt;/none&gt;&lt;/none&gt;</content><summary type="html">My PhD thesis “Space in weak propositional proof systems” was
-   just published with Springer. I have few spare copies so if you are interested in having a free one just contact me.</summary></entry><entry><title type="html">Clique is hard on average for regular resolution</title><link href="http://localhost:4000/talks/2018/01/30/Talk-k-clique.html" rel="alternate" type="text/html" title="Clique is hard on average for regular resolution" /><published>2018-01-30T12:00:00+01:00</published><updated>2018-01-30T12:00:00+01:00</updated><id>http://localhost:4000/talks/2018/01/30/Talk-k-clique</id><content type="html" xml:base="http://localhost:4000/talks/2018/01/30/Talk-k-clique.html">&lt;p&gt;&lt;a href=&quot;/talks&quot;&gt;All Talks ⇦&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-06-21T14:33:38+02:00</updated><id>http://localhost:4000//</id><title type="html">Ilario Bonacina</title><subtitle></subtitle><entry><title type="html">Clique is hard on average for regular resolution</title><link href="http://localhost:4000/talks/2018/06/21/Talk-k-clique.html" rel="alternate" type="text/html" title="Clique is hard on average for regular resolution" /><published>2018-06-21T13:00:00+02:00</published><updated>2018-06-21T13:00:00+02:00</updated><id>http://localhost:4000/talks/2018/06/21/Talk-k-clique</id><content type="html" xml:base="http://localhost:4000/talks/2018/06/21/Talk-k-clique.html">&lt;p&gt;&lt;a href=&quot;/talks&quot;&gt;All Talks ⇦&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;clique-is-hard-on-average-for-regular-resolution&quot;&gt;&lt;strong&gt;Clique is hard on average for regular resolution&lt;/strong&gt;&lt;/h2&gt;
 
-&lt;p&gt;Jan 30 , 2018 &lt;strong&gt;Dagstuhl Seminar 18051&lt;/strong&gt; – &lt;em&gt;Proof Complexity&lt;/em&gt; – &lt;a href=&quot;/slides/ABDLNR-dagstuhl.pdf&quot;&gt;Slides&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Jun 28, 2018 &lt;strong&gt;50th Annual ACM Symposium on the Theory of Computing (STOC), Los Angeles CA&lt;/strong&gt; – &lt;a href=&quot;/slides/ABDLNR-STOC-poster.pdf&quot;&gt;Poster&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Deciding whether a graph G with n vertices has a k-clique is one of the most basic computational problems on graphs. In this talk we show
 that certifying k-clique-freeness of Erdos-Renyi random graphs is hard for regular resolution. More precisely we show that for
@@ -19,11 +12,89 @@ asymptotically optimal result implies unconditional lower bunds on
 the running time of several state-of-the-art algorithms used in
 practice.&lt;/p&gt;
 
+&lt;p&gt;Previous talks on this theme were given on:&lt;/p&gt;
+
+&lt;p&gt;Jan 30, 2018 &lt;strong&gt;Dagstuhl Seminar 18051&lt;/strong&gt; – &lt;em&gt;Proof Complexity&lt;/em&gt;  – &lt;a href=&quot;/slides/ABDLNR-dagstuhl.pdf&quot;&gt;Slides&lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;This talk is based on:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;span id=&quot;ABDLNR18-stoc&quot;&gt;Atserias, A., Bonacina, I., De Rezende, S., Lauria, M., Nordström, J. and Razborov, A. 2018. &lt;b&gt;Clique Is Hard on Average for Regular Resolution&lt;/b&gt;. &lt;i&gt;to appear in 50th Annual ACM SIGACT Symposium on the Theory of Computing (STOC’ 18)&lt;/i&gt; (2018).&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><summary type="html">All Talks ⇦</summary></entry><entry><title type="html">Moving to Universitat Politècnica de Catalunya</title><link href="http://localhost:4000/work/2017/09/12/postdoc-at-UPC.html" rel="alternate" type="text/html" title="Moving to Universitat Politècnica de Catalunya" /><published>2017-09-12T10:33:49+02:00</published><updated>2017-09-12T10:33:49+02:00</updated><id>http://localhost:4000/work/2017/09/12/postdoc-at-UPC</id><content type="html" xml:base="http://localhost:4000/work/2017/09/12/postdoc-at-UPC.html">&lt;p&gt;I just started a postdoc at &lt;a href=&quot;http://www.upc.edu&quot;&gt;Universitat Politècnica de Catalunya&lt;/a&gt;, hosted by &lt;a href=&quot;http://www.lsi.upc.edu/~atserias/&quot;&gt;Albert Atserias&lt;/a&gt;.&lt;/p&gt;
+&lt;/ul&gt;</content><summary type="html">All Talks ⇦</summary></entry><entry><title type="html">Note on Razborov’ Switching Lemma for Resolution over *k*-DNFs</title><link href="http://localhost:4000/notes/2018/04/23/Note-Switching-Lemma-for-Resk.html" rel="alternate" type="text/html" title="Note on Razborov' Switching Lemma for Resolution over *k*-DNFs" /><published>2018-04-23T10:33:49+02:00</published><updated>2018-04-23T10:33:49+02:00</updated><id>http://localhost:4000/notes/2018/04/23/Note-Switching-Lemma-for-Resk</id><content type="html" xml:base="http://localhost:4000/notes/2018/04/23/Note-Switching-Lemma-for-Resk.html">&lt;p&gt;In the &lt;a href=&quot;/teaching&quot;&gt;Teaching&lt;/a&gt; section of this site there is a new note/exposition of Razborov’ Switching Lemma for small restrictions.&lt;/p&gt;</content><summary type="html">In the Teaching section of this site there is a new note/exposition of Razborov’ Switching Lemma for small restrictions.</summary></entry><entry><title type="html">A Springer Book from my PhD Thesis</title><link href="http://localhost:4000/work/2018/02/06/Springer-PhD-thesis.html" rel="alternate" type="text/html" title="A Springer Book from my PhD Thesis" /><published>2018-02-06T09:33:49+01:00</published><updated>2018-02-06T09:33:49+01:00</updated><id>http://localhost:4000/work/2018/02/06/Springer-PhD-thesis</id><content type="html" xml:base="http://localhost:4000/work/2018/02/06/Springer-PhD-thesis.html">&lt;p&gt;&lt;img src=&quot;https://images.springer.com/sgw/books/medium/9783319734521.jpg&quot; alt=&quot;Space in weak propositional proof systems&quot; style=&quot;float: right;margin-right: 7px;margin-top: 7px;&quot; /&gt;
+My PhD thesis &lt;a href=&quot;http://www.springer.com/us/book/9783319734521&quot;&gt;“Space in weak propositional proof systems”&lt;/a&gt; was
+   just published with Springer. I have few spare copies so if you are interested in having a free one just contact me.&lt;/p&gt;
+
+&lt;h4 id=&quot;references&quot;&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;none class=&quot;bibliography&quot; reversed=&quot;reversed&quot;&gt;&lt;none&gt;&lt;div id=&quot;Bonacina-phdthesis&quot;&gt;
+  &lt;span id=&quot;Bonacina-phdthesis&quot;&gt;[1]Bonacina, I. 2015. &lt;b&gt;Space in weak propositional proof systems&lt;/b&gt;. Sapienza University of Rome.&lt;/span&gt;
+  
+  &lt;a href=&quot;http://dx.doi.org/10.1007/978-3-319-73453-8&quot; target=&quot;_blank&quot;&gt;
+    &amp;#8680; doi
+  &lt;/a&gt;
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+        &lt;a href=&quot;/pdf/Bonacina-phdthesis.pdf&quot; target=&quot;_blank&quot;&gt;
+          &lt;button type=&quot;button&quot;&gt;
+            &lt;strong&gt;
+              &amp;#8680; pdf
+            &lt;/strong&gt;
+          &lt;/button&gt;
+        &lt;/a&gt;
+  
+
+  
+
+  
+
+
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;/none&gt;&lt;/none&gt;</content><summary type="html">My PhD thesis “Space in weak propositional proof systems” was
+   just published with Springer. I have few spare copies so if you are interested in having a free one just contact me.</summary></entry><entry><title type="html">Moving to Universitat Politècnica de Catalunya</title><link href="http://localhost:4000/work/2017/09/12/postdoc-at-UPC.html" rel="alternate" type="text/html" title="Moving to Universitat Politècnica de Catalunya" /><published>2017-09-12T10:33:49+02:00</published><updated>2017-09-12T10:33:49+02:00</updated><id>http://localhost:4000/work/2017/09/12/postdoc-at-UPC</id><content type="html" xml:base="http://localhost:4000/work/2017/09/12/postdoc-at-UPC.html">&lt;p&gt;I just started a postdoc at &lt;a href=&quot;http://www.upc.edu&quot;&gt;Universitat Politècnica de Catalunya&lt;/a&gt;, hosted by &lt;a href=&quot;http://www.lsi.upc.edu/~atserias/&quot;&gt;Albert Atserias&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;My new address is:&lt;/p&gt;
 
