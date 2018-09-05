@@ -1,26 +1,152 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-06-21T14:33:38+02:00</updated><id>http://localhost:4000//</id><title type="html">Ilario Bonacina</title><subtitle></subtitle><entry><title type="html">Clique is hard on average for regular resolution</title><link href="http://localhost:4000/talks/2018/06/21/Talk-k-clique.html" rel="alternate" type="text/html" title="Clique is hard on average for regular resolution" /><published>2018-06-21T13:00:00+02:00</published><updated>2018-06-21T13:00:00+02:00</updated><id>http://localhost:4000/talks/2018/06/21/Talk-k-clique</id><content type="html" xml:base="http://localhost:4000/talks/2018/06/21/Talk-k-clique.html">&lt;p&gt;&lt;a href=&quot;/talks&quot;&gt;All Talks ⇦&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-05T12:11:29+02:00</updated><id>http://localhost:4000//</id><title type="html">Ilario Bonacina</title><subtitle></subtitle><entry><title type="html">TiKz &amp;amp; co</title><link href="http://localhost:4000/TiKz/" rel="alternate" type="text/html" title="TiKz &amp; co" /><published>2018-09-05T00:00:00+02:00</published><updated>2018-09-05T00:00:00+02:00</updated><id>http://localhost:4000/TiKz</id><content type="html" xml:base="http://localhost:4000/TiKz/">&lt;h2 id=&quot;tikz-amp-co&quot;&gt;&lt;strong&gt;TiKz &amp;amp; co&lt;/strong&gt;&lt;/h2&gt;
 
-&lt;h2 id=&quot;clique-is-hard-on-average-for-regular-resolution&quot;&gt;&lt;strong&gt;Clique is hard on average for regular resolution&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Complete &lt;em&gt;k&lt;/em&gt;-partite graph&lt;br /&gt;
+&lt;a href=&quot;/tikz/complete k-partite graph.tex&quot;&gt;TeX&lt;/a&gt; / &lt;a href=&quot;/tikz/complete k-partite graph.svg&quot;&gt;svg&lt;/a&gt;&lt;br /&gt;
+&lt;img src=&quot;/tikz/complete k-partite graph.svg&quot; alt=&quot;Complete *k*-partite graph&quot; style=&quot;margin-left: 100px;height: 240px;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Jun 28, 2018 &lt;strong&gt;50th Annual ACM Symposium on the Theory of Computing (STOC), Los Angeles CA&lt;/strong&gt; – &lt;a href=&quot;/slides/ABDLNR-STOC-poster.pdf&quot;&gt;Poster&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Erdos-Renyi graph&lt;br /&gt;
+&lt;a href=&quot;/tikz/Erdos-Renyi graph.tex&quot;&gt;TeX&lt;/a&gt; / &lt;a href=&quot;/tikz/Erdos-Renyi graph.svg&quot;&gt;svg&lt;/a&gt;&lt;br /&gt;
+&lt;img src=&quot;/tikz/Erdos-Renyi graph.svg&quot; alt=&quot;Complete *k*-partite graph&quot; style=&quot;margin-left: 100px;height: 240px;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Deciding whether a graph G with n vertices has a k-clique is one of the most basic computational problems on graphs. In this talk we show
-that certifying k-clique-freeness of Erdos-Renyi random graphs is hard for regular resolution. More precisely we show that for
-k«\sqrt{n} regular resolution asymptotically almost surely requires length n^{\Omega(k)} to establish that an Erdos-Renyi random graph
-(with appropriate edge density) does not contain a k-clique. This
-asymptotically optimal result implies unconditional lower bunds on
-the running time of several state-of-the-art algorithms used in
-practice.&lt;/p&gt;
+&lt;p&gt;Example of irregular resolution refutation of minimal size&lt;br /&gt;
+&lt;a href=&quot;/tikz/Example Irregular refutation.tex&quot;&gt;TeX&lt;/a&gt; / &lt;a href=&quot;/tikz/Example Irregular refutation.jpg&quot;&gt;jpg&lt;/a&gt;&lt;br /&gt;
+&lt;img src=&quot;/tikz/Example Irregular refutation.jpg&quot; alt=&quot;Complete *k*-partite graph&quot; style=&quot;margin-left: 100px;height: 240px;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Previous talks on this theme were given on:&lt;/p&gt;
+&lt;none class=&quot;bibliography&quot; reversed=&quot;reversed&quot;&gt;&lt;none&gt;&lt;div id=&quot;HY.87&quot;&gt;
+  &lt;span id=&quot;HY.87&quot;&gt;[1]Huang, W. and Yu, X. 1987. &lt;b&gt;A DNF without Regular Shortest Consensus Path&lt;/b&gt;. &lt;i&gt;SIAM J. Comput.&lt;/i&gt; 16, 5 (1987), 836–840.&lt;/span&gt;
+  
+  &lt;a href=&quot;http://dx.doi.org/10.1137/0216054&quot; target=&quot;_blank&quot;&gt;
+    &amp;#8680; doi
+  &lt;/a&gt;
+  
+  
+  
 
-&lt;p&gt;Jan 30, 2018 &lt;strong&gt;Dagstuhl Seminar 18051&lt;/strong&gt; – &lt;em&gt;Proof Complexity&lt;/em&gt;  – &lt;a href=&quot;/slides/ABDLNR-dagstuhl.pdf&quot;&gt;Slides&lt;/a&gt;&lt;/p&gt;
+  
 
-&lt;p&gt;This talk is based on:&lt;/p&gt;
+  
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;span id=&quot;ABDLNR18-stoc&quot;&gt;Atserias, A., Bonacina, I., De Rezende, S., Lauria, M., Nordström, J. and Razborov, A. 2018. &lt;b&gt;Clique Is Hard on Average for Regular Resolution&lt;/b&gt;. &lt;i&gt;to appear in 50th Annual ACM SIGACT Symposium on the Theory of Computing (STOC’ 18)&lt;/i&gt; (2018).&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><summary type="html">All Talks ⇦</summary></entry><entry><title type="html">Note on Razborov’ Switching Lemma for Resolution over *k*-DNFs</title><link href="http://localhost:4000/notes/2018/04/23/Note-Switching-Lemma-for-Resk.html" rel="alternate" type="text/html" title="Note on Razborov' Switching Lemma for Resolution over *k*-DNFs" /><published>2018-04-23T10:33:49+02:00</published><updated>2018-04-23T10:33:49+02:00</updated><id>http://localhost:4000/notes/2018/04/23/Note-Switching-Lemma-for-Resk</id><content type="html" xml:base="http://localhost:4000/notes/2018/04/23/Note-Switching-Lemma-for-Resk.html">&lt;p&gt;In the &lt;a href=&quot;/teaching&quot;&gt;Teaching&lt;/a&gt; section of this site there is a new note/exposition of Razborov’ Switching Lemma for small restrictions.&lt;/p&gt;</content><summary type="html">In the Teaching section of this site there is a new note/exposition of Razborov’ Switching Lemma for small restrictions.</summary></entry><entry><title type="html">A Springer Book from my PhD Thesis</title><link href="http://localhost:4000/work/2018/02/06/Springer-PhD-thesis.html" rel="alternate" type="text/html" title="A Springer Book from my PhD Thesis" /><published>2018-02-06T09:33:49+01:00</published><updated>2018-02-06T09:33:49+01:00</updated><id>http://localhost:4000/work/2018/02/06/Springer-PhD-thesis</id><content type="html" xml:base="http://localhost:4000/work/2018/02/06/Springer-PhD-thesis.html">&lt;p&gt;&lt;img src=&quot;https://images.springer.com/sgw/books/medium/9783319734521.jpg&quot; alt=&quot;Space in weak propositional proof systems&quot; style=&quot;float: right;margin-right: 7px;margin-top: 7px;&quot; /&gt;
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;/none&gt;&lt;/none&gt;
+
+&lt;p&gt;test&lt;/p&gt;</content><summary type="html">TiKz &amp;amp; co</summary></entry><entry><title type="html">Resources for UPC visitors</title><link href="http://localhost:4000/visiting-UPC/" rel="alternate" type="text/html" title="Resources for UPC visitors" /><published>2018-05-10T00:00:00+02:00</published><updated>2018-05-10T00:00:00+02:00</updated><id>http://localhost:4000/resources-for-visitors</id><content type="html" xml:base="http://localhost:4000/visiting-UPC/">&lt;h2 id=&quot;resources-for-upc-visitors&quot;&gt;&lt;strong&gt;Resources for UPC visitors&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;I have been told that some suggestions for visitors might be helpful so here they are.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d627.0701512881766!2d2.1135547!3d41.3884376!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a49850ef0e5a79%3A0x22c5998f97ce6690!2sDepartment+of+Computer+Science%2C+Edifici+Omega%2C+UPC!5e1!3m2!1sit!2ses!4v1525855251344&quot; width=&quot;400&quot; height=&quot;200&quot; frameborder=&quot;0&quot; style=&quot;float: left; border-radius:20px; margin-right:15px; margin-bottom:20px;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;h3 id=&quot;where-is-the-department&quot;&gt;Where is the Department?&lt;/h3&gt;
+
+&lt;p&gt;The Computer Science Department location on the UPC campus is showed in the map on the left. It is easily reachable from the city center with the L3 (green line) and 3 minutes walk (a bit uphill). My office (223) and Albert’s (215) are on the second floor.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/BCN-neigh-map.jpg&quot; alt=&quot;Neighborhoods Map&quot; style=&quot;float: right;margin-right: 0px;margin-top: 100px; margin-left: 8px;height: 450px; border-radius:20px&quot; /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;where-to-eat&quot;&gt;Where to eat?&lt;/h3&gt;
+&lt;p&gt;In Barcelona there are a lot of amazing places where to eat and many &lt;strong&gt;many&lt;/strong&gt; tourists traps. Below there is a short list of places with good food that are definitely &lt;em&gt;not&lt;/em&gt; tourist traps.
+Most of the places listed below are &lt;em&gt;vegetarian friendly&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;catalan-and-spanish-food&quot;&gt;Catalan and Spanish food&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://goo.gl/maps/dVZqPiVk6et&quot;&gt;Bar Resolis&lt;/a&gt;: &lt;a href=&quot;https://en.wikipedia.org/wiki/Tapas&quot;&gt;tapas&lt;/a&gt; bar in Gotic&lt;br /&gt;
+&lt;a href=&quot;https://goo.gl/maps/x6qZzeAZCkq&quot;&gt;El Xampaniet&lt;/a&gt;: tapas bar in Born&lt;br /&gt;
+&lt;a href=&quot;https://goo.gl/maps/2h2XBscKqMP2&quot;&gt;Carrer del Blai&lt;/a&gt;: street in Poble Sec with many &lt;a href=&quot;https://en.wikipedia.org/wiki/Pincho&quot;&gt;pinchos&lt;/a&gt; bars&lt;br /&gt;
+&lt;a href=&quot;https://goo.gl/maps/ESMCSgPWtBE2&quot;&gt;El Dinamic&lt;/a&gt;: catalan restaurant/bar in Raval&lt;/p&gt;
+
+&lt;h4 id=&quot;paella&quot;&gt;Paella&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://goo.gl/maps/P4g4WnF4d3E2&quot;&gt;7 Portes&lt;/a&gt;: good &lt;a href=&quot;https://en.wikipedia.org/wiki/Paella&quot;&gt;paella&lt;/a&gt; place in Born&lt;br /&gt;
+&lt;a href=&quot;https://goo.gl/maps/jqTW5YaSAmH2&quot;&gt;El Txiringuito de l’Escribà&lt;/a&gt;: paella place in Villa Olimpica (not Veg friendly)&lt;br /&gt;
+&lt;a href=&quot;https://goo.gl/maps/8ZwvmAtSm162&quot;&gt;Els Pescadors&lt;/a&gt;: paella place in PobleNou&lt;br /&gt;
+&lt;a href=&quot;https://goo.gl/maps/YqVM4z1gExG2&quot;&gt;Taberna El Glop&lt;/a&gt;: cheaper restaurant in Gracia that serves also reasonable Paella (also Veg frindly)&lt;/p&gt;
+
+&lt;h4 id=&quot;pizza&quot;&gt;Pizza*&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://goo.gl/maps/jnszNuyExcR2&quot;&gt;La Bella Napoli&lt;/a&gt;: pizza place in Poble Sec&lt;br /&gt;
+&lt;a href=&quot;https://goo.gl/maps/RjVQtjtGfd32&quot;&gt;Bo di Napoli&lt;/a&gt;: pizza place in Eixample&lt;br /&gt;
+&lt;a href=&quot;https://goo.gl/maps/C7HW738J8cE2&quot;&gt;Napoletani DOC&lt;/a&gt;: down to Earth pizza place in Eixample&lt;br /&gt;
+&lt;a href=&quot;https://goo.gl/maps/wW6JHYk2DgC2&quot;&gt;Sports Bar&lt;/a&gt;: down to Earth pizza place in Gotic (it is a restaurant despite the name)&lt;br /&gt;
+&lt;em&gt;*tested and approved by an Italian 🇮🇹 ;-)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;bars&quot;&gt;Bars&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://goo.gl/maps/uf8xGRRddZH2&quot;&gt;La Monroe&lt;/a&gt;: hipster place for burgers, tapas, beers in Raval&lt;br /&gt;
+&lt;a href=&quot;https://goo.gl/maps/iRHd8WwS1tu&quot;&gt;Horel Barcelo’&lt;/a&gt;: roof top bar with nice view in Raval&lt;br /&gt;
+&lt;a href=&quot;https://goo.gl/maps/dvsSJhxhhyR2&quot;&gt;Antic Teatre&lt;/a&gt;: place for beers in Born&lt;br /&gt;
+&lt;a href=&quot;https://goo.gl/maps/tMjv6XjyrZ32&quot;&gt;Rekons&lt;/a&gt;: inexpensive &lt;a href=&quot;https://en.wikipedia.org/wiki/Empanada&quot;&gt;empanadas&lt;/a&gt; in Raval&lt;br /&gt;
+&lt;a href=&quot;https://goo.gl/maps/ESMCSgPWtBE2&quot;&gt;El Dinamic&lt;/a&gt;: catalan restaurant/bar in Raval&lt;/p&gt;
+
+&lt;h4 id=&quot;vegetarian&quot;&gt;Vegetarian*&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://goo.gl/maps/gK8CqnAV6kw&quot;&gt;Rasoterra&lt;/a&gt;: vegetarian restaurant in Gotic&lt;br /&gt;
+&lt;a href=&quot;https://goo.gl/maps/QS7SJ9jGDCA2&quot;&gt;Aguaribay&lt;/a&gt;: vegetarian restaurant in PobleNou&lt;br /&gt;
+&lt;a href=&quot;https://goo.gl/maps/jc6LRbEj6h42&quot;&gt;Flax &amp;amp; Kale&lt;/a&gt;: chain of (highly)-vegetarian restaurants&lt;br /&gt;
+&lt;em&gt;*I don’t know yet good purely vegan places in Barcelona.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;other-cuisines&quot;&gt;Other cuisines&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://goo.gl/maps/aBuu3G18iUG2&quot;&gt;El Pachuco&lt;/a&gt;: Mexican restaurant in Raval&lt;br /&gt;
+&lt;a href=&quot;https://goo.gl/maps/NN9f7deM37n&quot;&gt;Addis Abeba&lt;/a&gt;: Etiopian restaurant in Eixample&lt;br /&gt;
+&lt;a href=&quot;https://goo.gl/maps/wztDB2Qu43K2&quot;&gt;Cuina Deu&lt;/a&gt;: inexpensive Chinese restaurant in Raval (not really veg friendly)&lt;br /&gt;
+&lt;a href=&quot;https://goo.gl/maps/m5mLQ5Wd7YK2&quot;&gt;Dionisos&lt;/a&gt;: chain of inexpensive Greek food&lt;br /&gt;
+&lt;a href=&quot;https://goo.gl/maps/QXoSEVu5Usy&quot;&gt;Mosquito&lt;/a&gt;: inexpensive Asian food in El Born&lt;br /&gt;
+&lt;a href=&quot;https://goo.gl/maps/329yCR3j6TU2&quot;&gt;Ikibana&lt;/a&gt;: chain of posh Japanese/Brazilian places&lt;/p&gt;</content><summary type="html">Resources for UPC visitors</summary></entry><entry><title type="html">Note on Razborov’ Switching Lemma for Resolution over *k*-DNFs</title><link href="http://localhost:4000/notes/2018/04/23/Note-Switching-Lemma-for-Resk.html" rel="alternate" type="text/html" title="Note on Razborov' Switching Lemma for Resolution over *k*-DNFs" /><published>2018-04-23T10:33:49+02:00</published><updated>2018-04-23T10:33:49+02:00</updated><id>http://localhost:4000/notes/2018/04/23/Note-Switching-Lemma-for-Resk</id><content type="html" xml:base="http://localhost:4000/notes/2018/04/23/Note-Switching-Lemma-for-Resk.html">&lt;p&gt;In the &lt;a href=&quot;/teaching&quot;&gt;Teaching&lt;/a&gt; section of this site there is a new note/exposition of Razborov’ Switching Lemma for small restrictions.&lt;/p&gt;</content><summary type="html">In the Teaching section of this site there is a new note/exposition of Razborov’ Switching Lemma for small restrictions.</summary></entry><entry><title type="html">A Springer Book from my PhD Thesis</title><link href="http://localhost:4000/work/2018/02/06/Springer-PhD-thesis.html" rel="alternate" type="text/html" title="A Springer Book from my PhD Thesis" /><published>2018-02-06T09:33:49+01:00</published><updated>2018-02-06T09:33:49+01:00</updated><id>http://localhost:4000/work/2018/02/06/Springer-PhD-thesis</id><content type="html" xml:base="http://localhost:4000/work/2018/02/06/Springer-PhD-thesis.html">&lt;p&gt;&lt;img src=&quot;https://images.springer.com/sgw/books/medium/9783319734521.jpg&quot; alt=&quot;Space in weak propositional proof systems&quot; style=&quot;float: right;margin-right: 7px;margin-top: 7px;&quot; /&gt;
 My PhD thesis &lt;a href=&quot;http://www.springer.com/us/book/9783319734521&quot;&gt;“Space in weak propositional proof systems”&lt;/a&gt; was
    just published with Springer. I have few spare copies so if you are interested in having a free one just contact me.&lt;/p&gt;
 
@@ -90,28 +216,151 @@ My PhD thesis &lt;a href=&quot;http://www.springer.com/us/book/9783319734521&quo
 
   
 
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
 
 &lt;/div&gt;
 &lt;br /&gt;
 &lt;/none&gt;&lt;/none&gt;</content><summary type="html">My PhD thesis “Space in weak propositional proof systems” was
-   just published with Springer. I have few spare copies so if you are interested in having a free one just contact me.</summary></entry><entry><title type="html">Moving to Universitat Politècnica de Catalunya</title><link href="http://localhost:4000/work/2017/09/12/postdoc-at-UPC.html" rel="alternate" type="text/html" title="Moving to Universitat Politècnica de Catalunya" /><published>2017-09-12T10:33:49+02:00</published><updated>2017-09-12T10:33:49+02:00</updated><id>http://localhost:4000/work/2017/09/12/postdoc-at-UPC</id><content type="html" xml:base="http://localhost:4000/work/2017/09/12/postdoc-at-UPC.html">&lt;p&gt;I just started a postdoc at &lt;a href=&quot;http://www.upc.edu&quot;&gt;Universitat Politècnica de Catalunya&lt;/a&gt;, hosted by &lt;a href=&quot;http://www.lsi.upc.edu/~atserias/&quot;&gt;Albert Atserias&lt;/a&gt;.&lt;/p&gt;
+   just published with Springer. I have few spare copies so if you are interested in having a free one just contact me.</summary></entry><entry><title type="html">Clique is hard on average for regular resolution</title><link href="http://localhost:4000/talks/2018/01/30/Talk-k-clique.html" rel="alternate" type="text/html" title="Clique is hard on average for regular resolution" /><published>2018-01-30T00:00:00+01:00</published><updated>2018-01-30T00:00:00+01:00</updated><id>http://localhost:4000/talks/2018/01/30/Talk-k-clique</id><content type="html" xml:base="http://localhost:4000/talks/2018/01/30/Talk-k-clique.html">&lt;p&gt;&lt;a href=&quot;/talks&quot;&gt;All Talks ⇦&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;clique-is-hard-on-average-for-regular-resolution&quot;&gt;&lt;strong&gt;Clique is hard on average for regular resolution&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Deciding whether a graph G with n vertices has a k-clique is one of the most basic computational problems on graphs. In this talk we show
+that certifying k-clique-freeness of Erdos-Renyi random graphs is hard for regular resolution. More precisely we show that for
+k«\sqrt{n} regular resolution asymptotically almost surely requires length n^{\Omega(k)} to establish that an Erdos-Renyi random graph
+(with appropriate edge density) does not contain a k-clique. This
+asymptotically optimal result implies unconditional lower bunds on
+the running time of several state-of-the-art algorithms used in
+practice.&lt;/p&gt;
+
+&lt;p&gt;Talks on this topic were given on:&lt;/p&gt;
+
+&lt;p&gt;Jul 27, 2018 &lt;strong&gt;Oford Complexity Day&lt;/strong&gt; – &lt;a href=&quot;/slides/ABDLNR-Oxford.pdf&quot;&gt;Slides&lt;/a&gt;&lt;br /&gt;
+Jul 20, 2018 &lt;strong&gt;RaTLoCC 2018: Ramsey Theory in Logic, Combinatorics and Complexity&lt;/strong&gt; – &lt;a href=&quot;/slides/ABDLNR-Rattloc.pdf&quot;&gt;Slides&lt;/a&gt;&lt;br /&gt;
+Jun 28, 2018  &lt;strong&gt;50th Annual ACM Symposium on the Theory of Computing (STOC), Los Angeles CA&lt;/strong&gt; – &lt;a href=&quot;/slides/ABDLNR-STOC-poster.pdf&quot;&gt;Poster&lt;/a&gt;&lt;br /&gt;
+Jan 30, 2018 &lt;strong&gt;Dagstuhl Seminar 18051&lt;/strong&gt; – &lt;em&gt;Proof Complexity&lt;/em&gt;  – &lt;a href=&quot;/slides/.pdf&quot;&gt;Slides&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;These talks are based on &lt;a href=&quot;#ABDLNR18-stoc&quot;&gt;[1]&lt;/a&gt;.&lt;/p&gt;
+
+&lt;none class=&quot;bibliography&quot; reversed=&quot;reversed&quot;&gt;&lt;none&gt;&lt;div id=&quot;ABDLNR18-stoc&quot;&gt;
+  &lt;span id=&quot;ABDLNR18-stoc&quot;&gt;[1]Atserias, A., Bonacina, I., De Rezende, S., Lauria, M., Nordström, J. and Razborov, A. 2018. &lt;b&gt;Clique Is Hard on Average for Regular Resolution&lt;/b&gt;. &lt;i&gt;to appear in 50th Annual ACM SIGACT Symposium on the Theory of Computing (STOC’ 18)&lt;/i&gt; (2018).&lt;/span&gt;
+  
+  &lt;a href=&quot;http://dx.doi.org/10.1145/3188745.3188856&quot; target=&quot;_blank&quot;&gt;
+    &amp;#8680; doi
+  &lt;/a&gt;
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+        &lt;a href=&quot;/pdf/ABDLNR18-stoc.pdf&quot; target=&quot;_blank&quot;&gt;
+          &lt;button type=&quot;button&quot;&gt;
+            &lt;strong&gt;
+              &amp;#8680; pdf
+            &lt;/strong&gt;
+          &lt;/button&gt;
+        &lt;/a&gt;
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;/none&gt;&lt;/none&gt;</content><summary type="html">All Talks ⇦</summary></entry><entry><title type="html">Moving to Universitat Politècnica de Catalunya</title><link href="http://localhost:4000/work/2017/09/12/postdoc-at-UPC.html" rel="alternate" type="text/html" title="Moving to Universitat Politècnica de Catalunya" /><published>2017-09-12T10:33:49+02:00</published><updated>2017-09-12T10:33:49+02:00</updated><id>http://localhost:4000/work/2017/09/12/postdoc-at-UPC</id><content type="html" xml:base="http://localhost:4000/work/2017/09/12/postdoc-at-UPC.html">&lt;p&gt;I just started a postdoc at &lt;a href=&quot;http://www.upc.edu&quot;&gt;Universitat Politècnica de Catalunya&lt;/a&gt;, hosted by &lt;a href=&quot;http://www.lsi.upc.edu/~atserias/&quot;&gt;Albert Atserias&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;My new address is:&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Visiting address:&lt;/strong&gt;	Jordi Girona Salgado 31, Omega-223&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Mailing address&lt;/strong&gt;&lt;br /&gt;
-Universitat Politècnica de Catalunya &lt;br /&gt; Dept. Ciències de la Computació &lt;br /&gt; Jordi Girona Salgado 31, Omega-223 &lt;br /&gt; 08034 Barcelona, &lt;br /&gt; SPAIN&lt;/p&gt;</content><summary type="html">I just started a postdoc at Universitat Politècnica de Catalunya, hosted by Albert Atserias.</summary></entry><entry><title type="html">Total space in resolution</title><link href="http://localhost:4000/talks/2017/02/06/Talk-Total-space-at-least-width-squared.html" rel="alternate" type="text/html" title="Total space in resolution" /><published>2017-02-06T12:00:00+01:00</published><updated>2017-02-06T12:00:00+01:00</updated><id>http://localhost:4000/talks/2017/02/06/Talk-Total-space-at-least-width-squared</id><content type="html" xml:base="http://localhost:4000/talks/2017/02/06/Talk-Total-space-at-least-width-squared.html">&lt;p&gt;&lt;a href=&quot;/talks&quot;&gt;All Talks ⇦&lt;/a&gt;&lt;/p&gt;
+Universitat Politècnica de Catalunya &lt;br /&gt; Dept. Ciències de la Computació &lt;br /&gt; Jordi Girona Salgado 31, Omega-223 &lt;br /&gt; 08034 Barcelona, &lt;br /&gt; SPAIN&lt;/p&gt;</content><summary type="html">I just started a postdoc at Universitat Politècnica de Catalunya, hosted by Albert Atserias.</summary></entry><entry><title type="html">Total space in resolution</title><link href="http://localhost:4000/talks/2017/02/06/Talk-Total-space-at-least-width-squared.html" rel="alternate" type="text/html" title="Total space in resolution" /><published>2017-02-06T00:00:00+01:00</published><updated>2017-02-06T00:00:00+01:00</updated><id>http://localhost:4000/talks/2017/02/06/Talk-Total-space-at-least-width-squared</id><content type="html" xml:base="http://localhost:4000/talks/2017/02/06/Talk-Total-space-at-least-width-squared.html">&lt;p&gt;&lt;a href=&quot;/talks&quot;&gt;All Talks ⇦&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;total-space-in-resolution&quot;&gt;&lt;strong&gt;Total space in resolution&lt;/strong&gt;&lt;/h2&gt;
 
-&lt;p&gt;Feb 06, 2017 &lt;strong&gt;Universidad Politecnica de Catalunya&lt;/strong&gt; – &lt;em&gt;ALBCOM Seminar on Algorithms and Theory of Computation&lt;/em&gt;&lt;/p&gt;
-
 &lt;p&gt;In this series of talks we cover some results on the space complexity of Resolution and in particular a connection between total space and width. Given a k-CNF formula F, the width is the minimal integer W such that there exists a Resolution refutation of &lt;script type=&quot;math/tex&quot;&gt;F&lt;/script&gt; with clauses of at most W literals. The total space is the minimal size T of a memory used to write down a Resolution refutation of F, where the size of the memory is measured as the total number of literals it can contain. We show that T=\Omega((W-k)^2). This connection between total space and width relies on some basic properties of another, perhaps less known, complexity measure in Resolution: the “asymmetric width”.&lt;/p&gt;
 
-&lt;p&gt;Previous talks on this theme were given in:&lt;/p&gt;
+&lt;p&gt;Talks on this theme were given on:&lt;/p&gt;
 
-&lt;p&gt;Aug 19, 2016 &lt;strong&gt;Fields Institute, Toronto&lt;/strong&gt; – &lt;em&gt;Workshop on Theoretical Foundations of SAT Solving&lt;/em&gt; &lt;br /&gt;
+&lt;p&gt;Feb 06, 2017 &lt;strong&gt;Universidad Politecnica de Catalunya&lt;/strong&gt; – &lt;em&gt;ALBCOM Seminar on Algorithms and Theory of Computation&lt;/em&gt;&lt;br /&gt;
+Aug 19, 2016 &lt;strong&gt;Fields Institute, Toronto&lt;/strong&gt; – &lt;em&gt;Workshop on Theoretical Foundations of SAT Solving&lt;/em&gt;&lt;br /&gt;
 Jul 14, 2016 &lt;strong&gt;43rd International Colloquium on Automata, Languages and Programming (ICALP)&lt;/strong&gt;&lt;br /&gt;
 May 30, 2016 &lt;strong&gt;Steklov Institute of Mathematics, St.Petersburg&lt;/strong&gt; – &lt;em&gt;Special Semester on Complexity Theory&lt;/em&gt;&lt;br /&gt;
 May 19, 2016 &lt;strong&gt;Steklov Institute of Mathematics, St.Petersburg&lt;/strong&gt; – &lt;em&gt;Proof Complexity Workshop&lt;/em&gt;&lt;br /&gt;
@@ -120,105 +369,533 @@ Oct 16, 2014 &lt;strong&gt;Dagstuhl Seminar 14421&lt;/strong&gt; –  &lt;em&gt;
 Jul 13, 2014 &lt;strong&gt;Vienna Summer of Logic, Wien&lt;/strong&gt; – &lt;em&gt;Workshop on proof complexity&lt;/em&gt;&lt;br /&gt;
 Feb 07, 2014 &lt;strong&gt;KTH Royal Institute of Technology, Stockholm&lt;/strong&gt; – Complexity Seminar&lt;/p&gt;
 
-&lt;p&gt;This series of talks is based on:&lt;/p&gt;
+&lt;p&gt;These talks are based on &lt;a href=&quot;#Bon16-icalp&quot;&gt;[1, 2, 3]&lt;/a&gt;.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;span id=&quot;Bon16-icalp&quot;&gt;Bonacina, I. 2016. &lt;b&gt;Total Space in Resolution is at Least Width Squared&lt;/b&gt;. &lt;i&gt;43rd International Colloquium on Automata, Languages, and Programming – ICALP&lt;/i&gt; (2016), 56:1–56:13.&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;span id=&quot;BGT16-siamjcomp&quot;&gt;Bonacina, I., Galesi, N. and Thapen, N. 2016. &lt;b&gt;Total Space in Resolution&lt;/b&gt;. &lt;i&gt;SIAM J. Comput.&lt;/i&gt; 45, 5 (Jan. 2016), 1894–1909.&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;span id=&quot;BGT14-focs&quot;&gt;Bonacina, I., Galesi, N. and Thapen, N. 2014. &lt;b&gt;Total Space in Resolution&lt;/b&gt;. &lt;i&gt;55th Annu. Symp. Found. Comput. Sci. – FOCS&lt;/i&gt; (Oct. 2014), 641–650.&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><summary type="html">All Talks ⇦</summary></entry><entry><title type="html">Strong size lower bounds in regular resolution via games</title><link href="http://localhost:4000/talks/2016/11/08/Talk-Strong-size-lower-bounds-in-regular-resolution-via-games.html" rel="alternate" type="text/html" title="Strong size lower bounds in regular resolution via games" /><published>2016-11-08T12:00:00+01:00</published><updated>2016-11-08T12:00:00+01:00</updated><id>http://localhost:4000/talks/2016/11/08/Talk-Strong-size-lower-bounds-in-regular-resolution-via-games</id><content type="html" xml:base="http://localhost:4000/talks/2016/11/08/Talk-Strong-size-lower-bounds-in-regular-resolution-via-games.html">&lt;p&gt;&lt;a href=&quot;/talks&quot;&gt;All Talks ⇦&lt;/a&gt;&lt;/p&gt;
+&lt;none class=&quot;bibliography&quot; reversed=&quot;reversed&quot;&gt;&lt;none&gt;&lt;div id=&quot;BGT16-siamjcomp&quot;&gt;
+  &lt;span id=&quot;BGT16-siamjcomp&quot;&gt;[1]Bonacina, I., Galesi, N. and Thapen, N. 2016. &lt;b&gt;Total Space in Resolution&lt;/b&gt;. &lt;i&gt;SIAM J. Comput.&lt;/i&gt; 45, 5 (Jan. 2016), 1894–1909.&lt;/span&gt;
+  
+  &lt;a href=&quot;http://dx.doi.org/10.1137/15M1023269&quot; target=&quot;_blank&quot;&gt;
+    &amp;#8680; doi
+  &lt;/a&gt;
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+        &lt;a href=&quot;/pdf/BGT16-siamjcomp.pdf&quot; target=&quot;_blank&quot;&gt;
+          &lt;button type=&quot;button&quot;&gt;
+            &lt;strong&gt;
+              &amp;#8680; pdf
+            &lt;/strong&gt;
+          &lt;/button&gt;
+        &lt;/a&gt;
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;/none&gt;
+&lt;none&gt;&lt;div id=&quot;Bon16-icalp&quot;&gt;
+  &lt;span id=&quot;Bon16-icalp&quot;&gt;[2]Bonacina, I. 2016. &lt;b&gt;Total Space in Resolution is at Least Width Squared&lt;/b&gt;. &lt;i&gt;43rd International Colloquium on Automata, Languages, and Programming – ICALP&lt;/i&gt; (2016), 56:1–56:13.&lt;/span&gt;
+  
+  &lt;a href=&quot;http://dx.doi.org/10.4230/LIPIcs.ICALP.2016.56&quot; target=&quot;_blank&quot;&gt;
+    &amp;#8680; doi
+  &lt;/a&gt;
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+        &lt;a href=&quot;/pdf/Bon16-icalp.pdf&quot; target=&quot;_blank&quot;&gt;
+          &lt;button type=&quot;button&quot;&gt;
+            &lt;strong&gt;
+              &amp;#8680; pdf
+            &lt;/strong&gt;
+          &lt;/button&gt;
+        &lt;/a&gt;
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;/none&gt;
+&lt;none&gt;&lt;div id=&quot;BGT14-focs&quot;&gt;
+  &lt;span id=&quot;BGT14-focs&quot;&gt;[3]Bonacina, I., Galesi, N. and Thapen, N. 2014. &lt;b&gt;Total Space in Resolution&lt;/b&gt;. &lt;i&gt;55th Annu. Symp. Found. Comput. Sci. – FOCS&lt;/i&gt; (Oct. 2014), 641–650.&lt;/span&gt;
+  
+  &lt;a href=&quot;http://dx.doi.org/10.1109/FOCS.2014.74&quot; target=&quot;_blank&quot;&gt;
+    &amp;#8680; doi
+  &lt;/a&gt;
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+        &lt;a href=&quot;/pdf/BGT14-focs.pdf&quot; target=&quot;_blank&quot;&gt;
+          &lt;button type=&quot;button&quot;&gt;
+            &lt;strong&gt;
+              &amp;#8680; pdf
+            &lt;/strong&gt;
+          &lt;/button&gt;
+        &lt;/a&gt;
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;/none&gt;&lt;/none&gt;</content><summary type="html">All Talks ⇦</summary></entry><entry><title type="html">Strong size lower bounds in regular resolution via games</title><link href="http://localhost:4000/talks/2016/11/21/Talk-Strong-size-lower-bounds-in-regular-resolution-via-games.html" rel="alternate" type="text/html" title="Strong size lower bounds in regular resolution via games" /><published>2016-11-21T00:00:00+01:00</published><updated>2016-11-21T00:00:00+01:00</updated><id>http://localhost:4000/talks/2016/11/21/Talk-Strong-size-lower-bounds-in-regular-resolution-via-games</id><content type="html" xml:base="http://localhost:4000/talks/2016/11/21/Talk-Strong-size-lower-bounds-in-regular-resolution-via-games.html">&lt;p&gt;&lt;a href=&quot;/talks&quot;&gt;All Talks ⇦&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;strong-size-lower-bounds-in-regular-resolution-via-games&quot;&gt;&lt;strong&gt;Strong size lower bounds in regular resolution via games&lt;/strong&gt;&lt;/h2&gt;
 
-&lt;p&gt;Nov 21, 2016 &lt;strong&gt;KTH Royal Institute of Technology, Stockholm&lt;/strong&gt; – &lt;em&gt;Complexity Seminar&lt;/em&gt;&lt;/p&gt;
-
 &lt;p&gt;The Strong Exponential Time Hypothesis (SETH) says that solving the SATISFIABILITY problem on formulas that are k-CNFs in n variables require running time 2^{(n(1 - c_k))} where c_k goes to 0 as k goes to infinity. Beck and Impagliazzo (2013) proved that regular resolution cannot disprove SETH, that is they prove that there are unsatisfiable  k-CNF formulas in n variables such that each regular resolution refutation of those has size at least 2^{(n(1 - c_k))} where where c_k goes to 0 as k goes to infinity. We give a different/simpler proof of such lower bound based on the known characterizations of width and size in resolution and our technique indeed works for a proof system stronger than regular resolution. The problem of finding k-CNF formulas for which we can prove such strong size lower bounds in general resolution is still open.&lt;/p&gt;
 
-&lt;p&gt;Previous talks on this theme were given on:&lt;/p&gt;
+&lt;p&gt;Talks on this topic were given on:&lt;/p&gt;
 
-&lt;p&gt;Sep 19, 2016 &lt;strong&gt;Dagstuhl Seminar 16381&lt;/strong&gt; – &lt;em&gt;SAT and Interactions&lt;/em&gt;&lt;br /&gt;
+&lt;p&gt;Nov 21, 2016 &lt;strong&gt;KTH Royal Institute of Technology, Stockholm&lt;/strong&gt; – Complexity Seminar*
+Sep 19, 2016 &lt;strong&gt;Dagstuhl Seminar 16381&lt;/strong&gt; – &lt;em&gt;SAT and Interactions&lt;/em&gt;&lt;br /&gt;
 Oct 01, 2015 &lt;strong&gt;Universitat Politècnica de Catalunya, Barcelona&lt;/strong&gt; – Complexity Seminar&lt;br /&gt;
 Jun 24, 2015 &lt;strong&gt;University of Edinburgh, UK&lt;/strong&gt; – Complexity Seminar&lt;br /&gt;
 Jun 17, 2015 &lt;strong&gt;University of Leeds, UK&lt;/strong&gt; – Logic Seminar&lt;br /&gt;
 Mar 21, 2014 &lt;strong&gt;KTH Royal Institute of Technology&lt;/strong&gt; – Complexity Seminar (joint talk with &lt;em&gt;Navid Talebanfard&lt;/em&gt;)&lt;/p&gt;
 
-&lt;p&gt;This series of talks is based on:&lt;/p&gt;
+&lt;p&gt;These talks are based on &lt;a href=&quot;#BT16-algorithmica&quot;&gt;[1, 2, 3]&lt;/a&gt;.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;span id=&quot;BT16-algorithmica&quot;&gt;Bonacina, I. and Talebanfard, N. 2016. &lt;b&gt;Strong ETH and Resolution via Games and the Multiplicity of Strategies&lt;/b&gt;. &lt;i&gt;Algorithmica&lt;/i&gt;. (Oct. 2016), 1–13.&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;span id=&quot;BT15-ipec&quot;&gt;Bonacina, I. and Talebanfard, N. 2015. &lt;b&gt;Strong ETH and Resolution via Games and the Multiplicity of Strategies&lt;/b&gt;. &lt;i&gt;10th International Symposium on Parameterized and Exact Computation – IPEC&lt;/i&gt; (2015), 248–257.&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;span id=&quot;BT16-ipl&quot;&gt;Bonacina, I. and Talebanfard, N. 2016. &lt;b&gt;Improving resolution width lower bounds for k-CNFs with applications to the Strong Exponential Time Hypothesis&lt;/b&gt;. &lt;i&gt;Inf. Process. Lett.&lt;/i&gt; 116, 2 (2016), 120–124.&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><summary type="html">All Talks ⇦</summary></entry><entry><title type="html">New website is online</title><link href="http://localhost:4000/website_updates/2016/11/05/new-webpage-is-on.html" rel="alternate" type="text/html" title="New website is online" /><published>2016-11-05T13:33:49+01:00</published><updated>2016-11-05T13:33:49+01:00</updated><id>http://localhost:4000/website_updates/2016/11/05/new-webpage-is-on</id><content type="html" xml:base="http://localhost:4000/website_updates/2016/11/05/new-webpage-is-on.html">&lt;p&gt;I’ve migrated my old webpage to &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt; and &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;.&lt;/p&gt;</content><summary type="html">I’ve migrated my old webpage to GitHub and Jekyll.</summary></entry><entry><title type="html">Best Italian PhD Thesis in TCS 2016</title><link href="http://localhost:4000/awards/2016/09/13/best-phd-italian-thesis-in-tcs-2015.html" rel="alternate" type="text/html" title="Best Italian PhD Thesis in TCS 2016" /><published>2016-09-13T16:53:49+02:00</published><updated>2016-09-13T16:53:49+02:00</updated><id>http://localhost:4000/awards/2016/09/13/best-phd-italian-thesis-in-tcs-2015</id><content type="html" xml:base="http://localhost:4000/awards/2016/09/13/best-phd-italian-thesis-in-tcs-2015.html">&lt;p&gt;My PhD thesis “&lt;em&gt;Space in weak propositional proof systems&lt;/em&gt;” was awarded “Best Italian PhD Thesis in Theoretical Computer Science” for the year 2016 by the &lt;a href=&quot;https://www.eatcs.org/index.php/italian-chapter&quot;&gt;Italian chapter of the EATCS&lt;/a&gt;. See &lt;a href=&quot;https://www.eatcs.org/index.php/italian-chapter/565&quot;&gt;here&lt;/a&gt; for the list of all previous winners.&lt;/p&gt;
+&lt;none class=&quot;bibliography&quot; reversed=&quot;reversed&quot;&gt;&lt;none&gt;&lt;div id=&quot;BT16-algorithmica&quot;&gt;
+  &lt;span id=&quot;BT16-algorithmica&quot;&gt;[1]Bonacina, I. and Talebanfard, N. 2016. &lt;b&gt;Strong ETH and Resolution via Games and the Multiplicity of Strategies&lt;/b&gt;. &lt;i&gt;Algorithmica&lt;/i&gt;. (Oct. 2016), 1–13.&lt;/span&gt;
+  
+  &lt;a href=&quot;http://dx.doi.org/10.1007/s00453-016-0228-6&quot; target=&quot;_blank&quot;&gt;
+    &amp;#8680; doi
+  &lt;/a&gt;
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;/none&gt;
+&lt;none&gt;&lt;div id=&quot;BT16-ipl&quot;&gt;
+  &lt;span id=&quot;BT16-ipl&quot;&gt;[2]Bonacina, I. and Talebanfard, N. 2016. &lt;b&gt;Improving resolution width lower bounds for k-CNFs with applications to the Strong Exponential Time Hypothesis&lt;/b&gt;. &lt;i&gt;Inf. Process. Lett.&lt;/i&gt; 116, 2 (2016), 120–124.&lt;/span&gt;
+  
+  &lt;a href=&quot;http://dx.doi.org/10.1016/j.ipl.2015.09.013&quot; target=&quot;_blank&quot;&gt;
+    &amp;#8680; doi
+  &lt;/a&gt;
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+        &lt;a href=&quot;/pdf/BT16-ipl.pdf&quot; target=&quot;_blank&quot;&gt;
+          &lt;button type=&quot;button&quot;&gt;
+            &lt;strong&gt;
+              &amp;#8680; pdf
+            &lt;/strong&gt;
+          &lt;/button&gt;
+        &lt;/a&gt;
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;/none&gt;
+&lt;none&gt;&lt;div id=&quot;BT15-ipec&quot;&gt;
+  &lt;span id=&quot;BT15-ipec&quot;&gt;[3]Bonacina, I. and Talebanfard, N. 2015. &lt;b&gt;Strong ETH and Resolution via Games and the Multiplicity of Strategies&lt;/b&gt;. &lt;i&gt;10th International Symposium on Parameterized and Exact Computation – IPEC&lt;/i&gt; (2015), 248–257.&lt;/span&gt;
+  
+  &lt;a href=&quot;http://dx.doi.org/10.4230/LIPIcs.IPEC.2015.248&quot; target=&quot;_blank&quot;&gt;
+    &amp;#8680; doi
+  &lt;/a&gt;
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+        &lt;a href=&quot;/pdf/BT15-ipec.pdf&quot; target=&quot;_blank&quot;&gt;
+          &lt;button type=&quot;button&quot;&gt;
+            &lt;strong&gt;
+              &amp;#8680; pdf
+            &lt;/strong&gt;
+          &lt;/button&gt;
+        &lt;/a&gt;
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;/none&gt;&lt;/none&gt;</content><summary type="html">All Talks ⇦</summary></entry><entry><title type="html">New website is online</title><link href="http://localhost:4000/website_updates/2016/11/05/new-webpage-is-on.html" rel="alternate" type="text/html" title="New website is online" /><published>2016-11-05T13:33:49+01:00</published><updated>2016-11-05T13:33:49+01:00</updated><id>http://localhost:4000/website_updates/2016/11/05/new-webpage-is-on</id><content type="html" xml:base="http://localhost:4000/website_updates/2016/11/05/new-webpage-is-on.html">&lt;p&gt;I’ve migrated my old webpage to &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt; and &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;.&lt;/p&gt;</content><summary type="html">I’ve migrated my old webpage to GitHub and Jekyll.</summary></entry><entry><title type="html">Best Italian PhD Thesis in TCS 2016</title><link href="http://localhost:4000/awards/2016/09/13/best-phd-italian-thesis-in-tcs-2015.html" rel="alternate" type="text/html" title="Best Italian PhD Thesis in TCS 2016" /><published>2016-09-13T16:53:49+02:00</published><updated>2016-09-13T16:53:49+02:00</updated><id>http://localhost:4000/awards/2016/09/13/best-phd-italian-thesis-in-tcs-2015</id><content type="html" xml:base="http://localhost:4000/awards/2016/09/13/best-phd-italian-thesis-in-tcs-2015.html">&lt;p&gt;My PhD thesis “&lt;em&gt;Space in weak propositional proof systems&lt;/em&gt;” was awarded “Best Italian PhD Thesis in Theoretical Computer Science” for the year 2016 by the &lt;a href=&quot;https://www.eatcs.org/index.php/italian-chapter&quot;&gt;Italian chapter of the EATCS&lt;/a&gt;. See &lt;a href=&quot;https://www.eatcs.org/index.php/italian-chapter/565&quot;&gt;here&lt;/a&gt; for the list of all previous winners.&lt;/p&gt;
 
 &lt;h4 id=&quot;references&quot;&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;none class=&quot;bibliography&quot; reversed=&quot;reversed&quot;&gt;&lt;none&gt;bib-thesis&lt;/none&gt;&lt;/none&gt;</content><summary type="html">My PhD thesis “Space in weak propositional proof systems” was awarded “Best Italian PhD Thesis in Theoretical Computer Science” for the year 2016 by the Italian chapter of the EATCS. See here for the list of all previous winners.</summary></entry><entry><title type="html">Space in algebraic proof systems</title><link href="http://localhost:4000/talks/2016/09/13/Talk-Space-in-algebraic-proof-systems.html" rel="alternate" type="text/html" title="Space in algebraic proof systems" /><published>2016-09-13T13:00:00+02:00</published><updated>2016-09-13T13:00:00+02:00</updated><id>http://localhost:4000/talks/2016/09/13/Talk-Space-in-algebraic-proof-systems</id><content type="html" xml:base="http://localhost:4000/talks/2016/09/13/Talk-Space-in-algebraic-proof-systems.html">&lt;p&gt;&lt;a href=&quot;/talks&quot;&gt;All Talks ⇦&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;space-in-algebraic-proof-systems&quot;&gt;&lt;strong&gt;Space in algebraic proof systems&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;Sep 13, 2016 &lt;strong&gt;17th Italian Conference on Theoretical Computer Science (ICTCS), Lecce&lt;/strong&gt; – &lt;em&gt;Best Italian PhD Thesis in TCS 2016&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;We consider logical proof systems from the point of view of their space complexity,
-in particular we focus on the following two: Resolution (RES), a well studied proof
-system that is at the core of state-of-the-art algorithms to solve SAT instances;
-Polynomial Calculus (PC), a proof system that uses polynomials to refute
-contradictions. Informally speaking, the space of a proof measures the size of
-an auxiliary memory that a verifier needs to check the correctness of the proof.
-For Polynomial Calculus the space measure counts the number of distinct monomials
-to be kept in memory (monomial space). For Resolution the measure refers to the
-number of clauses to be kept in memory (clause space) or to the total number of symbols (total space).
-We introduce abstract frameworks to prove monomial space lower bounds in PC
-and total space lower bound in RES. We then exemplify such frameworks proving
-new (asymptotically) optimal lower bounds both for monomial space and total space.
-We prove that every Polynomial Calculus refutation of a random k-CNF F, for k &amp;gt; 2,
-in n variables requires, with high probability, \Omega(n) distinct monomials
-to be kept simultaneously in memory.&lt;/p&gt;
-
-&lt;p&gt;Previous talks on this theme were given in:&lt;/p&gt;
-
-&lt;p&gt;May 25, 2015 &lt;strong&gt;Institute of Mathematics, Prague&lt;/strong&gt; – &lt;em&gt;Logic Seminar&lt;/em&gt;&lt;br /&gt;
-Apr 24, 2015 &lt;strong&gt;Dagstuhl Seminar 15171&lt;/strong&gt; – &lt;em&gt;Theory and Practice of SAT Solving&lt;/em&gt;&lt;br /&gt;
-Apr 08, 2015 &lt;strong&gt;KTH Royal Institute of Technology&lt;/strong&gt; – &lt;em&gt;Complexity Seminar&lt;/em&gt;&lt;br /&gt;
-Apr 07, 2015 &lt;strong&gt;KTH Royal Institute of Technology&lt;/strong&gt; – &lt;em&gt;Complexity Seminar&lt;/em&gt;&lt;br /&gt;
-May 19, 2014 &lt;strong&gt;Aarhus University&lt;/strong&gt; – &lt;em&gt;Complexity Seminar&lt;/em&gt;&lt;br /&gt;
-Sep 10, 2013 &lt;strong&gt;14th Italian Conference on Theoretical Computer Science (ICTCS), Palermo&lt;/strong&gt;&lt;br /&gt;
-Jun 30, 2013 &lt;strong&gt;CSEDays. Theory 2013, Ekaterinburg&lt;/strong&gt; – &lt;em&gt;Summer School&lt;/em&gt;&lt;br /&gt;
-Jan 13, 2013 &lt;strong&gt;4th Innovations in Theoretical Computer Science (ITCS), Berkeley&lt;/strong&gt;&lt;br /&gt;
-Sep 27, 2012 &lt;strong&gt;Limits of Theorem Proving, Rome&lt;/strong&gt; – &lt;em&gt;Workshop&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;This series of talks is based on:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;span id=&quot;Bonacina-phdthesis&quot;&gt;Bonacina, I. 2015. &lt;b&gt;Space in weak propositional proof systems&lt;/b&gt;. Sapienza University of Rome.&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;span id=&quot;BG13-itcs&quot;&gt;Bonacina, I. and Galesi, N. 2013. &lt;b&gt;Pseudo-partitions, transversality and locality: A Combinatorial Characterization for the Space Measure in Algebraic Proof Systems&lt;/b&gt;. &lt;i&gt;4th Conf. Innov. Theor. Comput. Sci. – ITCS&lt;/i&gt; (2013), 455–472.&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;span id=&quot;BG15-jacm&quot;&gt;Bonacina, I. and Galesi, N. 2015. &lt;b&gt;A Framework for Space Complexity in Algebraic Proof Systems&lt;/b&gt;. &lt;i&gt;J. ACM&lt;/i&gt;. 62, 3 (Jun. 2015), 1–20.&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;span id=&quot;BBGHMW17-infocomp&quot;&gt;Bennett, P., Bonacina, I., Galesi, N., Huynh, T., Molloy, M. and Wollan, P. 2017. &lt;b&gt;Space proof complexity for random 3-CNFs&lt;/b&gt;. &lt;i&gt;Information and Computation&lt;/i&gt;. 255, (2017), 165–176.&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><summary type="html">All Talks ⇦</summary></entry><entry><title type="html">Lower bounds: from circuits to QBF proof systems</title><link href="http://localhost:4000/talks/2016/08/26/Talk-Lower-bounds-QBF.html" rel="alternate" type="text/html" title="Lower bounds: from circuits to QBF proof systems" /><published>2016-08-26T13:00:00+02:00</published><updated>2016-08-26T13:00:00+02:00</updated><id>http://localhost:4000/talks/2016/08/26/Talk-Lower-bounds-QBF</id><content type="html" xml:base="http://localhost:4000/talks/2016/08/26/Talk-Lower-bounds-QBF.html">&lt;p&gt;&lt;a href=&quot;/talks&quot;&gt;All Talks ⇦&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;lower-bounds-from-circuits-to-qbf-proof-systems&quot;&gt;&lt;strong&gt;Lower bounds: from circuits to QBF proof systems&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;Aug 26 , 2016 &lt;strong&gt;University of Toronto&lt;/strong&gt; – &lt;em&gt;Theory Seminars&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;A general and long-standing belief in the proof complexity community asserts that
-there is a close connection between progress in lower bounds for Boolean circuits
-and progress in proof size lower bounds for strong propositional proof systems.
-Although there are famous examples where a transfer from ideas and techniques from
-circuit complexity to proof complexity has been effective, a formal connection
-between the two areas has never been established so far. Here we provide such a
-formal relation between lower bounds for circuit classes and lower bounds for Frege
-systems for quantified Boolean formulas (QBF). Using the full spectrum of the
-state-of-the-art circuit complexity lower bounds we will prove lower bounds for
-very strong QBF proof systems (e.g. for what we called AC_0[p]-FREGE + \forall red).
-Such lower bounds corresponds, in the propositional case, to major open problems
-in proof complexity.&lt;/p&gt;
-
-&lt;p&gt;Previous on this theme were given in:&lt;/p&gt;
-
-&lt;p&gt;Jun 20, 2016 &lt;strong&gt;Technion Israel Institute of Technology, Haifa&lt;/strong&gt;&lt;br /&gt;
-Jan 15, 2016 &lt;strong&gt;7th Annual Innovations in Theoretical Computer Science (ITCS), Cambridge MA&lt;/strong&gt;&lt;br /&gt;
-Nov 23,2015 &lt;strong&gt;KTH Royal Institute of Technology&lt;/strong&gt; – &lt;em&gt;Complexity Seminar&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;This series of talks is based on:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;span id=&quot;BBC16-itcs&quot;&gt;Beyersdorff, O., Bonacina, I. and Leroy, C. 2016. &lt;b&gt;Lower Bounds: From Circuits to QBF Proof Systems&lt;/b&gt;. &lt;i&gt;7th Conf. Innov. Theor. Comput. Sci. – ITCS&lt;/i&gt; (2016), 249–260.&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><summary type="html">All Talks ⇦</summary></entry></feed>
+&lt;none class=&quot;bibliography&quot; reversed=&quot;reversed&quot;&gt;&lt;none&gt;bib-thesis&lt;/none&gt;&lt;/none&gt;</content><summary type="html">My PhD thesis “Space in weak propositional proof systems” was awarded “Best Italian PhD Thesis in Theoretical Computer Science” for the year 2016 by the Italian chapter of the EATCS. See here for the list of all previous winners.</summary></entry></feed>
