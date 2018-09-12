@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-05T17:12:17+02:00</updated><id>http://localhost:4000//</id><title type="html">Ilario Bonacina</title><subtitle></subtitle><entry><title type="html">TiKz &amp;amp; co</title><link href="http://localhost:4000/TiKz/" rel="alternate" type="text/html" title="TiKz &amp; co" /><published>2018-09-05T00:00:00+02:00</published><updated>2018-09-05T00:00:00+02:00</updated><id>http://localhost:4000/TiKz</id><content type="html" xml:base="http://localhost:4000/TiKz/">&lt;h2 id=&quot;tikz-amp-co&quot;&gt;&lt;strong&gt;TiKz &amp;amp; co&lt;/strong&gt;&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-12T11:08:58+02:00</updated><id>http://localhost:4000//</id><title type="html">Ilario Bonacina</title><subtitle></subtitle><entry><title type="html">TiKz &amp;amp; co</title><link href="http://localhost:4000/tikz/" rel="alternate" type="text/html" title="TiKz &amp; co" /><published>2018-09-05T00:00:00+02:00</published><updated>2018-09-05T00:00:00+02:00</updated><id>http://localhost:4000/TiKz</id><content type="html" xml:base="http://localhost:4000/tikz/">&lt;h2 id=&quot;tikz-amp-co&quot;&gt;&lt;strong&gt;TiKz &amp;amp; co&lt;/strong&gt;&lt;/h2&gt;
 
 &lt;p&gt;Complete &lt;em&gt;k&lt;/em&gt;-partite graph&lt;br /&gt;
 &lt;a href=&quot;/tikz/complete k-partite graph.tex&quot;&gt;TeX&lt;/a&gt; / &lt;a href=&quot;/tikz/complete k-partite graph.svg&quot;&gt;svg&lt;/a&gt;&lt;br /&gt;
-&lt;img src=&quot;/tikz/complete k-partite graph.svg&quot; alt=&quot;Complete *k*-partite graph&quot; style=&quot;margin-left: 100px;height: 240px;&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/tikz/complete k-partite graph.svg&quot; alt=&quot;Complete *k*-partite graph&quot; style=&quot;margin-left: 100px;height: 300px;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Erdos-Renyi graph&lt;br /&gt;
 &lt;a href=&quot;/tikz/Erdos-Renyi graph.tex&quot;&gt;TeX&lt;/a&gt; / &lt;a href=&quot;/tikz/Erdos-Renyi graph.svg&quot;&gt;svg&lt;/a&gt;&lt;br /&gt;
-&lt;img src=&quot;/tikz/Erdos-Renyi graph.svg&quot; alt=&quot;Complete *k*-partite graph&quot; style=&quot;margin-left: 100px;height: 240px;&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/tikz/Erdos-Renyi graph.svg&quot; alt=&quot;Complete *k*-partite graph&quot; style=&quot;margin-left: 100px;height: 300px;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Example of irregular resolution refutation of minimal size&lt;br /&gt;
 &lt;a href=&quot;/tikz/Example Irregular refutation.tex&quot;&gt;TeX&lt;/a&gt; / &lt;a href=&quot;/tikz/Example Irregular refutation.jpg&quot;&gt;jpg&lt;/a&gt;&lt;br /&gt;
-&lt;img src=&quot;/tikz/Example Irregular refutation.jpg&quot; alt=&quot;Complete *k*-partite graph&quot; style=&quot;margin-left: 100px;height: 240px;&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/tikz/Example Irregular refutation.jpg&quot; alt=&quot;Complete *k*-partite graph&quot; style=&quot;margin-left: 100px;height: 305px;&quot; /&gt;&lt;/p&gt;
 
 &lt;none class=&quot;bibliography&quot; reversed=&quot;reversed&quot;&gt;&lt;none&gt;&lt;div id=&quot;HY.87&quot;&gt;
   &lt;span id=&quot;HY.87&quot;&gt;[1]Huang, W. and Yu, X. 1987. &lt;b&gt;A DNF without Regular Shortest Consensus Path&lt;/b&gt;. &lt;i&gt;SIAM J. Comput.&lt;/i&gt; 16, 5 (1987), 836–840.&lt;/span&gt;
@@ -86,10 +86,18 @@
 
   
 
+  
+
+  
+
 
 &lt;/div&gt;
 &lt;br /&gt;
-&lt;/none&gt;&lt;/none&gt;</content><summary type="html">TiKz &amp;amp; co</summary></entry><entry><title type="html">Resources for UPC visitors</title><link href="http://localhost:4000/visiting-UPC/" rel="alternate" type="text/html" title="Resources for UPC visitors" /><published>2018-05-10T00:00:00+02:00</published><updated>2018-05-10T00:00:00+02:00</updated><id>http://localhost:4000/resources-for-visitors</id><content type="html" xml:base="http://localhost:4000/visiting-UPC/">&lt;h2 id=&quot;resources-for-upc-visitors&quot;&gt;&lt;strong&gt;Resources for UPC visitors&lt;/strong&gt;&lt;/h2&gt;
+&lt;/none&gt;&lt;/none&gt;
+
+&lt;p&gt;Example of flexible polyhedron with 9 vertices&lt;br /&gt;
+&lt;a href=&quot;/tikz/steffen.tex&quot;&gt;TeX&lt;/a&gt; / &lt;a href=&quot;/tikz/steffen.jpg&quot;&gt;jpg&lt;/a&gt;&lt;br /&gt;
+&lt;img src=&quot;/tikz/steffen.jpg&quot; alt=&quot;Steffen flexible polyhedron&quot; style=&quot;margin-left: 100px;height: 600px;&quot; /&gt;&lt;/p&gt;</content><summary type="html">TiKz &amp;amp; co</summary></entry><entry><title type="html">Resources for UPC visitors</title><link href="http://localhost:4000/visiting-UPC/" rel="alternate" type="text/html" title="Resources for UPC visitors" /><published>2018-05-10T00:00:00+02:00</published><updated>2018-05-10T00:00:00+02:00</updated><id>http://localhost:4000/resources-for-visitors</id><content type="html" xml:base="http://localhost:4000/visiting-UPC/">&lt;h2 id=&quot;resources-for-upc-visitors&quot;&gt;&lt;strong&gt;Resources for UPC visitors&lt;/strong&gt;&lt;/h2&gt;
 
 &lt;p&gt;I have been told that some suggestions for visitors might be helpful so here they are.&lt;/p&gt;
 
@@ -232,6 +240,10 @@ My PhD thesis &lt;a href=&quot;http://www.springer.com/us/book/9783319734521&quo
 
   
 
+  
+
+  
+
 
 &lt;/div&gt;
 &lt;br /&gt;
@@ -287,6 +299,10 @@ Jan 30, 2018 &lt;strong&gt;Dagstuhl Seminar 18051&lt;/strong&gt; – &lt;em&gt;P
             &lt;/strong&gt;
           &lt;/button&gt;
         &lt;/a&gt;
+  
+
+  
+
   
 
   
@@ -451,6 +467,10 @@ Feb 07, 2014 &lt;strong&gt;KTH Royal Institute of Technology, Stockholm&lt;/stro
 
   
 
+  
+
+  
+
 
 &lt;/div&gt;
 &lt;br /&gt;
@@ -509,6 +529,10 @@ Feb 07, 2014 &lt;strong&gt;KTH Royal Institute of Technology, Stockholm&lt;/stro
             &lt;/strong&gt;
           &lt;/button&gt;
         &lt;/a&gt;
+  
+
+  
+
   
 
   
@@ -623,6 +647,10 @@ Feb 07, 2014 &lt;strong&gt;KTH Royal Institute of Technology, Stockholm&lt;/stro
 
   
 
+  
+
+  
+
 
 &lt;/div&gt;
 &lt;br /&gt;
@@ -651,6 +679,10 @@ Mar 21, 2014 &lt;strong&gt;KTH Royal Institute of Technology&lt;/strong&gt; – 
   &lt;/a&gt;
   
   
+  
+
+  
+
   
 
   
@@ -803,6 +835,10 @@ Mar 21, 2014 &lt;strong&gt;KTH Royal Institute of Technology&lt;/strong&gt; – 
 
   
 
+  
+
+  
+
 
 &lt;/div&gt;
 &lt;br /&gt;
@@ -857,6 +893,10 @@ Mar 21, 2014 &lt;strong&gt;KTH Royal Institute of Technology&lt;/strong&gt; – 
             &lt;/strong&gt;
           &lt;/button&gt;
         &lt;/a&gt;
+  
+
+  
+
   
 
   
