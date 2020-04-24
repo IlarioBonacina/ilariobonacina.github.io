@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-05T20:22:23+01:00</updated><id>http://localhost:4000//</id><title type="html">Ilario Bonacina</title><subtitle></subtitle><entry><title type="html">TiKz &amp;amp; co</title><link href="http://localhost:4000/tikz/" rel="alternate" type="text/html" title="TiKz &amp; co" /><published>2018-09-05T00:00:00+02:00</published><updated>2018-09-05T00:00:00+02:00</updated><id>http://localhost:4000/TiKz</id><content type="html" xml:base="http://localhost:4000/tikz/">&lt;h2 id=&quot;tikz-amp-co&quot;&gt;&lt;strong&gt;TiKz &amp;amp; co&lt;/strong&gt;&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-24T10:51:30+02:00</updated><id>http://localhost:4000//</id><title type="html">Ilario Bonacina</title><subtitle></subtitle><entry><title type="html">TiKz &amp;amp; co</title><link href="http://localhost:4000/tikz/" rel="alternate" type="text/html" title="TiKz &amp; co" /><published>2018-09-05T00:00:00+02:00</published><updated>2018-09-05T00:00:00+02:00</updated><id>http://localhost:4000/TiKz</id><content type="html" xml:base="http://localhost:4000/tikz/">&lt;h2 id=&quot;tikz-amp-co&quot;&gt;&lt;strong&gt;TiKz &amp;amp; co&lt;/strong&gt;&lt;/h2&gt;
 
 &lt;p&gt;Complete &lt;em&gt;k&lt;/em&gt;-partite graph&lt;br /&gt;
 &lt;a href=&quot;/tikz/complete k-partite graph.tex&quot;&gt;TeX&lt;/a&gt; / &lt;a href=&quot;/tikz/complete k-partite graph.svg&quot;&gt;svg&lt;/a&gt;&lt;br /&gt;
@@ -20,6 +20,12 @@
   &lt;/a&gt;
   
   
+  
+
+  
+
+  
+
   
 
   
@@ -205,6 +211,10 @@ My PhD thesis &lt;a href=&quot;http://www.springer.com/us/book/9783319734521&quo
   
 
   
+
+  
+
+  
         &lt;a href=&quot;/pdf/Bonacina-phdthesis.pdf&quot; target=&quot;_blank&quot;&gt;
           &lt;button type=&quot;button&quot;&gt;
             &lt;strong&gt;
@@ -212,6 +222,8 @@ My PhD thesis &lt;a href=&quot;http://www.springer.com/us/book/9783319734521&quo
             &lt;/strong&gt;
           &lt;/button&gt;
         &lt;/a&gt;
+  
+
   
 
   
@@ -349,6 +361,12 @@ Jan 30, 2018 &lt;strong&gt;Dagstuhl Seminar 18051&lt;/strong&gt; – &lt;em&gt;P
 
   
 
+  
+
+  
+
+  
+
 
 &lt;/div&gt;
 &lt;br /&gt;
@@ -418,6 +436,8 @@ Feb 07, 2014 &lt;strong&gt;KTH Royal Institute of Technology, Stockholm&lt;/stro
   
 
   
+
+  
         &lt;a href=&quot;/pdf/BGT16-siamjcomp.pdf&quot; target=&quot;_blank&quot;&gt;
           &lt;button type=&quot;button&quot;&gt;
             &lt;strong&gt;
@@ -425,6 +445,10 @@ Feb 07, 2014 &lt;strong&gt;KTH Royal Institute of Technology, Stockholm&lt;/stro
             &lt;/strong&gt;
           &lt;/button&gt;
         &lt;/a&gt;
+  
+
+  
+
   
 
   
@@ -512,6 +536,10 @@ Feb 07, 2014 &lt;strong&gt;KTH Royal Institute of Technology, Stockholm&lt;/stro
   
 
   
+
+  
+
+  
         &lt;a href=&quot;/pdf/Bon16-icalp.pdf&quot; target=&quot;_blank&quot;&gt;
           &lt;button type=&quot;button&quot;&gt;
             &lt;strong&gt;
@@ -519,6 +547,8 @@ Feb 07, 2014 &lt;strong&gt;KTH Royal Institute of Technology, Stockholm&lt;/stro
             &lt;/strong&gt;
           &lt;/button&gt;
         &lt;/a&gt;
+  
+
   
 
   
@@ -563,6 +593,8 @@ Feb 07, 2014 &lt;strong&gt;KTH Royal Institute of Technology, Stockholm&lt;/stro
   &lt;/a&gt;
   
   
+  
+
   
 
   
@@ -639,6 +671,10 @@ Feb 07, 2014 &lt;strong&gt;KTH Royal Institute of Technology, Stockholm&lt;/stro
 
   
 
+  
+
+  
+
 
 &lt;/div&gt;
 &lt;br /&gt;
@@ -650,7 +686,8 @@ Feb 07, 2014 &lt;strong&gt;KTH Royal Institute of Technology, Stockholm&lt;/stro
 
 &lt;p&gt;Talks on this topic were given on:&lt;/p&gt;
 
-&lt;p&gt;Nov 21, 2016 &lt;strong&gt;KTH Royal Institute of Technology, Stockholm&lt;/strong&gt; – Complexity Seminar*
+&lt;p&gt;Jan 23, 2020 &lt;strong&gt;BIRS workshop&lt;/strong&gt; – &lt;em&gt;Proof Complexity&lt;/em&gt; – &lt;a href=&quot;/slides/BT-banff.pdf&quot;&gt;slides&lt;/a&gt;&lt;br /&gt;
+Nov 21, 2016 &lt;strong&gt;KTH Royal Institute of Technology, Stockholm&lt;/strong&gt; – Complexity Seminar&lt;br /&gt;
 Sep 19, 2016 &lt;strong&gt;Dagstuhl Seminar 16381&lt;/strong&gt; – &lt;em&gt;SAT and Interactions&lt;/em&gt;&lt;br /&gt;
 Oct 01, 2015 &lt;strong&gt;Universitat Politècnica de Catalunya, Barcelona&lt;/strong&gt; – Complexity Seminar&lt;br /&gt;
 Jun 24, 2015 &lt;strong&gt;University of Edinburgh, UK&lt;/strong&gt; – Complexity Seminar&lt;br /&gt;
@@ -697,6 +734,20 @@ Mar 21, 2014 &lt;strong&gt;KTH Royal Institute of Technology&lt;/strong&gt; – 
 
   
 
+  
+
+  
+
+  
+
+  
+        &lt;a href=&quot;/pdf/BT16-algorithmica.pdf&quot; target=&quot;_blank&quot;&gt;
+          &lt;button type=&quot;button&quot;&gt;
+            &lt;strong&gt;
+              &amp;#8680; pdf
+            &lt;/strong&gt;
+          &lt;/button&gt;
+        &lt;/a&gt;
   
 
   
@@ -782,6 +833,10 @@ Mar 21, 2014 &lt;strong&gt;KTH Royal Institute of Technology&lt;/strong&gt; – 
   
 
   
+
+  
+
+  
         &lt;a href=&quot;/pdf/BT16-ipl.pdf&quot; target=&quot;_blank&quot;&gt;
           &lt;button type=&quot;button&quot;&gt;
             &lt;strong&gt;
@@ -789,6 +844,8 @@ Mar 21, 2014 &lt;strong&gt;KTH Royal Institute of Technology&lt;/strong&gt; – 
             &lt;/strong&gt;
           &lt;/button&gt;
         &lt;/a&gt;
+  
+
   
 
   
@@ -868,6 +925,8 @@ Mar 21, 2014 &lt;strong&gt;KTH Royal Institute of Technology&lt;/strong&gt; – 
   
 
   
+
+  
         &lt;a href=&quot;/pdf/BT15-ipec.pdf&quot; target=&quot;_blank&quot;&gt;
           &lt;button type=&quot;button&quot;&gt;
             &lt;strong&gt;
@@ -875,6 +934,10 @@ Mar 21, 2014 &lt;strong&gt;KTH Royal Institute of Technology&lt;/strong&gt; – 
             &lt;/strong&gt;
           &lt;/button&gt;
         &lt;/a&gt;
+  
+
+  
+
   
 
   
