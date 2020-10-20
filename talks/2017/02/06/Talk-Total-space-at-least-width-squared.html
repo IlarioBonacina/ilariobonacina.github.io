@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
-  <head>
+<html lang="en"><head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,20 +31,13 @@
 </script>
 
 </head>
-
-
-  <body>
-
-    <header class="site-header" role="banner">
+<body><header class="site-header" role="banner">
   <div class="wrapper">
     <a class="site-title"  href="/">
-      <strong>
-        <font font-size="xx-large;" style="color: #ff8000;">
+        <site-title>
           Ilario Bonacina
-        </font>
-      </strong>
+        </site-title>
     </a>
-  </h1>
     <nav class="site-nav">
         
         
@@ -56,38 +47,37 @@
         
           
               <a class="page-link active" href="/research/">
-                Publications
+                <site-nav-bar>Publications
+                  </site-nav-bar>
               </a>
           
         
           
               <a class="page-link active" href="/talks/">
-                Talks
+                <site-nav-bar>Talks
+                  </site-nav-bar>
               </a>
-          
-        
           
         
           
         
           
               <a class="page-link active" href="/misc/">
-                Misc
+                <site-nav-bar>Misc
+                  </site-nav-bar>
               </a>
           
         
     </nav>
   </div>
 </header>
-
-
-    <main class="page-content" aria-label="Content">
+<main class="page-content" aria-label="Content">
       <div class="wrapper">
         <p><a href="/talks">All Talks ⇦</a></p>
 
 <h2 id="total-space-in-resolution"><strong>Total space in resolution</strong></h2>
 
-<p>In this series of talks we cover some results on the space complexity of Resolution and in particular a connection between total space and width. Given a k-CNF formula F, the width is the minimal integer W such that there exists a Resolution refutation of <script type="math/tex">F</script> with clauses of at most W literals. The total space is the minimal size T of a memory used to write down a Resolution refutation of F, where the size of the memory is measured as the total number of literals it can contain. We show that T=\Omega((W-k)^2). This connection between total space and width relies on some basic properties of another, perhaps less known, complexity measure in Resolution: the “asymmetric width”.</p>
+<p>In this series of talks we cover some results on the space complexity of Resolution and in particular a connection between total space and width. Given a \(k\)-CNF formula \(F\), the width is the minimal integer \(W\) such that there exists a Resolution refutation of \(F\) with clauses of at most \(W\) literals. The total space is the minimal size \(T\) of a memory used to write down a Resolution refutation of \(F\), where the size of the memory is measured as the total number of literals it can contain. We show that \(T=\Omega((W-k)^2)\). This connection between total space and width relies on some basic properties of another, perhaps less known, complexity measure in Resolution: the “asymmetric width”.</p>
 
 <p>Talks on this theme were given on:</p>
 
@@ -101,13 +91,16 @@ Oct 16, 2014 <strong>Dagstuhl Seminar 14421</strong> –  <em>Optimal algorithms
 Jul 13, 2014 <strong>Vienna Summer of Logic, Wien</strong> – <em>Workshop on proof complexity</em><br />
 Feb 07, 2014 <strong>KTH Royal Institute of Technology, Stockholm</strong> – Complexity Seminar</p>
 
-<p>These talks are based on <a href="#Bon16-icalp">[1, 2, 3]</a>.</p>
+<p>These talks are based on <a class="citation" href="#Bon16-icalp">[1, 2, 3]</a>.</p>
 
 <none class="bibliography" reversed="reversed"><none><div id="BGT16-siamjcomp">
   <span id="BGT16-siamjcomp">[1]Bonacina, I., Galesi, N. and Thapen, N. 2016. <b>Total Space in Resolution</b>. <i>SIAM J. Comput.</i> 45, 5 (Jan. 2016), 1894–1909.</span>
+  <br />
   
   <a href="http://dx.doi.org/10.1137/15M1023269" target="_blank">
-    &#8680; doi
+    <button type="button">
+        doi
+    </button>
   </a>
   
   
@@ -146,9 +139,7 @@ Feb 07, 2014 <strong>KTH Royal Institute of Technology, Stockholm</strong> – C
   
         <a href="/pdf/BGT16-siamjcomp.pdf" target="_blank">
           <button type="button">
-            <strong>
-              &#8680; pdf
-            </strong>
+              pdf
           </button>
         </a>
   
@@ -193,15 +184,34 @@ Feb 07, 2014 <strong>KTH Royal Institute of Technology, Stockholm</strong> – C
 
   
 
+  
 
+<button type="button" data-toggle="collapse" data-target="#BGT16-siamjcomp-bibtex">
+  <a style="color:$link-color">bib</a>
+</button>
+<pre id="BGT16-siamjcomp-bibtex" class="collapse">@article{BGT16-siamjcomp,
+  author = {Bonacina, Ilario and Galesi, Nicola and Thapen, Neil},
+  title = {{Total Space in Resolution}},
+  journal = {SIAM J. Comput.},
+  volume = {45},
+  number = {5},
+  pages = {1894--1909},
+  month = jan,
+  year = {2016},
+  doi = {10.1137/15M1023269}
+}
+</pre>
 </div>
 <br />
 </none>
 <none><div id="Bon16-icalp">
   <span id="Bon16-icalp">[2]Bonacina, I. 2016. <b>Total Space in Resolution is at Least Width Squared</b>. <i>43rd International Colloquium on Automata, Languages, and Programming – ICALP</i> (2016), 56:1–56:13.</span>
+  <br />
   
   <a href="http://dx.doi.org/10.4230/LIPIcs.ICALP.2016.56" target="_blank">
-    &#8680; doi
+    <button type="button">
+        doi
+    </button>
   </a>
   
   
@@ -248,9 +258,7 @@ Feb 07, 2014 <strong>KTH Royal Institute of Technology, Stockholm</strong> – C
   
         <a href="/pdf/Bon16-icalp.pdf" target="_blank">
           <button type="button">
-            <strong>
-              &#8680; pdf
-            </strong>
+              pdf
           </button>
         </a>
   
@@ -287,15 +295,32 @@ Feb 07, 2014 <strong>KTH Royal Institute of Technology, Stockholm</strong> – C
 
   
 
+  
 
+<button type="button" data-toggle="collapse" data-target="#Bon16-icalp-bibtex">
+  <a style="color:$link-color">bib</a>
+</button>
+<pre id="Bon16-icalp-bibtex" class="collapse">@inproceedings{Bon16-icalp,
+  author = {Bonacina, Ilario},
+  title = {{Total Space in Resolution is at Least Width Squared}},
+  booktitle = {43rd International Colloquium on Automata, Languages, and Programming -- ICALP},
+  pages = {56:1--56:13},
+  year = {2016},
+  volume = {55},
+  doi = {10.4230/LIPIcs.ICALP.2016.56}
+}
+</pre>
 </div>
 <br />
 </none>
 <none><div id="BGT14-focs">
   <span id="BGT14-focs">[3]Bonacina, I., Galesi, N. and Thapen, N. 2014. <b>Total Space in Resolution</b>. <i>55th Annu. Symp. Found. Comput. Sci. – FOCS</i> (Oct. 2014), 641–650.</span>
+  <br />
   
   <a href="http://dx.doi.org/10.1109/FOCS.2014.74" target="_blank">
-    &#8680; doi
+    <button type="button">
+        doi
+    </button>
   </a>
   
   
@@ -332,9 +357,7 @@ Feb 07, 2014 <strong>KTH Royal Institute of Technology, Stockholm</strong> – C
   
         <a href="/pdf/BGT14-focs.pdf" target="_blank">
           <button type="button">
-            <strong>
-              &#8680; pdf
-            </strong>
+              pdf
           </button>
         </a>
   
@@ -381,16 +404,27 @@ Feb 07, 2014 <strong>KTH Royal Institute of Technology, Stockholm</strong> – C
 
   
 
+  
 
+<button type="button" data-toggle="collapse" data-target="#BGT14-focs-bibtex">
+  <a style="color:$link-color">bib</a>
+</button>
+<pre id="BGT14-focs-bibtex" class="collapse">@inproceedings{BGT14-focs,
+  author = {Bonacina, Ilario and Galesi, Nicola and Thapen, Neil},
+  title = {{Total Space in Resolution}},
+  booktitle = {55th Annu. Symp. Found. Comput. Sci. -- FOCS},
+  pages = {641--650},
+  volume = {38},
+  year = {2014},
+  month = oct,
+  doi = {10.1109/FOCS.2014.74}
+}
+</pre>
 </div>
 <br />
 </none></none>
 
       </div>
-    </main>
-
-    
-
-  </body>
+    </main></body>
 
 </html>

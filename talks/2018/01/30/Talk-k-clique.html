@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
-  <head>
+<html lang="en"><head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,20 +31,13 @@
 </script>
 
 </head>
-
-
-  <body>
-
-    <header class="site-header" role="banner">
+<body><header class="site-header" role="banner">
   <div class="wrapper">
     <a class="site-title"  href="/">
-      <strong>
-        <font font-size="xx-large;" style="color: #ff8000;">
+        <site-title>
           Ilario Bonacina
-        </font>
-      </strong>
+        </site-title>
     </a>
-  </h1>
     <nav class="site-nav">
         
         
@@ -56,41 +47,39 @@
         
           
               <a class="page-link active" href="/research/">
-                Publications
+                <site-nav-bar>Publications
+                  </site-nav-bar>
               </a>
           
         
           
               <a class="page-link active" href="/talks/">
-                Talks
+                <site-nav-bar>Talks
+                  </site-nav-bar>
               </a>
-          
-        
           
         
           
         
           
               <a class="page-link active" href="/misc/">
-                Misc
+                <site-nav-bar>Misc
+                  </site-nav-bar>
               </a>
           
         
     </nav>
   </div>
 </header>
-
-
-    <main class="page-content" aria-label="Content">
+<main class="page-content" aria-label="Content">
       <div class="wrapper">
         <p><a href="/talks">All Talks ⇦</a></p>
 
 <h2 id="clique-is-hard-on-average-for-regular-resolution"><strong>Clique is hard on average for regular resolution</strong></h2>
 
-<p>Deciding whether a graph G with n vertices has a k-clique is one of the most basic computational problems on graphs. In this talk we show
-that certifying k-clique-freeness of Erdos-Renyi random graphs is hard for regular resolution. More precisely we show that for
-k«\sqrt{n} regular resolution asymptotically almost surely requires length n^{\Omega(k)} to establish that an Erdos-Renyi random graph
-(with appropriate edge density) does not contain a k-clique. This
+<p>Deciding whether a graph \(G\) with \(n\) vertices has a \(k\)-clique is one of the most basic computational problems on graphs. In this talk we show that certifying \(k\)-clique-freeness of Erdos-Renyi random graphs is hard for regular resolution. More precisely we show that for
+\(k\ll\sqrt{n}\) regular resolution asymptotically almost surely requires length \(n^{\Omega(k)}\) to establish that an Erdos-Renyi random graph
+(with appropriate edge density) does not contain a \(k\)-clique. This
 asymptotically optimal result implies unconditional lower bunds on
 the running time of several state-of-the-art algorithms used in
 practice.</p>
@@ -102,13 +91,16 @@ Jul 20, 2018 <strong>RaTLoCC 2018: Ramsey Theory in Logic, Combinatorics and Com
 Jun 28, 2018  <strong>50th Annual ACM Symposium on the Theory of Computing (STOC), Los Angeles CA</strong> – <a href="/slides/ABDLNR-STOC-poster.pdf">Poster</a><br />
 Jan 30, 2018 <strong>Dagstuhl Seminar 18051</strong> – <em>Proof Complexity</em>  – <a href="/slides/.pdf">Slides</a></p>
 
-<p>These talks are based on <a href="#ABDLNR18-stoc">[1]</a>.</p>
+<p>These talks are based on <a class="citation" href="#ABDLNR18-stoc">[1]</a>.</p>
 
 <none class="bibliography" reversed="reversed"><none><div id="ABDLNR18-stoc">
-  <span id="ABDLNR18-stoc">[1]Atserias, A., Bonacina, I., Rezende, S.F. de, Lauria, M., Nordström, J. and Razborov, A. 2018. <b>Clique is Hard on Average for Regular Resolution</b>. <i>Proceedings of the 50th Annual ACM SIGACT Symposium on Theory of Computing</i> (New York, NY, USA, 2018), 866–877.</span>
+  <span id="ABDLNR18-stoc">[1]Atserias, A., Bonacina, I., de Rezende, S.F., Lauria, M., Nordström, J. and Razborov, A. 2018. <b>Clique is Hard on Average for Regular Resolution</b>. <i>Proceedings of the 50th Annual ACM SIGACT Symposium on Theory of Computing – STOC</i> (New York, NY, USA, 2018), 866–877.</span>
+  <br />
   
   <a href="http://dx.doi.org/10.1145/3188745.3188856" target="_blank">
-    &#8680; doi
+    <button type="button">
+        doi
+    </button>
   </a>
   
   
@@ -127,9 +119,7 @@ Jan 30, 2018 <strong>Dagstuhl Seminar 18051</strong> – <em>Proof Complexity</e
   
         <a href="/pdf/ABDLNR18-stoc.pdf" target="_blank">
           <button type="button">
-            <strong>
-              &#8680; pdf
-            </strong>
+              pdf
           </button>
         </a>
   
@@ -194,16 +184,34 @@ Jan 30, 2018 <strong>Dagstuhl Seminar 18051</strong> – <em>Proof Complexity</e
 
   
 
+  
 
+<button type="button" data-toggle="collapse" data-target="#ABDLNR18-stoc-bibtex">
+  <a style="color:$link-color">bib</a>
+</button>
+<pre id="ABDLNR18-stoc-bibtex" class="collapse">@inproceedings{ABDLNR18-stoc,
+  author = {Atserias, Albert and Bonacina, Ilario and de\ Rezende, Susanna F. and Lauria, Massimo and Nordstr\"{o}m, Jakob and Razborov, Alexander},
+  title = {Clique is Hard on Average for Regular Resolution},
+  booktitle = {Proceedings of the 50th Annual ACM SIGACT Symposium on Theory of Computing -- STOC},
+  series = {STOC 2018},
+  year = {2018},
+  isbn = {978-1-4503-5559-9},
+  location = {Los Angeles, CA, USA},
+  pages = {866--877},
+  numpages = {12},
+  url = {http://doi.acm.org/10.1145/3188745.3188856},
+  doi = {10.1145/3188745.3188856},
+  acmid = {3188856},
+  publisher = {ACM},
+  address = {New York, NY, USA},
+  keywords = {Erdos-Renyi random graphs, Proof complexity, k-clique, regular resolution}
+}
+</pre>
 </div>
 <br />
 </none></none>
 
       </div>
-    </main>
-
-    
-
-  </body>
+    </main></body>
 
 </html>

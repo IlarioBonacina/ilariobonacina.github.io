@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
-  <head>
+<html lang="en"><head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,20 +31,13 @@
 </script>
 
 </head>
-
-
-  <body>
-
-    <header class="site-header" role="banner">
+<body><header class="site-header" role="banner">
   <div class="wrapper">
     <a class="site-title"  href="/">
-      <strong>
-        <font font-size="xx-large;" style="color: #ff8000;">
+        <site-title>
           Ilario Bonacina
-        </font>
-      </strong>
+        </site-title>
     </a>
-  </h1>
     <nav class="site-nav">
         
         
@@ -56,13 +47,15 @@
         
           
               <a class="page-link active" href="/research/">
-                Publications
+                <site-nav-bar>Publications
+                  </site-nav-bar>
               </a>
           
         
           
               <a class="page-link active" href="/talks/">
-                Talks
+                <site-nav-bar>Talks
+                  </site-nav-bar>
               </a>
           
         
@@ -72,23 +65,22 @@
         
           
               <a class="page-link active" href="/misc/">
-                Misc
+                <site-nav-bar>Misc
+                  </site-nav-bar>
               </a>
           
         
     </nav>
   </div>
 </header>
-
-
-    <main class="page-content" aria-label="Content">
+<main class="page-content" aria-label="Content">
       <div class="wrapper">
         <h2 id="publications"><strong>Publications</strong></h2>
 
 <h3 id="preprints"><strong>Preprints</strong></h3>
 
 <p>This section lists only works <span style="color:red">
-<strong>not</strong> peer-rewieved</span>, that is not yet published in conferences or journals (as of Apr 24, 2020) or expository notes. Older preprints might be listed at <a href="http://dblp.uni-trier.de/pers/hd/b/Bonacina:Ilario">dblp</a> or <a href="http://eccc.hpi-web.de/author/739/">ECCC</a>.</p>
+<strong>not</strong> peer-rewieved</span>, that is not yet published in conferences or journals (as of Oct 20, 2020) or expository notes. Older preprints might be listed at <a href="http://dblp.uni-trier.de/pers/hd/b/Bonacina:Ilario">dblp</a> or <a href="http://eccc.hpi-web.de/author/739/">ECCC</a>.</p>
 
 <none class="bibliography" reversed="reversed"></none>
 
@@ -111,10 +103,13 @@
 <h3 id="journal-articles"><strong>Journal Articles</strong></h3>
 
 <none class="bibliography" reversed="reversed"><none><div id="BBCP20-jacm">
-  <span id="BBCP20-jacm">[1]Beyersdorff, O., Bonacina, I., Chew, L. and Pich, J. 2020. <b>Frege Systems for Quantified Boolean Logic</b>. <i>Journal of the ACM</i>. 67, 2 (Apr. 2020), 1–36.</span>
+  <span id="BBCP20-jacm">[1]Beyersdorff, O., Bonacina, I., Chew, L. and Pich, J. 2020. <b>Frege Systems for Quantified Boolean Logic</b>. <i>J. ACM</i>. 67, 2 (Apr. 2020), 1–36.</span>
+  <br />
   
   <a href="http://dx.doi.org/10.1145/3381881" target="_blank">
-    &#8680; doi
+    <button type="button">
+        doi
+    </button>
   </a>
   
   
@@ -141,9 +136,7 @@
   
         <a href="/pdf/BBCP20-jacm.pdf" target="_blank">
           <button type="button">
-            <strong>
-              &#8680; pdf
-            </strong>
+              pdf
           </button>
         </a>
   
@@ -200,15 +193,130 @@
 
   
 
+  
 
+<button type="button" data-toggle="collapse" data-target="#BBCP20-jacm-bibtex">
+  <a style="color:$link-color">bib</a>
+</button>
+<pre id="BBCP20-jacm-bibtex" class="collapse">@article{BBCP20-jacm,
+  doi = {10.1145/3381881},
+  url = {https://doi.org/10.1145%2F3381881},
+  year = {2020},
+  month = apr,
+  publisher = {Association for Computing Machinery ({ACM})},
+  volume = {67},
+  number = {2},
+  pages = {1--36},
+  author = {Beyersdorff, Olaf and Bonacina, Ilario and Chew, Leroy and Pich, Jan},
+  title = {Frege Systems for Quantified Boolean Logic},
+  journal = {{J. ACM}}
+}
+</pre>
+</div>
+<br />
+</none>
+<none><div id="ABDLNR18-submitted">
+  <span id="ABDLNR18-submitted">[2]Atserias, A., Bonacina, I., de Rezende, S.F., Lauria, M., Nordström, J. and Razborov, A. 2020. <b>Clique is Hard on Average for Regular Resolution</b>. <i>submitted</i>. (2020).</span>
+  <br />
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+<button type="button" data-toggle="collapse" data-target="#ABDLNR18-submitted-bibtex">
+  <a style="color:$link-color">bib</a>
+</button>
+<pre id="ABDLNR18-submitted-bibtex" class="collapse">@article{ABDLNR18-submitted,
+  author = {Atserias, Albert and Bonacina, Ilario and de\ Rezende, Susanna F. and Lauria, Massimo and Nordstr\"{o}m, Jakob and Razborov, Alexander},
+  title = {Clique is Hard on Average for Regular Resolution},
+  journal = {submitted},
+  year = {2020}
+}
+</pre>
 </div>
 <br />
 </none>
 <none><div id="BBGHMW17-infocomp">
-  <span id="BBGHMW17-infocomp">[2]Bennett, P., Bonacina, I., Galesi, N., Huynh, T., Molloy, M. and Wollan, P. 2017. <b>Space proof complexity for random 3-CNFs</b>. <i>Information and Computation</i>. 255, (2017), 165–176.</span>
+  <span id="BBGHMW17-infocomp">[3]Bennett, P., Bonacina, I., Galesi, N., Huynh, T., Molloy, M. and Wollan, P. 2017. <b>Space proof complexity for random 3-CNFs</b>. <i>Information and Computation</i>. 255, (2017), 165–176.</span>
+  <br />
   
   <a href="http://dx.doi.org/10.1016/j.ic.2017.06.003" target="_blank">
-    &#8680; doi
+    <button type="button">
+        doi
+    </button>
   </a>
   
   
@@ -239,9 +347,7 @@
   
         <a href="/pdf/BBGHMW17-infocomp.pdf" target="_blank">
           <button type="button">
-            <strong>
-              &#8680; pdf
-            </strong>
+              pdf
           </button>
         </a>
   
@@ -294,15 +400,33 @@
 
   
 
+  
 
+<button type="button" data-toggle="collapse" data-target="#BBGHMW17-infocomp-bibtex">
+  <a style="color:$link-color">bib</a>
+</button>
+<pre id="BBGHMW17-infocomp-bibtex" class="collapse">@article{BBGHMW17-infocomp,
+  author = {Bennett, Patrick and Bonacina, Ilario and Galesi, Nicola and Huynh, Tony and Molloy, Mike and Wollan, Paul},
+  title = {Space proof complexity for random 3-CNFs},
+  journal = {Information and Computation},
+  volume = {255},
+  number = {},
+  pages = {165--176},
+  year = {2017},
+  doi = {10.1016/j.ic.2017.06.003}
+}
+</pre>
 </div>
 <br />
 </none>
 <none><div id="BT16-algorithmica">
-  <span id="BT16-algorithmica">[3]Bonacina, I. and Talebanfard, N. 2016. <b>Strong ETH and Resolution via Games and the Multiplicity of Strategies</b>. <i>Algorithmica</i>. (Oct. 2016), 1–13.</span>
+  <span id="BT16-algorithmica">[4]Bonacina, I. and Talebanfard, N. 2016. <b>Strong ETH and Resolution via Games and the Multiplicity of Strategies</b>. <i>Algorithmica</i>. (Oct. 2016), 1–13.</span>
+  <br />
   
   <a href="http://dx.doi.org/10.1007/s00453-016-0228-6" target="_blank">
-    &#8680; doi
+    <button type="button">
+        doi
+    </button>
   </a>
   
   
@@ -345,9 +469,7 @@
   
         <a href="/pdf/BT16-algorithmica.pdf" target="_blank">
           <button type="button">
-            <strong>
-              &#8680; pdf
-            </strong>
+              pdf
           </button>
         </a>
   
@@ -388,15 +510,32 @@
 
   
 
+  
 
+<button type="button" data-toggle="collapse" data-target="#BT16-algorithmica-bibtex">
+  <a style="color:$link-color">bib</a>
+</button>
+<pre id="BT16-algorithmica-bibtex" class="collapse">@article{BT16-algorithmica,
+  author = {Bonacina, Ilario and Talebanfard, Navid},
+  title = {Strong ETH and Resolution via Games and the Multiplicity of Strategies},
+  journal = {Algorithmica},
+  pages = {1--13},
+  year = {2016},
+  month = oct,
+  doi = {10.1007/s00453-016-0228-6}
+}
+</pre>
 </div>
 <br />
 </none>
 <none><div id="BGT16-siamjcomp">
-  <span id="BGT16-siamjcomp">[4]Bonacina, I., Galesi, N. and Thapen, N. 2016. <b>Total Space in Resolution</b>. <i>SIAM J. Comput.</i> 45, 5 (Jan. 2016), 1894–1909.</span>
+  <span id="BGT16-siamjcomp">[5]Bonacina, I., Galesi, N. and Thapen, N. 2016. <b>Total Space in Resolution</b>. <i>SIAM J. Comput.</i> 45, 5 (Jan. 2016), 1894–1909.</span>
+  <br />
   
   <a href="http://dx.doi.org/10.1137/15M1023269" target="_blank">
-    &#8680; doi
+    <button type="button">
+        doi
+    </button>
   </a>
   
   
@@ -435,9 +574,7 @@
   
         <a href="/pdf/BGT16-siamjcomp.pdf" target="_blank">
           <button type="button">
-            <strong>
-              &#8680; pdf
-            </strong>
+              pdf
           </button>
         </a>
   
@@ -482,15 +619,34 @@
 
   
 
+  
 
+<button type="button" data-toggle="collapse" data-target="#BGT16-siamjcomp-bibtex">
+  <a style="color:$link-color">bib</a>
+</button>
+<pre id="BGT16-siamjcomp-bibtex" class="collapse">@article{BGT16-siamjcomp,
+  author = {Bonacina, Ilario and Galesi, Nicola and Thapen, Neil},
+  title = {{Total Space in Resolution}},
+  journal = {SIAM J. Comput.},
+  volume = {45},
+  number = {5},
+  pages = {1894--1909},
+  month = jan,
+  year = {2016},
+  doi = {10.1137/15M1023269}
+}
+</pre>
 </div>
 <br />
 </none>
 <none><div id="BT16-ipl">
-  <span id="BT16-ipl">[5]Bonacina, I. and Talebanfard, N. 2016. <b>Improving resolution width lower bounds for k-CNFs with applications to the Strong Exponential Time Hypothesis</b>. <i>Inf. Process. Lett.</i> 116, 2 (2016), 120–124.</span>
+  <span id="BT16-ipl">[6]Bonacina, I. and Talebanfard, N. 2016. <b>Improving resolution width lower bounds for k-CNFs with applications to the Strong Exponential Time Hypothesis</b>. <i>Inf. Process. Lett.</i> 116, 2 (2016), 120–124.</span>
+  <br />
   
   <a href="http://dx.doi.org/10.1016/j.ipl.2015.09.013" target="_blank">
-    &#8680; doi
+    <button type="button">
+        doi
+    </button>
   </a>
   
   
@@ -535,9 +691,7 @@
   
         <a href="/pdf/BT16-ipl.pdf" target="_blank">
           <button type="button">
-            <strong>
-              &#8680; pdf
-            </strong>
+              pdf
           </button>
         </a>
   
@@ -576,15 +730,33 @@
 
   
 
+  
 
+<button type="button" data-toggle="collapse" data-target="#BT16-ipl-bibtex">
+  <a style="color:$link-color">bib</a>
+</button>
+<pre id="BT16-ipl-bibtex" class="collapse">@article{BT16-ipl,
+  author = {Bonacina, Ilario and Talebanfard, Navid},
+  title = {{Improving resolution width lower bounds for k-CNFs with applications to the Strong Exponential Time Hypothesis}},
+  journal = {Inf. Process. Lett.},
+  volume = {116},
+  number = {2},
+  pages = {120--124},
+  year = {2016},
+  doi = {10.1016/j.ipl.2015.09.013}
+}
+</pre>
 </div>
 <br />
 </none>
 <none><div id="BG15-jacm">
-  <span id="BG15-jacm">[6]Bonacina, I. and Galesi, N. 2015. <b>A Framework for Space Complexity in Algebraic Proof Systems</b>. <i>J. ACM</i>. 62, 3 (Jun. 2015), 1–20.</span>
+  <span id="BG15-jacm">[7]Bonacina, I. and Galesi, N. 2015. <b>A Framework for Space Complexity in Algebraic Proof Systems</b>. <i>J. ACM</i>. 62, 3 (Jun. 2015), 1–20.</span>
+  <br />
   
   <a href="http://dx.doi.org/10.1145/2699438" target="_blank">
-    &#8680; doi
+    <button type="button">
+        doi
+    </button>
   </a>
   
   
@@ -619,9 +791,7 @@
   
         <a href="/pdf/BG15-jacm.pdf" target="_blank">
           <button type="button">
-            <strong>
-              &#8680; pdf
-            </strong>
+              pdf
           </button>
         </a>
   
@@ -670,7 +840,23 @@
 
   
 
+  
 
+<button type="button" data-toggle="collapse" data-target="#BG15-jacm-bibtex">
+  <a style="color:$link-color">bib</a>
+</button>
+<pre id="BG15-jacm-bibtex" class="collapse">@article{BG15-jacm,
+  author = {Bonacina, Ilario and Galesi, Nicola},
+  title = {{A Framework for Space Complexity in Algebraic Proof Systems}},
+  journal = {J. ACM},
+  volume = {62},
+  number = {3},
+  pages = {1--20},
+  year = {2015},
+  month = jun,
+  doi = {10.1145/2699438}
+}
+</pre>
 </div>
 <br />
 </none></none>
@@ -680,10 +866,13 @@
 <h3 id="conference-articles"><strong>Conference Articles</strong></h3>
 
 <none class="bibliography" reversed="reversed"><none><div id="ABDLNR18-stoc">
-  <span id="ABDLNR18-stoc">[1]Atserias, A., Bonacina, I., Rezende, S.F. de, Lauria, M., Nordström, J. and Razborov, A. 2018. <b>Clique is Hard on Average for Regular Resolution</b>. <i>Proceedings of the 50th Annual ACM SIGACT Symposium on Theory of Computing</i> (New York, NY, USA, 2018), 866–877.</span>
+  <span id="ABDLNR18-stoc">[1]Atserias, A., Bonacina, I., de Rezende, S.F., Lauria, M., Nordström, J. and Razborov, A. 2018. <b>Clique is Hard on Average for Regular Resolution</b>. <i>Proceedings of the 50th Annual ACM SIGACT Symposium on Theory of Computing – STOC</i> (New York, NY, USA, 2018), 866–877.</span>
+  <br />
   
   <a href="http://dx.doi.org/10.1145/3188745.3188856" target="_blank">
-    &#8680; doi
+    <button type="button">
+        doi
+    </button>
   </a>
   
   
@@ -702,9 +891,7 @@
   
         <a href="/pdf/ABDLNR18-stoc.pdf" target="_blank">
           <button type="button">
-            <strong>
-              &#8680; pdf
-            </strong>
+              pdf
           </button>
         </a>
   
@@ -769,15 +956,40 @@
 
   
 
+  
 
+<button type="button" data-toggle="collapse" data-target="#ABDLNR18-stoc-bibtex">
+  <a style="color:$link-color">bib</a>
+</button>
+<pre id="ABDLNR18-stoc-bibtex" class="collapse">@inproceedings{ABDLNR18-stoc,
+  author = {Atserias, Albert and Bonacina, Ilario and de\ Rezende, Susanna F. and Lauria, Massimo and Nordstr\"{o}m, Jakob and Razborov, Alexander},
+  title = {Clique is Hard on Average for Regular Resolution},
+  booktitle = {Proceedings of the 50th Annual ACM SIGACT Symposium on Theory of Computing -- STOC},
+  series = {STOC 2018},
+  year = {2018},
+  isbn = {978-1-4503-5559-9},
+  location = {Los Angeles, CA, USA},
+  pages = {866--877},
+  numpages = {12},
+  url = {http://doi.acm.org/10.1145/3188745.3188856},
+  doi = {10.1145/3188745.3188856},
+  acmid = {3188856},
+  publisher = {ACM},
+  address = {New York, NY, USA},
+  keywords = {Erdos-Renyi random graphs, Proof complexity, k-clique, regular resolution}
+}
+</pre>
 </div>
 <br />
 </none>
 <none><div id="Bon16-icalp">
   <span id="Bon16-icalp">[2]Bonacina, I. 2016. <b>Total Space in Resolution is at Least Width Squared</b>. <i>43rd International Colloquium on Automata, Languages, and Programming – ICALP</i> (2016), 56:1–56:13.</span>
+  <br />
   
   <a href="http://dx.doi.org/10.4230/LIPIcs.ICALP.2016.56" target="_blank">
-    &#8680; doi
+    <button type="button">
+        doi
+    </button>
   </a>
   
   
@@ -824,9 +1036,7 @@
   
         <a href="/pdf/Bon16-icalp.pdf" target="_blank">
           <button type="button">
-            <strong>
-              &#8680; pdf
-            </strong>
+              pdf
           </button>
         </a>
   
@@ -863,15 +1073,32 @@
 
   
 
+  
 
+<button type="button" data-toggle="collapse" data-target="#Bon16-icalp-bibtex">
+  <a style="color:$link-color">bib</a>
+</button>
+<pre id="Bon16-icalp-bibtex" class="collapse">@inproceedings{Bon16-icalp,
+  author = {Bonacina, Ilario},
+  title = {{Total Space in Resolution is at Least Width Squared}},
+  booktitle = {43rd International Colloquium on Automata, Languages, and Programming -- ICALP},
+  pages = {56:1--56:13},
+  year = {2016},
+  volume = {55},
+  doi = {10.4230/LIPIcs.ICALP.2016.56}
+}
+</pre>
 </div>
 <br />
 </none>
 <none><div id="BBC16-itcs">
   <span id="BBC16-itcs">[3]Beyersdorff, O., Bonacina, I. and Leroy, C. 2016. <b>Lower Bounds: From Circuits to QBF Proof Systems</b>. <i>7th Conf. Innov. Theor. Comput. Sci. – ITCS</i> (2016), 249–260.</span>
+  <br />
   
   <a href="http://dx.doi.org/10.1145/2840728.2840740" target="_blank">
-    &#8680; doi
+    <button type="button">
+        doi
+    </button>
   </a>
   
   
@@ -896,9 +1123,7 @@
   
         <a href="/pdf/BBC16-itcs.pdf" target="_blank">
           <button type="button">
-            <strong>
-              &#8680; pdf
-            </strong>
+              pdf
           </button>
         </a>
   
@@ -957,15 +1182,31 @@
 
   
 
+  
 
+<button type="button" data-toggle="collapse" data-target="#BBC16-itcs-bibtex">
+  <a style="color:$link-color">bib</a>
+</button>
+<pre id="BBC16-itcs-bibtex" class="collapse">@inproceedings{BBC16-itcs,
+  author = {Beyersdorff, Olaf and Bonacina, Ilario and Leroy, Chew},
+  title = {{Lower Bounds: From Circuits to QBF Proof Systems}},
+  booktitle = {7th Conf. Innov. Theor. Comput. Sci. -- ITCS},
+  pages = {249--260},
+  year = {2016},
+  doi = {10.1145/2840728.2840740}
+}
+</pre>
 </div>
 <br />
 </none>
 <none><div id="BT15-ipec">
   <span id="BT15-ipec">[4]Bonacina, I. and Talebanfard, N. 2015. <b>Strong ETH and Resolution via Games and the Multiplicity of Strategies</b>. <i>10th International Symposium on Parameterized and Exact Computation – IPEC</i> (2015), 248–257.</span>
+  <br />
   
   <a href="http://dx.doi.org/10.4230/LIPIcs.IPEC.2015.248" target="_blank">
-    &#8680; doi
+    <button type="button">
+        doi
+    </button>
   </a>
   
   
@@ -1006,9 +1247,7 @@
   
         <a href="/pdf/BT15-ipec.pdf" target="_blank">
           <button type="button">
-            <strong>
-              &#8680; pdf
-            </strong>
+              pdf
           </button>
         </a>
   
@@ -1051,15 +1290,31 @@
 
   
 
+  
 
+<button type="button" data-toggle="collapse" data-target="#BT15-ipec-bibtex">
+  <a style="color:$link-color">bib</a>
+</button>
+<pre id="BT15-ipec-bibtex" class="collapse">@inproceedings{BT15-ipec,
+  author = {Bonacina, Ilario and Talebanfard, Navid},
+  title = {{Strong ETH and Resolution via Games and the Multiplicity of Strategies}},
+  booktitle = {10th International Symposium on Parameterized and Exact Computation -- IPEC},
+  pages = {248--257},
+  year = {2015},
+  doi = {10.4230/LIPIcs.IPEC.2015.248}
+}
+</pre>
 </div>
 <br />
 </none>
 <none><div id="BGT14-focs">
   <span id="BGT14-focs">[5]Bonacina, I., Galesi, N. and Thapen, N. 2014. <b>Total Space in Resolution</b>. <i>55th Annu. Symp. Found. Comput. Sci. – FOCS</i> (Oct. 2014), 641–650.</span>
+  <br />
   
   <a href="http://dx.doi.org/10.1109/FOCS.2014.74" target="_blank">
-    &#8680; doi
+    <button type="button">
+        doi
+    </button>
   </a>
   
   
@@ -1096,9 +1351,7 @@
   
         <a href="/pdf/BGT14-focs.pdf" target="_blank">
           <button type="button">
-            <strong>
-              &#8680; pdf
-            </strong>
+              pdf
           </button>
         </a>
   
@@ -1145,15 +1398,33 @@
 
   
 
+  
 
+<button type="button" data-toggle="collapse" data-target="#BGT14-focs-bibtex">
+  <a style="color:$link-color">bib</a>
+</button>
+<pre id="BGT14-focs-bibtex" class="collapse">@inproceedings{BGT14-focs,
+  author = {Bonacina, Ilario and Galesi, Nicola and Thapen, Neil},
+  title = {{Total Space in Resolution}},
+  booktitle = {55th Annu. Symp. Found. Comput. Sci. -- FOCS},
+  pages = {641--650},
+  volume = {38},
+  year = {2014},
+  month = oct,
+  doi = {10.1109/FOCS.2014.74}
+}
+</pre>
 </div>
 <br />
 </none>
 <none><div id="ABFG14-scn">
   <span id="ABFG14-scn">[6]Ateniese, G., Bonacina, I., Faonio, A. and Galesi, N. 2014. <b>Proofs of Space: When Space Is of the Essence</b>. <i>Security and Cryptography for Networks - 9th International Conference – SCN</i> (2014), 538–557.</span>
+  <br />
   
   <a href="http://dx.doi.org/10.1007/978-3-319-10879-7_31" target="_blank">
-    &#8680; doi
+    <button type="button">
+        doi
+    </button>
   </a>
   
   
@@ -1231,15 +1502,31 @@
 
   
 
+  
 
+<button type="button" data-toggle="collapse" data-target="#ABFG14-scn-bibtex">
+  <a style="color:$link-color">bib</a>
+</button>
+<pre id="ABFG14-scn-bibtex" class="collapse">@inproceedings{ABFG14-scn,
+  author = {Ateniese, Giuseppe and Bonacina, Ilario and Faonio, Antonio and Galesi, Nicola},
+  title = {Proofs of Space: When Space Is of the Essence},
+  booktitle = {Security and Cryptography for Networks - 9th International Conference -- SCN},
+  pages = {538--557},
+  year = {2014},
+  doi = {10.1007/978-3-319-10879-7_31}
+}
+</pre>
 </div>
 <br />
 </none>
 <none><div id="BG13-itcs">
   <span id="BG13-itcs">[7]Bonacina, I. and Galesi, N. 2013. <b>Pseudo-partitions, transversality and locality: A Combinatorial Characterization for the Space Measure in Algebraic Proof Systems</b>. <i>4th Conf. Innov. Theor. Comput. Sci. – ITCS</i> (2013), 455–472.</span>
+  <br />
   
   <a href="http://dx.doi.org/10.1145/2422436.2422486" target="_blank">
-    &#8680; doi
+    <button type="button">
+        doi
+    </button>
   </a>
   
   
@@ -1272,9 +1559,7 @@
   
         <a href="/pdf/BG13-itcs.pdf" target="_blank">
           <button type="button">
-            <strong>
-              &#8680; pdf
-            </strong>
+              pdf
           </button>
         </a>
   
@@ -1325,7 +1610,20 @@
 
   
 
+  
 
+<button type="button" data-toggle="collapse" data-target="#BG13-itcs-bibtex">
+  <a style="color:$link-color">bib</a>
+</button>
+<pre id="BG13-itcs-bibtex" class="collapse">@inproceedings{BG13-itcs,
+  author = {Bonacina, Ilario and Galesi, Nicola},
+  title = {{Pseudo-partitions, transversality and locality: A Combinatorial Characterization for the Space Measure in Algebraic Proof Systems}},
+  booktitle = {4th Conf. Innov. Theor. Comput. Sci. -- ITCS},
+  pages = {455--472},
+  year = {2013},
+  doi = {10.1145/2422436.2422486}
+}
+</pre>
 </div>
 <br />
 </none></none>
@@ -1338,9 +1636,12 @@
 
 <none class="bibliography" reversed="reversed"><none><div id="Bonacina-phdthesis">
   <span id="Bonacina-phdthesis">[1]Bonacina, I. 2015. <b>Space in weak propositional proof systems</b>. Sapienza University of Rome.</span>
+  <br />
   
   <a href="http://dx.doi.org/10.1007/978-3-319-73453-8" target="_blank">
-    &#8680; doi
+    <button type="button">
+        doi
+    </button>
   </a>
   
   
@@ -1391,9 +1692,7 @@
   
         <a href="/pdf/Bonacina-phdthesis.pdf" target="_blank">
           <button type="button">
-            <strong>
-              &#8680; pdf
-            </strong>
+              pdf
           </button>
         </a>
   
@@ -1426,7 +1725,20 @@
 
   
 
+  
 
+<button type="button" data-toggle="collapse" data-target="#Bonacina-phdthesis-bibtex">
+  <a style="color:$link-color">bib</a>
+</button>
+<pre id="Bonacina-phdthesis-bibtex" class="collapse">@phdthesis{Bonacina-phdthesis,
+  author = {Bonacina, Ilario},
+  title = {Space in weak propositional proof systems},
+  school = {Sapienza University of Rome},
+  year = {2015},
+  month = dec,
+  doi = {10.1007/978-3-319-73453-8}
+}
+</pre>
 </div>
 <br />
 </none></none>
@@ -1458,10 +1770,6 @@
 <em>The documents contained in this page are included to ensure timely dissemination of scholarly and technical work on a non-commercial basis. Copyright and all rights therein are maintained by the authors or by other copyright holders, notwithstanding that they have offered their works here electronically. It is understood that all persons copying this information will adhere to the terms and constraints invoked by each author’s copyright. These works may not be reposted without the explicit permission of the copyright holder.</em></p>
 
       </div>
-    </main>
-
-    
-
-  </body>
+    </main></body>
 
 </html>

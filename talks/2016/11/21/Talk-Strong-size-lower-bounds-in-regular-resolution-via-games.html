@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
-  <head>
+<html lang="en"><head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,20 +31,13 @@
 </script>
 
 </head>
-
-
-  <body>
-
-    <header class="site-header" role="banner">
+<body><header class="site-header" role="banner">
   <div class="wrapper">
     <a class="site-title"  href="/">
-      <strong>
-        <font font-size="xx-large;" style="color: #ff8000;">
+        <site-title>
           Ilario Bonacina
-        </font>
-      </strong>
+        </site-title>
     </a>
-  </h1>
     <nav class="site-nav">
         
         
@@ -56,38 +47,37 @@
         
           
               <a class="page-link active" href="/research/">
-                Publications
+                <site-nav-bar>Publications
+                  </site-nav-bar>
               </a>
           
         
           
               <a class="page-link active" href="/talks/">
-                Talks
+                <site-nav-bar>Talks
+                  </site-nav-bar>
               </a>
-          
-        
           
         
           
         
           
               <a class="page-link active" href="/misc/">
-                Misc
+                <site-nav-bar>Misc
+                  </site-nav-bar>
               </a>
           
         
     </nav>
   </div>
 </header>
-
-
-    <main class="page-content" aria-label="Content">
+<main class="page-content" aria-label="Content">
       <div class="wrapper">
         <p><a href="/talks">All Talks ⇦</a></p>
 
 <h2 id="strong-size-lower-bounds-in-regular-resolution-via-games"><strong>Strong size lower bounds in regular resolution via games</strong></h2>
 
-<p>The Strong Exponential Time Hypothesis (SETH) says that solving the SATISFIABILITY problem on formulas that are k-CNFs in n variables require running time 2^{(n(1 - c_k))} where c_k goes to 0 as k goes to infinity. Beck and Impagliazzo (2013) proved that regular resolution cannot disprove SETH, that is they prove that there are unsatisfiable  k-CNF formulas in n variables such that each regular resolution refutation of those has size at least 2^{(n(1 - c_k))} where where c_k goes to 0 as k goes to infinity. We give a different/simpler proof of such lower bound based on the known characterizations of width and size in resolution and our technique indeed works for a proof system stronger than regular resolution. The problem of finding k-CNF formulas for which we can prove such strong size lower bounds in general resolution is still open.</p>
+<p>The Strong Exponential Time Hypothesis (SETH) says that solving the SATISFIABILITY problem on formulas that are \(k\)-CNFs in \(n\) variables require running time \(2^{n(1 - c_k)}\) where \(c_k\) goes to \(0\) as \(k\) goes to infinity. Beck and Impagliazzo (2013) proved that regular resolution cannot disprove SETH, that is they prove that there are unsatisfiable  \(k\)-CNF formulas in \(n\) variables such that each regular resolution refutation of those has size at least \(2^{n(1 - c_k)}\) where where \(c_k\) goes to \(0\) as \(k\) goes to infinity. We give a different/simpler proof of such lower bound based on the known characterizations of width and size in resolution and our technique indeed works for a proof system stronger than regular resolution. The problem of finding \(k\)-CNF formulas for which we can prove such strong size lower bounds in general resolution is still open.</p>
 
 <p>Talks on this topic were given on:</p>
 
@@ -99,13 +89,16 @@ Jun 24, 2015 <strong>University of Edinburgh, UK</strong> – Complexity Seminar
 Jun 17, 2015 <strong>University of Leeds, UK</strong> – Logic Seminar<br />
 Mar 21, 2014 <strong>KTH Royal Institute of Technology</strong> – Complexity Seminar (joint talk with <em>Navid Talebanfard</em>)</p>
 
-<p>These talks are based on <a href="#BT16-algorithmica">[1, 2, 3]</a>.</p>
+<p>These talks are based on <a class="citation" href="#BT16-algorithmica">[1, 2, 3]</a>.</p>
 
 <none class="bibliography" reversed="reversed"><none><div id="BT16-algorithmica">
   <span id="BT16-algorithmica">[1]Bonacina, I. and Talebanfard, N. 2016. <b>Strong ETH and Resolution via Games and the Multiplicity of Strategies</b>. <i>Algorithmica</i>. (Oct. 2016), 1–13.</span>
+  <br />
   
   <a href="http://dx.doi.org/10.1007/s00453-016-0228-6" target="_blank">
-    &#8680; doi
+    <button type="button">
+        doi
+    </button>
   </a>
   
   
@@ -148,9 +141,7 @@ Mar 21, 2014 <strong>KTH Royal Institute of Technology</strong> – Complexity S
   
         <a href="/pdf/BT16-algorithmica.pdf" target="_blank">
           <button type="button">
-            <strong>
-              &#8680; pdf
-            </strong>
+              pdf
           </button>
         </a>
   
@@ -191,15 +182,32 @@ Mar 21, 2014 <strong>KTH Royal Institute of Technology</strong> – Complexity S
 
   
 
+  
 
+<button type="button" data-toggle="collapse" data-target="#BT16-algorithmica-bibtex">
+  <a style="color:$link-color">bib</a>
+</button>
+<pre id="BT16-algorithmica-bibtex" class="collapse">@article{BT16-algorithmica,
+  author = {Bonacina, Ilario and Talebanfard, Navid},
+  title = {Strong ETH and Resolution via Games and the Multiplicity of Strategies},
+  journal = {Algorithmica},
+  pages = {1--13},
+  year = {2016},
+  month = oct,
+  doi = {10.1007/s00453-016-0228-6}
+}
+</pre>
 </div>
 <br />
 </none>
 <none><div id="BT16-ipl">
   <span id="BT16-ipl">[2]Bonacina, I. and Talebanfard, N. 2016. <b>Improving resolution width lower bounds for k-CNFs with applications to the Strong Exponential Time Hypothesis</b>. <i>Inf. Process. Lett.</i> 116, 2 (2016), 120–124.</span>
+  <br />
   
   <a href="http://dx.doi.org/10.1016/j.ipl.2015.09.013" target="_blank">
-    &#8680; doi
+    <button type="button">
+        doi
+    </button>
   </a>
   
   
@@ -244,9 +252,7 @@ Mar 21, 2014 <strong>KTH Royal Institute of Technology</strong> – Complexity S
   
         <a href="/pdf/BT16-ipl.pdf" target="_blank">
           <button type="button">
-            <strong>
-              &#8680; pdf
-            </strong>
+              pdf
           </button>
         </a>
   
@@ -285,15 +291,33 @@ Mar 21, 2014 <strong>KTH Royal Institute of Technology</strong> – Complexity S
 
   
 
+  
 
+<button type="button" data-toggle="collapse" data-target="#BT16-ipl-bibtex">
+  <a style="color:$link-color">bib</a>
+</button>
+<pre id="BT16-ipl-bibtex" class="collapse">@article{BT16-ipl,
+  author = {Bonacina, Ilario and Talebanfard, Navid},
+  title = {{Improving resolution width lower bounds for k-CNFs with applications to the Strong Exponential Time Hypothesis}},
+  journal = {Inf. Process. Lett.},
+  volume = {116},
+  number = {2},
+  pages = {120--124},
+  year = {2016},
+  doi = {10.1016/j.ipl.2015.09.013}
+}
+</pre>
 </div>
 <br />
 </none>
 <none><div id="BT15-ipec">
   <span id="BT15-ipec">[3]Bonacina, I. and Talebanfard, N. 2015. <b>Strong ETH and Resolution via Games and the Multiplicity of Strategies</b>. <i>10th International Symposium on Parameterized and Exact Computation – IPEC</i> (2015), 248–257.</span>
+  <br />
   
   <a href="http://dx.doi.org/10.4230/LIPIcs.IPEC.2015.248" target="_blank">
-    &#8680; doi
+    <button type="button">
+        doi
+    </button>
   </a>
   
   
@@ -334,9 +358,7 @@ Mar 21, 2014 <strong>KTH Royal Institute of Technology</strong> – Complexity S
   
         <a href="/pdf/BT15-ipec.pdf" target="_blank">
           <button type="button">
-            <strong>
-              &#8680; pdf
-            </strong>
+              pdf
           </button>
         </a>
   
@@ -379,16 +401,25 @@ Mar 21, 2014 <strong>KTH Royal Institute of Technology</strong> – Complexity S
 
   
 
+  
 
+<button type="button" data-toggle="collapse" data-target="#BT15-ipec-bibtex">
+  <a style="color:$link-color">bib</a>
+</button>
+<pre id="BT15-ipec-bibtex" class="collapse">@inproceedings{BT15-ipec,
+  author = {Bonacina, Ilario and Talebanfard, Navid},
+  title = {{Strong ETH and Resolution via Games and the Multiplicity of Strategies}},
+  booktitle = {10th International Symposium on Parameterized and Exact Computation -- IPEC},
+  pages = {248--257},
+  year = {2015},
+  doi = {10.4230/LIPIcs.IPEC.2015.248}
+}
+</pre>
 </div>
 <br />
 </none></none>
 
       </div>
-    </main>
-
-    
-
-  </body>
+    </main></body>
 
 </html>

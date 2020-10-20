@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
-  <head>
+<html lang="en"><head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,20 +31,13 @@
 </script>
 
 </head>
-
-
-  <body>
-
-    <header class="site-header" role="banner">
+<body><header class="site-header" role="banner">
   <div class="wrapper">
     <a class="site-title"  href="/">
-      <strong>
-        <font font-size="xx-large;" style="color: #ff8000;">
+        <site-title>
           Ilario Bonacina
-        </font>
-      </strong>
+        </site-title>
     </a>
-  </h1>
     <nav class="site-nav">
         
         
@@ -56,41 +47,40 @@
         
           
               <a class="page-link active" href="/research/">
-                Publications
+                <site-nav-bar>Publications
+                  </site-nav-bar>
               </a>
           
         
           
               <a class="page-link active" href="/talks/">
-                Talks
+                <site-nav-bar>Talks
+                  </site-nav-bar>
               </a>
-          
-        
           
         
           
         
           
               <a class="page-link active" href="/misc/">
-                Misc
+                <site-nav-bar>Misc
+                  </site-nav-bar>
               </a>
           
         
     </nav>
   </div>
 </header>
-
-
-    <main class="page-content" aria-label="Content">
+<main class="page-content" aria-label="Content">
       <div class="wrapper">
         <p><a href="/talks">All Talks ⇦</a></p>
 
 <h2 id="space-in-algebraic-proof-systems"><strong>Space in algebraic proof systems</strong></h2>
 
 <p>We consider logical proof systems from the point of view of their space complexity,
-in particular we focus on the following two: Resolution (RES), a well studied proof
-system that is at the core of state-of-the-art algorithms to solve SAT instances;
-Polynomial Calculus (PC), a proof system that uses polynomials to refute
+in particular we focus on the following two: Resolution (\(\mathsf{RES}\)), a well studied proof
+system that is at the core of state-of-the-art algorithms to solve \(\mathsf{SAT}\) instances;
+Polynomial Calculus (\(\mathsf{PC}\)), a proof system that uses polynomials to refute
 contradictions. Informally speaking, the space of a proof measures the size of
 an auxiliary memory that a verifier needs to check the correctness of the proof.
 For Polynomial Calculus the space measure counts the number of distinct monomials
@@ -99,8 +89,8 @@ number of clauses to be kept in memory (clause space) or to the total number of 
 We introduce abstract frameworks to prove monomial space lower bounds in PC
 and total space lower bound in RES. We then exemplify such frameworks proving
 new (asymptotically) optimal lower bounds both for monomial space and total space.
-We prove that every Polynomial Calculus refutation of a random k-CNF F, for k &gt; 2,
-in n variables requires, with high probability, \Omega(n) distinct monomials
+We prove that every Polynomial Calculus refutation of a random \(k\)-CNF \(F\), for \(k &gt; 2\),
+in \(n\) variables requires, with high probability, \(\Omega(n)\) distinct monomials
 to be kept simultaneously in memory.</p>
 
 <p>Talks on this topic were given in:</p>
@@ -116,13 +106,16 @@ Jun 30, 2013 <strong>CSEDays. Theory 2013, Ekaterinburg</strong> – <em>Summer 
 Jan 13, 2013 <strong>4th Innovations in Theoretical Computer Science (ITCS), Berkeley</strong><br />
 Sep 27, 2012 <strong>Limits of Theorem Proving, Rome</strong> – <em>Workshop</em></p>
 
-<p>These talks are based on <a href="#Bonacina-phdthesis">[1, 2, 3, 4]</a>.</p>
+<p>These talks are based on <a class="citation" href="#Bonacina-phdthesis">[1, 2, 3, 4]</a>.</p>
 
 <none class="bibliography" reversed="reversed"><none><div id="BBGHMW17-infocomp">
   <span id="BBGHMW17-infocomp">[1]Bennett, P., Bonacina, I., Galesi, N., Huynh, T., Molloy, M. and Wollan, P. 2017. <b>Space proof complexity for random 3-CNFs</b>. <i>Information and Computation</i>. 255, (2017), 165–176.</span>
+  <br />
   
   <a href="http://dx.doi.org/10.1016/j.ic.2017.06.003" target="_blank">
-    &#8680; doi
+    <button type="button">
+        doi
+    </button>
   </a>
   
   
@@ -153,9 +146,7 @@ Sep 27, 2012 <strong>Limits of Theorem Proving, Rome</strong> – <em>Workshop</
   
         <a href="/pdf/BBGHMW17-infocomp.pdf" target="_blank">
           <button type="button">
-            <strong>
-              &#8680; pdf
-            </strong>
+              pdf
           </button>
         </a>
   
@@ -208,15 +199,33 @@ Sep 27, 2012 <strong>Limits of Theorem Proving, Rome</strong> – <em>Workshop</
 
   
 
+  
 
+<button type="button" data-toggle="collapse" data-target="#BBGHMW17-infocomp-bibtex">
+  <a style="color:$link-color">bib</a>
+</button>
+<pre id="BBGHMW17-infocomp-bibtex" class="collapse">@article{BBGHMW17-infocomp,
+  author = {Bennett, Patrick and Bonacina, Ilario and Galesi, Nicola and Huynh, Tony and Molloy, Mike and Wollan, Paul},
+  title = {Space proof complexity for random 3-CNFs},
+  journal = {Information and Computation},
+  volume = {255},
+  number = {},
+  pages = {165--176},
+  year = {2017},
+  doi = {10.1016/j.ic.2017.06.003}
+}
+</pre>
 </div>
 <br />
 </none>
 <none><div id="Bonacina-phdthesis">
   <span id="Bonacina-phdthesis">[2]Bonacina, I. 2015. <b>Space in weak propositional proof systems</b>. Sapienza University of Rome.</span>
+  <br />
   
   <a href="http://dx.doi.org/10.1007/978-3-319-73453-8" target="_blank">
-    &#8680; doi
+    <button type="button">
+        doi
+    </button>
   </a>
   
   
@@ -267,9 +276,7 @@ Sep 27, 2012 <strong>Limits of Theorem Proving, Rome</strong> – <em>Workshop</
   
         <a href="/pdf/Bonacina-phdthesis.pdf" target="_blank">
           <button type="button">
-            <strong>
-              &#8680; pdf
-            </strong>
+              pdf
           </button>
         </a>
   
@@ -302,15 +309,31 @@ Sep 27, 2012 <strong>Limits of Theorem Proving, Rome</strong> – <em>Workshop</
 
   
 
+  
 
+<button type="button" data-toggle="collapse" data-target="#Bonacina-phdthesis-bibtex">
+  <a style="color:$link-color">bib</a>
+</button>
+<pre id="Bonacina-phdthesis-bibtex" class="collapse">@phdthesis{Bonacina-phdthesis,
+  author = {Bonacina, Ilario},
+  title = {Space in weak propositional proof systems},
+  school = {Sapienza University of Rome},
+  year = {2015},
+  month = dec,
+  doi = {10.1007/978-3-319-73453-8}
+}
+</pre>
 </div>
 <br />
 </none>
 <none><div id="BG15-jacm">
   <span id="BG15-jacm">[3]Bonacina, I. and Galesi, N. 2015. <b>A Framework for Space Complexity in Algebraic Proof Systems</b>. <i>J. ACM</i>. 62, 3 (Jun. 2015), 1–20.</span>
+  <br />
   
   <a href="http://dx.doi.org/10.1145/2699438" target="_blank">
-    &#8680; doi
+    <button type="button">
+        doi
+    </button>
   </a>
   
   
@@ -345,9 +368,7 @@ Sep 27, 2012 <strong>Limits of Theorem Proving, Rome</strong> – <em>Workshop</
   
         <a href="/pdf/BG15-jacm.pdf" target="_blank">
           <button type="button">
-            <strong>
-              &#8680; pdf
-            </strong>
+              pdf
           </button>
         </a>
   
@@ -396,15 +417,34 @@ Sep 27, 2012 <strong>Limits of Theorem Proving, Rome</strong> – <em>Workshop</
 
   
 
+  
 
+<button type="button" data-toggle="collapse" data-target="#BG15-jacm-bibtex">
+  <a style="color:$link-color">bib</a>
+</button>
+<pre id="BG15-jacm-bibtex" class="collapse">@article{BG15-jacm,
+  author = {Bonacina, Ilario and Galesi, Nicola},
+  title = {{A Framework for Space Complexity in Algebraic Proof Systems}},
+  journal = {J. ACM},
+  volume = {62},
+  number = {3},
+  pages = {1--20},
+  year = {2015},
+  month = jun,
+  doi = {10.1145/2699438}
+}
+</pre>
 </div>
 <br />
 </none>
 <none><div id="BG13-itcs">
   <span id="BG13-itcs">[4]Bonacina, I. and Galesi, N. 2013. <b>Pseudo-partitions, transversality and locality: A Combinatorial Characterization for the Space Measure in Algebraic Proof Systems</b>. <i>4th Conf. Innov. Theor. Comput. Sci. – ITCS</i> (2013), 455–472.</span>
+  <br />
   
   <a href="http://dx.doi.org/10.1145/2422436.2422486" target="_blank">
-    &#8680; doi
+    <button type="button">
+        doi
+    </button>
   </a>
   
   
@@ -437,9 +477,7 @@ Sep 27, 2012 <strong>Limits of Theorem Proving, Rome</strong> – <em>Workshop</
   
         <a href="/pdf/BG13-itcs.pdf" target="_blank">
           <button type="button">
-            <strong>
-              &#8680; pdf
-            </strong>
+              pdf
           </button>
         </a>
   
@@ -490,16 +528,25 @@ Sep 27, 2012 <strong>Limits of Theorem Proving, Rome</strong> – <em>Workshop</
 
   
 
+  
 
+<button type="button" data-toggle="collapse" data-target="#BG13-itcs-bibtex">
+  <a style="color:$link-color">bib</a>
+</button>
+<pre id="BG13-itcs-bibtex" class="collapse">@inproceedings{BG13-itcs,
+  author = {Bonacina, Ilario and Galesi, Nicola},
+  title = {{Pseudo-partitions, transversality and locality: A Combinatorial Characterization for the Space Measure in Algebraic Proof Systems}},
+  booktitle = {4th Conf. Innov. Theor. Comput. Sci. -- ITCS},
+  pages = {455--472},
+  year = {2013},
+  doi = {10.1145/2422436.2422486}
+}
+</pre>
 </div>
 <br />
 </none></none>
 
       </div>
-    </main>
-
-    
-
-  </body>
+    </main></body>
 
 </html>
