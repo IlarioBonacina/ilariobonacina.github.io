@@ -3,10 +3,10 @@
 	"file": "main.css",
 	"sources": [
 		"main.scss",
-		"../../../gems/gems/minima-2.5.1/_sass/minima.scss",
-		"../../../gems/gems/minima-2.5.1/_sass/minima/_base.scss",
-		"../../../gems/gems/minima-2.5.1/_sass/minima/_layout.scss",
-		"../../../gems/gems/minima-2.5.1/_sass/minima/_syntax-highlighting.scss"
+		"../../../../../Library/Ruby/Gems/2.6.0/gems/minima-2.5.1/_sass/minima.scss",
+		"../../../../../Library/Ruby/Gems/2.6.0/gems/minima-2.5.1/_sass/minima/_base.scss",
+		"../../../../../Library/Ruby/Gems/2.6.0/gems/minima-2.5.1/_sass/minima/_layout.scss",
+		"../../../../../Library/Ruby/Gems/2.6.0/gems/minima-2.5.1/_sass/minima/_syntax-highlighting.scss"
 	],
 	"sourcesContent": [
 		"@charset \"utf-8\";\n\n// Our variables\n//$base-font-family: Helvetica, \"Helvetica Neue\", Arial, sans-serif;\n$base-font-family: Geneva, sans-serif;\n$base-font-size:   16px;\n$base-font-weight: 100;\n$small-font-size:  $base-font-size * 0.875;\n$base-line-height: 1.5;\n\n$spacing-unit:     30px;\n\n$text-color:       #111;\n$background-color: #fdfdfd;\n$brand-color:      #20639B;\n$link-color: $brand-color;//#2554b2;\n\n$grey-color:       #828282;\n$grey-color-light: lighten($grey-color, 45%);\n$grey-color-dark:  darken($grey-color, 25%);\n\n// Width of the content area\n$content-width:    900px;\n\n$on-palm:          600px;\n$on-laptop:        1500px;\n\nbutton {\n     background:$grey-color-light;\n     color:inherit;\n     border:none;\n     font: inherit;\n     cursor: pointer;\n     border-radius: 6px;\n}\n\nsite-title {\n  color: $brand-color;\n  font-size: xx-large;\n  font-weight: bold;\n}\n\nsite-nav-bar {\n  color: $brand-color;\n  font-weight: bold;\n}\n\n.text-justify {\n  text-align: justify;\n}\n\na:link{\n  color: $link-color;\n}\n\n// Import partials from the `minima` theme.\n@import \"minima\";\n",
