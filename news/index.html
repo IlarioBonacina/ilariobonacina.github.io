@@ -5,11 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-  <title>Photo</title>
+  <title>All news</title>
   <meta name="description" content="">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/photo/">
+  <link rel="canonical" href="http://localhost:4000/news/">
   <link rel="alternate" type="application/rss+xml" title="Ilario Bonacina" href="/feed.xml">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -58,41 +58,41 @@
 </site-header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <h1 id="photo">Photo</h1>
+        <article class="post">
 
-<p><strong style="color:red;">Under construction</strong></p>
+  <header class="post-header">
+    <h1 class="post-title">All news</h1>
+  </header>
 
-<h2 id="random-image">Random image</h2>
-<canvas id="myCanvas" width="200" height="300" style="">
-Your browser does not support the HTML5 canvas tag. Shame.</canvas>
-<p id="rand"></p>
+  <div class="post-content">
+    
+<p><em>Apr 23, 2018</em> - <a href="/notes/2018/04/23/Note-Switching-Lemma-for-Resk.html">Note on Razborov' Switching Lemma for Resolution over <em>k</em>-DNFs</a></p>
 
-<script>
-function random(N){//returns a number between 1 and N
-return Math.floor(Math.random()*N)+1;
-}
+<p><em>Feb 6, 2018</em> - <a href="/work/2018/02/06/Springer-PhD-thesis.html">A Springer Book from my PhD Thesis</a></p>
 
-var tot = 80;
-var width = 200;
-var height = 300;
+<p>** - <a href="/talks/2018/01/30/Talk-k-clique.html">Talk: Clique is hard on average for regular resolution</a></p>
 
+<p><em>Sep 12, 2017</em> - <a href="/work/2017/09/12/postdoc-at-UPC.html">Moving to Universitat Politècnica de Catalunya</a></p>
 
-var randomNum = random(tot);
-var hiddenImg = random(tot);
-document.getElementById("rand").innerHTML = "Untitled #"+randomNum;
+<p>** - <a href="/talks/2017/02/06/Talk-Total-space-at-least-width-squared.html">Talk: Total space in resolution</a></p>
 
-var canvas = document.getElementById("myCanvas");
-var context = canvas.getContext("2d");
-const img = new Image()
-img.src = "./cat.jpg"//location of the image
+<p>** - <a href="/talks/2016/11/21/Talk-Strong-size-lower-bounds-in-regular-resolution-via-games.html">Talk: Strong size lower bounds in regular resolution via games</a></p>
 
-if (randomNum == hiddenImg) {
-context.drawImage(img, 0, 0)
-} else {
-context.fillRect(0, 0, 200, 300);
-}
-</script>
+<p><em>Nov 5, 2016</em> - <a href="/website_updates/2016/11/05/new-webpage-is-on.html">New website is online</a></p>
 
+<p><em>Sep 13, 2016</em> - <a href="/awards/2016/09/13/best-phd-italian-thesis-in-tcs-2015.html">Best Italian PhD Thesis in TCS 2016</a></p>
+
+<p>** - <a href="/talks/2016/09/13/Talk-Space-in-algebraic-proof-systems.html">Talk: Space in algebraic proof systems</a></p>
+
+<p>** - <a href="/talks/2016/08/26/Talk-Lower-bounds-QBF.html">Talk: Lower bounds: from circuits to QBF proof systems</a></p>
+
+<p><em>Nov 11, 2013</em> - <a href="/talks/2013/11/11/Talk-proof-of-space-cryptography.html">Talk: Proof of Space: an application of Pebbling Games to Cryptography</a></p>
+
+<p><a href="#">Go to top</a></p>
+
+  </div>
+
+</article>
 
       </div>
     </main><!-- Parse the Latex divs with Katex-->
