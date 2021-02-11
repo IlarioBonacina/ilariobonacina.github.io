@@ -5,11 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-  <title>Tmp</title>
+  <title>Open Problems</title>
   <meta name="description" content="">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/tmp/">
+  <link rel="canonical" href="http://localhost:4000/open_problems/">
   <link rel="alternate" type="application/rss+xml" title="Ilario Bonacina" href="/feed.xml">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -60,55 +60,50 @@
       <div class="wrapper">
         <h2 id="open-problems">Open Problems</h2>
 
-<p>This is an (unordered) list of open problems from proof complexity that I find interesting. This list of problems might overlap with <a href="http://people.cs.uchicago.edu/%7Erazborov/teaching/index.html">Alexander Rasborov’s list</a> of open problems in proof complexity. Last update on <font style="color: #ff8000;">Feb 11, 2021</font>.</p>
+<p>This is an (unordered) list of open problems from proof complexity that I find interesting. This list of problems might overlap with <a href="http://people.cs.uchicago.edu/%7Erazborov/teaching/index.html">Alexander Rasborov’s list</a> of open problems in proof complexity.  Please let me know if you find errors or something listed as an open problem but it was solved. The last time this page was updated was on <font style="color: #ff8000;">Feb 11, 2021</font>.</p>
 
-<h4 id="on-the-pigeonhole-principles"><strong>On the pigeonhole principles</strong></h4>
-<p>test</p>
+<h4 id="on-the-pigeonhole-principle"><strong>On the Pigeonhole Principle</strong></h4>
 
-<p><button type="button" data-toggle="collapse" data-target="#test">
-  <a style="color:$link-color"><strong>On the pigeonhole principle</strong></a>
-</button></p>
-
-<p><button type="button" data-toggle="collapse" data-target="#test">
-  <a style="color:$link-color"><strong>On \(k\)-clique</strong></a>
-</button></p>
-
-<p><button type="button" data-toggle="collapse" data-target="#test">
-  <a style="color:$link-color"><strong>On random formulas and random \(3\)-XOR</strong></a>
-</button></p>
-
-<p><button type="button" data-toggle="collapse" data-target="#test">
-  <a style="color:$link-color"><strong>On Tseitin Formulas</strong></a>
-</button></p>
-
-<p><button type="button" data-toggle="collapse" data-target="#test">
-  <a style="color:$link-color"><strong>Big “classical” open problems in proof complexity</strong></a>
-</button></p>
-
-<p><button type="button" data-toggle="collapse" data-target="#test">
-  <a style="color:$link-color"><strong>On structural results</strong></a>
-</button></p>
-
-<p><button type="button" data-toggle="collapse" data-target="#test">
-  <a style="color:$link-color"><strong>On ordering principles</strong></a>
-</button></p>
-
-<p><button type="button" data-toggle="collapse" data-target="#test">
-  <a style="color:$link-color"><strong>On <em>SETH-like</em> lower bounds</strong></a>
-</button></p>
-
-<div id="test" class="collapse">
-content with math $$test$$
-</div>
+<ul>
+  <li>
+    <p>Are minimal size resolution refutations of \(\mathsf{PHP}^{n+1}_n\) regular?</p>
+  </li>
+  <li>
+    <p>Let \(S_n\) be the minimal size of a resolution refutation of \(\mathsf{PHP}^{m}_n\). What is the value of \(\limsup_{n\rightarrow \infty}\frac{\log_2\log_2 S_n}{\log_2 n}\)? We know it is between \(\frac{1}{3}\) and \(\frac{1}{2}\).</p>
+  </li>
+  <li>
+    <p>Consider \(\mathsf{ofPHP}^{cn}_n\) for some constant \(c\), i.e. the <em>onto-functional</em> version of PHP, and its refutations in \(k\)-DNF resolution. Is it true that \(\mathsf{ofPHP}^{cn}_n\) needs size \(\mathrm{e}^{n/(\log n)^{\mathcal{O}(k)}}\) to be refuted in \(k\)-DNF resolution? We know this lower bound for \(\mathsf{PHP}^{cn}_n\).</p>
+  </li>
+  <li>
+    <p>Prove that \(\mathsf{PHP}^{n^2}_n\) require super-polynomial \(2\)-DNF resolution refutations.</p>
+  </li>
+  <li>
+    <p>Prove that for every \(m\), \(\mathsf{PHP}^{m}_n\) requires polynomial calculus + resolution refutations of size \(2^{\Omega(n)}\)</p>
+  </li>
+  <li>
+    <p>Prove that \(\mathsf{PHP}^{2n}_n\) require super-polynomial depth-\(d\) frege refutations.</p>
+  </li>
+</ul>
 
 <h4 id="on-k-clique"><strong>On \(k\)-clique</strong></h4>
 
 <ul>
   <li>
-    <p>Let \(G\) be a random graph, where the edges are placed independently with probability \(1/2\), <em>i.e.</em> in other words let \(G\) be a Edros-Renyi random graph sampled from \(\mathcal{G}(n,1/2)\). Is it true that resolution refutations of \(\mathsf{clique}(G,\lceil 2\log n\rceil)\) must have size \(n^{\Omega(\log n)}\)?</p>
+    <p>Let \(G\) be an Edros-Renyi random graph sampled from \(\mathcal{G}(n,1/2)\). W.h.p. \(G\) does not have a \(\lceil 2\log n\rceil\)-clique. Consider a propositional formula \(\mathsf{clique}(G,k)\) encoding the statement “\(G\) contains a \(k\)-clique”. Is it true that resolution refutations of \(\mathsf{clique}(G,\lceil 2\log n\rceil)\) must have size \(n^{\Omega(\log n)}\)?</p>
   </li>
   <li>
     <p>Let \(G\) be a graph. Is it true that if \(G\) is \(k\)-clique free and with no independent set of size \(k\), then resolution refutations of \(\mathsf{clique}(G,k)\) must have size \(n^{\Omega(k)}\)?</p>
+  </li>
+</ul>
+
+<h4 id="on-k-coloring"><strong>On \(k\)-coloring</strong></h4>
+
+<ul>
+  <li>
+    <p>Let \(G\) be an an Edros-Renyi random graph sampled from \(\mathcal{G}(n,1/2)\). W.h.p. the coloring number of \(G\) is \(\frac{n}{2\log(n)}\). Let \(k&lt;\frac{n}{2\log(n)}\) and consider the natural propositional encoding of the statement “\(G\) is \(k\)-colorable”. Let \(\mathsf{Col}(G,k)\) be this formula. Is it hard to refute in polynomial calculus? For instance for \(k=\frac{n}{4\log(n)}\).</p>
+  </li>
+  <li>
+    <p>What about the multivalued-encoding of the statement “\(G\) is \(k\) colorable” using the \(k\)-th roots of unity? I.e. the value of each variable encodes directly the color. Let this set of polynomials be \(\mathsf{Col}^\prime(G,k)\). Is it hard for polynomial calculus?</p>
   </li>
 </ul>
 
@@ -117,13 +112,13 @@ content with math $$test$$
 <ul>
   <li>
     <p>Are random \(3\)-CNF formulas hard for Cutting Planes?
-We know this is true for random \(\Theta(\log n)\)-CNFs with appropriate clause density (missing reference).</p>
+We know this is true for random \(\Theta(\log n)\)-CNFs with appropriate clause density.</p>
   </li>
   <li>
-    <p>[ADD the threshold kind of thing]</p>
+    <p>Random \(3\)-CNF formulas with \(n\) variables and \(\mathcal{O}(n^{1.5-\epsilon})\) many clauses must have exponential size resolution refutations. On the other hand random \(3\)-CNF formulas with \(n\) variables and \(\Omega(n^{2}/\log n)\) clauses have polynomial size resolution refutation. Close the gap, somehow.</p>
   </li>
   <li>
-    <p>[ADD open problem on on the \(\ell\)-immunity]</p>
+    <p>Let \(\varphi\) be a random \(3\)-XOR instance s.t. the constraints-variables incidence graph is a \((\Omega(n),c)\)-boundary expander. Is it hard to refute \(\varphi\) in polynomial calculus (over a field of characteristic \(p\neq 2\)) when \(c&lt;1\) is a small constant?</p>
   </li>
 </ul>
 
@@ -131,10 +126,10 @@ We know this is true for random \(\Theta(\log n)\)-CNFs with appropriate clause 
 
 <ul>
   <li>
-    <p>We know Cutting Planes has quasi-polynomial refutations of Tseitin formulas (missing reference). Is this tight?</p>
+    <p>We know Cutting Planes has quasi-polynomial refutations of Tseitin formulas. Is this tight?</p>
   </li>
   <li>
-    <p>We know Tseitin formulas on a constant degree random graph with \(n\) vertices require monomial space \(\Omega(\sqrt{n})\) to be refuted in polynomial calculus + resolution (missing reference). Is this tight?</p>
+    <p>We know Tseitin formulas on a constant degree random graph with \(n\) vertices require monomial space \(\Omega(\sqrt{n})\) to be refuted in polynomial calculus + resolution. Is this tight?</p>
   </li>
 </ul>
 
@@ -142,10 +137,10 @@ We know this is true for random \(\Theta(\log n)\)-CNFs with appropriate clause 
 
 <ul>
   <li>
-    <p>Is there any unsatisfiable  \(k\)-CNF formula \(F\) in \(n\) variables such that all resolution refutations of \(F\) must have size \(2^{n(1-c_k)}\) where \(c_k\) is a function of \(k\) going to \(0\) as \(k\) goes to \(\infty\)? This is known to be true for regular resolution (missing reference) ann (missing reference).</p>
+    <p>Is there any unsatisfiable  \(k\)-CNF formula \(\phi\) in \(n\) variables such that all resolution refutations of \(\phi\) must have size \(2^{n(1-c_k)}\) where \(c_k\) is a function of \(k\) going to \(0\) as \(k\) goes to \(\infty\)? This is known to be true for regular resolution and slightly stronger sub-systems of resolution.</p>
   </li>
   <li>
-    <p>In addition to the open question above, can we prove \(c_k\approx \frac{1}{k}\)?</p>
+    <p>In addition to the open question above, can we prove \(c_k= \frac{c}{k}\) for some constant \(c\)?</p>
   </li>
   <li>
     <p>Is there any unsatisfiable \(k\)-CNF formula \(\varphi\) in \(n\) variables such that all SOS refutations of \(\varphi\) have degree at least \(n(1-c_k)\) where \(c_k\) is a function of \(k\) going to \(0\) as \(k\) goes to \(\infty\)?</p>
@@ -176,6 +171,9 @@ We know this is true for random \(\Theta(\log n)\)-CNFs with appropriate clause 
   <li>
     <p>Let \(\varphi\) be an unsatisfiable CNF formula, let \(M\) be minimal monomial space of a polynomial calculus + resolution refutation of \(\varphi\) and \(W\) be the minimal width of a resolution refutation of \(\varphi\). Is it true that \(M\geq \Omega(W)\)? So far we know \(M \gtrsim \Omega(\sqrt{W})\) (missing reference).</p>
   </li>
+  <li>
+    <p>Is there a propositional formula encoding some natural combinatorial principle exponentially separating resolution from regular resolution? We have examples of the separation but via formulas composed with some gadget, so, well, not so natural.</p>
+  </li>
 </ul>
 
 <h4 id="big-classical-open-problems-in-proof-complexity"><strong>Big “classical” open problems in proof complexity</strong></h4>
@@ -194,9 +192,6 @@ We know this is true for random \(\Theta(\log n)\)-CNFs with appropriate clause 
 
 <p><br />
 <br /></p>
-<h2 id="references">References</h2>
-
-<none class="bibliography" reversed="reversed"></none>
 
       </div>
     </main><!-- Parse the Latex divs with Katex-->
