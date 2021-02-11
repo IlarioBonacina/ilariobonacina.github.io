@@ -180,12 +180,13 @@ Mar 21, 2014 <strong>KTH Royal Institute of Technology</strong> – Complexity S
 </button>
 <pre id="BT16-algorithmica-bibtex" class="collapse">@article{BT16-algorithmica,
   author = {Bonacina, Ilario and Talebanfard, Navid},
-  title = {Strong ETH and Resolution via Games and the Multiplicity of Strategies},
+  doi = {10.1007/s00453-016-0228-6},
   journal = {Algorithmica},
-  pages = {1--13},
-  year = {2016},
   month = oct,
-  doi = {10.1007/s00453-016-0228-6}
+  pages = {1--13},
+  title = {Strong ETH and Resolution via Games and the Multiplicity of Strategies},
+  year = {2016},
+  bdsk-url-1 = {https://doi.org/10.1007/s00453-016-0228-6}
 }
 </pre>
 </div>
@@ -295,13 +296,14 @@ Mar 21, 2014 <strong>KTH Royal Institute of Technology</strong> – Complexity S
 </button>
 <pre id="BT16-ipl-bibtex" class="collapse">@article{BT16-ipl,
   author = {Bonacina, Ilario and Talebanfard, Navid},
-  title = {{Improving resolution width lower bounds for k-CNFs with applications to the Strong Exponential Time Hypothesis}},
+  doi = {10.1016/j.ipl.2015.09.013},
   journal = {Inf. Process. Lett.},
-  volume = {116},
   number = {2},
   pages = {120--124},
+  title = {{Improving resolution width lower bounds for k-CNFs with applications to the Strong Exponential Time Hypothesis}},
+  volume = {116},
   year = {2016},
-  doi = {10.1016/j.ipl.2015.09.013}
+  bdsk-url-1 = {https://doi.org/10.1016/j.ipl.2015.09.013}
 }
 </pre>
 </div>
@@ -411,11 +413,12 @@ Mar 21, 2014 <strong>KTH Royal Institute of Technology</strong> – Complexity S
 </button>
 <pre id="BT15-ipec-bibtex" class="collapse">@inproceedings{BT15-ipec,
   author = {Bonacina, Ilario and Talebanfard, Navid},
-  title = {{Strong ETH and Resolution via Games and the Multiplicity of Strategies}},
   booktitle = {10th International Symposium on Parameterized and Exact Computation -- IPEC},
+  doi = {10.4230/LIPIcs.IPEC.2015.248},
   pages = {248--257},
+  title = {{Strong ETH and Resolution via Games and the Multiplicity of Strategies}},
   year = {2015},
-  doi = {10.4230/LIPIcs.IPEC.2015.248}
+  bdsk-url-1 = {https://doi.org/10.4230/LIPIcs.IPEC.2015.248}
 }
 </pre>
 </div>
@@ -424,6 +427,7 @@ Mar 21, 2014 <strong>KTH Royal Institute of Technology</strong> – Complexity S
 
       </div>
     </main><!-- Parse the Latex divs with Katex-->
+<!--
 <script type="text/javascript">
   $("script[type='math/tex']").replaceWith(
     function(){
@@ -437,6 +441,21 @@ Mar 21, 2014 <strong>KTH Royal Institute of Technology</strong> – Complexity S
       return katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: true});
   });
 </script>
+
+<script>
+      renderMathInElement(
+          document.body,
+          {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "\\[", right: "\\]", display: true},
+                  {left: "$", right: "$", display: false},
+                  {left: "\\(", right: "\\)", display: false}
+              ]
+          }
+      );
+    </script>
+-->
 </body>
 
 </html>

@@ -99,6 +99,7 @@ The documents contained in this page are included to ensure timely dissemination
 
       </div>
     </main><!-- Parse the Latex divs with Katex-->
+<!--
 <script type="text/javascript">
   $("script[type='math/tex']").replaceWith(
     function(){
@@ -112,6 +113,21 @@ The documents contained in this page are included to ensure timely dissemination
       return katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: true});
   });
 </script>
+
+<script>
+      renderMathInElement(
+          document.body,
+          {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "\\[", right: "\\]", display: true},
+                  {left: "$", right: "$", display: false},
+                  {left: "\\(", right: "\\)", display: false}
+              ]
+          }
+      );
+    </script>
+-->
 </body>
 
 </html>

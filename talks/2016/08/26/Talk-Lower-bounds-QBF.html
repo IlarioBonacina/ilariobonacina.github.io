@@ -188,11 +188,12 @@ Nov 23,2015 <strong>KTH Royal Institute of Technology</strong> – <em>Complexit
 </button>
 <pre id="BBC16-itcs-bibtex" class="collapse">@inproceedings{BBC16-itcs,
   author = {Beyersdorff, Olaf and Bonacina, Ilario and Leroy, Chew},
-  title = {{Lower Bounds: From Circuits to QBF Proof Systems}},
   booktitle = {7th Conf. Innov. Theor. Comput. Sci. -- ITCS},
+  doi = {10.1145/2840728.2840740},
   pages = {249--260},
+  title = {{Lower Bounds: From Circuits to QBF Proof Systems}},
   year = {2016},
-  doi = {10.1145/2840728.2840740}
+  bdsk-url-1 = {https://doi.org/10.1145/2840728.2840740}
 }
 </pre>
 </div>
@@ -201,6 +202,7 @@ Nov 23,2015 <strong>KTH Royal Institute of Technology</strong> – <em>Complexit
 
       </div>
     </main><!-- Parse the Latex divs with Katex-->
+<!--
 <script type="text/javascript">
   $("script[type='math/tex']").replaceWith(
     function(){
@@ -214,6 +216,21 @@ Nov 23,2015 <strong>KTH Royal Institute of Technology</strong> – <em>Complexit
       return katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: true});
   });
 </script>
+
+<script>
+      renderMathInElement(
+          document.body,
+          {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "\\[", right: "\\]", display: true},
+                  {left: "$", right: "$", display: false},
+                  {left: "\\(", right: "\\)", display: false}
+              ]
+          }
+      );
+    </script>
+-->
 </body>
 
 </html>

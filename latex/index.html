@@ -107,6 +107,7 @@ Steffen’s flexible polyhedron <a class="citation" href="#LTG.15">[2]</a> <butt
 
       </div>
     </main><!-- Parse the Latex divs with Katex-->
+<!--
 <script type="text/javascript">
   $("script[type='math/tex']").replaceWith(
     function(){
@@ -120,6 +121,21 @@ Steffen’s flexible polyhedron <a class="citation" href="#LTG.15">[2]</a> <butt
       return katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: true});
   });
 </script>
+
+<script>
+      renderMathInElement(
+          document.body,
+          {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "\\[", right: "\\]", display: true},
+                  {left: "$", right: "$", display: false},
+                  {left: "\\(", right: "\\)", display: false}
+              ]
+          }
+      );
+    </script>
+-->
 </body>
 
 </html>

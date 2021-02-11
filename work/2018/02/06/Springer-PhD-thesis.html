@@ -183,11 +183,12 @@ My PhD thesis <a href="http://www.springer.com/us/book/9783319734521">“Space i
 </button>
 <pre id="Bonacina-phdthesis-bibtex" class="collapse">@phdthesis{Bonacina-phdthesis,
   author = {Bonacina, Ilario},
-  title = {Space in weak propositional proof systems},
-  school = {Sapienza University of Rome},
-  year = {2015},
+  doi = {10.1007/978-3-319-73453-8},
   month = dec,
-  doi = {10.1007/978-3-319-73453-8}
+  school = {Sapienza University of Rome},
+  title = {Space in weak propositional proof systems},
+  year = {2015},
+  bdsk-url-1 = {https://doi.org/10.1007/978-3-319-73453-8}
 }
 </pre>
 </div>
@@ -199,6 +200,7 @@ My PhD thesis <a href="http://www.springer.com/us/book/9783319734521">“Space i
 
       </div>
     </main><!-- Parse the Latex divs with Katex-->
+<!--
 <script type="text/javascript">
   $("script[type='math/tex']").replaceWith(
     function(){
@@ -212,6 +214,21 @@ My PhD thesis <a href="http://www.springer.com/us/book/9783319734521">“Space i
       return katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: true});
   });
 </script>
+
+<script>
+      renderMathInElement(
+          document.body,
+          {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "\\[", right: "\\]", display: true},
+                  {left: "$", right: "$", display: false},
+                  {left: "\\(", right: "\\)", display: false}
+              ]
+          }
+      );
+    </script>
+-->
 </body>
 
 </html>

@@ -197,13 +197,13 @@ Sep 27, 2012 <strong>Limits of Theorem Proving, Rome</strong> – <em>Workshop</
 </button>
 <pre id="BBGHMW17-infocomp-bibtex" class="collapse">@article{BBGHMW17-infocomp,
   author = {Bennett, Patrick and Bonacina, Ilario and Galesi, Nicola and Huynh, Tony and Molloy, Mike and Wollan, Paul},
-  title = {Space proof complexity for random 3-CNFs},
+  doi = {10.1016/j.ic.2017.06.003},
   journal = {Information and Computation},
-  volume = {255},
-  number = {},
   pages = {165--176},
+  title = {Space proof complexity for random 3-CNFs},
+  volume = {255},
   year = {2017},
-  doi = {10.1016/j.ic.2017.06.003}
+  bdsk-url-1 = {https://doi.org/10.1016/j.ic.2017.06.003}
 }
 </pre>
 </div>
@@ -313,11 +313,12 @@ Sep 27, 2012 <strong>Limits of Theorem Proving, Rome</strong> – <em>Workshop</
 </button>
 <pre id="Bonacina-phdthesis-bibtex" class="collapse">@phdthesis{Bonacina-phdthesis,
   author = {Bonacina, Ilario},
-  title = {Space in weak propositional proof systems},
-  school = {Sapienza University of Rome},
-  year = {2015},
+  doi = {10.1007/978-3-319-73453-8},
   month = dec,
-  doi = {10.1007/978-3-319-73453-8}
+  school = {Sapienza University of Rome},
+  title = {Space in weak propositional proof systems},
+  year = {2015},
+  bdsk-url-1 = {https://doi.org/10.1007/978-3-319-73453-8}
 }
 </pre>
 </div>
@@ -427,14 +428,16 @@ Sep 27, 2012 <strong>Limits of Theorem Proving, Rome</strong> – <em>Workshop</
 </button>
 <pre id="BG15-jacm-bibtex" class="collapse">@article{BG15-jacm,
   author = {Bonacina, Ilario and Galesi, Nicola},
-  title = {{A Framework for Space Complexity in Algebraic Proof Systems}},
-  journal = {J. ACM},
-  volume = {62},
+  date-modified = {2021-02-11 12:10:38 +0100},
+  doi = {10.1145/2699438},
+  journal = {{J. ACM}},
+  month = jun,
   number = {3},
   pages = {1--20},
+  title = {{A Framework for Space Complexity in Algebraic Proof Systems}},
+  volume = {62},
   year = {2015},
-  month = jun,
-  doi = {10.1145/2699438}
+  bdsk-url-1 = {https://doi.org/10.1145/2699438}
 }
 </pre>
 </div>
@@ -544,11 +547,12 @@ Sep 27, 2012 <strong>Limits of Theorem Proving, Rome</strong> – <em>Workshop</
 </button>
 <pre id="BG13-itcs-bibtex" class="collapse">@inproceedings{BG13-itcs,
   author = {Bonacina, Ilario and Galesi, Nicola},
-  title = {{Pseudo-partitions, transversality and locality: A Combinatorial Characterization for the Space Measure in Algebraic Proof Systems}},
   booktitle = {4th Conf. Innov. Theor. Comput. Sci. -- ITCS},
+  doi = {10.1145/2422436.2422486},
   pages = {455--472},
+  title = {{Pseudo-partitions, transversality and locality: A Combinatorial Characterization for the Space Measure in Algebraic Proof Systems}},
   year = {2013},
-  doi = {10.1145/2422436.2422486}
+  bdsk-url-1 = {https://doi.org/10.1145/2422436.2422486}
 }
 </pre>
 </div>
@@ -557,6 +561,7 @@ Sep 27, 2012 <strong>Limits of Theorem Proving, Rome</strong> – <em>Workshop</
 
       </div>
     </main><!-- Parse the Latex divs with Katex-->
+<!--
 <script type="text/javascript">
   $("script[type='math/tex']").replaceWith(
     function(){
@@ -570,6 +575,21 @@ Sep 27, 2012 <strong>Limits of Theorem Proving, Rome</strong> – <em>Workshop</
       return katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: true});
   });
 </script>
+
+<script>
+      renderMathInElement(
+          document.body,
+          {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "\\[", right: "\\]", display: true},
+                  {left: "$", right: "$", display: false},
+                  {left: "\\(", right: "\\)", display: false}
+              ]
+          }
+      );
+    </script>
+-->
 </body>
 
 </html>

@@ -1,5 +1,5 @@
 /** Site header */
-site-header { background-color: whitesmoke; min-height: 55.95px; line-height: 54px; padding-top: 1em; position: relative; }
+site-header { background-color: whitesmoke; min-height: 55.95px; line-height: 54px; position: relative; }
 
 site-title { font-size: xx-large; font-weight: bold; }
 
@@ -27,11 +27,6 @@ site-nav .active { font-weight: bold; }
 
 button { background: whitesmoke; color: inherit; border: none; font: inherit; cursor: pointer; border-radius: 6px; }
 
-site-nav-bar { color: #20639B; font-weight: bold; }
-
-.text-justify { text-align: justify; }
-
-/* a:link{ color: $link-color; } */
 /** Reset some basic elements */
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 

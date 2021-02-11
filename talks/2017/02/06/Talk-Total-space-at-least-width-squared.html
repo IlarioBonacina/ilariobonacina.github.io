@@ -182,14 +182,15 @@ Feb 07, 2014 <strong>KTH Royal Institute of Technology, Stockholm</strong> – C
 </button>
 <pre id="BGT16-siamjcomp-bibtex" class="collapse">@article{BGT16-siamjcomp,
   author = {Bonacina, Ilario and Galesi, Nicola and Thapen, Neil},
-  title = {{Total Space in Resolution}},
+  doi = {10.1137/15M1023269},
   journal = {SIAM J. Comput.},
-  volume = {45},
+  month = jan,
   number = {5},
   pages = {1894--1909},
-  month = jan,
+  title = {{Total Space in Resolution}},
+  volume = {45},
   year = {2016},
-  doi = {10.1137/15M1023269}
+  bdsk-url-1 = {https://doi.org/10.1137/15M1023269}
 }
 </pre>
 </div>
@@ -299,12 +300,13 @@ Feb 07, 2014 <strong>KTH Royal Institute of Technology, Stockholm</strong> – C
 </button>
 <pre id="Bon16-icalp-bibtex" class="collapse">@inproceedings{Bon16-icalp,
   author = {Bonacina, Ilario},
-  title = {{Total Space in Resolution is at Least Width Squared}},
   booktitle = {43rd International Colloquium on Automata, Languages, and Programming -- ICALP},
+  doi = {10.4230/LIPIcs.ICALP.2016.56},
   pages = {56:1--56:13},
-  year = {2016},
+  title = {{Total Space in Resolution is at Least Width Squared}},
   volume = {55},
-  doi = {10.4230/LIPIcs.ICALP.2016.56}
+  year = {2016},
+  bdsk-url-1 = {https://doi.org/10.4230/LIPIcs.ICALP.2016.56}
 }
 </pre>
 </div>
@@ -414,13 +416,14 @@ Feb 07, 2014 <strong>KTH Royal Institute of Technology, Stockholm</strong> – C
 </button>
 <pre id="BGT14-focs-bibtex" class="collapse">@inproceedings{BGT14-focs,
   author = {Bonacina, Ilario and Galesi, Nicola and Thapen, Neil},
-  title = {{Total Space in Resolution}},
   booktitle = {55th Annu. Symp. Found. Comput. Sci. -- FOCS},
+  doi = {10.1109/FOCS.2014.74},
+  month = oct,
   pages = {641--650},
+  title = {{Total Space in Resolution}},
   volume = {38},
   year = {2014},
-  month = oct,
-  doi = {10.1109/FOCS.2014.74}
+  bdsk-url-1 = {https://doi.org/10.1109/FOCS.2014.74}
 }
 </pre>
 </div>
@@ -429,6 +432,7 @@ Feb 07, 2014 <strong>KTH Royal Institute of Technology, Stockholm</strong> – C
 
       </div>
     </main><!-- Parse the Latex divs with Katex-->
+<!--
 <script type="text/javascript">
   $("script[type='math/tex']").replaceWith(
     function(){
@@ -442,6 +446,21 @@ Feb 07, 2014 <strong>KTH Royal Institute of Technology, Stockholm</strong> – C
       return katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: true});
   });
 </script>
+
+<script>
+      renderMathInElement(
+          document.body,
+          {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "\\[", right: "\\]", display: true},
+                  {left: "$", right: "$", display: false},
+                  {left: "\\(", right: "\\)", display: false}
+              ]
+          }
+      );
+    </script>
+-->
 </body>
 
 </html>

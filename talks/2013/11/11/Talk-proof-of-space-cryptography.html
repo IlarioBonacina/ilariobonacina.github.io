@@ -182,11 +182,12 @@ behaviour.</p>
 </button>
 <pre id="ABFG14-scn-bibtex" class="collapse">@inproceedings{ABFG14-scn,
   author = {Ateniese, Giuseppe and Bonacina, Ilario and Faonio, Antonio and Galesi, Nicola},
-  title = {Proofs of Space: When Space Is of the Essence},
   booktitle = {Security and Cryptography for Networks - 9th International Conference -- SCN},
+  doi = {10.1007/978-3-319-10879-7_31},
   pages = {538--557},
+  title = {Proofs of Space: When Space Is of the Essence},
   year = {2014},
-  doi = {10.1007/978-3-319-10879-7_31}
+  bdsk-url-1 = {https://doi.org/10.1007/978-3-319-10879-7_31}
 }
 </pre>
 </div>
@@ -195,6 +196,7 @@ behaviour.</p>
 
       </div>
     </main><!-- Parse the Latex divs with Katex-->
+<!--
 <script type="text/javascript">
   $("script[type='math/tex']").replaceWith(
     function(){
@@ -208,6 +210,21 @@ behaviour.</p>
       return katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: true});
   });
 </script>
+
+<script>
+      renderMathInElement(
+          document.body,
+          {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "\\[", right: "\\]", display: true},
+                  {left: "$", right: "$", display: false},
+                  {left: "\\(", right: "\\)", display: false}
+              ]
+          }
+      );
+    </script>
+-->
 </body>
 
 </html>

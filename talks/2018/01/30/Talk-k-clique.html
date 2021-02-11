@@ -181,21 +181,23 @@ Jan 30, 2018 <strong>Dagstuhl Seminar 18051</strong> – <em>Proof Complexity</e
   <a style="color:$link-color">bib</a>
 </button>
 <pre id="ABDLNR18-stoc-bibtex" class="collapse">@inproceedings{ABDLNR18-stoc,
-  author = {Atserias, Albert and Bonacina, Ilario and de\ Rezende, Susanna F. and Lauria, Massimo and Nordstr\"{o}m, Jakob and Razborov, Alexander},
-  title = {Clique is Hard on Average for Regular Resolution},
-  booktitle = {Proceedings of the 50th Annual ACM SIGACT Symposium on Theory of Computing -- STOC},
-  series = {STOC 2018},
-  year = {2018},
-  isbn = {978-1-4503-5559-9},
-  location = {Los Angeles, CA, USA},
-  pages = {866--877},
-  numpages = {12},
-  url = {http://doi.acm.org/10.1145/3188745.3188856},
-  doi = {10.1145/3188745.3188856},
   acmid = {3188856},
-  publisher = {ACM},
   address = {New York, NY, USA},
-  keywords = {Erdos-Renyi random graphs, Proof complexity, k-clique, regular resolution}
+  author = {Atserias, Albert and Bonacina, Ilario and de\ Rezende, Susanna F. and Lauria, Massimo and Nordstr\"{o}m, Jakob and Razborov, Alexander},
+  booktitle = {Proceedings of the 50th Annual ACM SIGACT Symposium on Theory of Computing -- STOC},
+  doi = {10.1145/3188745.3188856},
+  isbn = {978-1-4503-5559-9},
+  keywords = {Erdos-Renyi random graphs, Proof complexity, k-clique, regular resolution},
+  location = {Los Angeles, CA, USA},
+  numpages = {12},
+  pages = {866--877},
+  publisher = {ACM},
+  series = {STOC 2018},
+  title = {Clique is Hard on Average for Regular Resolution},
+  url = {http://doi.acm.org/10.1145/3188745.3188856},
+  year = {2018},
+  bdsk-url-1 = {http://doi.acm.org/10.1145/3188745.3188856},
+  bdsk-url-2 = {https://doi.org/10.1145/3188745.3188856}
 }
 </pre>
 </div>
@@ -204,6 +206,7 @@ Jan 30, 2018 <strong>Dagstuhl Seminar 18051</strong> – <em>Proof Complexity</e
 
       </div>
     </main><!-- Parse the Latex divs with Katex-->
+<!--
 <script type="text/javascript">
   $("script[type='math/tex']").replaceWith(
     function(){
@@ -217,6 +220,21 @@ Jan 30, 2018 <strong>Dagstuhl Seminar 18051</strong> – <em>Proof Complexity</e
       return katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: true});
   });
 </script>
+
+<script>
+      renderMathInElement(
+          document.body,
+          {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "\\[", right: "\\]", display: true},
+                  {left: "$", right: "$", display: false},
+                  {left: "\\(", right: "\\)", display: false}
+              ]
+          }
+      );
+    </script>
+-->
 </body>
 
 </html>
