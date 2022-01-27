@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-02-11T14:12:14+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ilario Bonacina</title><subtitle></subtitle><entry><title type="html">Note on Razborov’ Switching Lemma for Resolution over *k*-DNFs</title><link href="http://localhost:4000/notes/2018/04/23/Note-Switching-Lemma-for-Resk.html" rel="alternate" type="text/html" title="Note on Razborov’ Switching Lemma for Resolution over *k*-DNFs" /><published>2018-04-23T10:33:49+02:00</published><updated>2020-12-21T15:54:42+01:00</updated><id>http://localhost:4000/notes/2018/04/23/Note-Switching-Lemma-for-Resk</id><content type="html" xml:base="http://localhost:4000/notes/2018/04/23/Note-Switching-Lemma-for-Resk.html">&lt;p&gt;In the &lt;a href=&quot;/teaching&quot;&gt;Teaching&lt;/a&gt; section of this site there is a new note/exposition of Razborov’ Switching Lemma for small restrictions.&lt;/p&gt;</content><author><name></name></author><category term="notes" /><summary type="html">In the Teaching section of this site there is a new note/exposition of Razborov’ Switching Lemma for small restrictions.</summary></entry><entry><title type="html">A Springer Book from my PhD Thesis</title><link href="http://localhost:4000/work/2018/02/06/Springer-PhD-thesis.html" rel="alternate" type="text/html" title="A Springer Book from my PhD Thesis" /><published>2018-02-06T09:33:49+01:00</published><updated>2020-12-21T15:54:42+01:00</updated><id>http://localhost:4000/work/2018/02/06/Springer-PhD-thesis</id><content type="html" xml:base="http://localhost:4000/work/2018/02/06/Springer-PhD-thesis.html">&lt;p&gt;&lt;img src=&quot;https://images.springer.com/sgw/books/medium/9783319734521.jpg&quot; alt=&quot;Space in weak propositional proof systems&quot; style=&quot;float: right;margin-right: 7px;margin-top: 7px;&quot; /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-01-27T10:27:02+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ilario Bonacina</title><subtitle></subtitle><entry><title type="html">Note on Razborov’ Switching Lemma for Resolution over *k*-DNFs</title><link href="http://localhost:4000/notes/2018/04/23/Note-Switching-Lemma-for-Resk.html" rel="alternate" type="text/html" title="Note on Razborov’ Switching Lemma for Resolution over *k*-DNFs" /><published>2018-04-23T10:33:49+02:00</published><updated>2020-12-21T15:54:42+01:00</updated><id>http://localhost:4000/notes/2018/04/23/Note-Switching-Lemma-for-Resk</id><content type="html" xml:base="http://localhost:4000/notes/2018/04/23/Note-Switching-Lemma-for-Resk.html">&lt;p&gt;In the &lt;a href=&quot;/teaching&quot;&gt;Teaching&lt;/a&gt; section of this site there is a new note/exposition of Razborov’ Switching Lemma for small restrictions.&lt;/p&gt;</content><author><name></name></author><category term="notes" /><summary type="html">In the Teaching section of this site there is a new note/exposition of Razborov’ Switching Lemma for small restrictions.</summary></entry><entry><title type="html">A Springer Book from my PhD Thesis</title><link href="http://localhost:4000/work/2018/02/06/Springer-PhD-thesis.html" rel="alternate" type="text/html" title="A Springer Book from my PhD Thesis" /><published>2018-02-06T09:33:49+01:00</published><updated>2020-12-21T15:54:42+01:00</updated><id>http://localhost:4000/work/2018/02/06/Springer-PhD-thesis</id><content type="html" xml:base="http://localhost:4000/work/2018/02/06/Springer-PhD-thesis.html">&lt;p&gt;&lt;img src=&quot;https://images.springer.com/sgw/books/medium/9783319734521.jpg&quot; alt=&quot;Space in weak propositional proof systems&quot; style=&quot;float: right;margin-right: 7px;margin-top: 7px;&quot; /&gt;
 My PhD thesis &lt;a href=&quot;http://www.springer.com/us/book/9783319734521&quot;&gt;“Space in weak propositional proof systems”&lt;/a&gt; was
    just published with Springer. I have few spare copies so if you are interested in having a free one just contact me.&lt;/p&gt;
 
@@ -8,12 +8,6 @@ My PhD thesis &lt;a href=&quot;http://www.springer.com/us/book/9783319734521&quo
   &lt;span id=&quot;Bonacina-phdthesis&quot;&gt;[1]Bonacina, I. 2015. &lt;b&gt;Space in weak propositional proof systems&lt;/b&gt;. Sapienza University of Rome.&lt;/span&gt;
   &lt;br /&gt;
   
-  &lt;a href=&quot;http://dx.doi.org/10.1007/978-3-319-73453-8&quot; target=&quot;_blank&quot;&gt;
-    &lt;button type=&quot;button&quot;&gt;
-        doi
-    &lt;/button&gt;
-  &lt;/a&gt;
-  
   
   
 
@@ -58,7 +52,9 @@ My PhD thesis &lt;a href=&quot;http://www.springer.com/us/book/9783319734521&quo
   
 
   
-        &lt;a href=&quot;/pdf/Bonacina-phdthesis.pdf&quot; target=&quot;_blank&quot;&gt;
+
+  
+        &lt;a href=&quot;/pdfs/Bonacina-phdthesis.pdf&quot; target=&quot;_blank&quot;&gt;
           &lt;button type=&quot;button&quot;&gt;
               pdf
           &lt;/button&gt;
@@ -103,18 +99,64 @@ My PhD thesis &lt;a href=&quot;http://www.springer.com/us/book/9783319734521&quo
 
   
 
-&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#Bonacina-phdthesis-bibtex&quot;&gt;
-  &lt;a style=&quot;color:$link-color&quot;&gt;bib&lt;/a&gt;
+&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#Bonacina-phdthesis-talk&quot;&gt;
+  &lt;a style=&quot;color:$link-color&quot;&gt;
+    talks/slides
+  &lt;/a&gt;
 &lt;/button&gt;
-&lt;pre id=&quot;Bonacina-phdthesis-bibtex&quot; class=&quot;collapse&quot;&gt;@phdthesis{Bonacina-phdthesis,
+&lt;div id=&quot;Bonacina-phdthesis-talk&quot; class=&quot;collapse&quot;&gt;
+  Talks related to this article
+  
+  
+  
+  
+  
+  
+  
+  
+  - Sep 13, 2016 **17th Italian Conference on Theoretical Computer Science (ICTCS), Lecce** -- Best Italian PhD Thesis in TCS 2016  
+- May 25, 2015 **Institute of Mathematics, Prague** -- *Logic Seminar*  
+- Apr 24, 2015 **Dagstuhl Seminar 15171** -- *Theory and Practice of SAT Solving*  
+- Apr 08, 2015 **KTH Royal Institute of Technology** -- *Complexity Seminar*  
+- Apr 07, 2015 **KTH Royal Institute of Technology** -- *Complexity Seminar*  
+- May 19, 2014 **Aarhus University** -- *Complexity Seminar*  
+- Sep 10, 2013 **14th Italian Conference on Theoretical Computer Science (ICTCS), Palermo**  
+- Jun 30, 2013 **CSEDays. Theory 2013, Ekaterinburg** -- *Summer School*  
+- Jan 13, 2013 **4th Innovations in Theoretical Computer Science (ITCS), Berkeley**  
+- Sep 27, 2012 **Limits of Theorem Proving, Rome** -- *Workshop*
+
+  
+  
+  
+  
+  
+  
+  
+  
+  &lt;br /&gt;
+&lt;/div&gt;
+  
+  &lt;a href=&quot;http://dx.doi.org/10.1007/978-3-319-73453-8&quot; target=&quot;_blank&quot;&gt;
+  &lt;button type=&quot;button&quot;&gt;
+        doi
+    &lt;/button&gt;
+  &lt;/a&gt;
+  
+&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#Bonacina-phdthesis-bibtex&quot;&gt;
+  &lt;a style=&quot;color:$link-color&quot;&gt;
+    bib
+  &lt;/a&gt;
+&lt;/button&gt;
+&lt;pre id=&quot;Bonacina-phdthesis-bibtex&quot; class=&quot;collapse&quot;&gt;
+  @phdthesis{Bonacina-phdthesis,
   author = {Bonacina, Ilario},
   doi = {10.1007/978-3-319-73453-8},
   month = dec,
   school = {Sapienza University of Rome},
   title = {Space in weak propositional proof systems},
-  year = {2015},
-  bdsk-url-1 = {https://doi.org/10.1007/978-3-319-73453-8}
+  year = {2015}
 }
+
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;br /&gt;
@@ -142,12 +184,6 @@ Jan 30, 2018 &lt;strong&gt;Dagstuhl Seminar 18051&lt;/strong&gt; – &lt;em&gt;P
   &lt;span id=&quot;ABDLNR18-stoc&quot;&gt;[1]Atserias, A., Bonacina, I., de Rezende, S.F., Lauria, M., Nordström, J. and Razborov, A. 2018. &lt;b&gt;Clique is Hard on Average for Regular Resolution&lt;/b&gt;. &lt;i&gt;Proceedings of the 50th Annual ACM SIGACT Symposium on Theory of Computing – STOC&lt;/i&gt; (New York, NY, USA, 2018), 866–877.&lt;/span&gt;
   &lt;br /&gt;
   
-  &lt;a href=&quot;http://dx.doi.org/10.1145/3188745.3188856&quot; target=&quot;_blank&quot;&gt;
-    &lt;button type=&quot;button&quot;&gt;
-        doi
-    &lt;/button&gt;
-  &lt;/a&gt;
-  
   
   
 
@@ -160,7 +196,7 @@ Jan 30, 2018 &lt;strong&gt;Dagstuhl Seminar 18051&lt;/strong&gt; – &lt;em&gt;P
   
 
   
-        &lt;a href=&quot;/pdf/ABDLNR18-stoc.pdf&quot; target=&quot;_blank&quot;&gt;
+        &lt;a href=&quot;/pdfs/ABDLNR18-stoc.pdf&quot; target=&quot;_blank&quot;&gt;
           &lt;button type=&quot;button&quot;&gt;
               pdf
           &lt;/button&gt;
@@ -237,10 +273,52 @@ Jan 30, 2018 &lt;strong&gt;Dagstuhl Seminar 18051&lt;/strong&gt; – &lt;em&gt;P
 
   
 
-&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#ABDLNR18-stoc-bibtex&quot;&gt;
-  &lt;a style=&quot;color:$link-color&quot;&gt;bib&lt;/a&gt;
+  
+
+&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#ABDLNR18-stoc-talk&quot;&gt;
+  &lt;a style=&quot;color:$link-color&quot;&gt;
+    talks/slides
+  &lt;/a&gt;
 &lt;/button&gt;
-&lt;pre id=&quot;ABDLNR18-stoc-bibtex&quot; class=&quot;collapse&quot;&gt;@inproceedings{ABDLNR18-stoc,
+&lt;div id=&quot;ABDLNR18-stoc-talk&quot; class=&quot;collapse&quot;&gt;
+  Talks related to this article
+  
+  
+  
+  
+  
+  
+  - Jul 27, 2018 **Oxford Complexity Day** -- [Slides](/slides/ABDLNR-Oxford.pdf)  
+- Jul 20, 2018 **RaTLoCC 2018: Ramsey Theory in Logic, Combinatorics and Complexity** -- [Slides](/slides/ABDLNR-Rattloc.pdf)  
+- Jun 28, 2018  **50th Annual ACM Symposium on the Theory of Computing (STOC), Los Angeles CA** -- [Poster](/slides/ABDLNR-STOC-poster.pdf)  
+- Jan 30, 2018 **Dagstuhl Seminar 18051** -- *Proof Complexity*  -- [Slides](/slides/{{page.slides}}.pdf)
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  &lt;br /&gt;
+&lt;/div&gt;
+  
+  &lt;a href=&quot;http://dx.doi.org/10.1145/3188745.3188856&quot; target=&quot;_blank&quot;&gt;
+  &lt;button type=&quot;button&quot;&gt;
+        doi
+    &lt;/button&gt;
+  &lt;/a&gt;
+  
+&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#ABDLNR18-stoc-bibtex&quot;&gt;
+  &lt;a style=&quot;color:$link-color&quot;&gt;
+    bib
+  &lt;/a&gt;
+&lt;/button&gt;
+&lt;pre id=&quot;ABDLNR18-stoc-bibtex&quot; class=&quot;collapse&quot;&gt;
+  @inproceedings{ABDLNR18-stoc,
   acmid = {3188856},
   address = {New York, NY, USA},
   author = {Atserias, Albert and Bonacina, Ilario and de\ Rezende, Susanna F. and Lauria, Massimo and Nordstr\&quot;{o}m, Jakob and Razborov, Alexander},
@@ -255,10 +333,9 @@ Jan 30, 2018 &lt;strong&gt;Dagstuhl Seminar 18051&lt;/strong&gt; – &lt;em&gt;P
   series = {STOC 2018},
   title = {Clique is Hard on Average for Regular Resolution},
   url = {http://doi.acm.org/10.1145/3188745.3188856},
-  year = {2018},
-  bdsk-url-1 = {http://doi.acm.org/10.1145/3188745.3188856},
-  bdsk-url-2 = {https://doi.org/10.1145/3188745.3188856}
+  year = {2018}
 }
+
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;br /&gt;
@@ -292,12 +369,6 @@ Feb 07, 2014 &lt;strong&gt;KTH Royal Institute of Technology, Stockholm&lt;/stro
   &lt;span id=&quot;BGT16-siamjcomp&quot;&gt;[1]Bonacina, I., Galesi, N. and Thapen, N. 2016. &lt;b&gt;Total Space in Resolution&lt;/b&gt;. &lt;i&gt;SIAM J. Comput.&lt;/i&gt; 45, 5 (Jan. 2016), 1894–1909.&lt;/span&gt;
   &lt;br /&gt;
   
-  &lt;a href=&quot;http://dx.doi.org/10.1137/15M1023269&quot; target=&quot;_blank&quot;&gt;
-    &lt;button type=&quot;button&quot;&gt;
-        doi
-    &lt;/button&gt;
-  &lt;/a&gt;
-  
   
   
 
@@ -330,7 +401,9 @@ Feb 07, 2014 &lt;strong&gt;KTH Royal Institute of Technology, Stockholm&lt;/stro
   
 
   
-        &lt;a href=&quot;/pdf/BGT16-siamjcomp.pdf&quot; target=&quot;_blank&quot;&gt;
+
+  
+        &lt;a href=&quot;/pdfs/BGT16-siamjcomp.pdf&quot; target=&quot;_blank&quot;&gt;
           &lt;button type=&quot;button&quot;&gt;
               pdf
           &lt;/button&gt;
@@ -387,10 +460,55 @@ Feb 07, 2014 &lt;strong&gt;KTH Royal Institute of Technology, Stockholm&lt;/stro
 
   
 
-&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BGT16-siamjcomp-bibtex&quot;&gt;
-  &lt;a style=&quot;color:$link-color&quot;&gt;bib&lt;/a&gt;
+&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BGT16-siamjcomp-talk&quot;&gt;
+  &lt;a style=&quot;color:$link-color&quot;&gt;
+    talks/slides
+  &lt;/a&gt;
 &lt;/button&gt;
-&lt;pre id=&quot;BGT16-siamjcomp-bibtex&quot; class=&quot;collapse&quot;&gt;@article{BGT16-siamjcomp,
+&lt;div id=&quot;BGT16-siamjcomp-talk&quot; class=&quot;collapse&quot;&gt;
+  Talks related to this article
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  - Feb 06, 2017 **Universidad Politecnica de Catalunya** -- *ALBCOM Seminar on Algorithms and Theory of Computation*  
+- Aug 19, 2016 **Fields Institute, Toronto** -- *Workshop on Theoretical Foundations of SAT Solving*  
+- Jul 14, 2016 **43rd International Colloquium on Automata, Languages and Programming (ICALP)**  
+- May 30, 2016 **Steklov Institute of Mathematics, St.Petersburg** -- *Special Semester on Complexity Theory*  
+- May 19, 2016 **Steklov Institute of Mathematics, St.Petersburg** -- *Proof Complexity Workshop*  
+- Oct 20, 2014 **55th Annual Symposium on Foundations of Computer Science (FOCS), Philadelphia**  
+- Oct 16, 2014 **Dagstuhl Seminar 14421** --  *Optimal algorithms and proofs*  
+- Jul 13, 2014 **Vienna Summer of Logic, Wien** -- *Workshop on proof complexity*  
+- Feb 07, 2014 **KTH Royal Institute of Technology, Stockholm** -- Complexity Seminar
+
+  
+  
+  
+  
+  &lt;br /&gt;
+&lt;/div&gt;
+  
+  &lt;a href=&quot;http://dx.doi.org/10.1137/15M1023269&quot; target=&quot;_blank&quot;&gt;
+  &lt;button type=&quot;button&quot;&gt;
+        doi
+    &lt;/button&gt;
+  &lt;/a&gt;
+  
+&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BGT16-siamjcomp-bibtex&quot;&gt;
+  &lt;a style=&quot;color:$link-color&quot;&gt;
+    bib
+  &lt;/a&gt;
+&lt;/button&gt;
+&lt;pre id=&quot;BGT16-siamjcomp-bibtex&quot; class=&quot;collapse&quot;&gt;
+  @article{BGT16-siamjcomp,
   author = {Bonacina, Ilario and Galesi, Nicola and Thapen, Neil},
   doi = {10.1137/15M1023269},
   journal = {SIAM J. Comput.},
@@ -399,9 +517,9 @@ Feb 07, 2014 &lt;strong&gt;KTH Royal Institute of Technology, Stockholm&lt;/stro
   pages = {1894--1909},
   title = {{Total Space in Resolution}},
   volume = {45},
-  year = {2016},
-  bdsk-url-1 = {https://doi.org/10.1137/15M1023269}
+  year = {2016}
 }
+
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;br /&gt;
@@ -410,12 +528,6 @@ Feb 07, 2014 &lt;strong&gt;KTH Royal Institute of Technology, Stockholm&lt;/stro
   &lt;span id=&quot;Bon16-icalp&quot;&gt;[2]Bonacina, I. 2016. &lt;b&gt;Total Space in Resolution is at Least Width Squared&lt;/b&gt;. &lt;i&gt;43rd International Colloquium on Automata, Languages, and Programming – ICALP&lt;/i&gt; (2016), 56:1–56:13.&lt;/span&gt;
   &lt;br /&gt;
   
-  &lt;a href=&quot;http://dx.doi.org/10.4230/LIPIcs.ICALP.2016.56&quot; target=&quot;_blank&quot;&gt;
-    &lt;button type=&quot;button&quot;&gt;
-        doi
-    &lt;/button&gt;
-  &lt;/a&gt;
-  
   
   
 
@@ -456,7 +568,9 @@ Feb 07, 2014 &lt;strong&gt;KTH Royal Institute of Technology, Stockholm&lt;/stro
   
 
   
-        &lt;a href=&quot;/pdf/Bon16-icalp.pdf&quot; target=&quot;_blank&quot;&gt;
+
+  
+        &lt;a href=&quot;/pdfs/Bon16-icalp.pdf&quot; target=&quot;_blank&quot;&gt;
           &lt;button type=&quot;button&quot;&gt;
               pdf
           &lt;/button&gt;
@@ -505,19 +619,64 @@ Feb 07, 2014 &lt;strong&gt;KTH Royal Institute of Technology, Stockholm&lt;/stro
 
   
 
-&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#Bon16-icalp-bibtex&quot;&gt;
-  &lt;a style=&quot;color:$link-color&quot;&gt;bib&lt;/a&gt;
+&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#Bon16-icalp-talk&quot;&gt;
+  &lt;a style=&quot;color:$link-color&quot;&gt;
+    talks/slides
+  &lt;/a&gt;
 &lt;/button&gt;
-&lt;pre id=&quot;Bon16-icalp-bibtex&quot; class=&quot;collapse&quot;&gt;@inproceedings{Bon16-icalp,
+&lt;div id=&quot;Bon16-icalp-talk&quot; class=&quot;collapse&quot;&gt;
+  Talks related to this article
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  - Feb 06, 2017 **Universidad Politecnica de Catalunya** -- *ALBCOM Seminar on Algorithms and Theory of Computation*  
+- Aug 19, 2016 **Fields Institute, Toronto** -- *Workshop on Theoretical Foundations of SAT Solving*  
+- Jul 14, 2016 **43rd International Colloquium on Automata, Languages and Programming (ICALP)**  
+- May 30, 2016 **Steklov Institute of Mathematics, St.Petersburg** -- *Special Semester on Complexity Theory*  
+- May 19, 2016 **Steklov Institute of Mathematics, St.Petersburg** -- *Proof Complexity Workshop*  
+- Oct 20, 2014 **55th Annual Symposium on Foundations of Computer Science (FOCS), Philadelphia**  
+- Oct 16, 2014 **Dagstuhl Seminar 14421** --  *Optimal algorithms and proofs*  
+- Jul 13, 2014 **Vienna Summer of Logic, Wien** -- *Workshop on proof complexity*  
+- Feb 07, 2014 **KTH Royal Institute of Technology, Stockholm** -- Complexity Seminar
+
+  
+  
+  
+  
+  &lt;br /&gt;
+&lt;/div&gt;
+  
+  &lt;a href=&quot;http://dx.doi.org/10.4230/LIPIcs.ICALP.2016.56&quot; target=&quot;_blank&quot;&gt;
+  &lt;button type=&quot;button&quot;&gt;
+        doi
+    &lt;/button&gt;
+  &lt;/a&gt;
+  
+&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#Bon16-icalp-bibtex&quot;&gt;
+  &lt;a style=&quot;color:$link-color&quot;&gt;
+    bib
+  &lt;/a&gt;
+&lt;/button&gt;
+&lt;pre id=&quot;Bon16-icalp-bibtex&quot; class=&quot;collapse&quot;&gt;
+  @inproceedings{Bon16-icalp,
   author = {Bonacina, Ilario},
   booktitle = {43rd International Colloquium on Automata, Languages, and Programming -- ICALP},
   doi = {10.4230/LIPIcs.ICALP.2016.56},
   pages = {56:1--56:13},
   title = {{Total Space in Resolution is at Least Width Squared}},
   volume = {55},
-  year = {2016},
-  bdsk-url-1 = {https://doi.org/10.4230/LIPIcs.ICALP.2016.56}
+  year = {2016}
 }
+
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;br /&gt;
@@ -526,12 +685,6 @@ Feb 07, 2014 &lt;strong&gt;KTH Royal Institute of Technology, Stockholm&lt;/stro
   &lt;span id=&quot;BGT14-focs&quot;&gt;[3]Bonacina, I., Galesi, N. and Thapen, N. 2014. &lt;b&gt;Total Space in Resolution&lt;/b&gt;. &lt;i&gt;55th Annu. Symp. Found. Comput. Sci. – FOCS&lt;/i&gt; (Oct. 2014), 641–650.&lt;/span&gt;
   &lt;br /&gt;
   
-  &lt;a href=&quot;http://dx.doi.org/10.1109/FOCS.2014.74&quot; target=&quot;_blank&quot;&gt;
-    &lt;button type=&quot;button&quot;&gt;
-        doi
-    &lt;/button&gt;
-  &lt;/a&gt;
-  
   
   
 
@@ -562,7 +715,9 @@ Feb 07, 2014 &lt;strong&gt;KTH Royal Institute of Technology, Stockholm&lt;/stro
   
 
   
-        &lt;a href=&quot;/pdf/BGT14-focs.pdf&quot; target=&quot;_blank&quot;&gt;
+
+  
+        &lt;a href=&quot;/pdfs/BGT14-focs.pdf&quot; target=&quot;_blank&quot;&gt;
           &lt;button type=&quot;button&quot;&gt;
               pdf
           &lt;/button&gt;
@@ -621,10 +776,55 @@ Feb 07, 2014 &lt;strong&gt;KTH Royal Institute of Technology, Stockholm&lt;/stro
 
   
 
-&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BGT14-focs-bibtex&quot;&gt;
-  &lt;a style=&quot;color:$link-color&quot;&gt;bib&lt;/a&gt;
+&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BGT14-focs-talk&quot;&gt;
+  &lt;a style=&quot;color:$link-color&quot;&gt;
+    talks/slides
+  &lt;/a&gt;
 &lt;/button&gt;
-&lt;pre id=&quot;BGT14-focs-bibtex&quot; class=&quot;collapse&quot;&gt;@inproceedings{BGT14-focs,
+&lt;div id=&quot;BGT14-focs-talk&quot; class=&quot;collapse&quot;&gt;
+  Talks related to this article
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  - Feb 06, 2017 **Universidad Politecnica de Catalunya** -- *ALBCOM Seminar on Algorithms and Theory of Computation*  
+- Aug 19, 2016 **Fields Institute, Toronto** -- *Workshop on Theoretical Foundations of SAT Solving*  
+- Jul 14, 2016 **43rd International Colloquium on Automata, Languages and Programming (ICALP)**  
+- May 30, 2016 **Steklov Institute of Mathematics, St.Petersburg** -- *Special Semester on Complexity Theory*  
+- May 19, 2016 **Steklov Institute of Mathematics, St.Petersburg** -- *Proof Complexity Workshop*  
+- Oct 20, 2014 **55th Annual Symposium on Foundations of Computer Science (FOCS), Philadelphia**  
+- Oct 16, 2014 **Dagstuhl Seminar 14421** --  *Optimal algorithms and proofs*  
+- Jul 13, 2014 **Vienna Summer of Logic, Wien** -- *Workshop on proof complexity*  
+- Feb 07, 2014 **KTH Royal Institute of Technology, Stockholm** -- Complexity Seminar
+
+  
+  
+  
+  
+  &lt;br /&gt;
+&lt;/div&gt;
+  
+  &lt;a href=&quot;http://dx.doi.org/10.1109/FOCS.2014.74&quot; target=&quot;_blank&quot;&gt;
+  &lt;button type=&quot;button&quot;&gt;
+        doi
+    &lt;/button&gt;
+  &lt;/a&gt;
+  
+&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BGT14-focs-bibtex&quot;&gt;
+  &lt;a style=&quot;color:$link-color&quot;&gt;
+    bib
+  &lt;/a&gt;
+&lt;/button&gt;
+&lt;pre id=&quot;BGT14-focs-bibtex&quot; class=&quot;collapse&quot;&gt;
+  @inproceedings{BGT14-focs,
   author = {Bonacina, Ilario and Galesi, Nicola and Thapen, Neil},
   booktitle = {55th Annu. Symp. Found. Comput. Sci. -- FOCS},
   doi = {10.1109/FOCS.2014.74},
@@ -632,9 +832,9 @@ Feb 07, 2014 &lt;strong&gt;KTH Royal Institute of Technology, Stockholm&lt;/stro
   pages = {641--650},
   title = {{Total Space in Resolution}},
   volume = {38},
-  year = {2014},
-  bdsk-url-1 = {https://doi.org/10.1109/FOCS.2014.74}
+  year = {2014}
 }
+
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;br /&gt;
@@ -660,12 +860,6 @@ Mar 21, 2014 &lt;strong&gt;KTH Royal Institute of Technology&lt;/strong&gt; – 
   &lt;span id=&quot;BT16-algorithmica&quot;&gt;[1]Bonacina, I. and Talebanfard, N. 2016. &lt;b&gt;Strong ETH and Resolution via Games and the Multiplicity of Strategies&lt;/b&gt;. &lt;i&gt;Algorithmica&lt;/i&gt;. (Oct. 2016), 1–13.&lt;/span&gt;
   &lt;br /&gt;
   
-  &lt;a href=&quot;http://dx.doi.org/10.1007/s00453-016-0228-6&quot; target=&quot;_blank&quot;&gt;
-    &lt;button type=&quot;button&quot;&gt;
-        doi
-    &lt;/button&gt;
-  &lt;/a&gt;
-  
   
   
 
@@ -702,7 +896,9 @@ Mar 21, 2014 &lt;strong&gt;KTH Royal Institute of Technology&lt;/strong&gt; – 
   
 
   
-        &lt;a href=&quot;/pdf/BT16-algorithmica.pdf&quot; target=&quot;_blank&quot;&gt;
+
+  
+        &lt;a href=&quot;/pdfs/BT16-algorithmica.pdf&quot; target=&quot;_blank&quot;&gt;
           &lt;button type=&quot;button&quot;&gt;
               pdf
           &lt;/button&gt;
@@ -755,19 +951,62 @@ Mar 21, 2014 &lt;strong&gt;KTH Royal Institute of Technology&lt;/strong&gt; – 
 
   
 
-&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BT16-algorithmica-bibtex&quot;&gt;
-  &lt;a style=&quot;color:$link-color&quot;&gt;bib&lt;/a&gt;
+&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BT16-algorithmica-talk&quot;&gt;
+  &lt;a style=&quot;color:$link-color&quot;&gt;
+    talks/slides
+  &lt;/a&gt;
 &lt;/button&gt;
-&lt;pre id=&quot;BT16-algorithmica-bibtex&quot; class=&quot;collapse&quot;&gt;@article{BT16-algorithmica,
+&lt;div id=&quot;BT16-algorithmica-talk&quot; class=&quot;collapse&quot;&gt;
+  Talks related to this article
+  
+  
+  
+  
+  - Jan 23, 2020 **BIRS workshop** -- *Proof Complexity* -- [slides](/slides/BT-banff.pdf)&lt;br /&gt;
+- Nov 21, 2016 **KTH Royal Institute of Technology, Stockholm** -- Complexity Seminar&lt;br /&gt;
+- Sep 19, 2016 **Dagstuhl Seminar 16381** -- *SAT and Interactions*  
+- Oct 01, 2015 **Universitat Politècnica de Catalunya, Barcelona** -- Complexity Seminar  
+- Jun 24, 2015 **University of Edinburgh, UK** -- Complexity Seminar  
+- Jun 17, 2015 **University of Leeds, UK** -- Logic Seminar  
+- Mar 21, 2014 **KTH Royal Institute of Technology** -- Complexity Seminar (joint talk with *Navid Talebanfard*)
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  &lt;br /&gt;
+&lt;/div&gt;
+  
+  &lt;a href=&quot;http://dx.doi.org/10.1007/s00453-016-0228-6&quot; target=&quot;_blank&quot;&gt;
+  &lt;button type=&quot;button&quot;&gt;
+        doi
+    &lt;/button&gt;
+  &lt;/a&gt;
+  
+&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BT16-algorithmica-bibtex&quot;&gt;
+  &lt;a style=&quot;color:$link-color&quot;&gt;
+    bib
+  &lt;/a&gt;
+&lt;/button&gt;
+&lt;pre id=&quot;BT16-algorithmica-bibtex&quot; class=&quot;collapse&quot;&gt;
+  @article{BT16-algorithmica,
   author = {Bonacina, Ilario and Talebanfard, Navid},
   doi = {10.1007/s00453-016-0228-6},
   journal = {Algorithmica},
   month = oct,
   pages = {1--13},
   title = {Strong ETH and Resolution via Games and the Multiplicity of Strategies},
-  year = {2016},
-  bdsk-url-1 = {https://doi.org/10.1007/s00453-016-0228-6}
+  year = {2016}
 }
+
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;br /&gt;
@@ -776,12 +1015,6 @@ Mar 21, 2014 &lt;strong&gt;KTH Royal Institute of Technology&lt;/strong&gt; – 
   &lt;span id=&quot;BT16-ipl&quot;&gt;[2]Bonacina, I. and Talebanfard, N. 2016. &lt;b&gt;Improving resolution width lower bounds for k-CNFs with applications to the Strong Exponential Time Hypothesis&lt;/b&gt;. &lt;i&gt;Inf. Process. Lett.&lt;/i&gt; 116, 2 (2016), 120–124.&lt;/span&gt;
   &lt;br /&gt;
   
-  &lt;a href=&quot;http://dx.doi.org/10.1016/j.ipl.2015.09.013&quot; target=&quot;_blank&quot;&gt;
-    &lt;button type=&quot;button&quot;&gt;
-        doi
-    &lt;/button&gt;
-  &lt;/a&gt;
-  
   
   
 
@@ -820,7 +1053,9 @@ Mar 21, 2014 &lt;strong&gt;KTH Royal Institute of Technology&lt;/strong&gt; – 
   
 
   
-        &lt;a href=&quot;/pdf/BT16-ipl.pdf&quot; target=&quot;_blank&quot;&gt;
+
+  
+        &lt;a href=&quot;/pdfs/BT16-ipl.pdf&quot; target=&quot;_blank&quot;&gt;
           &lt;button type=&quot;button&quot;&gt;
               pdf
           &lt;/button&gt;
@@ -871,10 +1106,53 @@ Mar 21, 2014 &lt;strong&gt;KTH Royal Institute of Technology&lt;/strong&gt; – 
 
   
 
-&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BT16-ipl-bibtex&quot;&gt;
-  &lt;a style=&quot;color:$link-color&quot;&gt;bib&lt;/a&gt;
+&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BT16-ipl-talk&quot;&gt;
+  &lt;a style=&quot;color:$link-color&quot;&gt;
+    talks/slides
+  &lt;/a&gt;
 &lt;/button&gt;
-&lt;pre id=&quot;BT16-ipl-bibtex&quot; class=&quot;collapse&quot;&gt;@article{BT16-ipl,
+&lt;div id=&quot;BT16-ipl-talk&quot; class=&quot;collapse&quot;&gt;
+  Talks related to this article
+  
+  
+  
+  
+  - Jan 23, 2020 **BIRS workshop** -- *Proof Complexity* -- [slides](/slides/BT-banff.pdf)&lt;br /&gt;
+- Nov 21, 2016 **KTH Royal Institute of Technology, Stockholm** -- Complexity Seminar&lt;br /&gt;
+- Sep 19, 2016 **Dagstuhl Seminar 16381** -- *SAT and Interactions*  
+- Oct 01, 2015 **Universitat Politècnica de Catalunya, Barcelona** -- Complexity Seminar  
+- Jun 24, 2015 **University of Edinburgh, UK** -- Complexity Seminar  
+- Jun 17, 2015 **University of Leeds, UK** -- Logic Seminar  
+- Mar 21, 2014 **KTH Royal Institute of Technology** -- Complexity Seminar (joint talk with *Navid Talebanfard*)
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  &lt;br /&gt;
+&lt;/div&gt;
+  
+  &lt;a href=&quot;http://dx.doi.org/10.1016/j.ipl.2015.09.013&quot; target=&quot;_blank&quot;&gt;
+  &lt;button type=&quot;button&quot;&gt;
+        doi
+    &lt;/button&gt;
+  &lt;/a&gt;
+  
+&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BT16-ipl-bibtex&quot;&gt;
+  &lt;a style=&quot;color:$link-color&quot;&gt;
+    bib
+  &lt;/a&gt;
+&lt;/button&gt;
+&lt;pre id=&quot;BT16-ipl-bibtex&quot; class=&quot;collapse&quot;&gt;
+  @article{BT16-ipl,
   author = {Bonacina, Ilario and Talebanfard, Navid},
   doi = {10.1016/j.ipl.2015.09.013},
   journal = {Inf. Process. Lett.},
@@ -882,9 +1160,9 @@ Mar 21, 2014 &lt;strong&gt;KTH Royal Institute of Technology&lt;/strong&gt; – 
   pages = {120--124},
   title = {{Improving resolution width lower bounds for k-CNFs with applications to the Strong Exponential Time Hypothesis}},
   volume = {116},
-  year = {2016},
-  bdsk-url-1 = {https://doi.org/10.1016/j.ipl.2015.09.013}
+  year = {2016}
 }
+
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;br /&gt;
@@ -893,12 +1171,6 @@ Mar 21, 2014 &lt;strong&gt;KTH Royal Institute of Technology&lt;/strong&gt; – 
   &lt;span id=&quot;BT15-ipec&quot;&gt;[3]Bonacina, I. and Talebanfard, N. 2015. &lt;b&gt;Strong ETH and Resolution via Games and the Multiplicity of Strategies&lt;/b&gt;. &lt;i&gt;10th International Symposium on Parameterized and Exact Computation – IPEC&lt;/i&gt; (2015), 248–257.&lt;/span&gt;
   &lt;br /&gt;
   
-  &lt;a href=&quot;http://dx.doi.org/10.4230/LIPIcs.IPEC.2015.248&quot; target=&quot;_blank&quot;&gt;
-    &lt;button type=&quot;button&quot;&gt;
-        doi
-    &lt;/button&gt;
-  &lt;/a&gt;
-  
   
   
 
@@ -933,7 +1205,9 @@ Mar 21, 2014 &lt;strong&gt;KTH Royal Institute of Technology&lt;/strong&gt; – 
   
 
   
-        &lt;a href=&quot;/pdf/BT15-ipec.pdf&quot; target=&quot;_blank&quot;&gt;
+
+  
+        &lt;a href=&quot;/pdfs/BT15-ipec.pdf&quot; target=&quot;_blank&quot;&gt;
           &lt;button type=&quot;button&quot;&gt;
               pdf
           &lt;/button&gt;
@@ -988,18 +1262,61 @@ Mar 21, 2014 &lt;strong&gt;KTH Royal Institute of Technology&lt;/strong&gt; – 
 
   
 
-&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BT15-ipec-bibtex&quot;&gt;
-  &lt;a style=&quot;color:$link-color&quot;&gt;bib&lt;/a&gt;
+&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BT15-ipec-talk&quot;&gt;
+  &lt;a style=&quot;color:$link-color&quot;&gt;
+    talks/slides
+  &lt;/a&gt;
 &lt;/button&gt;
-&lt;pre id=&quot;BT15-ipec-bibtex&quot; class=&quot;collapse&quot;&gt;@inproceedings{BT15-ipec,
+&lt;div id=&quot;BT15-ipec-talk&quot; class=&quot;collapse&quot;&gt;
+  Talks related to this article
+  
+  
+  
+  
+  - Jan 23, 2020 **BIRS workshop** -- *Proof Complexity* -- [slides](/slides/BT-banff.pdf)&lt;br /&gt;
+- Nov 21, 2016 **KTH Royal Institute of Technology, Stockholm** -- Complexity Seminar&lt;br /&gt;
+- Sep 19, 2016 **Dagstuhl Seminar 16381** -- *SAT and Interactions*  
+- Oct 01, 2015 **Universitat Politècnica de Catalunya, Barcelona** -- Complexity Seminar  
+- Jun 24, 2015 **University of Edinburgh, UK** -- Complexity Seminar  
+- Jun 17, 2015 **University of Leeds, UK** -- Logic Seminar  
+- Mar 21, 2014 **KTH Royal Institute of Technology** -- Complexity Seminar (joint talk with *Navid Talebanfard*)
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  &lt;br /&gt;
+&lt;/div&gt;
+  
+  &lt;a href=&quot;http://dx.doi.org/10.4230/LIPIcs.IPEC.2015.248&quot; target=&quot;_blank&quot;&gt;
+  &lt;button type=&quot;button&quot;&gt;
+        doi
+    &lt;/button&gt;
+  &lt;/a&gt;
+  
+&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BT15-ipec-bibtex&quot;&gt;
+  &lt;a style=&quot;color:$link-color&quot;&gt;
+    bib
+  &lt;/a&gt;
+&lt;/button&gt;
+&lt;pre id=&quot;BT15-ipec-bibtex&quot; class=&quot;collapse&quot;&gt;
+  @inproceedings{BT15-ipec,
   author = {Bonacina, Ilario and Talebanfard, Navid},
   booktitle = {10th International Symposium on Parameterized and Exact Computation -- IPEC},
   doi = {10.4230/LIPIcs.IPEC.2015.248},
   pages = {248--257},
   title = {{Strong ETH and Resolution via Games and the Multiplicity of Strategies}},
-  year = {2015},
-  bdsk-url-1 = {https://doi.org/10.4230/LIPIcs.IPEC.2015.248}
+  year = {2015}
 }
+
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;br /&gt;
@@ -1046,12 +1363,6 @@ Sep 27, 2012 &lt;strong&gt;Limits of Theorem Proving, Rome&lt;/strong&gt; – &l
   &lt;span id=&quot;BBGHMW17-infocomp&quot;&gt;[1]Bennett, P., Bonacina, I., Galesi, N., Huynh, T., Molloy, M. and Wollan, P. 2017. &lt;b&gt;Space proof complexity for random 3-CNFs&lt;/b&gt;. &lt;i&gt;Information and Computation&lt;/i&gt;. 255, (2017), 165–176.&lt;/span&gt;
   &lt;br /&gt;
   
-  &lt;a href=&quot;http://dx.doi.org/10.1016/j.ic.2017.06.003&quot; target=&quot;_blank&quot;&gt;
-    &lt;button type=&quot;button&quot;&gt;
-        doi
-    &lt;/button&gt;
-  &lt;/a&gt;
-  
   
   
 
@@ -1076,7 +1387,9 @@ Sep 27, 2012 &lt;strong&gt;Limits of Theorem Proving, Rome&lt;/strong&gt; – &l
   
 
   
-        &lt;a href=&quot;/pdf/BBGHMW17-infocomp.pdf&quot; target=&quot;_blank&quot;&gt;
+
+  
+        &lt;a href=&quot;/pdfs/BBGHMW17-infocomp.pdf&quot; target=&quot;_blank&quot;&gt;
           &lt;button type=&quot;button&quot;&gt;
               pdf
           &lt;/button&gt;
@@ -1141,19 +1454,65 @@ Sep 27, 2012 &lt;strong&gt;Limits of Theorem Proving, Rome&lt;/strong&gt; – &l
 
   
 
-&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BBGHMW17-infocomp-bibtex&quot;&gt;
-  &lt;a style=&quot;color:$link-color&quot;&gt;bib&lt;/a&gt;
+&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BBGHMW17-infocomp-talk&quot;&gt;
+  &lt;a style=&quot;color:$link-color&quot;&gt;
+    talks/slides
+  &lt;/a&gt;
 &lt;/button&gt;
-&lt;pre id=&quot;BBGHMW17-infocomp-bibtex&quot; class=&quot;collapse&quot;&gt;@article{BBGHMW17-infocomp,
+&lt;div id=&quot;BBGHMW17-infocomp-talk&quot; class=&quot;collapse&quot;&gt;
+  Talks related to this article
+  
+  
+  
+  
+  
+  
+  
+  
+  - Sep 13, 2016 **17th Italian Conference on Theoretical Computer Science (ICTCS), Lecce** -- Best Italian PhD Thesis in TCS 2016  
+- May 25, 2015 **Institute of Mathematics, Prague** -- *Logic Seminar*  
+- Apr 24, 2015 **Dagstuhl Seminar 15171** -- *Theory and Practice of SAT Solving*  
+- Apr 08, 2015 **KTH Royal Institute of Technology** -- *Complexity Seminar*  
+- Apr 07, 2015 **KTH Royal Institute of Technology** -- *Complexity Seminar*  
+- May 19, 2014 **Aarhus University** -- *Complexity Seminar*  
+- Sep 10, 2013 **14th Italian Conference on Theoretical Computer Science (ICTCS), Palermo**  
+- Jun 30, 2013 **CSEDays. Theory 2013, Ekaterinburg** -- *Summer School*  
+- Jan 13, 2013 **4th Innovations in Theoretical Computer Science (ITCS), Berkeley**  
+- Sep 27, 2012 **Limits of Theorem Proving, Rome** -- *Workshop*
+
+  
+  
+  
+  
+  
+  
+  
+  
+  &lt;br /&gt;
+&lt;/div&gt;
+  
+  &lt;a href=&quot;http://dx.doi.org/10.1016/j.ic.2017.06.003&quot; target=&quot;_blank&quot;&gt;
+  &lt;button type=&quot;button&quot;&gt;
+        doi
+    &lt;/button&gt;
+  &lt;/a&gt;
+  
+&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BBGHMW17-infocomp-bibtex&quot;&gt;
+  &lt;a style=&quot;color:$link-color&quot;&gt;
+    bib
+  &lt;/a&gt;
+&lt;/button&gt;
+&lt;pre id=&quot;BBGHMW17-infocomp-bibtex&quot; class=&quot;collapse&quot;&gt;
+  @article{BBGHMW17-infocomp,
   author = {Bennett, Patrick and Bonacina, Ilario and Galesi, Nicola and Huynh, Tony and Molloy, Mike and Wollan, Paul},
   doi = {10.1016/j.ic.2017.06.003},
   journal = {Information and Computation},
   pages = {165--176},
   title = {Space proof complexity for random 3-CNFs},
   volume = {255},
-  year = {2017},
-  bdsk-url-1 = {https://doi.org/10.1016/j.ic.2017.06.003}
+  year = {2017}
 }
+
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;br /&gt;
@@ -1162,12 +1521,6 @@ Sep 27, 2012 &lt;strong&gt;Limits of Theorem Proving, Rome&lt;/strong&gt; – &l
   &lt;span id=&quot;Bonacina-phdthesis&quot;&gt;[2]Bonacina, I. 2015. &lt;b&gt;Space in weak propositional proof systems&lt;/b&gt;. Sapienza University of Rome.&lt;/span&gt;
   &lt;br /&gt;
   
-  &lt;a href=&quot;http://dx.doi.org/10.1007/978-3-319-73453-8&quot; target=&quot;_blank&quot;&gt;
-    &lt;button type=&quot;button&quot;&gt;
-        doi
-    &lt;/button&gt;
-  &lt;/a&gt;
-  
   
   
 
@@ -1212,7 +1565,9 @@ Sep 27, 2012 &lt;strong&gt;Limits of Theorem Proving, Rome&lt;/strong&gt; – &l
   
 
   
-        &lt;a href=&quot;/pdf/Bonacina-phdthesis.pdf&quot; target=&quot;_blank&quot;&gt;
+
+  
+        &lt;a href=&quot;/pdfs/Bonacina-phdthesis.pdf&quot; target=&quot;_blank&quot;&gt;
           &lt;button type=&quot;button&quot;&gt;
               pdf
           &lt;/button&gt;
@@ -1257,18 +1612,64 @@ Sep 27, 2012 &lt;strong&gt;Limits of Theorem Proving, Rome&lt;/strong&gt; – &l
 
   
 
-&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#Bonacina-phdthesis-bibtex&quot;&gt;
-  &lt;a style=&quot;color:$link-color&quot;&gt;bib&lt;/a&gt;
+&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#Bonacina-phdthesis-talk&quot;&gt;
+  &lt;a style=&quot;color:$link-color&quot;&gt;
+    talks/slides
+  &lt;/a&gt;
 &lt;/button&gt;
-&lt;pre id=&quot;Bonacina-phdthesis-bibtex&quot; class=&quot;collapse&quot;&gt;@phdthesis{Bonacina-phdthesis,
+&lt;div id=&quot;Bonacina-phdthesis-talk&quot; class=&quot;collapse&quot;&gt;
+  Talks related to this article
+  
+  
+  
+  
+  
+  
+  
+  
+  - Sep 13, 2016 **17th Italian Conference on Theoretical Computer Science (ICTCS), Lecce** -- Best Italian PhD Thesis in TCS 2016  
+- May 25, 2015 **Institute of Mathematics, Prague** -- *Logic Seminar*  
+- Apr 24, 2015 **Dagstuhl Seminar 15171** -- *Theory and Practice of SAT Solving*  
+- Apr 08, 2015 **KTH Royal Institute of Technology** -- *Complexity Seminar*  
+- Apr 07, 2015 **KTH Royal Institute of Technology** -- *Complexity Seminar*  
+- May 19, 2014 **Aarhus University** -- *Complexity Seminar*  
+- Sep 10, 2013 **14th Italian Conference on Theoretical Computer Science (ICTCS), Palermo**  
+- Jun 30, 2013 **CSEDays. Theory 2013, Ekaterinburg** -- *Summer School*  
+- Jan 13, 2013 **4th Innovations in Theoretical Computer Science (ITCS), Berkeley**  
+- Sep 27, 2012 **Limits of Theorem Proving, Rome** -- *Workshop*
+
+  
+  
+  
+  
+  
+  
+  
+  
+  &lt;br /&gt;
+&lt;/div&gt;
+  
+  &lt;a href=&quot;http://dx.doi.org/10.1007/978-3-319-73453-8&quot; target=&quot;_blank&quot;&gt;
+  &lt;button type=&quot;button&quot;&gt;
+        doi
+    &lt;/button&gt;
+  &lt;/a&gt;
+  
+&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#Bonacina-phdthesis-bibtex&quot;&gt;
+  &lt;a style=&quot;color:$link-color&quot;&gt;
+    bib
+  &lt;/a&gt;
+&lt;/button&gt;
+&lt;pre id=&quot;Bonacina-phdthesis-bibtex&quot; class=&quot;collapse&quot;&gt;
+  @phdthesis{Bonacina-phdthesis,
   author = {Bonacina, Ilario},
   doi = {10.1007/978-3-319-73453-8},
   month = dec,
   school = {Sapienza University of Rome},
   title = {Space in weak propositional proof systems},
-  year = {2015},
-  bdsk-url-1 = {https://doi.org/10.1007/978-3-319-73453-8}
+  year = {2015}
 }
+
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;br /&gt;
@@ -1277,12 +1678,6 @@ Sep 27, 2012 &lt;strong&gt;Limits of Theorem Proving, Rome&lt;/strong&gt; – &l
   &lt;span id=&quot;BG15-jacm&quot;&gt;[3]Bonacina, I. and Galesi, N. 2015. &lt;b&gt;A Framework for Space Complexity in Algebraic Proof Systems&lt;/b&gt;. &lt;i&gt;J. ACM&lt;/i&gt;. 62, 3 (Jun. 2015), 1–20.&lt;/span&gt;
   &lt;br /&gt;
   
-  &lt;a href=&quot;http://dx.doi.org/10.1145/2699438&quot; target=&quot;_blank&quot;&gt;
-    &lt;button type=&quot;button&quot;&gt;
-        doi
-    &lt;/button&gt;
-  &lt;/a&gt;
-  
   
   
 
@@ -1311,7 +1706,9 @@ Sep 27, 2012 &lt;strong&gt;Limits of Theorem Proving, Rome&lt;/strong&gt; – &l
   
 
   
-        &lt;a href=&quot;/pdf/BG15-jacm.pdf&quot; target=&quot;_blank&quot;&gt;
+
+  
+        &lt;a href=&quot;/pdfs/BG15-jacm.pdf&quot; target=&quot;_blank&quot;&gt;
           &lt;button type=&quot;button&quot;&gt;
               pdf
           &lt;/button&gt;
@@ -1372,10 +1769,56 @@ Sep 27, 2012 &lt;strong&gt;Limits of Theorem Proving, Rome&lt;/strong&gt; – &l
 
   
 
-&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BG15-jacm-bibtex&quot;&gt;
-  &lt;a style=&quot;color:$link-color&quot;&gt;bib&lt;/a&gt;
+&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BG15-jacm-talk&quot;&gt;
+  &lt;a style=&quot;color:$link-color&quot;&gt;
+    talks/slides
+  &lt;/a&gt;
 &lt;/button&gt;
-&lt;pre id=&quot;BG15-jacm-bibtex&quot; class=&quot;collapse&quot;&gt;@article{BG15-jacm,
+&lt;div id=&quot;BG15-jacm-talk&quot; class=&quot;collapse&quot;&gt;
+  Talks related to this article
+  
+  
+  
+  
+  
+  
+  
+  
+  - Sep 13, 2016 **17th Italian Conference on Theoretical Computer Science (ICTCS), Lecce** -- Best Italian PhD Thesis in TCS 2016  
+- May 25, 2015 **Institute of Mathematics, Prague** -- *Logic Seminar*  
+- Apr 24, 2015 **Dagstuhl Seminar 15171** -- *Theory and Practice of SAT Solving*  
+- Apr 08, 2015 **KTH Royal Institute of Technology** -- *Complexity Seminar*  
+- Apr 07, 2015 **KTH Royal Institute of Technology** -- *Complexity Seminar*  
+- May 19, 2014 **Aarhus University** -- *Complexity Seminar*  
+- Sep 10, 2013 **14th Italian Conference on Theoretical Computer Science (ICTCS), Palermo**  
+- Jun 30, 2013 **CSEDays. Theory 2013, Ekaterinburg** -- *Summer School*  
+- Jan 13, 2013 **4th Innovations in Theoretical Computer Science (ITCS), Berkeley**  
+- Sep 27, 2012 **Limits of Theorem Proving, Rome** -- *Workshop*
+
+  
+  
+  
+  
+  
+  
+  
+  
+  &lt;br /&gt;
+&lt;/div&gt;
+  
+  &lt;a href=&quot;http://dx.doi.org/10.1145/2699438&quot; target=&quot;_blank&quot;&gt;
+  &lt;button type=&quot;button&quot;&gt;
+        doi
+    &lt;/button&gt;
+  &lt;/a&gt;
+  
+&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BG15-jacm-bibtex&quot;&gt;
+  &lt;a style=&quot;color:$link-color&quot;&gt;
+    bib
+  &lt;/a&gt;
+&lt;/button&gt;
+&lt;pre id=&quot;BG15-jacm-bibtex&quot; class=&quot;collapse&quot;&gt;
+  @article{BG15-jacm,
   author = {Bonacina, Ilario and Galesi, Nicola},
   date-modified = {2021-02-11 12:10:38 +0100},
   doi = {10.1145/2699438},
@@ -1385,9 +1828,9 @@ Sep 27, 2012 &lt;strong&gt;Limits of Theorem Proving, Rome&lt;/strong&gt; – &l
   pages = {1--20},
   title = {{A Framework for Space Complexity in Algebraic Proof Systems}},
   volume = {62},
-  year = {2015},
-  bdsk-url-1 = {https://doi.org/10.1145/2699438}
+  year = {2015}
 }
+
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;br /&gt;
@@ -1396,12 +1839,6 @@ Sep 27, 2012 &lt;strong&gt;Limits of Theorem Proving, Rome&lt;/strong&gt; – &l
   &lt;span id=&quot;BG13-itcs&quot;&gt;[4]Bonacina, I. and Galesi, N. 2013. &lt;b&gt;Pseudo-partitions, transversality and locality: A Combinatorial Characterization for the Space Measure in Algebraic Proof Systems&lt;/b&gt;. &lt;i&gt;4th Conf. Innov. Theor. Comput. Sci. – ITCS&lt;/i&gt; (2013), 455–472.&lt;/span&gt;
   &lt;br /&gt;
   
-  &lt;a href=&quot;http://dx.doi.org/10.1145/2422436.2422486&quot; target=&quot;_blank&quot;&gt;
-    &lt;button type=&quot;button&quot;&gt;
-        doi
-    &lt;/button&gt;
-  &lt;/a&gt;
-  
   
   
 
@@ -1428,7 +1865,9 @@ Sep 27, 2012 &lt;strong&gt;Limits of Theorem Proving, Rome&lt;/strong&gt; – &l
   
 
   
-        &lt;a href=&quot;/pdf/BG13-itcs.pdf&quot; target=&quot;_blank&quot;&gt;
+
+  
+        &lt;a href=&quot;/pdfs/BG13-itcs.pdf&quot; target=&quot;_blank&quot;&gt;
           &lt;button type=&quot;button&quot;&gt;
               pdf
           &lt;/button&gt;
@@ -1491,18 +1930,64 @@ Sep 27, 2012 &lt;strong&gt;Limits of Theorem Proving, Rome&lt;/strong&gt; – &l
 
   
 
-&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BG13-itcs-bibtex&quot;&gt;
-  &lt;a style=&quot;color:$link-color&quot;&gt;bib&lt;/a&gt;
+&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BG13-itcs-talk&quot;&gt;
+  &lt;a style=&quot;color:$link-color&quot;&gt;
+    talks/slides
+  &lt;/a&gt;
 &lt;/button&gt;
-&lt;pre id=&quot;BG13-itcs-bibtex&quot; class=&quot;collapse&quot;&gt;@inproceedings{BG13-itcs,
+&lt;div id=&quot;BG13-itcs-talk&quot; class=&quot;collapse&quot;&gt;
+  Talks related to this article
+  
+  
+  
+  
+  
+  
+  
+  
+  - Sep 13, 2016 **17th Italian Conference on Theoretical Computer Science (ICTCS), Lecce** -- Best Italian PhD Thesis in TCS 2016  
+- May 25, 2015 **Institute of Mathematics, Prague** -- *Logic Seminar*  
+- Apr 24, 2015 **Dagstuhl Seminar 15171** -- *Theory and Practice of SAT Solving*  
+- Apr 08, 2015 **KTH Royal Institute of Technology** -- *Complexity Seminar*  
+- Apr 07, 2015 **KTH Royal Institute of Technology** -- *Complexity Seminar*  
+- May 19, 2014 **Aarhus University** -- *Complexity Seminar*  
+- Sep 10, 2013 **14th Italian Conference on Theoretical Computer Science (ICTCS), Palermo**  
+- Jun 30, 2013 **CSEDays. Theory 2013, Ekaterinburg** -- *Summer School*  
+- Jan 13, 2013 **4th Innovations in Theoretical Computer Science (ITCS), Berkeley**  
+- Sep 27, 2012 **Limits of Theorem Proving, Rome** -- *Workshop*
+
+  
+  
+  
+  
+  
+  
+  
+  
+  &lt;br /&gt;
+&lt;/div&gt;
+  
+  &lt;a href=&quot;http://dx.doi.org/10.1145/2422436.2422486&quot; target=&quot;_blank&quot;&gt;
+  &lt;button type=&quot;button&quot;&gt;
+        doi
+    &lt;/button&gt;
+  &lt;/a&gt;
+  
+&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BG13-itcs-bibtex&quot;&gt;
+  &lt;a style=&quot;color:$link-color&quot;&gt;
+    bib
+  &lt;/a&gt;
+&lt;/button&gt;
+&lt;pre id=&quot;BG13-itcs-bibtex&quot; class=&quot;collapse&quot;&gt;
+  @inproceedings{BG13-itcs,
   author = {Bonacina, Ilario and Galesi, Nicola},
   booktitle = {4th Conf. Innov. Theor. Comput. Sci. -- ITCS},
   doi = {10.1145/2422436.2422486},
   pages = {455--472},
   title = {{Pseudo-partitions, transversality and locality: A Combinatorial Characterization for the Space Measure in Algebraic Proof Systems}},
-  year = {2013},
-  bdsk-url-1 = {https://doi.org/10.1145/2422436.2422486}
+  year = {2013}
 }
+
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;br /&gt;
@@ -1536,12 +2021,6 @@ Nov 23,2015 &lt;strong&gt;KTH Royal Institute of Technology&lt;/strong&gt; – &
   &lt;span id=&quot;BBC16-itcs&quot;&gt;[1]Beyersdorff, O., Bonacina, I. and Leroy, C. 2016. &lt;b&gt;Lower Bounds: From Circuits to QBF Proof Systems&lt;/b&gt;. &lt;i&gt;7th Conf. Innov. Theor. Comput. Sci. – ITCS&lt;/i&gt; (2016), 249–260.&lt;/span&gt;
   &lt;br /&gt;
   
-  &lt;a href=&quot;http://dx.doi.org/10.1145/2840728.2840740&quot; target=&quot;_blank&quot;&gt;
-    &lt;button type=&quot;button&quot;&gt;
-        doi
-    &lt;/button&gt;
-  &lt;/a&gt;
-  
   
   
 
@@ -1560,7 +2039,9 @@ Nov 23,2015 &lt;strong&gt;KTH Royal Institute of Technology&lt;/strong&gt; – &
   
 
   
-        &lt;a href=&quot;/pdf/BBC16-itcs.pdf&quot; target=&quot;_blank&quot;&gt;
+
+  
+        &lt;a href=&quot;/pdfs/BBC16-itcs.pdf&quot; target=&quot;_blank&quot;&gt;
           &lt;button type=&quot;button&quot;&gt;
               pdf
           &lt;/button&gt;
@@ -1631,18 +2112,58 @@ Nov 23,2015 &lt;strong&gt;KTH Royal Institute of Technology&lt;/strong&gt; – &
 
   
 
-&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BBC16-itcs-bibtex&quot;&gt;
-  &lt;a style=&quot;color:$link-color&quot;&gt;bib&lt;/a&gt;
+&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BBC16-itcs-talk&quot;&gt;
+  &lt;a style=&quot;color:$link-color&quot;&gt;
+    talks/slides
+  &lt;/a&gt;
 &lt;/button&gt;
-&lt;pre id=&quot;BBC16-itcs-bibtex&quot; class=&quot;collapse&quot;&gt;@inproceedings{BBC16-itcs,
+&lt;div id=&quot;BBC16-itcs-talk&quot; class=&quot;collapse&quot;&gt;
+  Talks related to this article
+  
+  
+  - Aug 26, 2016 **University of Toronto** -- *Theory Seminar*  
+- Jun 20, 2016 **Technion Israel Institute of Technology, Haifa**  
+- Jan 15, 2016 **7th Annual Innovations in Theoretical Computer Science (ITCS), Cambridge MA**  
+- Nov 23,2015 **KTH Royal Institute of Technology** -- *Complexity Seminar*
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  &lt;br /&gt;
+&lt;/div&gt;
+  
+  &lt;a href=&quot;http://dx.doi.org/10.1145/2840728.2840740&quot; target=&quot;_blank&quot;&gt;
+  &lt;button type=&quot;button&quot;&gt;
+        doi
+    &lt;/button&gt;
+  &lt;/a&gt;
+  
+&lt;button type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#BBC16-itcs-bibtex&quot;&gt;
+  &lt;a style=&quot;color:$link-color&quot;&gt;
+    bib
+  &lt;/a&gt;
+&lt;/button&gt;
+&lt;pre id=&quot;BBC16-itcs-bibtex&quot; class=&quot;collapse&quot;&gt;
+  @inproceedings{BBC16-itcs,
   author = {Beyersdorff, Olaf and Bonacina, Ilario and Leroy, Chew},
   booktitle = {7th Conf. Innov. Theor. Comput. Sci. -- ITCS},
   doi = {10.1145/2840728.2840740},
   pages = {249--260},
   title = {{Lower Bounds: From Circuits to QBF Proof Systems}},
-  year = {2016},
-  bdsk-url-1 = {https://doi.org/10.1145/2840728.2840740}
+  year = {2016}
 }
+
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;br /&gt;

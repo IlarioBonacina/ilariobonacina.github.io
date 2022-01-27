@@ -45,9 +45,7 @@
             
             <a class="page-link" href="/publications/">Publications</a>
             
-            <a class="page-link" href="/talks/">Talks</a>
-            
-            <a class="page-link" href="/manuscripts/">Manuscripts</a>
+            <a class="page-link active" href="/open_problems/">Open Problems</a>
             
             <a class="page-link" href="/latex/">LaTeX &amp; co</a>
             
@@ -60,7 +58,11 @@
       <div class="wrapper">
         <h2 id="open-problems">Open Problems</h2>
 
-<p>This is an (unordered) list of open problems from proof complexity that I find interesting. This list of problems might overlap with <a href="http://people.cs.uchicago.edu/%7Erazborov/teaching/index.html">Alexander Rasborov’s list</a> of open problems in proof complexity.  Please let me know if you find errors or something listed as an open problem but it was solved. The last time this page was updated was on <font style="color: #ff8000;">Feb 11, 2021</font>.</p>
+<p>This is an (unordered) list of open problems from proof complexity that I find interesting. This list of problems might overlap with <a href="http://people.cs.uchicago.edu/%7Erazborov/teaching/index.html">Alexander Rasborov’s list</a> of open problems in proof complexity.</p>
+
+<p>Please let me know if you find errors or something listed as an open problem but it was solved.</p>
+
+<p>The last time this page was updated was on <font style="color: #ff8000;">Jan 27, 2022</font>.</p>
 
 <h4 id="on-the-pigeonhole-principle"><strong>On the Pigeonhole Principle</strong></h4>
 
@@ -78,10 +80,13 @@
     <p>Prove that \(\mathsf{PHP}^{n^2}_n\) require super-polynomial \(2\)-DNF resolution refutations.</p>
   </li>
   <li>
-    <p>Prove that for every \(m\), \(\mathsf{PHP}^{m}_n\) requires polynomial calculus + resolution refutations of size \(2^{\Omega(n)}\)</p>
+    <p>Prove that for every \(m\), \(\mathsf{PHP}^{m}_n\) requires polynomial calculus + resolution refutations of size \(2^{\Omega(n)}\).</p>
   </li>
   <li>
     <p>Prove that \(\mathsf{PHP}^{2n}_n\) require super-polynomial depth-\(d\) frege refutations.</p>
+  </li>
+  <li>
+    <p>Does depth-\(1\) Frege + \(\mathsf{PHP}^{n+1}_n\) p-simulate Sherali-Adams? This is true if the coefficients in SA are given in <em>unary</em>.</p>
   </li>
 </ul>
 
@@ -163,7 +168,7 @@ We know this is true for random \(\Theta(\log n)\)-CNFs with appropriate clause 
     <p>Is resolution weakly-automatable?</p>
   </li>
   <li>
-    <p>Are there any non-trivial lower for space in Cutting planes with <em>bounded</em> coefficients? If we allow unbounded coefficients then every unsatisfiable formula has a refutation of constant space.</p>
+    <p>Are there any non-trivial lower bounds for space in Cutting planes with <em>bounded</em> coefficients? If we allow unbounded coefficients then every unsatisfiable formula has a refutation of constant space.</p>
   </li>
   <li>
     <p>Is there any relationship between the <em>degree</em> and the <em>monomial space</em> in polynomial calculus? That is something similar to the width-clause space inequality that holds for resolution.</p>
@@ -172,7 +177,7 @@ We know this is true for random \(\Theta(\log n)\)-CNFs with appropriate clause 
     <p>Prove any super-linear (in the number of variables) total space lower bound in polynomial calculus + resolution. E.g. for random \(k\)-CNFs on \(n\) variables, is it true that they require total space \(\Omega(n^2)\) to be refuted in polynomial calculus + resolution?</p>
   </li>
   <li>
-    <p>Let \(\varphi\) be an unsatisfiable CNF formula, let \(M\) be minimal monomial space of a polynomial calculus + resolution refutation of \(\varphi\) and \(W\) be the minimal width of a resolution refutation of \(\varphi\). Is it true that \(M\geq \Omega(W)\)? So far we know \(M \gtrsim \Omega(\sqrt{W})\) (missing reference).</p>
+    <p>Let \(\varphi\) be an unsatisfiable CNF formula, let \(M\) be minimal monomial space of a polynomial calculus + resolution refutation of \(\varphi\) and \(W\) be the minimal width of a resolution refutation of \(\varphi\). Is it true that \(M\geq \Omega(W)\)? So far we know \(M \gtrsim \Omega(\sqrt{W})\).</p>
   </li>
   <li>
     <p>Is there a propositional formula encoding some natural combinatorial principle exponentially separating resolution from regular resolution? We have examples of the separation but via formulas composed with some gadget, so, well, not so natural.</p>
@@ -195,6 +200,7 @@ We know this is true for random \(\Theta(\log n)\)-CNFs with appropriate clause 
 
 <p><br />
 <br /></p>
+
 
       </div>
     </main><!-- Parse the Latex divs with Katex-->
