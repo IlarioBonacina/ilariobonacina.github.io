@@ -1,1 +1,0 @@
-This is my academic webpage. It is automatically generated using [Jekyll](https://jekyllrb.com). 
