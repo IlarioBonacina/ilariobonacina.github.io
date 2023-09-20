@@ -25,6 +25,12 @@ site-nav .active { font-weight: bold; }
 
 @media screen and (min-width: 600px) { site-nav { position: static; float: right; border: none; background-color: inherit; } site-nav label[for="nav-trigger"] { display: none; } site-nav .menu-icon { display: none; } site-nav input ~ .trigger { display: block; } site-nav .page-link { display: inline; padding: 0; margin-left: auto; } site-nav .page-link:not(:last-child) { margin-right: 20px; } }
 
+a:link { text-decoration: underline; }
+
+a:hover { background-color: lightblue; border-radius: 5px 5px 5px 5px; }
+
+a:visited { color: #2a7fc4; }
+
 button { background: white; color: inherit; border: none; font: inherit; cursor: pointer; border-radius: 6px; }
 
 /** Reset some basic elements */
@@ -56,9 +62,9 @@ li > ul, li > ol { margin-bottom: 0; }
 h1, h2, h3, h4, h5, h6 { font-weight: 400; }
 
 /** Links */
-a { color: #20639B; text-decoration: none; }
+a { color: #2a7fc4; text-decoration: none; }
 
-a:visited { color: #133b5c; }
+a:visited { color: #1d5685; }
 
 a:hover { color: #111; text-decoration: underline; }
 
