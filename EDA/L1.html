@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!-- Metadata, OpenGraph and Schema.org -->
+
+
+
+
+<!-- Standard metadata -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>
+  
+  
+    
+      L1: Use of STL data structures | Ilario Bonacina
+    
+  
+</title>
+<meta name="author" content="Ilario Bonacina">
+<meta name="description" content="This is the academic webpage of Ilario Bonacina.
+">
+
+  <meta name="keywords" content="proof-complexity, theory-of-computation, computational-complexity">
+
+
+
+
+
+
+
+
+
+
+<!-- Bootstrap & MDB -->
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
+<!-- <link rel="stylesheet" href="/assets/css/mdb.min.css?62a43d1430ddb46fc4886f9d0e3b49b8"> -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+<!-- Bootstrap Table -->
+
+
+<!-- Fonts & Icons -->
+<link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5">
+<link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap">
+
+<!-- Code Syntax Highlighting -->
+<link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light">
+
+
+
+<!-- Styles -->
+
+<link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
+<link rel="canonical" href="https://ilariobonacina.github.io/EDA/L1">
+
+<!-- Dark Mode -->
+
+  <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark">
+  <script src="/assets/js/theme.js?0afe9f0ae161375728f7bcc5eb5b4ab4"></script>
+
+
+<!-- GeoJSON support via Leaflet -->
+
+
+<!-- diff2html -->
+
+
+
+
+
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+    <!-- Header -->
+    <header>
+  <!-- Nav Bar -->
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
+    <div class="container">
+      
+        <a class="navbar-brand title font-weight-lighter" href="/">
+          
+            
+              <span class="font-weight-bold">Ilario </span>
+            
+            
+            Bonacina
+          
+        </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          
+
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">About
+              
+            </a>
+          </li>
+
+          <!-- Other pages -->
+          
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="/publications/">Publications
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="/teaching/">Teaching
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+          
+            
+          
+          
+            <!-- Toogle theme mode -->
+            <li class="toggle-container">
+              <button id="light-toggle" title="Change theme">
+                <i class="fa-solid fa-moon"></i>
+                <i class="fa-solid fa-sun"></i>
+              </button>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+    <!-- Scrolling Progress Bar -->
+    <progress id="progress" value="0">
+      <div class="progress-container">
+        <span class="progress-bar"></span>
+      </div>
+    </progress>
+  
+</header>
+
+
+    <!-- Content -->
+    <div class="container mt-5" role="main">
+      
+        <div class="post">
+  <header class="post-header">
+    <h1 class="post-title">L1: Use of STL data structures</h1>
+    <p class="post-description"></p>
+  </header>
+
+  <article>
+    
+<ul id="markdown-toc">
+  <li><a href="#test-inicial-dautoavaluaci%C3%B3-de-laboratori" id="markdown-toc-test-inicial-dautoavaluació-de-laboratori">Test Inicial d’Autoavaluació de Laboratori</a></li>
+  <li>
+<a href="#la-llibreria-stl" id="markdown-toc-la-llibreria-stl">La Llibreria STL</a>    <ul>
+      <li><a href="#pair" id="markdown-toc-pair">pair</a></li>
+      <li><a href="#priority_queue" id="markdown-toc-priority_queue">priority_queue</a></li>
+      <li><a href="#set" id="markdown-toc-set">set</a></li>
+      <li><a href="#map" id="markdown-toc-map">map</a></li>
+      <li><a href="#novetats-c11" id="markdown-toc-novetats-c11">“NOVETATS” C++11</a></li>
+      <li><a href="#unordered_set" id="markdown-toc-unordered_set">unordered_set</a></li>
+      <li><a href="#unordered_map" id="markdown-toc-unordered_map">unordered_map</a></li>
+      <li><a href="#ejemplos" id="markdown-toc-ejemplos">Ejemplos</a></li>
+    </ul>
+  </li>
+  <li>
+<a href="#jutgeorg-" id="markdown-toc-jutgeorg-">Jutge.org </a><a href="https://www.jutge.org" rel="external nofollow noopener" target="_blank"><img src="/assets/img/EDA/jutge.png" alt="Jutge.org" width="30"></a>    <ul>
+      <li><a href="#posible-flujo-de-trabajo" id="markdown-toc-posible-flujo-de-trabajo">Posible flujo de trabajo</a></li>
+      <li><a href="#problemas-sobre-stl" id="markdown-toc-problemas-sobre-stl">Problemas sobre STL</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="test-inicial-dautoavaluació-de-laboratori">Test Inicial d’Autoavaluació de Laboratori</h1>
+<p><img src="/assets/img/EDA/autoevaluacio.jpg" alt="Autoevaluació" width="300"></p>
+
+<p>If I want to run a single-file program <code class="language-plaintext highlighter-rouge">program.cc</code>, do I need to first compile and generate the object <code class="language-plaintext highlighter-rouge">program.o</code> with <code class="language-plaintext highlighter-rouge">g++ -c program.cc</code>, and then link to produce the executable with <code class="language-plaintext highlighter-rouge">g++ program.o</code>?</p>
+
+<details>
+  <summary>Answer</summary>
+  <p>One could do that, but in this case it can all be done in a <em>single</em> line: <code class="language-plaintext highlighter-rouge">g++ program.cc</code>.</p>
+</details>
+
+<p><br>
+If I want to use any of the features of the C++ 2011 standard in my program <code class="language-plaintext highlighter-rouge">program.cc</code>, how should I compile it with <code class="language-plaintext highlighter-rouge">g++</code>?</p>
+
+<details>
+  <summary>Answer</summary>
+
+  <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>g++ <span class="nt">-std</span><span class="o">=</span>c++11 program.cc
+</code></pre></div>  </div>
+  <p>Note that std stands for <em>standard</em>.</p>
+</details>
+
+<p><br></p>
+
+<p>How can I tell <code class="language-plaintext highlighter-rouge">g++</code> to warn me against everything that is found suspicious during
+compilation?</p>
+
+<details>
+  <summary>Answer</summary>
+
+  <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>g++ <span class="nt">-Wall</span> program.cc
+</code></pre></div>  </div>
+  <p>Note that <code class="language-plaintext highlighter-rouge">Wall</code> stands for <em>Warning all</em>. It is wise to always use the <code class="language-plaintext highlighter-rouge">-Wall</code> flag.</p>
+</details>
+
+<p><br></p>
+
+<p>How can I tell <code class="language-plaintext highlighter-rouge">g++</code> to optimize the generated code?</p>
+
+<details>
+  <summary>Answer</summary>
+
+  <p>For instance, with</p>
+  <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>g++ <span class="nt">-O2</span> program.cc
+</code></pre></div>  </div>
+  <p>nearly all supported optimizations not involving a space-speed tradeoff are performed. Note that <code class="language-plaintext highlighter-rouge">O</code> stands for <em>Optimization</em>.</p>
+</details>
+
+<p><br></p>
+
+<p>I have an executable <code class="language-plaintext highlighter-rouge">a.out</code> and want to read data from a file <code class="language-plaintext highlighter-rouge">sample.inp</code> rather than from the keyboard, and write the output on a new file <code class="language-plaintext highlighter-rouge">sample.out</code> instead of to the screen. How can I do that?</p>
+
+<details>
+  <summary>Answer</summary>
+
+  <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>./a.out &lt; sample.inp <span class="o">&gt;</span> sample.out
+</code></pre></div>  </div>
+</details>
+
+<p><br></p>
+
+<p>How can I find the differences between two files <code class="language-plaintext highlighter-rouge">sample.out</code> and <code class="language-plaintext highlighter-rouge">sample.cor</code>?</p>
+
+<details>
+  <summary>Answer</summary>
+
+  <p>For example:</p>
+  <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>diff sample.out sample.cor
+</code></pre></div>  </div>
+</details>
+
+<p><br></p>
+
+<p>In C++, how can I create a bidimensional matrix matrix of <code class="language-plaintext highlighter-rouge">int</code>s with n rows and m columns, all of them initialized to 1?</p>
+
+<details>
+  <summary>Answer</summary>
+
+  <p>The standard library of C++ does not have a built-in type “matrix”. A way to create the matrix is by creating a vector of n rows, each of which is a vector of m integers initialized to 1. By using the standard template <code class="language-plaintext highlighter-rouge">class vector&lt;T&gt;</code> and the constructor <code class="language-plaintext highlighter-rouge">vector&lt;T&gt;(size, init)</code> (which creates a vector of <code class="language-plaintext highlighter-rouge">size</code> copies of <code class="language-plaintext highlighter-rouge">init</code>):</p>
+  <div class="language-cpp highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">row</span><span class="p">(</span><span class="n">m</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span> 
+<span class="n">vector</span><span class="o">&lt;</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;&gt;</span> <span class="n">matrix</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">row</span><span class="p">);</span>
+</code></pre></div>  </div>
+  <p>Equivalently (and better) in a single line:</p>
+  <div class="language-cpp highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="n">vector</span><span class="o">&lt;</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;&gt;</span> <span class="n">matrix</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="p">(</span><span class="n">m</span><span class="p">,</span> <span class="mi">1</span><span class="p">));</span>
+</code></pre></div>  </div>
+</details>
+
+<p><br></p>
+
+<p>I have to sort a vector <code class="language-plaintext highlighter-rouge">v</code> of <code class="language-plaintext highlighter-rouge">int</code>s increasingly. Should I write my own sorting procedure?</p>
+
+<details>
+  <summary>Answer</summary>
+
+  <p>No (unless there is another reason for doing so). Use the <code class="language-plaintext highlighter-rouge">sort</code> procedure of the standard C++ library:</p>
+  <div class="language-cpp highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="cp">#include</span> <span class="cpf">&lt;algorithm&gt;</span><span class="c1"> </span><span class="cp">
+</span>
+<span class="c1">//...</span>
+
+<span class="n">sort</span><span class="p">(</span><span class="n">v</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span> <span class="n">v</span><span class="p">.</span><span class="n">end</span><span class="p">());</span>
+</code></pre></div>  </div>
+</details>
+
+<p><br></p>
+
+<p>And what if I have to sort decreasingly?</p>
+
+<details>
+  <summary>Answer</summary>
+
+  <p>The <code class="language-plaintext highlighter-rouge">sort</code> procedure admits a third parameter: <strong>the sorting criterion</strong>. It is a function or a function object that takes as parameters two objects of the container (in this case, two <code class="language-plaintext highlighter-rouge">int</code>s) and returns <code class="language-plaintext highlighter-rouge">true</code> when the first argument should come before the second one. For instance, in this case:</p>
+  <div class="language-cpp highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="cp">#include</span> <span class="cpf">&lt;algorithm&gt;</span><span class="c1"> </span><span class="cp">
+</span>
+<span class="kt">bool</span> <span class="nf">before</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">,</span> <span class="kt">int</span> <span class="n">b</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span> <span class="n">a</span> <span class="o">&gt;</span> <span class="n">b</span><span class="p">;}</span> 
+
+<span class="c1">// ...</span>
+
+<span class="n">sort</span><span class="p">(</span><span class="n">v</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span> <span class="n">v</span><span class="p">.</span><span class="n">end</span><span class="p">(),</span> <span class="n">before</span><span class="p">);</span>
+</code></pre></div>  </div>
+  <p>Function objects of class <code class="language-plaintext highlighter-rouge">greater&lt;int&gt;</code>, available in the standard library, behave essentially the same as the aforementioned function before, and give an elegant solution:</p>
+  <div class="language-cpp highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="cp">#include</span> <span class="cpf">&lt;algorithm&gt;</span><span class="c1"> </span><span class="cp">
+</span>
+<span class="c1">// ...</span>
+
+<span class="n">sort</span><span class="p">(</span><span class="n">v</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span> <span class="n">v</span><span class="p">.</span><span class="n">end</span><span class="p">(),</span> <span class="n">greater</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="p">());</span>
+</code></pre></div>  </div>
+  <p>Another example of function <code class="language-plaintext highlighter-rouge">before</code>, now defined over <code class="language-plaintext highlighter-rouge">structs</code>:</p>
+  <div class="language-cpp highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="c1">// first small surnames, in case of tie big names, in case of tie the younger one </span>
+<span class="kt">bool</span> <span class="nf">before</span><span class="p">(</span><span class="k">const</span> <span class="n">Info</span><span class="o">&amp;</span> <span class="n">a</span><span class="p">,</span> <span class="k">const</span> <span class="n">Info</span><span class="o">&amp;</span> <span class="n">b</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="n">surname</span> <span class="o">!=</span> <span class="n">b</span><span class="p">.</span><span class="n">surname</span><span class="p">)</span> 
+    <span class="k">return</span> <span class="n">a</span><span class="p">.</span><span class="n">surname</span> <span class="o">&lt;</span> <span class="n">b</span><span class="p">.</span><span class="n">surname</span><span class="p">;</span> 
+  <span class="k">if</span> <span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="n">name</span>  <span class="o">!=</span> <span class="n">b</span><span class="p">.</span><span class="n">name</span><span class="p">)</span> 
+    <span class="k">return</span> <span class="n">a</span><span class="p">.</span><span class="n">name</span> <span class="o">&gt;</span> <span class="n">b</span><span class="p">.</span><span class="n">name</span><span class="p">;</span>
+<span class="k">return</span> <span class="n">a</span><span class="p">.</span><span class="n">age</span> <span class="o">&lt;</span> <span class="n">b</span><span class="p">.</span><span class="n">age</span><span class="p">;</span> 
+<span class="p">}</span>
+</code></pre></div>  </div>
+</details>
+
+<p><br></p>
+
+<p>Let <code class="language-plaintext highlighter-rouge">s</code> be a <code class="language-plaintext highlighter-rouge">stack&lt;pair&lt;int,int&gt;</code>. Can the following code be written more compactly? (assuming that <code class="language-plaintext highlighter-rouge">aux</code> is not used any more)</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">pair</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">aux</span><span class="p">;</span> 
+<span class="n">aux</span><span class="p">.</span><span class="n">first</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> 
+<span class="n">aux</span><span class="p">.</span><span class="n">second</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+<span class="n">s</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="n">aux</span><span class="p">);</span>
+</code></pre></div></div>
+
+<details>
+  <summary>Answer</summary>
+
+  <p>One can make the compiler generate the adequate temporary object by calling a constructor of <code class="language-plaintext highlighter-rouge">pair&lt;int,int&gt;</code>. For example, any of the following would do:</p>
+  <div class="language-cpp highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="n">s</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="n">pair</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span><span class="kt">int</span><span class="o">&gt;</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">));</span> 
+<span class="n">s</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="n">make</span> <span class="nf">pair</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">));</span>
+<span class="n">s</span><span class="p">.</span><span class="n">push</span><span class="p">({</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">});</span> <span class="c1">// This is C++11 </span>
+</code></pre></div>  </div>
+</details>
+
+<p><br></p>
+
+<p>When I compile my program <code class="language-plaintext highlighter-rouge">program.cc</code> I get the output below. Where is the error?</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>user@machine:<span class="nv">$ </span>g++ program.cc
+   program.cc: In <span class="k">function</span> ‘int main<span class="o">()</span>’:
+   program.cc:10:8: error: no match <span class="k">for</span> ‘operator&lt;&lt;’ <span class="o">(</span>operand types are ‘std::ostream
+   <span class="o">{</span>aka std::basic_ostream&lt;char&gt;<span class="o">}</span>’ and ‘std::vector&lt;int&gt;’<span class="o">)</span>
+      cout <span class="o">&lt;&lt;</span> <span class="no">v</span><span class="sh"> &lt;&lt; endl;
+           ^
+   In file included from /usr/include/c++/5/iostream:39:0,
+                    from program.cc:1:
+   /usr/include/c++/5/ostream:108:7: note: candidate: std::basic_ostream&lt;_CharT,
+   _Traits&gt;::__ostream_type&amp; std::basic_ostream&lt;_CharT, _Traits&gt;::operator&lt;&lt;(std::basic_ostream&lt;_
+   _Traits&gt;::__ostream_type&amp; (*)(std::basic_ostream&lt;_CharT, _Traits&gt;::__ostream_type&amp;))
+   [with _CharT = char; _Traits = std::char_traits&lt;char&gt;; std::basic_ostream&lt;_CharT,
+   _Traits&gt;::__ostream_type = std::basic_ostream&lt;char&gt;]
+          operator&lt;&lt;(__ostream_type&amp; (*__pf)(__ostream_type&amp;))
+          ^
+   /usr/include/c++/5/ostream:108:7: note:   no known conversion for argument
+   1 from ‘std::vector&lt;int&gt;’ to ‘std::basic_ostream&lt;char&gt;::__ostream_type&amp;
+   (*)(std::basic_ostream&lt;char&gt;::__ostream_type&amp;) {aka std::basic_ostream&lt;char&gt;&amp;
+   (*)(std::basic_ostream&lt;char&gt;&amp;)}’
+   /usr/include/c++/5/ostream:117:7: note: candidate: std::basic_ostream&lt;_CharT,
+   _Traits&gt;::__ostream_type&amp; std::basic_ostream&lt;_CharT, _Traits&gt;::operator&lt;&lt;(std::basic_ostream&lt;_
+   _Traits&gt;::__ios_type&amp; (*)(std::basic_ostream&lt;_CharT, _Traits&gt;::__ios_type&amp;))
+   [with _CharT = char; _Traits = std::char_traits&lt;char&gt;; std::basic_ostream&lt;_CharT,
+   _Traits&gt;::__ostream_type = std::basic_ostream&lt;char&gt;; std::basic_ostream&lt;_CharT,
+   _Traits&gt;::__ios_type = std::basic_ios&lt;char&gt;]
+          operator&lt;&lt;(__ios_type&amp; (*__pf)(__ios_type&amp;))
+          ^
+   /usr/include/c++/5/ostream:117:7: note:   no known conversion for argument
+   1 from ‘std::vector&lt;int&gt;’ to ‘std::basic_ostream&lt;char&gt;::__ios_type&amp; (*)(std::basic_ostream&lt;cha
+   {aka std::basic_ios&lt;char&gt;&amp; (*)(std::basic_ios&lt;char&gt;&amp;)}’
+   /usr/include/c++/5/ostream:127:7: note: candidate: std::basic_ostream&lt;_CharT,
+   _Traits&gt;::__ostream_type&amp; std::basic_ostream&lt;_CharT, _Traits&gt;::operator&lt;&lt;(std::ios_base&amp;
+   (*)(std::ios_base&amp;)) [with _CharT = char; _Traits = std::char_traits&lt;char&gt;;
+   std::basic_ostream&lt;_CharT, _Traits&gt;::__ostream_type = std::basic_ostream&lt;char&gt;]
+          operator&lt;&lt;(ios_base&amp; (*__pf) (ios_base&amp;))
+  ...
+</span></code></pre></div></div>
+
+<details>
+  <summary>Answer</summary>
+
+  <p>Do not get overwhelmed by lengthy error reports. Focus on the (very) first lines. Here</p>
+  <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>program.cc:10:8: error: no match <span class="k">for</span> ‘operator&lt;&lt;’ <span class="o">(</span>operand types are ‘std::ostream
+<span class="o">{</span>aka std::basic_ostream&lt;char&gt;<span class="o">}</span>’ and ‘std::vector&lt;int&gt;’<span class="o">)</span>
+   cout <span class="o">&lt;&lt;</span> <span class="no">v</span><span class="sh"> &lt;&lt; endl;
+</span></code></pre></div>  </div>
+  <p>is telling us that at line 10, column 8, the operator <code class="language-plaintext highlighter-rouge">&lt;&lt;</code> is misused.</p>
+</details>
+
+<p><br></p>
+
+<p>(Credits and pdf version of this section: <a href="https://www.cs.upc.edu/eda/data/uploads/test.eng.pdf" rel="external nofollow noopener" target="_blank">Test Inicial d’Autoavaluació de Laboratori</a>)</p>
+
+<h1 id="la-llibreria-stl">La Llibreria STL</h1>
+<p>(<em>el contenido de esta seccion es el mismo de <a href="https://www.cs.upc.edu/eda/" rel="external nofollow noopener" target="_blank">Página principal de EDA</a> \(\rightarrow\) Material Docent \(\rightarrow\) <a href="https://www.cs.upc.edu/eda/data/uploads/stl.cat.txt" rel="external nofollow noopener" target="_blank">STL</a></em>)</p>
+
+<p>La llibreria <strong>STL</strong> (Standard Template Library) és una col·lecció de plantilles per a diversos contenidors (vectors, piles, cues, etc.) que ja no caldrà que implementem.
+La STL està pensada per oferir una interfície el més uniforme
+possible. En particular, hi ha diversos mètodes que són comuns:</p>
+
+<dl>
+  <dt><code class="language-plaintext highlighter-rouge">bool empty() const</code></dt>
+  <dd>diu si el contenidor és buit<br>
+Cost: \(\Theta(1)\)</dd>
+  <dt><code class="language-plaintext highlighter-rouge">unsigned int size() const</code></dt>
+  <dd>retorna la mida del contenidor<br>
+Cost: \(\Theta(1)\)</dd>
+</dl>
+
+<p>A continuació es fa un descripció breu. Podeu trobar més informació a la web <a href="https://en.cppreference.com/w/" rel="external nofollow noopener" target="_blank">cppreference.com</a> i al
+Jutge, secció “Documentation -&gt; Cheat sheets”, on hi ha els documents
+<a href="https://jutge.org/doc/cppreference/en/" rel="external nofollow noopener" target="_blank">C++ reference</a> i “Xuleta EDA”. <strong>Aquest ultim material estarà disponible el
+dia de l’examen.</strong></p>
+
+<p>Tots els costos que donarem (a no ser que es digui el contrari) són <strong>en
+el cas pitjor.</strong></p>
+
+<p>A continuació veurem les següents classes:</p>
+
+<p><code class="language-plaintext highlighter-rouge">pair&lt;T1,T2&gt;</code>        (parells)<br>
+<code class="language-plaintext highlighter-rouge">priority_queue&lt;T&gt;</code>   (cua de prioritats)<br>
+<code class="language-plaintext highlighter-rouge">set&lt;T&gt;</code>           (conjunt)<br>
+<code class="language-plaintext highlighter-rouge">map&lt;K,V&gt;</code>           (diccionari)</p>
+
+<h2 id="pair">pair</h2>
+
+<p>Els pairs permeten formar parells amb un valor de tipus <code class="language-plaintext highlighter-rouge">T1</code> i un
+valor de tipus <code class="language-plaintext highlighter-rouge">T2</code>.</p>
+
+<p><code class="language-plaintext highlighter-rouge">pair&lt;T1,T2&gt;</code> és equivalent a</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">struct</span> <span class="nc">pair</span> <span class="p">{</span>
+  <span class="n">T1</span> <span class="n">first</span><span class="p">;</span>
+  <span class="n">T2</span> <span class="n">second</span><span class="p">;</span>
+<span class="p">};</span>
+</code></pre></div></div>
+
+<p>S’accedeix als valors amb els camps <code class="language-plaintext highlighter-rouge">first</code> i <code class="language-plaintext highlighter-rouge">second</code>.</p>
+
+<p>Els pairs són útils perquè algunes funcions de la STL necessiten
+retornar 2 valors, i en aquest cas s’utilitzen pairs per
+fer-ho. A més, també van bé perquè tenen alguns operadors ja definits:</p>
+
+<ul>
+  <li>operador d’igualtat <code class="language-plaintext highlighter-rouge">==</code> (component a component)</li>
+  <li>operadors de comparació (<strong>lexicogràficament</strong>)</li>
+</ul>
+
+<p><strong>Exemplo</strong></p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="n">pair</span><span class="o">&lt;</span><span class="kt">double</span><span class="p">,</span> <span class="kt">char</span><span class="o">&gt;</span> <span class="n">a</span><span class="p">(</span><span class="mf">2.5</span><span class="p">,</span> <span class="sc">'A'</span><span class="p">);</span>
+  <span class="n">pair</span><span class="o">&lt;</span><span class="kt">double</span><span class="p">,</span> <span class="kt">char</span><span class="o">&gt;</span> <span class="n">b</span><span class="p">;</span>
+  <span class="n">b</span><span class="p">.</span><span class="n">first</span> <span class="o">=</span> <span class="mf">3.5</span><span class="p">;</span>
+  <span class="n">b</span><span class="p">.</span><span class="n">second</span> <span class="o">=</span> <span class="sc">'B'</span><span class="p">;</span>
+  <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="p">(</span><span class="n">a</span> <span class="o">==</span> <span class="n">make_pair</span><span class="p">(</span><span class="mf">2.5</span><span class="p">,</span> <span class="sc">'A'</span><span class="p">))</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>  <span class="c1">// --&gt; 1</span>
+  <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="p">(</span><span class="n">a</span> <span class="o">&lt;</span> <span class="n">b</span><span class="p">)</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>                     <span class="c1">// --&gt; 1</span>
+</code></pre></div></div>
+
+<h2 id="priority_queue">priority_queue</h2>
+<p>Una <code class="language-plaintext highlighter-rouge">priority_queue&lt;T&gt;</code> és una cua de prioritats de <code class="language-plaintext highlighter-rouge">T</code>. L’element més gran
+guardat a la cua de prioritats és el primer que surt.</p>
+
+<p>Cal fer: <code class="language-cpp highlighter-rouge"><span class="cp">#include</span> <span class="cpf">&lt;queue&gt;</span></code></p>
+
+<dl>
+  <dt><code class="language-plaintext highlighter-rouge">void push(const T&amp; x)</code></dt>
+  <dd>afegeix <code class="language-plaintext highlighter-rouge">x</code><br>
+Cost: \(\Theta(\log n)\)</dd>
+  <dt><code class="language-plaintext highlighter-rouge">void pop()</code></dt>
+  <dd>elimina l’element més gran<br>
+Cost: \(\Theta(\log n)\)</dd>
+  <dt><code class="language-plaintext highlighter-rouge">const T&amp; top() const</code></dt>
+  <dd>retorna l’element més gran<br>
+Cost: \(\Theta(1)\)</dd>
+</dl>
+
+<p><strong>Exemplo</strong> (<em>Heapsort</em>) 
+llegeix una seqüència d’enters i l’escriu ordenada de forma
+decreixent</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include</span> <span class="cpf">&lt;queue&gt;</span><span class="cp">
+</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+  <span class="n">priority_queue</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">pq</span><span class="p">;</span>
+  <span class="kt">int</span> <span class="n">x</span><span class="p">;</span>
+  <span class="k">while</span> <span class="p">(</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">x</span><span class="p">)</span> <span class="n">pq</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="n">x</span><span class="p">);</span>
+  <span class="k">while</span> <span class="p">(</span><span class="n">not</span> <span class="n">pq</span><span class="p">.</span><span class="n">empty</span><span class="p">())</span> <span class="p">{</span>
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">pq</span><span class="p">.</span><span class="n">top</span><span class="p">()</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+    <span class="n">pq</span><span class="p">.</span><span class="n">pop</span><span class="p">();</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="set">set</h2>
+
+<p>Un <code class="language-plaintext highlighter-rouge">set&lt;T&gt;</code> és un conjunt de <code class="language-plaintext highlighter-rouge">T</code>.
+Els elements del conjunt es guarden ordenats <strong>de menor a major</strong>.
+(internament estan implementats amb arbres binaris de cerca balancejats)</p>
+
+<p>Cal fer: <code class="language-cpp highlighter-rouge"><span class="cp">#include</span> <span class="cpf">&lt;set&gt;</span></code></p>
+
+<p>Assumim que <code class="language-plaintext highlighter-rouge">iterator</code> és sinònim de <code class="language-plaintext highlighter-rouge">set&lt;T&gt;::iterator</code>.</p>
+
+<p>Un <code class="language-plaintext highlighter-rouge">iterator it</code> es mou cap endavant amb <code class="language-plaintext highlighter-rouge">++it</code> i cap endarrera amb <code class="language-plaintext highlighter-rouge">--it</code></p>
+
+<p>Per accedir a l’element apuntat per un iterator it: <code class="language-plaintext highlighter-rouge">*it</code></p>
+
+<dl>
+  <dt><code class="language-plaintext highlighter-rouge">pair&lt;iterator,bool&gt; insert ( const T&amp; x );</code></dt>
+  <dd>Afegeix <code class="language-plaintext highlighter-rouge">x</code> al conjunt.
+Si no hi era, retorna un iterador que apunta on s’ha ficat <code class="language-plaintext highlighter-rouge">x</code>, i true.
+Sinó retorna un iterador que apunta on ja hi havia <code class="language-plaintext highlighter-rouge">x</code>, i false.<br>
+Cost: \(\Theta(\log n)\)</dd>
+  <dt><code class="language-plaintext highlighter-rouge">iterator begin()</code></dt>
+  <dd>retorna l’iterador a l’element més petit<br>
+Cost: \(\Theta(1)\)</dd>
+  <dt><code class="language-plaintext highlighter-rouge">iterator end()</code></dt>
+  <dd>retorna l’iterador al següent de l’element més gran  <br>
+Cost: \(\Theta(1)\)</dd>
+  <dt><code class="language-plaintext highlighter-rouge">iterator find(const T&amp; x) const</code></dt>
+  <dd>Busca l’element <code class="language-plaintext highlighter-rouge">x</code> al conjunt.
+Si el troba, retorna un iterador que hi apunta.
+Sinó retorna <code class="language-plaintext highlighter-rouge">end()</code>.<br>
+Cost \(\Theta(\log n)\)</dd>
+  <dt><code class="language-plaintext highlighter-rouge">void erase(iterator it)</code></dt>
+  <dd>Elimina l’element apuntat per <code class="language-plaintext highlighter-rouge">it</code>.<br>
+Cost: \(\Theta(1)\) amortit</dd>
+  <dt><code class="language-plaintext highlighter-rouge">int erase(const T&amp; x)</code></dt>
+  <dd>Si <code class="language-plaintext highlighter-rouge">x</code> pertany al conjunt, l’elimina i retorna <code class="language-plaintext highlighter-rouge">1</code>.
+Sinó retorna <code class="language-plaintext highlighter-rouge">0</code>.<br>
+Cost: \(\Theta(\log n)\)</dd>
+</dl>
+
+<p><strong>Exemplo</strong> llegeix dues seqüències d’enters acabades en zero i escriu seva
+intersecció</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include</span> <span class="cpf">&lt;set&gt;</span><span class="cp">
+</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+  <span class="n">set</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">s1</span><span class="p">,</span> <span class="n">s2</span><span class="p">;</span>
+  <span class="kt">int</span> <span class="n">x</span><span class="p">;</span>
+  <span class="k">while</span> <span class="p">(</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">x</span> <span class="n">and</span> <span class="n">x</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span> <span class="n">s1</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span><span class="n">x</span><span class="p">);</span>
+  <span class="k">while</span> <span class="p">(</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">x</span> <span class="n">and</span> <span class="n">x</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span> <span class="n">s2</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span><span class="n">x</span><span class="p">);</span>
+
+  <span class="k">for</span> <span class="p">(</span><span class="n">set</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;::</span><span class="n">iterator</span> <span class="n">it</span> <span class="o">=</span> <span class="n">s1</span><span class="p">.</span><span class="n">begin</span><span class="p">();</span> <span class="n">it</span> <span class="o">!=</span> <span class="n">s1</span><span class="p">.</span><span class="n">end</span><span class="p">();</span> <span class="o">++</span><span class="n">it</span><span class="p">)</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">s2</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="o">*</span><span class="n">it</span><span class="p">)</span> <span class="o">!=</span> <span class="n">s2</span><span class="p">.</span><span class="n">end</span><span class="p">())</span>
+      <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="o">*</span><span class="n">it</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="map">map</h2>
+<p>Un <code class="language-plaintext highlighter-rouge">map&lt;K,V&gt;</code> és un diccionari de claus <code class="language-plaintext highlighter-rouge">K</code> i valors <code class="language-plaintext highlighter-rouge">V</code>. Es comporta de
+manera semblant a un conjunt de parells (clau, valor) (és a dir,
+<code class="language-plaintext highlighter-rouge">set&lt;pair&lt;K,V&gt;&gt;</code>) on <strong>no es poden repetir claus</strong>.</p>
+
+<p>Els parells estan ordenats per clau de menor a major.</p>
+
+<p>(internament estan implementats amb arbres binaris de cerca balancejats)</p>
+
+<p>Cal fer: <code class="language-cpp highlighter-rouge"><span class="cp">#include</span> <span class="cpf">&lt;map&gt;</span></code></p>
+
+<p>Assumim que <code class="language-plaintext highlighter-rouge">iterator</code> és sinònim de <code class="language-plaintext highlighter-rouge">map&lt;K,V&gt;::iterator</code>.</p>
+
+<p>Un <code class="language-plaintext highlighter-rouge">iterator it</code> es mou cap endavant amb <code class="language-plaintext highlighter-rouge">++it</code> i cap endarrera amb <code class="language-plaintext highlighter-rouge">--it</code><br>
+Per accedir al parell apuntat  per it:  <code class="language-plaintext highlighter-rouge">*it</code><br>
+Per accedir a la clau apuntada per it: <code class="language-plaintext highlighter-rouge">(*it).first</code> o <code class="language-plaintext highlighter-rouge">it-&gt;first</code><br>
+Per accedir al valor apuntat   per it: <code class="language-plaintext highlighter-rouge">(*it).second</code> o <code class="language-plaintext highlighter-rouge">it-&gt;second</code></p>
+
+<dl>
+  <dt><code class="language-plaintext highlighter-rouge">pair&lt;iterator,bool&gt; insert(const pair&lt;K,V&gt;&amp; p);</code></dt>
+  <dd>Afegeix el parell <code class="language-plaintext highlighter-rouge">p</code>.
+Si no hi havia cap parell amb aquesta clau, retorna un iterador que
+apunta on s’ha ficat <code class="language-plaintext highlighter-rouge">p</code>, i <code class="language-plaintext highlighter-rouge">true</code>.
+Sinó retorna l’iterador que apunta al parell que ja hi havia amb la
+mateixa clau, i <code class="language-plaintext highlighter-rouge">false</code>.<br>
+Cost: \(\Theta(\log n)\)</dd>
+  <dt><code class="language-plaintext highlighter-rouge">iterator begin()</code></dt>
+  <dd>retorna l’iterador al parell amb clau més petita<br>
+Cost: \(\Theta(1)\)</dd>
+  <dt><code class="language-plaintext highlighter-rouge">iterator end()</code></dt>
+  <dd>retorna l’iterador al següent al parell amb clau més gran<br>
+Cost: \(\Theta(1)\)</dd>
+  <dt><code class="language-plaintext highlighter-rouge">iterator find(const K&amp; k) const</code></dt>
+  <dd>Busca un parell amb clau <code class="language-plaintext highlighter-rouge">k</code>.
+Si el troba, retorna un iterador que hi apunta.
+Sinó retorna <code class="language-plaintext highlighter-rouge">end()</code>.<br>
+Cost \(\Theta(\log n)\)</dd>
+  <dt><code class="language-plaintext highlighter-rouge">void erase(iterator it)</code></dt>
+  <dd>Elimina el parell apuntat per <code class="language-plaintext highlighter-rouge">it</code>.<br>
+Cost: \(\Theta(1)\) amortit</dd>
+  <dt><code class="language-plaintext highlighter-rouge">int erase ( const K&amp; k )</code></dt>
+  <dd>Si hi ha un parell amb clau <code class="language-plaintext highlighter-rouge">k</code>, l’elimina i retorna <code class="language-plaintext highlighter-rouge">1</code>.
+Sinó retorna <code class="language-plaintext highlighter-rouge">0</code>.<br>
+Cost: \(\Theta(\log n)\)</dd>
+</dl>
+
+<p><strong>Exemplo.</strong></p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include</span> <span class="cpf">&lt;map&gt;</span><span class="cp">
+</span>
+<span class="k">typedef</span> <span class="n">pair</span><span class="o">&lt;</span><span class="kt">char</span><span class="p">,</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">P</span><span class="p">;</span>
+<span class="k">typedef</span> <span class="n">map</span><span class="o">&lt;</span><span class="kt">char</span><span class="p">,</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">M</span><span class="p">;</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
+
+  <span class="n">M</span> <span class="n">m</span><span class="p">;</span>
+
+  <span class="n">m</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span> <span class="n">P</span><span class="p">(</span><span class="sc">'a'</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span> <span class="p">);</span>
+  <span class="n">m</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span> <span class="n">make_pair</span><span class="p">(</span><span class="sc">'c'</span><span class="p">,</span> <span class="mi">30</span><span class="p">)</span> <span class="p">);</span>
+  <span class="n">m</span><span class="p">[</span><span class="sc">'d'</span><span class="p">]</span> <span class="o">=</span> <span class="mi">40</span><span class="p">;</span>
+
+  <span class="c1">//    L'operador [ ] admet com a argument una clau k. Llavors:</span>
+  <span class="c1">//</span>
+  <span class="c1">//    Si ja hi havia un parell amb la clau, es retorna una referència al</span>
+  <span class="c1">//    camp second (valor) del parell que ja existia amb aquesta clau.</span>
+  <span class="c1">//</span>
+  <span class="c1">//    Sino, s'inserta un parell amb aquesta clau i el constructor per</span>
+  <span class="c1">//    defecte del tipus V (per ex., per a tipus bàsics de C++</span>
+  <span class="c1">//    numèrics, assigna a 0). Llavors es retorna una referència al</span>
+  <span class="c1">//    camp second (valor) d'aquest parell.</span>
+
+  <span class="n">m</span><span class="p">.</span><span class="n">erase</span><span class="p">(</span><span class="sc">'c'</span><span class="p">);</span>
+
+  <span class="k">for</span> <span class="p">(</span><span class="n">M</span><span class="o">::</span><span class="n">iterator</span> <span class="n">it</span> <span class="o">=</span> <span class="n">m</span><span class="p">.</span><span class="n">begin</span><span class="p">();</span> <span class="n">it</span> <span class="o">!=</span> <span class="n">m</span><span class="p">.</span><span class="n">end</span><span class="p">();</span> <span class="o">++</span><span class="n">it</span><span class="p">)</span> 
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">it</span><span class="o">-&gt;</span><span class="n">first</span> <span class="o">&lt;&lt;</span> <span class="s">" "</span> <span class="o">&lt;&lt;</span> <span class="n">it</span><span class="o">-&gt;</span><span class="n">second</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>té sortida</p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span> <span class="mi">10</span>
+<span class="n">d</span> <span class="mi">40</span>
+</code></pre></div></div>
+
+<h2 id="novetats-c11">“NOVETATS” C++11</h2>
+
+<ul>
+  <li>
+    <p>Cal compilar amb <code class="language-plaintext highlighter-rouge">g++ -std=c++11</code></p>
+  </li>
+  <li>Si el compilador pot inferir el tipus d’una variable a la
+declaració, en lloc de posar el tipus de la variable, es pot
+escriure <code class="language-plaintext highlighter-rouge">auto</code>.
+    <div class="language-cpp highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="n">map</span><span class="o">&lt;</span><span class="n">string</span><span class="p">,</span> <span class="kt">int</span><span class="o">&gt;</span> <span class="n">m</span><span class="p">;</span>
+<span class="k">auto</span> <span class="n">it</span> <span class="o">=</span> <span class="n">m</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="s">"hello"</span><span class="p">);</span>
+</code></pre></div>    </div>
+  </li>
+  <li>Els bucles for s’han modificat per poder iterar fàcilment
+sobre col·leccions.<br>
+<strong>Exemplo</strong>
+    <div class="language-cpp highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="n">set</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">s</span><span class="p">;</span>
+<span class="p">...</span>
+<span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">x</span> <span class="o">:</span> <span class="n">s</span><span class="p">)</span> <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">x</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+<span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+</code></pre></div>    </div>
+  </li>
+  <li>Ja no cal posar un espai entre els <code class="language-plaintext highlighter-rouge">&gt;&gt;</code> dels templates.<br>
+<strong>Exemplo.</strong>
+    <div class="language-cpp highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="n">vector</span><span class="o">&lt;</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;&gt;</span> <span class="n">matrix</span><span class="p">;</span>
+</code></pre></div>    </div>
+  </li>
+  <li>Es poden donar llistes d’inicialitzacions a contenidors de la STL.<br>
+<strong>Exemplo.</strong>
+    <div class="language-cpp highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span>   <span class="n">v</span> <span class="o">=</span> <span class="p">{</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">};</span>
+<span class="n">set</span><span class="o">&lt;</span><span class="n">set</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;&gt;</span> <span class="n">s</span> <span class="o">=</span> <span class="p">{</span> <span class="p">{</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">},</span> <span class="p">{</span><span class="mi">5</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">5</span><span class="p">},</span> <span class="p">{},</span> <span class="p">{</span><span class="mi">3</span><span class="p">}</span> <span class="p">};</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="unordered_set">unordered_set</h2>
+
+<p>Com el <code class="language-plaintext highlighter-rouge">set</code>, però no es garanteix que recórrer el set des de <code class="language-plaintext highlighter-rouge">begin()</code>
+fins a <code class="language-plaintext highlighter-rouge">end()</code> respecti l’ordre dels elements.</p>
+
+<p><code class="language-plaintext highlighter-rouge">insert</code>, <code class="language-plaintext highlighter-rouge">find</code>, <code class="language-plaintext highlighter-rouge">erase</code> funcionen en temps \(\Theta(n)\) en el cas pitjor, però
+ temps \(\Theta(1)\) en mitjana.<br>
+(internament estan implementats amb <em>taules de hash</em>)</p>
+
+<p><strong>Exemplo.</strong></p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+#include</span> <span class="cpf">&lt;unordered_set&gt;</span><span class="cp">
+</span>
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+
+  <span class="n">unordered_set</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">s1</span><span class="p">,</span> <span class="n">s2</span><span class="p">;</span>
+  <span class="kt">int</span> <span class="n">x</span><span class="p">;</span>
+
+  <span class="k">while</span> <span class="p">(</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">x</span> <span class="n">and</span> <span class="n">x</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span>
+    <span class="n">s1</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span><span class="n">x</span><span class="p">);</span>
+  
+  <span class="k">while</span> <span class="p">(</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">x</span> <span class="n">and</span> <span class="n">x</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span>
+    <span class="n">s2</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span><span class="n">x</span><span class="p">);</span>
+
+  <span class="k">for</span> <span class="p">(</span><span class="k">auto</span> <span class="n">y</span> <span class="o">:</span> <span class="n">s1</span><span class="p">)</span> 
+    <span class="k">if</span> <span class="p">(</span><span class="n">s2</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="n">y</span><span class="p">)</span> <span class="o">!=</span> <span class="n">s2</span><span class="p">.</span><span class="n">end</span><span class="p">())</span> 
+      <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">y</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="unordered_map">unordered_map</h2>
+
+<p>Com el <code class="language-plaintext highlighter-rouge">map</code>, però no es garanteix que recórrer el map des de <code class="language-plaintext highlighter-rouge">begin()</code>
+fins a <code class="language-plaintext highlighter-rouge">end()</code> respecti l’ordre de les claus.</p>
+
+<p><code class="language-plaintext highlighter-rouge">insert</code>, <code class="language-plaintext highlighter-rouge">find</code>, <code class="language-plaintext highlighter-rouge">erase</code> funcionen en temps \(\Theta(n)\) en el cas pitjor, però
+en temps \(\Theta(1)\) en mitjana.<br>
+(internament estan implementats amb <em>taules de hash</em>)</p>
+
+<p><strong>Exemplo.</strong></p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include</span> <span class="cpf">&lt;unordered_map&gt;</span><span class="cp">
+#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+</span>
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+  <span class="n">unordered_map</span><span class="o">&lt;</span><span class="n">string</span><span class="p">,</span> <span class="kt">int</span><span class="o">&gt;</span> <span class="n">m</span><span class="p">;</span>
+  <span class="n">string</span> <span class="n">x</span><span class="p">;</span>
+  <span class="k">while</span> <span class="p">(</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">x</span><span class="p">)</span> <span class="o">++</span><span class="n">m</span><span class="p">[</span><span class="n">x</span><span class="p">];</span>
+  <span class="k">for</span><span class="p">(</span><span class="k">auto</span> <span class="n">p</span> <span class="o">:</span> <span class="n">m</span><span class="p">)</span>
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">p</span><span class="p">.</span><span class="n">first</span> <span class="o">&lt;&lt;</span> <span class="s">" "</span> <span class="o">&lt;&lt;</span> <span class="n">p</span><span class="p">.</span><span class="n">second</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="ejemplos">Ejemplos</h2>
+
+<p><a href="https://www.cs.upc.edu/eda/" rel="external nofollow noopener" target="_blank">Página principal de EDA</a> \(\rightarrow\) Material Docent \(\rightarrow\) Algorismes en C++  \(\rightarrow\) <strong><a href="https://www.cs.upc.edu/eda/data/uploads/eda-codis.pdf#page=3" rel="external nofollow noopener" target="_blank">Chapter 1: STL Usage Examples</a></strong></p>
+
+<h1 id="jutgeorg-">
+<a href="https://www.jutge.org" rel="external nofollow noopener" target="_blank">Jutge.org</a> <a href="https://www.jutge.org" rel="external nofollow noopener" target="_blank"><img src="/assets/img/EDA/jutge.png" alt="Jutge.org" width="30"></a>
+</h1>
+
+<h2 id="posible-flujo-de-trabajo">Posible flujo de trabajo</h2>
+<ul>
+  <li>descargar el archivo .zip <img src="/assets/img/EDA/zip.png" alt="zip"> de el problema de el <a href="https://www.jutge.org" rel="external nofollow noopener" target="_blank">Jutge.org</a> <a href="https://www.jutge.org" rel="external nofollow noopener" target="_blank"><img src="/assets/img/EDA/jutge.png" alt="Jutge.org" width="30"></a> que se quiere resolver</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">unzip</code> el archivo</li>
+  <li>en la carpeta obtenida teneis:
+    <ul>
+      <li>un file .pdf con el enunciado del problema,</li>
+      <li>uno o más files de texto con ejemplos de input <code class="language-plaintext highlighter-rouge">sample.inp</code>
+</li>
+      <li>los correspondiente outputs correctos <code class="language-plaintext highlighter-rouge">sample.cor</code>
+</li>
+    </ul>
+  </li>
+  <li>crear un file con el vuestro codigo sorgente C++ para resolver el problema</li>
+  <li>compilar el codigo sorgente con <code class="language-plaintext highlighter-rouge">g++ -std=c++11</code>.<br>
+Posibles flags utiles: <code class="language-plaintext highlighter-rouge">-Wall -Wextra -Winteger-overflow -Wpedantic -Werror -D_GLIBCXX_DEBUG</code>
+</li>
+  <li>testar el ejecutable en los ejemplos: por ejemplo con <code class="language-plaintext highlighter-rouge">./a.out &lt; sample.inp &gt; output</code>
+</li>
+  <li>testar que el file de <code class="language-plaintext highlighter-rouge">output</code> sea correcto:<br>
+por ejemplo con <code class="language-plaintext highlighter-rouge">diff output sample.cor</code>
+</li>
+  <li>una vez que estais convencidos que vuestra solucion es correcta, enviarla al Jutge
+    <ul>
+      <li><strong>no enviar al Jutge soluciones que no sean correctas en los ejemplos que teneis!</strong></li>
+      <li><strong>no intentar re-escribir a mano los ejemplos de input</strong></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="problemas-sobre-stl">Problemas sobre STL</h2>
+
+<p>Los problemas de el apartado <strong>EDA Curs 2023/2024 Q2</strong> \(\rightarrow\) <strong>Use of STL data structures</strong>.</p>
+
+<p>P50709   <strong>Collection of numbers</strong><br>
+P40902   <strong>Casino</strong><br>
+P69781   <strong>Collatz pseudo-sequences (2)</strong> <img class="emoji" title=":exclamation:" alt=":exclamation:" src="https://github.githubassets.com/images/icons/emoji/unicode/2757.png" height="20" width="20">  <br>
+P84415   <strong>Bag of words</strong><br>
+P37064   <strong>Dynamic median</strong> <img class="emoji" title=":exclamation:" alt=":exclamation:" src="https://github.githubassets.com/images/icons/emoji/unicode/2757.png" height="20" width="20"> <br>
+P59282   <strong>Statistical measures</strong> <br>
+P69932   <strong>The longest sequence</strong>  <img class="emoji" title=":exclamation:" alt=":exclamation:" src="https://github.githubassets.com/images/icons/emoji/unicode/2757.png" height="20" width="20"> <br>
+P60296   <strong>Role Classification</strong><br>
+P60219   <strong>Easy game?</strong><br>
+P62653   <strong>Ticket distribution</strong><br>
+P63584   <strong>K-th element</strong>  (~ Problem 4.11 you will see in the problem class P5)<br>
+<img class="emoji" title=":exclamation:" alt=":exclamation:" src="https://github.githubassets.com/images/icons/emoji/unicode/2757.png" height="20" width="20"> = the problem might be harder than the rest</p>
+
+<p>Hacemos juntos los siguentes:</p>
+
+<p>P60296 <strong><a href="https://jutge.org/problems/P60296_en" rel="external nofollow noopener" target="_blank">Role Classification</a></strong></p>
+
+<details>
+  <summary>Possible C++ code to start problem P60296</summary>
+  <div class="language-cpp highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="cp">#include</span><span class="cpf">&lt;iostream&gt;</span><span class="cp">
+#include</span><span class="cpf">&lt;set&gt;</span><span class="cp">
+#include</span><span class="cpf">&lt;map&gt;</span><span class="cp">
+#include</span><span class="cpf">&lt;algorithm&gt;</span><span class="cp">
+</span>
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
+    <span class="n">set</span><span class="o">&lt;</span><span class="n">string</span><span class="o">&gt;</span> <span class="n">logged</span><span class="p">;</span>
+    <span class="n">map</span><span class="o">&lt;</span><span class="n">string</span><span class="p">,</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">elo</span><span class="p">;</span>
+    <span class="n">string</span> <span class="n">op</span><span class="p">;</span>
+    <span class="k">while</span><span class="p">(</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">op</span><span class="p">){</span>
+        <span class="n">string</span> <span class="n">player1</span><span class="p">;</span>
+        <span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">player1</span><span class="p">;</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">op</span> <span class="o">==</span> <span class="s">"LOGIN"</span><span class="p">){</span>
+            <span class="c1">// do something</span>
+        <span class="p">}</span>
+        <span class="k">else</span> <span class="nf">if</span> <span class="p">(</span><span class="n">op</span> <span class="o">==</span> <span class="s">"LOGOUT"</span><span class="p">){</span>
+            <span class="c1">// do something</span>
+        <span class="p">}</span>
+        <span class="k">else</span> <span class="nf">if</span> <span class="p">(</span><span class="n">op</span> <span class="o">==</span> <span class="s">"PLAY"</span><span class="p">){</span>
+            <span class="c1">// do something</span>
+        <span class="p">}</span>
+        <span class="k">else</span><span class="p">{</span><span class="c1">// op == GET_ELO</span>
+            <span class="c1">// do something</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span> <span class="o">&lt;&lt;</span> <span class="s">"RANKING"</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+            <span class="c1">// do something</span>
+
+<span class="p">}</span>
+</code></pre></div>  </div>
+</details>
+
+  </article>
+
+  
+
+
+  
+</div>
+
+      
+    </div>
+
+    <!-- Footer -->
+    
+  <footer class="fixed-bottom" role="contentinfo">
+    <div class="container mt-0">
+      © Copyright 2024
+      Ilario
+      
+      Bonacina. 
+      
+      
+        Last updated: February 12, 2024.
+      
+    </div>
+  </footer>
+
+
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
+<!-- <script src="/assets/js/mdb.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    
+  <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script>
+
+
+
+<!-- Bootstrap Table -->
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/no_defer.js?2930004b8d7fcd0a8e00fdcfc8fc9f24"></script>
+<script defer src="/assets/js/common.js?4a129fbf39254905f505c7246e641eaf"></script>
+<script defer src="/assets/js/copy_code.js?12775fdf7f95e901d7119054556e495f" type="text/javascript"></script>
+
+    
+  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+
+  <script async src="https://badge.dimensions.ai/badge.js"></script>
+
+
+    
+  <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams',
+      },
+    };
+  </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+    
+
+
+    
+  <!-- Scrolling Progress Bar -->
+  <script type="text/javascript">
+    /*
+     * This JavaScript code has been adapted from the article
+     * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar,
+     * published on the website https://css-tricks.com on the 7th of May, 2014.
+     * Couple of changes were made to the original code to make it compatible
+     * with the `al-foio` theme.
+     */
+    const progressBar = $('#progress');
+    /*
+     * We set up the bar after all elements are done loading.
+     * In some cases, if the images in the page are larger than the intended
+     * size they'll have on the page, they'll be resized via CSS to accomodate
+     * the desired size. This mistake, however, breaks the computations as the
+     * scroll size is computed as soon as the elements finish loading.
+     * To account for this, a minimal delay was introduced before computing the
+     * values.
+     */
+    window.onload = function () {
+      setTimeout(progressBarSetup, 50);
+    };
+    /*
+     * We set up the bar according to the browser.
+     * If the browser supports the progress element we use that.
+     * Otherwise, we resize the bar thru CSS styling
+     */
+    function progressBarSetup() {
+      if ('max' in document.createElement('progress')) {
+        initializeProgressElement();
+        $(document).on('scroll', function () {
+          progressBar.attr({ value: getCurrentScrollPosition() });
+        });
+        $(window).on('resize', initializeProgressElement);
+      } else {
+        resizeProgressBar();
+        $(document).on('scroll', resizeProgressBar);
+        $(window).on('resize', resizeProgressBar);
+      }
+    }
+    /*
+     * The vertical scroll position is the same as the number of pixels that
+     * are hidden from view above the scrollable area. Thus, a value > 0 is
+     * how much the user has scrolled from the top
+     */
+    function getCurrentScrollPosition() {
+      return $(window).scrollTop();
+    }
+
+    function initializeProgressElement() {
+      let navbarHeight = $('#navbar').outerHeight(true);
+      $('body').css({ 'padding-top': navbarHeight });
+      $('progress-container').css({ 'padding-top': navbarHeight });
+      progressBar.css({ top: navbarHeight });
+      progressBar.attr({
+        max: getDistanceToScroll(),
+        value: getCurrentScrollPosition(),
+      });
+    }
+    /*
+     * The offset between the html document height and the browser viewport
+     * height will be greater than zero if vertical scroll is possible.
+     * This is the distance the user can scroll
+     */
+    function getDistanceToScroll() {
+      return $(document).height() - $(window).height();
+    }
+
+    function resizeProgressBar() {
+      progressBar.css({ width: getWidthPercentage() + '%' });
+    }
+    // The scroll ratio equals the percentage to resize the bar
+    function getWidthPercentage() {
+      return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
+    }
+  </script>
+
+
+    
+
+    
+
+  </body>
+</html>
