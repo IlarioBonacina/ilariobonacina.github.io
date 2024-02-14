@@ -17,12 +17,13 @@
   
   
     
-      a post with geojson | Ilario Bonacina
+      Deterministic Finite Automata (DFA) | Ilario Bonacina
     
   
 </title>
 <meta name="author" content="Ilario Bonacina">
-<meta name="description" content="this is what included geojson code could look like">
+<meta name="description" content="This is the academic webpage of Ilario Bonacina.
+">
 
   <meta name="keywords" content="proof-complexity, theory-of-computation, computational-complexity">
 
@@ -55,7 +56,7 @@
 <!-- Styles -->
 
 <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
-<link rel="canonical" href="https://ilariobonacina.github.io/blog/2024/geojson-map/">
+<link rel="canonical" href="https://ilariobonacina.github.io/TC/T2">
 
 <!-- Dark Mode -->
 
@@ -65,8 +66,6 @@
 
 <!-- GeoJSON support via Leaflet -->
 
-  <link defer rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-
 
 <!-- diff2html -->
 
@@ -75,8 +74,7 @@
 
 
 
-  <script src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">MathJax.Hub.Config({         tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] }       });</script>
-</head>
+  </head>
 
   <!-- Body -->
   <body class="fixed-top-nav ">
@@ -237,198 +235,100 @@
     <!-- Content -->
     <div class="container mt-5" role="main">
       
-        
-
-
-
-
-
-
-
-<div class="post">
+        <div class="post">
   <header class="post-header">
-    <h1 class="post-title">a post with geojson</h1>
-    <p class="post-meta">
-      January 26, 2024
-      
-      
-    </p>
-    <p class="post-tags">
-      
-        <a href="/blog/2024"> <i class="fa-solid fa-calendar fa-sm"></i> 2024 </a>
-      
-      
-          ·  
-        
-          
-            <a href="/blog/tag/formatting"> <i class="fa-solid fa-hashtag fa-sm"></i> formatting</a>
-             
-          
-        
-          
-            <a href="/blog/tag/charts"> <i class="fa-solid fa-hashtag fa-sm"></i> charts</a>
-             
-          
-        
-          
-            <a href="/blog/tag/maps"> <i class="fa-solid fa-hashtag fa-sm"></i> maps</a>
-             
-          
-        
-      
-
-      
-          ·  
-        
-          
-            <a href="/blog/category/sample-posts">
-              <i class="fa-solid fa-tag fa-sm"></i> sample-posts</a>
-             
-          
-        
-      
-    </p>
+    <h1 class="post-title">Deterministic Finite Automata (DFA)</h1>
+    <p class="post-description"></p>
   </header>
 
-  <article class="post-content">
+  <article>
     
-    <div id="markdown-content">
-      <p>This is an example post with some <a href="https://geojson.org/" rel="external nofollow noopener" target="_blank">geojson</a> code. The support is provided thanks to <a href="https://leafletjs.com/" rel="external nofollow noopener" target="_blank">Leaflet</a>. To create your own visualization, go to <a href="https://geojson.io/" rel="external nofollow noopener" target="_blank">geojson.io</a>.</p>
+<ul id="markdown-toc">
+  <li>
+<a href="#referencias-sobre-dfas" id="markdown-toc-referencias-sobre-dfas">Referencias sobre DFAs</a>    <ul>
+      <li><a href="#videos" id="markdown-toc-videos">Videos</a></li>
+    </ul>
+  </li>
+</ul>
 
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">geojson
-</span><span class="sb">{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -60.11363029935569,
-              -2.904625022183211
-            ],
-            [
-              -60.11363029935569,
-              -3.162613728707967
-            ],
-            [
-              -59.820894493858034,
-              -3.162613728707967
-            ],
-            [
-              -59.820894493858034,
-              -2.904625022183211
-            ],
-            [
-              -60.11363029935569,
-              -2.904625022183211
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      }
-    }
-  ]
-}</span>
-<span class="p">```</span>
-</code></pre></div></div>
+<h1 id="referencias-sobre-dfas">Referencias sobre DFAs</h1>
 
-<p>Which generates:</p>
+<ul>
+  <li>
+    <p><em><a href="/assets/pdf/TC/CasesMarquez.pdf">Teoria de la Computació - Llenguatges regulars i incontextuals</a></em> (Catalan)<br>
+Rafel Cases, Lluís Màrquez<br>
+<strong><a href="/assets/pdf/TC/CasesMarquez.pdf#page=71">Capitulo 4 - Autòmats finits</a></strong></p>
+  </li>
+  <li>
+    <p><em>Introduction to the Theory of Computation</em> (English)<br>
+<a href="https://math.mit.edu/~sipser/" rel="external nofollow noopener" target="_blank">M. Sipser</a>. Third Edition, Cengage, 2012<br>
+<strong>Chapter 1.1 - FINITE AUTOMATA</strong><br>
+<strong>Chapter 1.2 - NONDETERMINISM</strong></p>
+  </li>
+  <li>
+    <p><em>Automata and Computability</em> (English)<br>
+Dexter C. Kozen, Springer, 1997<br>
+<strong>Lectures 3 – 7 and lecture 10</strong></p>
+  </li>
+</ul>
 
-<pre><code class="language-geojson">{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -60.11363029935569,
-              -2.904625022183211
-            ],
-            [
-              -60.11363029935569,
-              -3.162613728707967
-            ],
-            [
-              -59.820894493858034,
-              -3.162613728707967
-            ],
-            [
-              -59.820894493858034,
-              -2.904625022183211
-            ],
-            [
-              -60.11363029935569,
-              -2.904625022183211
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      }
-    }
-  ]
-}
-</code></pre>
+<h2 id="videos">Videos</h2>
 
-    </div>
+<figure>
+  
+    <iframe src="https://www.youtube.com/embed/pk17OhAoAOM" class="img-fluid rounded z-depth-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="auto" height="auto"></iframe>
+  
+  
+</figure>
+
+<figure>
+  
+    <iframe src="https://www.youtube.com/embed/dq5phN18XAw" class="img-fluid rounded z-depth-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="auto" height="auto"></iframe>
+  
+  
+</figure>
+
+<figure>
+  
+    <iframe src="https://www.youtube.com/embed/60sCj0sMzOc" class="img-fluid rounded z-depth-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="auto" height="auto"></iframe>
+  
+  
+</figure>
+
+<figure>
+  
+    <iframe src="https://www.youtube.com/embed/BjDizQDL6oY" class="img-fluid rounded z-depth-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="auto" height="auto"></iframe>
+  
+  
+</figure>
+
+<figure>
+  
+    <iframe src="https://www.youtube.com/embed/apODUPsZMLc" class="img-fluid rounded z-depth-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="auto" height="auto"></iframe>
+  
+  
+</figure>
+
+<figure>
+  
+    <iframe src="https://www.youtube.com/embed/j9MU1uCntho" class="img-fluid rounded z-depth-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="auto" height="auto"></iframe>
+  
+  
+</figure>
+
+<figure>
+  
+    <iframe src="https://www.youtube.com/embed/L8HtVewJfzM" class="img-fluid rounded z-depth-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="auto" height="auto"></iframe>
+  
+  
+</figure>
+
+
   </article>
 
   
 
-  
-    
-      
 
-  
-    
-    <br>
-    <hr>
-    <br>
-    <ul class="list-disc pl-8"></ul>
-
-    <!-- Adds related posts to the end of an article -->
-    <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2>
-    <p class="mb-2">Here are some more articles you might like to read next:</p>
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2022/displaying-external-posts-on-your-al-folio-blog/">Displaying External Posts on Your al-folio Blog</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2024/code-diff/">a post with code diff</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2024/advanced-images/">a post with advanced image components</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2024/vega-lite/">a post with vega lite</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2024/echarts/">a post with echarts</a>
-  </li>
-
-
-    
-  
-
-  
   
 </div>
 
@@ -473,32 +373,6 @@
     
 
     
-  <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-  <script>
-    /* Create leaflet map as another node and hide the code block, appending the leaflet node after it */
-    document.onreadystatechange = () => {
-      if (document.readyState === 'complete') {
-        document.querySelectorAll('pre>code.language-geojson').forEach((elem) => {
-          const jsonData = elem.textContent;
-          const backup = elem.parentElement;
-          backup.classList.add('unloaded');
-          /* create leaflet node */
-          let mapElement = document.createElement('div');
-          mapElement.classList.add('map');
-          backup.after(mapElement);
-
-          var map = L.map(mapElement);
-          L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            maxZoom: 19,
-            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-          }).addTo(map);
-          let geoJSON = L.geoJSON(JSON.parse(jsonData)).addTo(map);
-          map.fitBounds(geoJSON.getBounds());
-        });
-      }
-    };
-  </script>
-
 
     
 
