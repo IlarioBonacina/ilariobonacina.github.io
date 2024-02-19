@@ -1,0 +1,689 @@
+<!DOCTYPE html><html lang="ca">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Tema 1. Teoria de Llenguatges ‣ Teoria de la Computació Exercicis per a l’avaluació contínua‣ Teoria de la Computació Exercicis per a l’avaluació contínua</title>
+<!--Generated on Fri Feb 16 16:14:23 2024 by LaTeXML (version 0.8.7) http://dlmf.nist.gov/LaTeXML/.-->
+
+<link rel="stylesheet" href="LaTeXML.css" type="text/css">
+<link rel="stylesheet" href="bookml/gitbook/css/style.css" type="text/css">
+<link rel="stylesheet" href="bookml/gitbook/css/plugin-table.css" type="text/css">
+<link rel="stylesheet" href="bookml/gitbook/css/plugin-bookdown.css" type="text/css">
+<link rel="stylesheet" href="bookml/gitbook/css/plugin-fontsettings.css" type="text/css">
+<link rel="stylesheet" href="ltx-article.css" type="text/css">
+<link rel="stylesheet" href="bookml/CSS/style.css" type="text/css">
+<link rel="stylesheet" href="bookml/CSS/style.gitbook,plain.css" type="text/css">
+<link rel="stylesheet" href="bookml/CSS/style.gitbook.css" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<link rel="up" href="index.html" title="Teoria de la Computació Exercicis per a l’avaluació contínua">
+<link rel="start" href="index.html" title="Teoria de la Computació Exercicis per a l’avaluació contínua">
+<link rel="prev" href="index.html" title="Teoria de la Computació Exercicis per a l’avaluació contínua">
+<link rel="next" href="S2.html" title="Tema 2. Autòmats Finits ‣ Teoria de la Computació Exercicis per a l’avaluació contínua">
+<link rel="section" href="S2.html" title="Tema 2. Autòmats Finits ‣ Teoria de la Computació Exercicis per a l’avaluació contínua">
+<link rel="section" href="S3.html" title="Tema 3. Gramàtiques incontextuals ‣ Teoria de la Computació Exercicis per a l’avaluació contínua">
+<link rel="section" href="S4.html" title="Tema 4. Expressions Regulars ‣ Teoria de la Computació Exercicis per a l’avaluació contínua">
+<link rel="section" href="S5.html" title="Tema 5. Autòmats amb pila. Jerarquia de Chomsky ‣ Teoria de la Computació Exercicis per a l’avaluació contínua">
+<link rel="section" href="S6.html" title="Tema 6. Màquines de Turing. Decidibilitat, semidecidibilitat, computabilitat. ‣ Teoria de la Computació Exercicis per a l’avaluació contínua">
+<link rel="section" href="S7.html" title="Tema 7. Indecidibilitat, no semidecidibilitat, no computabilitat. ‣ Teoria de la Computació Exercicis per a l’avaluació contínua">
+<link rel="section" href="S8.html" title="Tema 8. Problemes naturals indecidibles ‣ Teoria de la Computació Exercicis per a l’avaluació contínua">
+</head>
+<body>
+<div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+<div class="book-summary"><nav class="ltx_page_navbar">
+<ul class="ltx_toclist summary">
+<li>
+<a href="index.html" title="Teoria de la Computació Exercicis per a l’avaluació contínua" class="ltx_ref" rel="start"><span class="ltx_text ltx_font_bold">Teoria de la Computació<span class="ltx_text"> </span></span><span class="ltx_text" style="font-size:120%;">Exercicis per a l’avaluació contínua</span></a>
+</li>
+<li class="divider">
+<li data-level="1" data-path="" class="ltx_tocentry ltx_tocentry_section ltx_ref_self  chapter active"><a href="" title="Tema 1. Teoria de Llenguatges ‣ Teoria de la Computació Exercicis per a l’avaluació contínua" class="ltx_ref"><b><span class="ltx_tag ltx_tag_ref">1 </span></b>Teoria de Llenguatges</a></li>
+<li data-level="2" data-path="S2.html" class="ltx_tocentry ltx_tocentry_section  chapter "><a href="S2.html" title="Tema 2. Autòmats Finits ‣ Teoria de la Computació Exercicis per a l’avaluació contínua" class="ltx_ref"><b><span class="ltx_tag ltx_tag_ref">2 </span></b>Autòmats Finits</a></li>
+<li data-level="3" data-path="S3.html" class="ltx_tocentry ltx_tocentry_section  chapter "><a href="S3.html" title="Tema 3. Gramàtiques incontextuals ‣ Teoria de la Computació Exercicis per a l’avaluació contínua" class="ltx_ref"><b><span class="ltx_tag ltx_tag_ref">3 </span></b>Gramàtiques incontextuals</a></li>
+<li data-level="4" data-path="S4.html" class="ltx_tocentry ltx_tocentry_section  chapter "><a href="S4.html" title="Tema 4. Expressions Regulars ‣ Teoria de la Computació Exercicis per a l’avaluació contínua" class="ltx_ref"><b><span class="ltx_tag ltx_tag_ref">4 </span></b>Expressions Regulars</a></li>
+<li data-level="5" data-path="S5.html" class="ltx_tocentry ltx_tocentry_section  chapter "><a href="S5.html" title="Tema 5. Autòmats amb pila. Jerarquia de Chomsky ‣ Teoria de la Computació Exercicis per a l’avaluació contínua" class="ltx_ref"><b><span class="ltx_tag ltx_tag_ref">5 </span></b>Autòmats amb pila. Jerarquia de Chomsky</a></li>
+<li data-level="6" data-path="S6.html" class="ltx_tocentry ltx_tocentry_section  chapter "><a href="S6.html" title="Tema 6. Màquines de Turing. Decidibilitat, semidecidibilitat, computabilitat. ‣ Teoria de la Computació Exercicis per a l’avaluació contínua" class="ltx_ref"><b><span class="ltx_tag ltx_tag_ref">6 </span></b>Màquines de Turing. Decidibilitat, semidecidibilitat, computabilitat.</a></li>
+<li data-level="7" data-path="S7.html" class="ltx_tocentry ltx_tocentry_section  chapter "><a href="S7.html" title="Tema 7. Indecidibilitat, no semidecidibilitat, no computabilitat. ‣ Teoria de la Computació Exercicis per a l’avaluació contínua" class="ltx_ref"><b><span class="ltx_tag ltx_tag_ref">7 </span></b>Indecidibilitat, no semidecidibilitat, no computabilitat.</a></li>
+<li data-level="8" data-path="S8.html" class="ltx_tocentry ltx_tocentry_section  chapter "><a href="S8.html" title="Tema 8. Problemes naturals indecidibles ‣ Teoria de la Computació Exercicis per a l’avaluació contínua" class="ltx_ref"><b><span class="ltx_tag ltx_tag_ref">8 </span></b>Problemes naturals indecidibles</a></li>
+</ul>
+</nav></div>
+<div class="ltx_page_main book-body fixed">
+<div class="body-inner">
+<div class="book-header fixed" role="navigation"><h1>Tema 1.   Teoria de Llenguatges</h1></div>
+<div class="page-wrapper" tabindex="-1" role="main">
+<div class="ltx_page_content page-inner">
+<section class="ltx_section ltx_authors_1line normal" lang="ca">
+<div class="section level1">
+
+<h1 class="ltx_title ltx_font_bold ltx_title_section" style="font-size:144%;">Tema 1.   Teoria de Llenguatges</h1>
+
+<section id="SS0.SSSx1" class="ltx_subsubsection normal">
+<div class="section level2">
+
+<h2 class="ltx_title ltx_title_subsubsection">Teoria</h2>
+
+<div id="SS0.SSSx1.p1" class="ltx_para ltx_noindent">
+<ul id="I1" class="ltx_itemize">
+<li id="I1.ix1" class="ltx_item" style="list-style-type:none;"><div id="I1.ix1.p1" class="ltx_para ltx_noindent">​<p class="ltx_p"><a href="https://www.cs.upc.edu/~alvarez/tc/llibre.ps" title="" class="ltx_ref ltx_href">R. Cases i L. Márquez. <em class="ltx_emph ltx_font_italic">Teoria de la computació. Llenguatges regulars i incotextuals</em>.</a>
+
+<br class="ltx_break">Capítol 1.</p>
+</div></li>
+</ul>
+</div>
+<div id="SS0.SSSx1.p2" class="ltx_para ltx_noindent">
+<ul id="I2" class="ltx_itemize">
+<li id="I2.ix1" class="ltx_item" style="list-style-type:none;"><div id="I2.ix1.p1" class="ltx_para ltx_noindent">​<p class="ltx_p">M. Sipser, 
+<br class="ltx_break"><em class="ltx_emph ltx_font_italic">Introduction to the Theory of Computation</em>, Third edition, Cengage Learning, 2012
+
+<br class="ltx_break">Chapter 0. Introduction</p>
+</div></li>
+</ul>
+</div>
+<div id="SS0.SSSx1.p3" class="ltx_para ltx_noindent">
+<p class="ltx_p">Veure els següents vídeos:
+            <div style="max-width: 1920px; width: 100%">
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" height="1080" src="https://www.youtube-nocookie.com/embed/7Bf-9oxvsyI" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;" title="YouTube: Teoria de llenguatges (1)" width="1920"></iframe>
+</div>
+</div>
+          
+
+            <div style="max-width: 1920px; width: 100%">
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" height="1080" src="https://www.youtube-nocookie.com/embed/nGQziHFY-XM" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;" title="YouTube: Teoria de llenguatges (2)" width="1920"></iframe>
+</div>
+</div>
+          
+
+            <div style="max-width: 1920px; width: 100%">
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" height="1080" src="https://www.youtube-nocookie.com/embed/S8-Y_wRO6w8" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;" title="YouTube: Teoria de llenguatges (3)" width="1920"></iframe>
+</div>
+</div>
+          </p>
+</div>
+</div>
+</section>
+<section id="SS0.SSSx2" class="ltx_subsubsection normal">
+<div class="section level2">
+
+<h2 class="ltx_title ltx_title_subsubsection">Exercicis per a l’avaluació contínua</h2>
+
+<div id="Thmex1" class="ltx_theorem ltx_theorem_ex">
+
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem header-section-number"><span class="ltx_text ltx_font_bold">Exercici 1.1</span></span><span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmex1.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p">Formalitzeu els següents llenguatges
+utilitzant la notació clàssica de conjunts, com a parell
+variable de mot (<math id="Thmex1.p1.m1" class="ltx_Math" alttext="w\in\Sigma^{*}" display="inline"><semantics><mrow><mi>w</mi><mo>∈</mo><msup><mi mathvariant="normal">Σ</mi><mo>*</mo></msup></mrow><annotation encoding="application/x-tex">w\in\Sigma^{*}</annotation></semantics></math>) i propietat (<math id="Thmex1.p1.m2" class="ltx_Math" alttext="P" display="inline"><semantics><mi>P</mi><annotation encoding="application/x-tex">P</annotation></semantics></math>) definida sobre mots, de manera que el llenguatge es pot definir com el conjunt <math id="Thmex1.p1.m3" class="ltx_Math" alttext="\{w\in\Sigma^{*}\mid P(w)\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mrow><mi>w</mi><mo>∈</mo><msup><mi mathvariant="normal">Σ</mi><mo>*</mo></msup></mrow><mo fence="true" lspace="0em" rspace="0em">∣</mo><mrow><mi>P</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>w</mi><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{w\in\Sigma^{*}\mid P(w)\}</annotation></semantics></math>. Per a definir formalment la propietat <math id="Thmex1.p1.m4" class="ltx_Math" alttext="P" display="inline"><semantics><mi>P</mi><annotation encoding="application/x-tex">P</annotation></semantics></math> feu
+servir quantificadors universals i existencials, operadors
+booleans i les notacions sobre mides de mots que
+hem introduït.</p>
+</div>
+<div id="Thmex1.p2" class="ltx_para">
+<ol id="I3" class="ltx_enumerate">
+<li id="I3.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I3.i1.m1" class="ltx_Math" alttext="a" display="inline"><semantics><mi>a</mi><annotation encoding="application/x-tex">a</annotation></semantics></math>)  </span><div id="I3.i1.p1" class="ltx_para">​<p class="ltx_p">Llenguatge
+dels mots sobre <math id="I3.i1.p1.m1" class="ltx_Math" alttext="\{a,b\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{a,b\}</annotation></semantics></math> que contenen el
+submot <math id="I3.i1.p1.m2" class="ltx_Math" alttext="ab" display="inline"><semantics><mrow><mi>a</mi><mo>⁢</mo><mi>b</mi></mrow><annotation encoding="application/x-tex">ab</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I3.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I3.i2.m1" class="ltx_Math" alttext="b" display="inline"><semantics><mi>b</mi><annotation encoding="application/x-tex">b</annotation></semantics></math>)  </span><div id="I3.i2.p1" class="ltx_para">​<p class="ltx_p">Llenguatge dels mots sobre <math id="I3.i2.p1.m1" class="ltx_Math" alttext="\{a,b\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{a,b\}</annotation></semantics></math> tals que
+a la dreta de cada submot <math id="I3.i2.p1.m2" class="ltx_Math" alttext="ab" display="inline"><semantics><mrow><mi>a</mi><mo>⁢</mo><mi>b</mi></mrow><annotation encoding="application/x-tex">ab</annotation></semantics></math> hi ha algun submot <math id="I3.i2.p1.m3" class="ltx_Math" alttext="ba" display="inline"><semantics><mrow><mi>b</mi><mo>⁢</mo><mi>a</mi></mrow><annotation encoding="application/x-tex">ba</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I3.i3" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I3.i3.m1" class="ltx_Math" alttext="c" display="inline"><semantics><mi>c</mi><annotation encoding="application/x-tex">c</annotation></semantics></math>)  </span><div id="I3.i3.p1" class="ltx_para">​<p class="ltx_p">Llenguatge
+dels mots sobre <math id="I3.i3.p1.m1" class="ltx_Math" alttext="\{a,b\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{a,b\}</annotation></semantics></math> que contenen el
+submot <math id="I3.i3.p1.m2" class="ltx_Math" alttext="ab" display="inline"><semantics><mrow><mi>a</mi><mo>⁢</mo><mi>b</mi></mrow><annotation encoding="application/x-tex">ab</annotation></semantics></math> i el submot <math id="I3.i3.p1.m3" class="ltx_Math" alttext="ba" display="inline"><semantics><mrow><mi>b</mi><mo>⁢</mo><mi>a</mi></mrow><annotation encoding="application/x-tex">ba</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I3.i4" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I3.i4.m1" class="ltx_Math" alttext="d" display="inline"><semantics><mi>d</mi><annotation encoding="application/x-tex">d</annotation></semantics></math>)  </span><div id="I3.i4.p1" class="ltx_para">​<p class="ltx_p">Llenguatge dels mots sobre <math id="I3.i4.p1.m1" class="ltx_Math" alttext="\{a,b,c\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{a,b,c\}</annotation></semantics></math> tals que
+entre cada dues <math id="I3.i4.p1.m2" class="ltx_Math" alttext="b" display="inline"><semantics><mi>b</mi><annotation encoding="application/x-tex">b</annotation></semantics></math>’s hi ha alguna <math id="I3.i4.p1.m3" class="ltx_Math" alttext="a" display="inline"><semantics><mi>a</mi><annotation encoding="application/x-tex">a</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I3.i5" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I3.i5.m1" class="ltx_Math" alttext="e" display="inline"><semantics><mi>e</mi><annotation encoding="application/x-tex">e</annotation></semantics></math>)  </span><div id="I3.i5.p1" class="ltx_para">​<p class="ltx_p">Llenguatge de mots sobre <math id="I3.i5.p1.m1" class="ltx_Math" alttext="\{a,b\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{a,b\}</annotation></semantics></math> tal que tota
+ocurrència de <math id="I3.i5.p1.m2" class="ltx_Math" alttext="b" display="inline"><semantics><mi>b</mi><annotation encoding="application/x-tex">b</annotation></semantics></math> està en posició parell (el primer
+símbol d’un mot ocupa la posició <math id="I3.i5.p1.m3" class="ltx_Math" alttext="1" display="inline"><semantics><mn>1</mn><annotation encoding="application/x-tex">1</annotation></semantics></math>).</p>
+</div>
+</li>
+<li id="I3.i6" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I3.i6.m1" class="ltx_Math" alttext="f" display="inline"><semantics><mi>f</mi><annotation encoding="application/x-tex">f</annotation></semantics></math>)  </span><div id="I3.i6.p1" class="ltx_para">​<p class="ltx_p">Llenguatge
+dels mots sobre <math id="I3.i6.p1.m1" class="ltx_Math" alttext="\{a,b\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{a,b\}</annotation></semantics></math> amb algun prefix amb
+més <math id="I3.i6.p1.m2" class="ltx_Math" alttext="b" display="inline"><semantics><mi>b</mi><annotation encoding="application/x-tex">b</annotation></semantics></math>’s o igual que <math id="I3.i6.p1.m3" class="ltx_Math" alttext="a" display="inline"><semantics><mi>a</mi><annotation encoding="application/x-tex">a</annotation></semantics></math>’s.</p>
+</div>
+</li>
+<li id="I3.i7" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I3.i7.m1" class="ltx_Math" alttext="g" display="inline"><semantics><mi>g</mi><annotation encoding="application/x-tex">g</annotation></semantics></math>)  </span><div id="I3.i7.p1" class="ltx_para">​<p class="ltx_p">Llenguatge
+dels mots sobre <math id="I3.i7.p1.m1" class="ltx_Math" alttext="\{a,b\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{a,b\}</annotation></semantics></math> tals que qualsevol prefixe
+seu té més <math id="I3.i7.p1.m2" class="ltx_Math" alttext="b" display="inline"><semantics><mi>b</mi><annotation encoding="application/x-tex">b</annotation></semantics></math>’s o igual que <math id="I3.i7.p1.m3" class="ltx_Math" alttext="a" display="inline"><semantics><mi>a</mi><annotation encoding="application/x-tex">a</annotation></semantics></math>’s.</p>
+</div>
+</li>
+<li id="I3.i8" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I3.i8.m1" class="ltx_Math" alttext="h" display="inline"><semantics><mi>h</mi><annotation encoding="application/x-tex">h</annotation></semantics></math>)  </span><div id="I3.i8.p1" class="ltx_para">​<p class="ltx_p">Llenguatge
+dels mots sobre <math id="I3.i8.p1.m1" class="ltx_Math" alttext="\{a,b\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{a,b\}</annotation></semantics></math> amb algun prefix
+de mida parell amb més <math id="I3.i8.p1.m2" class="ltx_Math" alttext="b" display="inline"><semantics><mi>b</mi><annotation encoding="application/x-tex">b</annotation></semantics></math>’s o igual que <math id="I3.i8.p1.m3" class="ltx_Math" alttext="a" display="inline"><semantics><mi>a</mi><annotation encoding="application/x-tex">a</annotation></semantics></math>’s.</p>
+</div>
+</li>
+<li id="I3.i9" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I3.i9.m1" class="ltx_Math" alttext="i" display="inline"><semantics><mi>i</mi><annotation encoding="application/x-tex">i</annotation></semantics></math>)  </span><div id="I3.i9.p1" class="ltx_para">​<p class="ltx_p">Llenguatge
+dels mots sobre <math id="I3.i9.p1.m1" class="ltx_Math" alttext="\{a,b\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{a,b\}</annotation></semantics></math> tals que qualsevol prefixe
+seu de mida parell té més <math id="I3.i9.p1.m2" class="ltx_Math" alttext="b" display="inline"><semantics><mi>b</mi><annotation encoding="application/x-tex">b</annotation></semantics></math>’s o igual que <math id="I3.i9.p1.m3" class="ltx_Math" alttext="a" display="inline"><semantics><mi>a</mi><annotation encoding="application/x-tex">a</annotation></semantics></math>’s.</p>
+</div>
+</li>
+<li id="I3.i10" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I3.i10.m1" class="ltx_Math" alttext="j" display="inline"><semantics><mi>j</mi><annotation encoding="application/x-tex">j</annotation></semantics></math>)  </span><div id="I3.i10.p1" class="ltx_para ltx_noindent">​<p class="ltx_p">Llenguatge dels mots sobre <math id="I3.i10.p1.m1" class="ltx_Math" alttext="\{a,b\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{a,b\}</annotation></semantics></math> que tenen
+un prefix i un sufix idèntics de mida major que 0 i menor
+que la mida del propi mot.</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div id="Thmex2" class="ltx_theorem ltx_theorem_ex">
+
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem header-section-number"><span class="ltx_text ltx_font_bold">Exercici 1.2</span></span><span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmex2.p1" class="ltx_para">
+<p class="ltx_p">Argumenteu si són certes (amb una justificació)
+o falses (amb un contraexemple) les següents afirmacions
+sobre mots <math id="Thmex2.p1.m1" class="ltx_Math" alttext="x,y,z" display="inline"><semantics><mrow><mi>x</mi><mo>,</mo><mi>y</mi><mo>,</mo><mi>z</mi></mrow><annotation encoding="application/x-tex">x,y,z</annotation></semantics></math> i llenguatges <math id="Thmex2.p1.m2" class="ltx_Math" alttext="A,B,C" display="inline"><semantics><mrow><mi>A</mi><mo>,</mo><mi>B</mi><mo>,</mo><mi>C</mi></mrow><annotation encoding="application/x-tex">A,B,C</annotation></semantics></math> en general.</p>
+<ol id="I4" class="ltx_enumerate">
+<li id="I4.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I4.i1.m1" class="ltx_Math" alttext="a" display="inline"><semantics><mi>a</mi><annotation encoding="application/x-tex">a</annotation></semantics></math>)  </span><div id="I4.i1.p1" class="ltx_para">​<p class="ltx_p"><math id="I4.i1.p1.m1" class="ltx_Math" alttext="xy=yx" display="inline"><semantics><mrow><mrow><mi>x</mi><mo>⁢</mo><mi>y</mi></mrow><mo>=</mo><mrow><mi>y</mi><mo>⁢</mo><mi>x</mi></mrow></mrow><annotation encoding="application/x-tex">xy=yx</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I4.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I4.i2.m1" class="ltx_Math" alttext="b" display="inline"><semantics><mi>b</mi><annotation encoding="application/x-tex">b</annotation></semantics></math>)  </span><div id="I4.i2.p1" class="ltx_para">​<p class="ltx_p"><math id="I4.i2.p1.m1" class="ltx_Math" alttext="xy=xz\Rightarrow y=z" display="inline"><semantics><mrow><mrow><mi>x</mi><mo>⁢</mo><mi>y</mi></mrow><mo>=</mo><mrow><mi>x</mi><mo>⁢</mo><mi>z</mi></mrow><mo stretchy="false">⇒</mo><mi>y</mi><mo>=</mo><mi>z</mi></mrow><annotation encoding="application/x-tex">xy=xz\Rightarrow y=z</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I4.i3" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I4.i3.m1" class="ltx_Math" alttext="c" display="inline"><semantics><mi>c</mi><annotation encoding="application/x-tex">c</annotation></semantics></math>)  </span><div id="I4.i3.p1" class="ltx_para">​<p class="ltx_p"><math id="I4.i3.p1.m1" class="ltx_Math" alttext="A(BC)=(AB)C" display="inline"><semantics><mrow><mrow><mi>A</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>B</mi><mo>⁢</mo><mi>C</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mrow><mo stretchy="false">(</mo><mrow><mi>A</mi><mo>⁢</mo><mi>B</mi></mrow><mo stretchy="false">)</mo></mrow><mo>⁢</mo><mi>C</mi></mrow></mrow><annotation encoding="application/x-tex">A(BC)=(AB)C</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I4.i4" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I4.i4.m1" class="ltx_Math" alttext="d" display="inline"><semantics><mi>d</mi><annotation encoding="application/x-tex">d</annotation></semantics></math>)  </span><div id="I4.i4.p1" class="ltx_para">​<p class="ltx_p"><math id="I4.i4.p1.m1" class="ltx_Math" alttext="AB=BA" display="inline"><semantics><mrow><mrow><mi>A</mi><mo>⁢</mo><mi>B</mi></mrow><mo>=</mo><mrow><mi>B</mi><mo>⁢</mo><mi>A</mi></mrow></mrow><annotation encoding="application/x-tex">AB=BA</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I4.i5" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I4.i5.m1" class="ltx_Math" alttext="e" display="inline"><semantics><mi>e</mi><annotation encoding="application/x-tex">e</annotation></semantics></math>)  </span><div id="I4.i5.p1" class="ltx_para">​<p class="ltx_p"><math id="I4.i5.p1.m1" class="ltx_Math" alttext="A\not=\emptyset\;\wedge\;AB=AC\;\Rightarrow\;B=C" display="inline"><semantics><mrow><mi>A</mi><mo>≠</mo><mrow><mi>∅︀</mi><mo lspace="0.502em" rspace="0.502em">∧</mo><mrow><mi>A</mi><mo>⁢</mo><mi>B</mi></mrow></mrow><mo>=</mo><mrow><mi>A</mi><mo>⁢</mo><mi>C</mi></mrow><mo lspace="0.558em" rspace="0.558em" stretchy="false">⇒</mo><mi>B</mi><mo>=</mo><mi>C</mi></mrow><annotation encoding="application/x-tex">A\not=\emptyset\;\wedge\;AB=AC\;\Rightarrow\;B=C</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I4.i6" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I4.i6.m1" class="ltx_Math" alttext="f" display="inline"><semantics><mi>f</mi><annotation encoding="application/x-tex">f</annotation></semantics></math>)  </span><div id="I4.i6.p1" class="ltx_para">​<p class="ltx_p"><math id="I4.i6.p1.m1" class="ltx_math_unparsed" alttext="A\not=\emptyset\;\wedge\;B\not=\emptyset\;\wedge\;AB=CD\;\wedge\;(\forall u\in
+A%
+,v\in C:|u|=|v|)\;\Rightarrow\;A=C\;\wedge\;B=D" display="inline"><semantics><mrow><mi>A</mi><mo>≠</mo><mi>∅︀</mi><mo lspace="0.502em" rspace="0.502em">∧</mo><mi>B</mi><mo>≠</mo><mi>∅︀</mi><mo lspace="0.502em" rspace="0.502em">∧</mo><mi>A</mi><mi>B</mi><mo>=</mo><mi>C</mi><mi>D</mi><mo lspace="0.502em" rspace="0.502em">∧</mo><mrow><mo stretchy="false">(</mo><mo rspace="0.167em">∀</mo><mi>u</mi><mo>∈</mo><mi>A</mi><mo>,</mo><mi>v</mi><mo>∈</mo><mi>C</mi><mo lspace="0.278em" rspace="0em">:</mo><mo fence="false" rspace="0.167em" stretchy="false">|</mo><mi>u</mi><mo fence="false" stretchy="false">|</mo><mo lspace="0.167em" rspace="0em">=</mo><mo fence="false" rspace="0.167em" stretchy="false">|</mo><mi>v</mi><mo fence="false" rspace="0.167em" stretchy="false">|</mo><mo rspace="0.280em" stretchy="false">)</mo></mrow><mo rspace="0.558em" stretchy="false">⇒</mo><mi>A</mi><mo>=</mo><mi>C</mi><mo lspace="0.502em" rspace="0.502em">∧</mo><mi>B</mi><mo>=</mo><mi>D</mi></mrow><annotation encoding="application/x-tex">A\not=\emptyset\;\wedge\;B\not=\emptyset\;\wedge\;AB=CD\;\wedge\;(\forall u\in
+A%
+,v\in C:|u|=|v|)\;\Rightarrow\;A=C\;\wedge\;B=D</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I4.i7" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I4.i7.m1" class="ltx_Math" alttext="g" display="inline"><semantics><mi>g</mi><annotation encoding="application/x-tex">g</annotation></semantics></math>)  </span><div id="I4.i7.p1" class="ltx_para">​<p class="ltx_p"><math id="I4.i7.p1.m1" class="ltx_Math" alttext="(A\cup B)C=AC\cup BC" display="inline"><semantics><mrow><mrow><mrow><mo stretchy="false">(</mo><mrow><mi>A</mi><mo>∪</mo><mi>B</mi></mrow><mo stretchy="false">)</mo></mrow><mo>⁢</mo><mi>C</mi></mrow><mo>=</mo><mrow><mrow><mi>A</mi><mo>⁢</mo><mi>C</mi></mrow><mo>∪</mo><mrow><mi>B</mi><mo>⁢</mo><mi>C</mi></mrow></mrow></mrow><annotation encoding="application/x-tex">(A\cup B)C=AC\cup BC</annotation></semantics></math> i <math id="I4.i7.p1.m2" class="ltx_Math" alttext="A(B\cup C)=AB\cup AC" display="inline"><semantics><mrow><mrow><mi>A</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>B</mi><mo>∪</mo><mi>C</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mrow><mi>A</mi><mo>⁢</mo><mi>B</mi></mrow><mo>∪</mo><mrow><mi>A</mi><mo>⁢</mo><mi>C</mi></mrow></mrow></mrow><annotation encoding="application/x-tex">A(B\cup C)=AB\cup AC</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I4.i8" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I4.i8.m1" class="ltx_Math" alttext="h" display="inline"><semantics><mi>h</mi><annotation encoding="application/x-tex">h</annotation></semantics></math>)  </span><div id="I4.i8.p1" class="ltx_para">​<p class="ltx_p"><math id="I4.i8.p1.m1" class="ltx_Math" alttext="(A\cap B)C\subseteq AC\cap BC" display="inline"><semantics><mrow><mrow><mrow><mo stretchy="false">(</mo><mrow><mi>A</mi><mo>∩</mo><mi>B</mi></mrow><mo stretchy="false">)</mo></mrow><mo>⁢</mo><mi>C</mi></mrow><mo>⊆</mo><mrow><mrow><mi>A</mi><mo>⁢</mo><mi>C</mi></mrow><mo>∩</mo><mrow><mi>B</mi><mo>⁢</mo><mi>C</mi></mrow></mrow></mrow><annotation encoding="application/x-tex">(A\cap B)C\subseteq AC\cap BC</annotation></semantics></math> i <math id="I4.i8.p1.m2" class="ltx_Math" alttext="A(B\cap C)\subseteq AB\cap AC" display="inline"><semantics><mrow><mrow><mi>A</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>B</mi><mo>∩</mo><mi>C</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>⊆</mo><mrow><mrow><mi>A</mi><mo>⁢</mo><mi>B</mi></mrow><mo>∩</mo><mrow><mi>A</mi><mo>⁢</mo><mi>C</mi></mrow></mrow></mrow><annotation encoding="application/x-tex">A(B\cap C)\subseteq AB\cap AC</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I4.i9" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I4.i9.m1" class="ltx_Math" alttext="i" display="inline"><semantics><mi>i</mi><annotation encoding="application/x-tex">i</annotation></semantics></math>)  </span><div id="I4.i9.p1" class="ltx_para ltx_noindent">​<p class="ltx_p"><math id="I4.i9.p1.m1" class="ltx_Math" alttext="(A\cap B)C\supseteq AC\cap BC" display="inline"><semantics><mrow><mrow><mrow><mo stretchy="false">(</mo><mrow><mi>A</mi><mo>∩</mo><mi>B</mi></mrow><mo stretchy="false">)</mo></mrow><mo>⁢</mo><mi>C</mi></mrow><mo>⊇</mo><mrow><mrow><mi>A</mi><mo>⁢</mo><mi>C</mi></mrow><mo>∩</mo><mrow><mi>B</mi><mo>⁢</mo><mi>C</mi></mrow></mrow></mrow><annotation encoding="application/x-tex">(A\cap B)C\supseteq AC\cap BC</annotation></semantics></math> i <math id="I4.i9.p1.m2" class="ltx_Math" alttext="A(B\cap C)\supseteq AB\cap AC" display="inline"><semantics><mrow><mrow><mi>A</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>B</mi><mo>∩</mo><mi>C</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>⊇</mo><mrow><mrow><mi>A</mi><mo>⁢</mo><mi>B</mi></mrow><mo>∩</mo><mrow><mi>A</mi><mo>⁢</mo><mi>C</mi></mrow></mrow></mrow><annotation encoding="application/x-tex">A(B\cap C)\supseteq AB\cap AC</annotation></semantics></math>.</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div id="Thmex3" class="ltx_theorem ltx_theorem_ex">
+
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem header-section-number"><span class="ltx_text ltx_font_bold">Exercici 1.3</span></span><span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmex3.p1" class="ltx_para">
+<p class="ltx_p">Argumenteu si són certes (amb una justificació)
+o falses (amb un contraexemple) les següents afirmacions
+en general.</p>
+<ol id="I5" class="ltx_enumerate">
+<li id="I5.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I5.i1.m1" class="ltx_Math" alttext="a" display="inline"><semantics><mi>a</mi><annotation encoding="application/x-tex">a</annotation></semantics></math>)  </span><div id="I5.i1.p1" class="ltx_para">​<p class="ltx_p"><math id="I5.i1.p1.m1" class="ltx_Math" alttext="L^{*}=\{a,b\}^{*}\;\Rightarrow\;\{a,b\}\subseteq L" display="inline"><semantics><mrow><msup><mi>L</mi><mo>*</mo></msup><mo>=</mo><msup><mrow><mo stretchy="false">{</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy="false">}</mo></mrow><mo>*</mo></msup><mo rspace="0.558em" stretchy="false">⇒</mo><mrow><mo stretchy="false">{</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy="false">}</mo></mrow><mo>⊆</mo><mi>L</mi></mrow><annotation encoding="application/x-tex">L^{*}=\{a,b\}^{*}\;\Rightarrow\;\{a,b\}\subseteq L</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I5.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I5.i2.m1" class="ltx_Math" alttext="b" display="inline"><semantics><mi>b</mi><annotation encoding="application/x-tex">b</annotation></semantics></math>)  </span><div id="I5.i2.p1" class="ltx_para">​<p class="ltx_p"><math id="I5.i2.p1.m1" class="ltx_Math" alttext="L_{1}^{*}L_{2}^{*}\subseteq(L_{1}L_{2})^{*}" display="inline"><semantics><mrow><mrow><msubsup><mi>L</mi><mn>1</mn><mo>*</mo></msubsup><mo>⁢</mo><msubsup><mi>L</mi><mn>2</mn><mo>*</mo></msubsup></mrow><mo>⊆</mo><msup><mrow><mo stretchy="false">(</mo><mrow><msub><mi>L</mi><mn>1</mn></msub><mo>⁢</mo><msub><mi>L</mi><mn>2</mn></msub></mrow><mo stretchy="false">)</mo></mrow><mo>*</mo></msup></mrow><annotation encoding="application/x-tex">L_{1}^{*}L_{2}^{*}\subseteq(L_{1}L_{2})^{*}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I5.i3" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I5.i3.m1" class="ltx_Math" alttext="c" display="inline"><semantics><mi>c</mi><annotation encoding="application/x-tex">c</annotation></semantics></math>)  </span><div id="I5.i3.p1" class="ltx_para">​<p class="ltx_p"><math id="I5.i3.p1.m1" class="ltx_Math" alttext="L_{1}^{*}L_{2}^{*}\supseteq(L_{1}L_{2})^{*}" display="inline"><semantics><mrow><mrow><msubsup><mi>L</mi><mn>1</mn><mo>*</mo></msubsup><mo>⁢</mo><msubsup><mi>L</mi><mn>2</mn><mo>*</mo></msubsup></mrow><mo>⊇</mo><msup><mrow><mo stretchy="false">(</mo><mrow><msub><mi>L</mi><mn>1</mn></msub><mo>⁢</mo><msub><mi>L</mi><mn>2</mn></msub></mrow><mo stretchy="false">)</mo></mrow><mo>*</mo></msup></mrow><annotation encoding="application/x-tex">L_{1}^{*}L_{2}^{*}\supseteq(L_{1}L_{2})^{*}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I5.i4" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I5.i4.m1" class="ltx_Math" alttext="d" display="inline"><semantics><mi>d</mi><annotation encoding="application/x-tex">d</annotation></semantics></math>)  </span><div id="I5.i4.p1" class="ltx_para">​<p class="ltx_p"><math id="I5.i4.p1.m1" class="ltx_Math" alttext="L_{1}^{+}\cup L_{2}^{+}=\{a,b\}^{+}\;\wedge\;L_{1}^{+}\cap L_{2}^{+}=\emptyset%
+\;\Rightarrow\;L_{1}=\emptyset\;\vee\;L_{2}=\emptyset" display="inline"><semantics><mrow><mrow><msubsup><mi>L</mi><mn>1</mn><mo>+</mo></msubsup><mo>∪</mo><msubsup><mi>L</mi><mn>2</mn><mo>+</mo></msubsup></mrow><mo>=</mo><mrow><mrow><msup><mrow><mo stretchy="false">{</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy="false">}</mo></mrow><mo>+</mo></msup><mo rspace="0.502em">∧</mo><msubsup><mi>L</mi><mn>1</mn><mo>+</mo></msubsup></mrow><mo>∩</mo><msubsup><mi>L</mi><mn>2</mn><mo>+</mo></msubsup></mrow><mo>=</mo><mi>∅︀</mi><mo lspace="0.558em" rspace="0.558em" stretchy="false">⇒</mo><msub><mi>L</mi><mn>1</mn></msub><mo>=</mo><mrow><mi>∅︀</mi><mo lspace="0.502em" rspace="0.502em">∨</mo><msub><mi>L</mi><mn>2</mn></msub></mrow><mo>=</mo><mi>∅︀</mi></mrow><annotation encoding="application/x-tex">L_{1}^{+}\cup L_{2}^{+}=\{a,b\}^{+}\;\wedge\;L_{1}^{+}\cap L_{2}^{+}=\emptyset%
+\;\Rightarrow\;L_{1}=\emptyset\;\vee\;L_{2}=\emptyset</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I5.i5" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I5.i5.m1" class="ltx_Math" alttext="e" display="inline"><semantics><mi>e</mi><annotation encoding="application/x-tex">e</annotation></semantics></math>)  </span><div id="I5.i5.p1" class="ltx_para">​<p class="ltx_p"><math id="I5.i5.p1.m1" class="ltx_Math" alttext="(L_{1}^{*}\cup L_{2}^{*})\subseteq(L_{1}\cup L_{2})^{*}" display="inline"><semantics><mrow><mrow><mo stretchy="false">(</mo><mrow><msubsup><mi>L</mi><mn>1</mn><mo>*</mo></msubsup><mo>∪</mo><msubsup><mi>L</mi><mn>2</mn><mo>*</mo></msubsup></mrow><mo stretchy="false">)</mo></mrow><mo>⊆</mo><msup><mrow><mo stretchy="false">(</mo><mrow><msub><mi>L</mi><mn>1</mn></msub><mo>∪</mo><msub><mi>L</mi><mn>2</mn></msub></mrow><mo stretchy="false">)</mo></mrow><mo>*</mo></msup></mrow><annotation encoding="application/x-tex">(L_{1}^{*}\cup L_{2}^{*})\subseteq(L_{1}\cup L_{2})^{*}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I5.i6" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I5.i6.m1" class="ltx_Math" alttext="f" display="inline"><semantics><mi>f</mi><annotation encoding="application/x-tex">f</annotation></semantics></math>)  </span><div id="I5.i6.p1" class="ltx_para">​<p class="ltx_p"><math id="I5.i6.p1.m1" class="ltx_Math" alttext="(L_{1}^{*}\cup L_{2}^{*})\supseteq(L_{1}\cup L_{2})^{*}" display="inline"><semantics><mrow><mrow><mo stretchy="false">(</mo><mrow><msubsup><mi>L</mi><mn>1</mn><mo>*</mo></msubsup><mo>∪</mo><msubsup><mi>L</mi><mn>2</mn><mo>*</mo></msubsup></mrow><mo stretchy="false">)</mo></mrow><mo>⊇</mo><msup><mrow><mo stretchy="false">(</mo><mrow><msub><mi>L</mi><mn>1</mn></msub><mo>∪</mo><msub><mi>L</mi><mn>2</mn></msub></mrow><mo stretchy="false">)</mo></mrow><mo>*</mo></msup></mrow><annotation encoding="application/x-tex">(L_{1}^{*}\cup L_{2}^{*})\supseteq(L_{1}\cup L_{2})^{*}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I5.i7" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I5.i7.m1" class="ltx_Math" alttext="g" display="inline"><semantics><mi>g</mi><annotation encoding="application/x-tex">g</annotation></semantics></math>)  </span><div id="I5.i7.p1" class="ltx_para">​<p class="ltx_p"><math id="I5.i7.p1.m1" class="ltx_Math" alttext="(L_{1}\cap L_{2})^{*}\subseteq(L_{1}^{*}\cap L_{2}^{*})" display="inline"><semantics><mrow><msup><mrow><mo stretchy="false">(</mo><mrow><msub><mi>L</mi><mn>1</mn></msub><mo>∩</mo><msub><mi>L</mi><mn>2</mn></msub></mrow><mo stretchy="false">)</mo></mrow><mo>*</mo></msup><mo>⊆</mo><mrow><mo stretchy="false">(</mo><mrow><msubsup><mi>L</mi><mn>1</mn><mo>*</mo></msubsup><mo>∩</mo><msubsup><mi>L</mi><mn>2</mn><mo>*</mo></msubsup></mrow><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">(L_{1}\cap L_{2})^{*}\subseteq(L_{1}^{*}\cap L_{2}^{*})</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I5.i8" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I5.i8.m1" class="ltx_Math" alttext="h" display="inline"><semantics><mi>h</mi><annotation encoding="application/x-tex">h</annotation></semantics></math>)  </span><div id="I5.i8.p1" class="ltx_para">​<p class="ltx_p"><math id="I5.i8.p1.m1" class="ltx_Math" alttext="(L_{1}\cap L_{2})^{*}\supseteq(L_{1}^{*}\cap L_{2}^{*})" display="inline"><semantics><mrow><msup><mrow><mo stretchy="false">(</mo><mrow><msub><mi>L</mi><mn>1</mn></msub><mo>∩</mo><msub><mi>L</mi><mn>2</mn></msub></mrow><mo stretchy="false">)</mo></mrow><mo>*</mo></msup><mo>⊇</mo><mrow><mo stretchy="false">(</mo><mrow><msubsup><mi>L</mi><mn>1</mn><mo>*</mo></msubsup><mo>∩</mo><msubsup><mi>L</mi><mn>2</mn><mo>*</mo></msubsup></mrow><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">(L_{1}\cap L_{2})^{*}\supseteq(L_{1}^{*}\cap L_{2}^{*})</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I5.i9" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I5.i9.m1" class="ltx_Math" alttext="i" display="inline"><semantics><mi>i</mi><annotation encoding="application/x-tex">i</annotation></semantics></math>)  </span><div id="I5.i9.p1" class="ltx_para">​<p class="ltx_p"><math id="I5.i9.p1.m1" class="ltx_Math" alttext="L_{1}^{*}\subseteq L_{2}^{*}\;\Rightarrow\;L_{1}\subseteq L_{2}" display="inline"><semantics><mrow><msubsup><mi>L</mi><mn>1</mn><mo>*</mo></msubsup><mo>⊆</mo><msubsup><mi>L</mi><mn>2</mn><mo>*</mo></msubsup><mo rspace="0.558em" stretchy="false">⇒</mo><msub><mi>L</mi><mn>1</mn></msub><mo>⊆</mo><msub><mi>L</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">L_{1}^{*}\subseteq L_{2}^{*}\;\Rightarrow\;L_{1}\subseteq L_{2}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I5.i10" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I5.i10.m1" class="ltx_Math" alttext="j" display="inline"><semantics><mi>j</mi><annotation encoding="application/x-tex">j</annotation></semantics></math>)  </span><div id="I5.i10.p1" class="ltx_para">​<p class="ltx_p"><math id="I5.i10.p1.m1" class="ltx_Math" alttext="\overline{L^{*}}\subseteq\overline{L}\subseteq\overline{L}^{*}" display="inline"><semantics><mrow><mover accent="true"><msup><mi>L</mi><mo>*</mo></msup><mo>¯</mo></mover><mo>⊆</mo><mover accent="true"><mi>L</mi><mo>¯</mo></mover><mo>⊆</mo><msup><mover accent="true"><mi>L</mi><mo>¯</mo></mover><mo>*</mo></msup></mrow><annotation encoding="application/x-tex">\overline{L^{*}}\subseteq\overline{L}\subseteq\overline{L}^{*}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I5.i11" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I5.i11.m1" class="ltx_Math" alttext="k" display="inline"><semantics><mi>k</mi><annotation encoding="application/x-tex">k</annotation></semantics></math>)  </span><div id="I5.i11.p1" class="ltx_para">​<p class="ltx_p"><math id="I5.i11.p1.m1" class="ltx_Math" alttext="\overline{L^{*}}\supseteq\overline{L}\supseteq\overline{L}^{*}" display="inline"><semantics><mrow><mover accent="true"><msup><mi>L</mi><mo>*</mo></msup><mo>¯</mo></mover><mo>⊇</mo><mover accent="true"><mi>L</mi><mo>¯</mo></mover><mo>⊇</mo><msup><mover accent="true"><mi>L</mi><mo>¯</mo></mover><mo>*</mo></msup></mrow><annotation encoding="application/x-tex">\overline{L^{*}}\supseteq\overline{L}\supseteq\overline{L}^{*}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I5.i12" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I5.i12.m1" class="ltx_Math" alttext="l" display="inline"><semantics><mi>l</mi><annotation encoding="application/x-tex">l</annotation></semantics></math>)  </span><div id="I5.i12.p1" class="ltx_para">​<p class="ltx_p"><math id="I5.i12.p1.m1" class="ltx_Math" alttext="L_{1}\not=\emptyset\;\wedge\;L_{2}\not=\emptyset\;\wedge\;L_{1}\cap L_{2}=%
+\emptyset\;\Rightarrow\;L_{1}^{*}\not=L_{2}^{*}" display="inline"><semantics><mrow><msub><mi>L</mi><mn>1</mn></msub><mo>≠</mo><mrow><mi>∅︀</mi><mo lspace="0.502em" rspace="0.502em">∧</mo><msub><mi>L</mi><mn>2</mn></msub></mrow><mo>≠</mo><mrow><mrow><mi>∅︀</mi><mo lspace="0.502em" rspace="0.502em">∧</mo><msub><mi>L</mi><mn>1</mn></msub></mrow><mo>∩</mo><msub><mi>L</mi><mn>2</mn></msub></mrow><mo>=</mo><mi>∅︀</mi><mo lspace="0.558em" rspace="0.558em" stretchy="false">⇒</mo><msubsup><mi>L</mi><mn>1</mn><mo>*</mo></msubsup><mo>≠</mo><msubsup><mi>L</mi><mn>2</mn><mo>*</mo></msubsup></mrow><annotation encoding="application/x-tex">L_{1}\not=\emptyset\;\wedge\;L_{2}\not=\emptyset\;\wedge\;L_{1}\cap L_{2}=%
+\emptyset\;\Rightarrow\;L_{1}^{*}\not=L_{2}^{*}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I5.i13" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I5.i13.m1" class="ltx_Math" alttext="m" display="inline"><semantics><mi>m</mi><annotation encoding="application/x-tex">m</annotation></semantics></math>)  </span><div id="I5.i13.p1" class="ltx_para">​<p class="ltx_p"><math id="I5.i13.p1.m1" class="ltx_Math" alttext="L^{+}L^{+}\subseteq L^{+}" display="inline"><semantics><mrow><mrow><msup><mi>L</mi><mo>+</mo></msup><mo>⁢</mo><msup><mi>L</mi><mo>+</mo></msup></mrow><mo>⊆</mo><msup><mi>L</mi><mo>+</mo></msup></mrow><annotation encoding="application/x-tex">L^{+}L^{+}\subseteq L^{+}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I5.i14" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I5.i14.m1" class="ltx_Math" alttext="n" display="inline"><semantics><mi>n</mi><annotation encoding="application/x-tex">n</annotation></semantics></math>)  </span><div id="I5.i14.p1" class="ltx_para">​<p class="ltx_p"><math id="I5.i14.p1.m1" class="ltx_Math" alttext="L^{+}L^{+}\supseteq L^{+}" display="inline"><semantics><mrow><mrow><msup><mi>L</mi><mo>+</mo></msup><mo>⁢</mo><msup><mi>L</mi><mo>+</mo></msup></mrow><mo>⊇</mo><msup><mi>L</mi><mo>+</mo></msup></mrow><annotation encoding="application/x-tex">L^{+}L^{+}\supseteq L^{+}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I5.i15" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I5.i15.m1" class="ltx_Math" alttext="o" display="inline"><semantics><mi>o</mi><annotation encoding="application/x-tex">o</annotation></semantics></math>)  </span><div id="I5.i15.p1" class="ltx_para">​<p class="ltx_p"><math id="I5.i15.p1.m1" class="ltx_Math" alttext="(L^{2})^{*}\subseteq(L^{*})^{2}" display="inline"><semantics><mrow><msup><mrow><mo stretchy="false">(</mo><msup><mi>L</mi><mn>2</mn></msup><mo stretchy="false">)</mo></mrow><mo>*</mo></msup><mo>⊆</mo><msup><mrow><mo stretchy="false">(</mo><msup><mi>L</mi><mo>*</mo></msup><mo stretchy="false">)</mo></mrow><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">(L^{2})^{*}\subseteq(L^{*})^{2}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I5.i16" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I5.i16.m1" class="ltx_Math" alttext="p" display="inline"><semantics><mi>p</mi><annotation encoding="application/x-tex">p</annotation></semantics></math>)  </span><div id="I5.i16.p1" class="ltx_para">​<p class="ltx_p"><math id="I5.i16.p1.m1" class="ltx_Math" alttext="(L^{2})^{*}\supseteq(L^{*})^{2}" display="inline"><semantics><mrow><msup><mrow><mo stretchy="false">(</mo><msup><mi>L</mi><mn>2</mn></msup><mo stretchy="false">)</mo></mrow><mo>*</mo></msup><mo>⊇</mo><msup><mrow><mo stretchy="false">(</mo><msup><mi>L</mi><mo>*</mo></msup><mo stretchy="false">)</mo></mrow><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">(L^{2})^{*}\supseteq(L^{*})^{2}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I5.i17" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I5.i17.m1" class="ltx_Math" alttext="q" display="inline"><semantics><mi>q</mi><annotation encoding="application/x-tex">q</annotation></semantics></math>)  </span><div id="I5.i17.p1" class="ltx_para">​<p class="ltx_p"><math id="I5.i17.p1.m1" class="ltx_Math" alttext="L\subseteq L^{2}\Leftrightarrow(\lambda\in L)\vee(L=\emptyset)" display="inline"><semantics><mrow><mrow><mi>L</mi><mo>⊆</mo><msup><mi>L</mi><mn>2</mn></msup></mrow><mo stretchy="false">⇔</mo><mrow><mrow><mo stretchy="false">(</mo><mrow><mi>λ</mi><mo>∈</mo><mi>L</mi></mrow><mo stretchy="false">)</mo></mrow><mo>∨</mo><mrow><mo stretchy="false">(</mo><mrow><mi>L</mi><mo>=</mo><mi>∅︀</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">L\subseteq L^{2}\Leftrightarrow(\lambda\in L)\vee(L=\emptyset)</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I5.i18" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I5.i18.m1" class="ltx_Math" alttext="r" display="inline"><semantics><mi>r</mi><annotation encoding="application/x-tex">r</annotation></semantics></math>)  </span><div id="I5.i18.p1" class="ltx_para">​<p class="ltx_p"><math id="I5.i18.p1.m1" class="ltx_Math" alttext="L^{2}\subseteq L\Leftrightarrow L=L^{+}" display="inline"><semantics><mrow><mrow><msup><mi>L</mi><mn>2</mn></msup><mo>⊆</mo><mi>L</mi></mrow><mo stretchy="false">⇔</mo><mrow><mi>L</mi><mo>=</mo><msup><mi>L</mi><mo>+</mo></msup></mrow></mrow><annotation encoding="application/x-tex">L^{2}\subseteq L\Leftrightarrow L=L^{+}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I5.i19" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I5.i19.m1" class="ltx_Math" alttext="s" display="inline"><semantics><mi>s</mi><annotation encoding="application/x-tex">s</annotation></semantics></math>)  </span><div id="I5.i19.p1" class="ltx_para">​<p class="ltx_p"><math id="I5.i19.p1.m1" class="ltx_Math" alttext="(\lambda\in L)\wedge(L^{2}\subseteq L)\Leftrightarrow L=L^{*}" display="inline"><semantics><mrow><mrow><mrow><mo stretchy="false">(</mo><mrow><mi>λ</mi><mo>∈</mo><mi>L</mi></mrow><mo stretchy="false">)</mo></mrow><mo>∧</mo><mrow><mo stretchy="false">(</mo><mrow><msup><mi>L</mi><mn>2</mn></msup><mo>⊆</mo><mi>L</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">⇔</mo><mrow><mi>L</mi><mo>=</mo><msup><mi>L</mi><mo>*</mo></msup></mrow></mrow><annotation encoding="application/x-tex">(\lambda\in L)\wedge(L^{2}\subseteq L)\Leftrightarrow L=L^{*}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I5.i20" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I5.i20.m1" class="ltx_Math" alttext="t" display="inline"><semantics><mi>t</mi><annotation encoding="application/x-tex">t</annotation></semantics></math>)  </span><div id="I5.i20.p1" class="ltx_para ltx_noindent">​<p class="ltx_p"><math id="I5.i20.p1.m1" class="ltx_Math" alttext="L=L^{2}\Rightarrow(L=L^{*})\vee(L=\emptyset)" display="inline"><semantics><mrow><mi>L</mi><mo>=</mo><msup><mi>L</mi><mn>2</mn></msup><mo stretchy="false">⇒</mo><mrow><mrow><mo stretchy="false">(</mo><mrow><mi>L</mi><mo>=</mo><msup><mi>L</mi><mo>*</mo></msup></mrow><mo stretchy="false">)</mo></mrow><mo>∨</mo><mrow><mo stretchy="false">(</mo><mrow><mi>L</mi><mo>=</mo><mi>∅︀</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">L=L^{2}\Rightarrow(L=L^{*})\vee(L=\emptyset)</annotation></semantics></math>.</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div id="Thmex4" class="ltx_theorem ltx_theorem_ex">
+
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem header-section-number"><span class="ltx_text ltx_font_bold">Exercici 1.4</span></span><span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmex4.p1" class="ltx_para">
+<p class="ltx_p">Argumenteu si són certes (amb una justificació)
+o falses (amb un contraexemple) les següents afirmacions
+en general.</p>
+<ol id="I6" class="ltx_enumerate">
+<li id="I6.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I6.i1.m1" class="ltx_Math" alttext="a" display="inline"><semantics><mi>a</mi><annotation encoding="application/x-tex">a</annotation></semantics></math>)  </span><div id="I6.i1.p1" class="ltx_para">​<p class="ltx_p"><math id="I6.i1.p1.m1" class="ltx_Math" alttext="(xy)^{R}=y^{R}x^{R}" display="inline"><semantics><mrow><msup><mrow><mo stretchy="false">(</mo><mrow><mi>x</mi><mo>⁢</mo><mi>y</mi></mrow><mo stretchy="false">)</mo></mrow><mi>R</mi></msup><mo>=</mo><mrow><msup><mi>y</mi><mi>R</mi></msup><mo>⁢</mo><msup><mi>x</mi><mi>R</mi></msup></mrow></mrow><annotation encoding="application/x-tex">(xy)^{R}=y^{R}x^{R}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I6.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I6.i2.m1" class="ltx_Math" alttext="b" display="inline"><semantics><mi>b</mi><annotation encoding="application/x-tex">b</annotation></semantics></math>)  </span><div id="I6.i2.p1" class="ltx_para">​<p class="ltx_p"><math id="I6.i2.p1.m1" class="ltx_Math" alttext="(L_{1}L_{2})^{R}=L_{2}^{R}L_{1}^{R}" display="inline"><semantics><mrow><msup><mrow><mo stretchy="false">(</mo><mrow><msub><mi>L</mi><mn>1</mn></msub><mo>⁢</mo><msub><mi>L</mi><mn>2</mn></msub></mrow><mo stretchy="false">)</mo></mrow><mi>R</mi></msup><mo>=</mo><mrow><msubsup><mi>L</mi><mn>2</mn><mi>R</mi></msubsup><mo>⁢</mo><msubsup><mi>L</mi><mn>1</mn><mi>R</mi></msubsup></mrow></mrow><annotation encoding="application/x-tex">(L_{1}L_{2})^{R}=L_{2}^{R}L_{1}^{R}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I6.i3" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I6.i3.m1" class="ltx_Math" alttext="c" display="inline"><semantics><mi>c</mi><annotation encoding="application/x-tex">c</annotation></semantics></math>)  </span><div id="I6.i3.p1" class="ltx_para">​<p class="ltx_p"><math id="I6.i3.p1.m1" class="ltx_Math" alttext="(L_{1}\cup L_{2})^{R}=L_{1}^{R}\cup L_{2}^{R}" display="inline"><semantics><mrow><msup><mrow><mo stretchy="false">(</mo><mrow><msub><mi>L</mi><mn>1</mn></msub><mo>∪</mo><msub><mi>L</mi><mn>2</mn></msub></mrow><mo stretchy="false">)</mo></mrow><mi>R</mi></msup><mo>=</mo><mrow><msubsup><mi>L</mi><mn>1</mn><mi>R</mi></msubsup><mo>∪</mo><msubsup><mi>L</mi><mn>2</mn><mi>R</mi></msubsup></mrow></mrow><annotation encoding="application/x-tex">(L_{1}\cup L_{2})^{R}=L_{1}^{R}\cup L_{2}^{R}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I6.i4" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I6.i4.m1" class="ltx_Math" alttext="d" display="inline"><semantics><mi>d</mi><annotation encoding="application/x-tex">d</annotation></semantics></math>)  </span><div id="I6.i4.p1" class="ltx_para">​<p class="ltx_p"><math id="I6.i4.p1.m1" class="ltx_Math" alttext="(L_{1}\cap L_{2})^{R}=L_{1}^{R}\cap L_{2}^{R}" display="inline"><semantics><mrow><msup><mrow><mo stretchy="false">(</mo><mrow><msub><mi>L</mi><mn>1</mn></msub><mo>∩</mo><msub><mi>L</mi><mn>2</mn></msub></mrow><mo stretchy="false">)</mo></mrow><mi>R</mi></msup><mo>=</mo><mrow><msubsup><mi>L</mi><mn>1</mn><mi>R</mi></msubsup><mo>∩</mo><msubsup><mi>L</mi><mn>2</mn><mi>R</mi></msubsup></mrow></mrow><annotation encoding="application/x-tex">(L_{1}\cap L_{2})^{R}=L_{1}^{R}\cap L_{2}^{R}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I6.i5" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I6.i5.m1" class="ltx_Math" alttext="e" display="inline"><semantics><mi>e</mi><annotation encoding="application/x-tex">e</annotation></semantics></math>)  </span><div id="I6.i5.p1" class="ltx_para">​<p class="ltx_p"><math id="I6.i5.p1.m1" class="ltx_Math" alttext="\overline{L}^{R}=\overline{L^{R}}" display="inline"><semantics><mrow><msup><mover accent="true"><mi>L</mi><mo>¯</mo></mover><mi>R</mi></msup><mo>=</mo><mover accent="true"><msup><mi>L</mi><mi>R</mi></msup><mo>¯</mo></mover></mrow><annotation encoding="application/x-tex">\overline{L}^{R}=\overline{L^{R}}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I6.i6" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I6.i6.m1" class="ltx_Math" alttext="f" display="inline"><semantics><mi>f</mi><annotation encoding="application/x-tex">f</annotation></semantics></math>)  </span><div id="I6.i6.p1" class="ltx_para">​<p class="ltx_p"><math id="I6.i6.p1.m1" class="ltx_Math" alttext="(L^{*})^{R}=(L^{R})^{*}" display="inline"><semantics><mrow><msup><mrow><mo stretchy="false">(</mo><msup><mi>L</mi><mo>*</mo></msup><mo stretchy="false">)</mo></mrow><mi>R</mi></msup><mo>=</mo><msup><mrow><mo stretchy="false">(</mo><msup><mi>L</mi><mi>R</mi></msup><mo stretchy="false">)</mo></mrow><mo>*</mo></msup></mrow><annotation encoding="application/x-tex">(L^{*})^{R}=(L^{R})^{*}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I6.i7" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I6.i7.m1" class="ltx_Math" alttext="g" display="inline"><semantics><mi>g</mi><annotation encoding="application/x-tex">g</annotation></semantics></math>)  </span><div id="I6.i7.p1" class="ltx_para ltx_noindent">​<p class="ltx_p"><math id="I6.i7.p1.m1" class="ltx_Math" alttext="(L_{1}L_{2})^{R}=L_{1}^{R}L_{2}^{R}\;\Rightarrow\;L_{1}=L_{2}" display="inline"><semantics><mrow><msup><mrow><mo stretchy="false">(</mo><mrow><msub><mi>L</mi><mn>1</mn></msub><mo>⁢</mo><msub><mi>L</mi><mn>2</mn></msub></mrow><mo stretchy="false">)</mo></mrow><mi>R</mi></msup><mo>=</mo><mrow><msubsup><mi>L</mi><mn>1</mn><mi>R</mi></msubsup><mo>⁢</mo><msubsup><mi>L</mi><mn>2</mn><mi>R</mi></msubsup></mrow><mo rspace="0.558em" stretchy="false">⇒</mo><msub><mi>L</mi><mn>1</mn></msub><mo>=</mo><msub><mi>L</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">(L_{1}L_{2})^{R}=L_{1}^{R}L_{2}^{R}\;\Rightarrow\;L_{1}=L_{2}</annotation></semantics></math>.</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div id="Thmex5" class="ltx_theorem ltx_theorem_ex">
+
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem header-section-number"><span class="ltx_text ltx_font_bold">Exercici 1.5</span></span><span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmex5.p1" class="ltx_para">
+<p class="ltx_p">Quines de les següents definicions de la funció
+<math id="Thmex5.p1.m1" class="ltx_Math" alttext="\sigma" display="inline"><semantics><mi>σ</mi><annotation encoding="application/x-tex">\sigma</annotation></semantics></math> defineixen un morfisme (és a dir, cumpleixen
+<math id="Thmex5.p1.m2" class="ltx_Math" alttext="\sigma(xy)=\sigma(x)\sigma(y)" display="inline"><semantics><mrow><mrow><mi>σ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>x</mi><mo>⁢</mo><mi>y</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mi>σ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow><mo>⁢</mo><mi>σ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>y</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">\sigma(xy)=\sigma(x)\sigma(y)</annotation></semantics></math> per a mots <math id="Thmex5.p1.m3" class="ltx_Math" alttext="x,y" display="inline"><semantics><mrow><mi>x</mi><mo>,</mo><mi>y</mi></mrow><annotation encoding="application/x-tex">x,y</annotation></semantics></math> qualssevol).</p>
+<ol id="I7" class="ltx_enumerate">
+<li id="I7.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I7.i1.m1" class="ltx_Math" alttext="a" display="inline"><semantics><mi>a</mi><annotation encoding="application/x-tex">a</annotation></semantics></math>)  </span><div id="I7.i1.p1" class="ltx_para">​<p class="ltx_p"><math id="I7.i1.p1.m1" class="ltx_Math" alttext="\sigma(a_{1}a_{2}\cdots a_{n})=a_{1}a_{1}a_{2}a_{2}\cdots a_{n}a_{n}" display="inline"><semantics><mrow><mrow><mi>σ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>a</mi><mn>1</mn></msub><mo>⁢</mo><msub><mi>a</mi><mn>2</mn></msub><mo>⁢</mo><mi mathvariant="normal">⋯</mi><mo>⁢</mo><msub><mi>a</mi><mi>n</mi></msub></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><msub><mi>a</mi><mn>1</mn></msub><mo>⁢</mo><msub><mi>a</mi><mn>1</mn></msub><mo>⁢</mo><msub><mi>a</mi><mn>2</mn></msub><mo>⁢</mo><msub><mi>a</mi><mn>2</mn></msub><mo>⁢</mo><mi mathvariant="normal">⋯</mi><mo>⁢</mo><msub><mi>a</mi><mi>n</mi></msub><mo>⁢</mo><msub><mi>a</mi><mi>n</mi></msub></mrow></mrow><annotation encoding="application/x-tex">\sigma(a_{1}a_{2}\cdots a_{n})=a_{1}a_{1}a_{2}a_{2}\cdots a_{n}a_{n}</annotation></semantics></math>, essent <math id="I7.i1.p1.m2" class="ltx_Math" alttext="a_{1},\ldots,a_{n}" display="inline"><semantics><mrow><msub><mi>a</mi><mn>1</mn></msub><mo>,</mo><mi mathvariant="normal">…</mi><mo>,</mo><msub><mi>a</mi><mi>n</mi></msub></mrow><annotation encoding="application/x-tex">a_{1},\ldots,a_{n}</annotation></semantics></math>, tot ells, símbols de l’alfabet.</p>
+</div>
+</li>
+<li id="I7.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I7.i2.m1" class="ltx_Math" alttext="b" display="inline"><semantics><mi>b</mi><annotation encoding="application/x-tex">b</annotation></semantics></math>)  </span><div id="I7.i2.p1" class="ltx_para">​<p class="ltx_p"><math id="I7.i2.p1.m1" class="ltx_math_unparsed" alttext="\sigma(a_{1}a_{2}a_{3}\cdots a_{n})=a_{1}a_{2}a_{2}a_{3}a_{3}a_{3}\cdots%
+\overbrace{a_{n}\cdots a_{n}}^{n)}" display="inline"><semantics><mrow><mrow><mi>σ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>a</mi><mn>1</mn></msub><mo>⁢</mo><msub><mi>a</mi><mn>2</mn></msub><mo>⁢</mo><msub><mi>a</mi><mn>3</mn></msub><mo>⁢</mo><mi mathvariant="normal">⋯</mi><mo>⁢</mo><msub><mi>a</mi><mi>n</mi></msub></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><msub><mi>a</mi><mn>1</mn></msub><mo>⁢</mo><msub><mi>a</mi><mn>2</mn></msub><mo>⁢</mo><msub><mi>a</mi><mn>2</mn></msub><mo>⁢</mo><msub><mi>a</mi><mn>3</mn></msub><mo>⁢</mo><msub><mi>a</mi><mn>3</mn></msub><mo>⁢</mo><msub><mi>a</mi><mn>3</mn></msub><mo>⁢</mo><mi mathvariant="normal">⋯</mi><mo>⁢</mo><mover><mover accent="true"><mrow><msub><mi>a</mi><mi>n</mi></msub><mo>⁢</mo><mi mathvariant="normal">⋯</mi><mo>⁢</mo><msub><mi>a</mi><mi>n</mi></msub></mrow><mo>⏞</mo></mover><mrow><mi>n</mi><mo stretchy="false">)</mo></mrow></mover></mrow></mrow><annotation encoding="application/x-tex">\sigma(a_{1}a_{2}a_{3}\cdots a_{n})=a_{1}a_{2}a_{2}a_{3}a_{3}a_{3}\cdots%
+\overbrace{a_{n}\cdots a_{n}}^{n)}</annotation></semantics></math>, essent <math id="I7.i2.p1.m2" class="ltx_Math" alttext="a_{1},\ldots,a_{n}" display="inline"><semantics><mrow><msub><mi>a</mi><mn>1</mn></msub><mo>,</mo><mi mathvariant="normal">…</mi><mo>,</mo><msub><mi>a</mi><mi>n</mi></msub></mrow><annotation encoding="application/x-tex">a_{1},\ldots,a_{n}</annotation></semantics></math>, tot ells, símbols de l’alfabet.</p>
+</div>
+</li>
+<li id="I7.i3" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I7.i3.m1" class="ltx_Math" alttext="c" display="inline"><semantics><mi>c</mi><annotation encoding="application/x-tex">c</annotation></semantics></math>)  </span><div id="I7.i3.p1" class="ltx_para">​<p class="ltx_p"><math id="I7.i3.p1.m1" class="ltx_Math" alttext="\sigma(w)=w" display="inline"><semantics><mrow><mrow><mi>σ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>w</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mi>w</mi></mrow><annotation encoding="application/x-tex">\sigma(w)=w</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I7.i4" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I7.i4.m1" class="ltx_Math" alttext="d" display="inline"><semantics><mi>d</mi><annotation encoding="application/x-tex">d</annotation></semantics></math>)  </span><div id="I7.i4.p1" class="ltx_para">​<p class="ltx_p"><math id="I7.i4.p1.m1" class="ltx_Math" alttext="\sigma(w)=\lambda" display="inline"><semantics><mrow><mrow><mi>σ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>w</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mi>λ</mi></mrow><annotation encoding="application/x-tex">\sigma(w)=\lambda</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I7.i5" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I7.i5.m1" class="ltx_Math" alttext="e" display="inline"><semantics><mi>e</mi><annotation encoding="application/x-tex">e</annotation></semantics></math>)  </span><div id="I7.i5.p1" class="ltx_para">​<p class="ltx_p"><math id="I7.i5.p1.m1" class="ltx_Math" alttext="\sigma(w)=a^{|w|}" display="inline"><semantics><mrow><mrow><mi>σ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>w</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><msup><mi>a</mi><mrow><mo stretchy="false">|</mo><mi>w</mi><mo stretchy="false">|</mo></mrow></msup></mrow><annotation encoding="application/x-tex">\sigma(w)=a^{|w|}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I7.i6" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I7.i6.m1" class="ltx_Math" alttext="f" display="inline"><semantics><mi>f</mi><annotation encoding="application/x-tex">f</annotation></semantics></math>)  </span><div id="I7.i6.p1" class="ltx_para">​<p class="ltx_p"><math id="I7.i6.p1.m1" class="ltx_Math" alttext="\sigma(w)=w^{R}" display="inline"><semantics><mrow><mrow><mi>σ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>w</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><msup><mi>w</mi><mi>R</mi></msup></mrow><annotation encoding="application/x-tex">\sigma(w)=w^{R}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I7.i7" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I7.i7.m1" class="ltx_Math" alttext="g" display="inline"><semantics><mi>g</mi><annotation encoding="application/x-tex">g</annotation></semantics></math>)  </span><div id="I7.i7.p1" class="ltx_para ltx_noindent">​<p class="ltx_p"><math id="I7.i7.p1.m1" class="ltx_Math" alttext="\sigma(w)=\sigma_{1}(\sigma_{2}(w))" display="inline"><semantics><mrow><mrow><mi>σ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>w</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><msub><mi>σ</mi><mn>1</mn></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>σ</mi><mn>2</mn></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>w</mi><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">\sigma(w)=\sigma_{1}(\sigma_{2}(w))</annotation></semantics></math> per a morfismes <math id="I7.i7.p1.m2" class="ltx_Math" alttext="\sigma_{1},\sigma_{2}" display="inline"><semantics><mrow><msub><mi>σ</mi><mn>1</mn></msub><mo>,</mo><msub><mi>σ</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">\sigma_{1},\sigma_{2}</annotation></semantics></math>.</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div id="Thmex6" class="ltx_theorem ltx_theorem_ex">
+
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem header-section-number"><span class="ltx_text ltx_font_bold">Exercici 1.6</span></span><span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmex6.p1" class="ltx_para">
+<p class="ltx_p">Argumenteu si són certes (amb una justificació)
+o falses (amb un contraexemple) les següents afirmacions
+en general, on <math id="Thmex6.p1.m1" class="ltx_Math" alttext="\sigma" display="inline"><semantics><mi>σ</mi><annotation encoding="application/x-tex">\sigma</annotation></semantics></math> és un morfisme.</p>
+<ol id="I8" class="ltx_enumerate">
+<li id="I8.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I8.i1.m1" class="ltx_Math" alttext="a" display="inline"><semantics><mi>a</mi><annotation encoding="application/x-tex">a</annotation></semantics></math>)  </span><div id="I8.i1.p1" class="ltx_para">​<p class="ltx_p"><math id="I8.i1.p1.m1" class="ltx_Math" alttext="\sigma(L_{1}L_{2})=\sigma(L_{1})\sigma(L_{2})" display="inline"><semantics><mrow><mrow><mi>σ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>L</mi><mn>1</mn></msub><mo>⁢</mo><msub><mi>L</mi><mn>2</mn></msub></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mi>σ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>L</mi><mn>1</mn></msub><mo stretchy="false">)</mo></mrow><mo>⁢</mo><mi>σ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>L</mi><mn>2</mn></msub><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">\sigma(L_{1}L_{2})=\sigma(L_{1})\sigma(L_{2})</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I8.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I8.i2.m1" class="ltx_Math" alttext="b" display="inline"><semantics><mi>b</mi><annotation encoding="application/x-tex">b</annotation></semantics></math>)  </span><div id="I8.i2.p1" class="ltx_para">​<p class="ltx_p"><math id="I8.i2.p1.m1" class="ltx_Math" alttext="\sigma(L^{n})=\sigma(L)^{n}" display="inline"><semantics><mrow><mrow><mi>σ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msup><mi>L</mi><mi>n</mi></msup><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mi>σ</mi><mo>⁢</mo><msup><mrow><mo stretchy="false">(</mo><mi>L</mi><mo stretchy="false">)</mo></mrow><mi>n</mi></msup></mrow></mrow><annotation encoding="application/x-tex">\sigma(L^{n})=\sigma(L)^{n}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I8.i3" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I8.i3.m1" class="ltx_Math" alttext="c" display="inline"><semantics><mi>c</mi><annotation encoding="application/x-tex">c</annotation></semantics></math>)  </span><div id="I8.i3.p1" class="ltx_para">​<p class="ltx_p"><math id="I8.i3.p1.m1" class="ltx_Math" alttext="\sigma(L_{1}\cup L_{2})=\sigma(L_{1})\cup\sigma(L_{2})" display="inline"><semantics><mrow><mrow><mi>σ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>L</mi><mn>1</mn></msub><mo>∪</mo><msub><mi>L</mi><mn>2</mn></msub></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mrow><mi>σ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>L</mi><mn>1</mn></msub><mo stretchy="false">)</mo></mrow></mrow><mo>∪</mo><mrow><mi>σ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>L</mi><mn>2</mn></msub><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow><annotation encoding="application/x-tex">\sigma(L_{1}\cup L_{2})=\sigma(L_{1})\cup\sigma(L_{2})</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I8.i4" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I8.i4.m1" class="ltx_Math" alttext="d" display="inline"><semantics><mi>d</mi><annotation encoding="application/x-tex">d</annotation></semantics></math>)  </span><div id="I8.i4.p1" class="ltx_para">​<p class="ltx_p"><math id="I8.i4.p1.m1" class="ltx_Math" alttext="\sigma(L^{*})=\sigma(L)^{*}" display="inline"><semantics><mrow><mrow><mi>σ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msup><mi>L</mi><mo>*</mo></msup><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mi>σ</mi><mo>⁢</mo><msup><mrow><mo stretchy="false">(</mo><mi>L</mi><mo stretchy="false">)</mo></mrow><mo>*</mo></msup></mrow></mrow><annotation encoding="application/x-tex">\sigma(L^{*})=\sigma(L)^{*}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I8.i5" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I8.i5.m1" class="ltx_Math" alttext="e" display="inline"><semantics><mi>e</mi><annotation encoding="application/x-tex">e</annotation></semantics></math>)  </span><div id="I8.i5.p1" class="ltx_para">​<p class="ltx_p"><math id="I8.i5.p1.m1" class="ltx_Math" alttext="\sigma(L^{R})=\sigma(L)^{R}" display="inline"><semantics><mrow><mrow><mi>σ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msup><mi>L</mi><mi>R</mi></msup><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mi>σ</mi><mo>⁢</mo><msup><mrow><mo stretchy="false">(</mo><mi>L</mi><mo stretchy="false">)</mo></mrow><mi>R</mi></msup></mrow></mrow><annotation encoding="application/x-tex">\sigma(L^{R})=\sigma(L)^{R}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I8.i6" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I8.i6.m1" class="ltx_Math" alttext="f" display="inline"><semantics><mi>f</mi><annotation encoding="application/x-tex">f</annotation></semantics></math>)  </span><div id="I8.i6.p1" class="ltx_para">​<p class="ltx_p"><math id="I8.i6.p1.m1" class="ltx_Math" alttext="\sigma(\overline{L})=\overline{\sigma(L)}" display="inline"><semantics><mrow><mrow><mi>σ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mover accent="true"><mi>L</mi><mo>¯</mo></mover><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mover accent="true"><mrow><mi>σ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>L</mi><mo stretchy="false">)</mo></mrow></mrow><mo>¯</mo></mover></mrow><annotation encoding="application/x-tex">\sigma(\overline{L})=\overline{\sigma(L)}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I8.i7" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I8.i7.m1" class="ltx_Math" alttext="g" display="inline"><semantics><mi>g</mi><annotation encoding="application/x-tex">g</annotation></semantics></math>)  </span><div id="I8.i7.p1" class="ltx_para ltx_noindent">​<p class="ltx_p"><math id="I8.i7.p1.m1" class="ltx_Math" alttext="\sigma(L)=L\;\Rightarrow\;\forall x\in L:\sigma(x)=x" display="inline"><semantics><mrow><mrow><mrow><mi>σ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>L</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mi>L</mi><mo lspace="0.558em" rspace="0.558em" stretchy="false">⇒</mo><mrow><mo rspace="0.167em">∀</mo><mi>x</mi></mrow><mo>∈</mo><mi>L</mi></mrow><mo lspace="0.278em" rspace="0.278em">:</mo><mrow><mrow><mi>σ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mi>x</mi></mrow></mrow><annotation encoding="application/x-tex">\sigma(L)=L\;\Rightarrow\;\forall x\in L:\sigma(x)=x</annotation></semantics></math>.</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div id="Thmex7" class="ltx_theorem ltx_theorem_ex">
+
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem header-section-number"><span class="ltx_text ltx_font_bold">Exercici 1.7</span></span><span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmex7.p1" class="ltx_para">
+<p class="ltx_p">Argumenteu si són certes (amb una justificació)
+o falses (amb un contraexemple) les següents afirmacions
+en general.</p>
+<ol id="I9" class="ltx_enumerate">
+<li id="I9.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I9.i1.m1" class="ltx_Math" alttext="a" display="inline"><semantics><mi>a</mi><annotation encoding="application/x-tex">a</annotation></semantics></math>)  </span><div id="I9.i1.p1" class="ltx_para">​<p class="ltx_p"><math id="I9.i1.p1.m1" class="ltx_Math" alttext="|L_{1}|\cdot|L_{2}|=|L_{1}\cdot L_{2}|" display="inline"><semantics><mrow><mrow><mrow><mo stretchy="false">|</mo><msub><mi>L</mi><mn>1</mn></msub><mo rspace="0.055em" stretchy="false">|</mo></mrow><mo rspace="0.222em">⋅</mo><mrow><mo stretchy="false">|</mo><msub><mi>L</mi><mn>2</mn></msub><mo stretchy="false">|</mo></mrow></mrow><mo>=</mo><mrow><mo stretchy="false">|</mo><mrow><msub><mi>L</mi><mn>1</mn></msub><mo lspace="0.222em" rspace="0.222em">⋅</mo><msub><mi>L</mi><mn>2</mn></msub></mrow><mo stretchy="false">|</mo></mrow></mrow><annotation encoding="application/x-tex">|L_{1}|\cdot|L_{2}|=|L_{1}\cdot L_{2}|</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I9.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I9.i2.m1" class="ltx_Math" alttext="b" display="inline"><semantics><mi>b</mi><annotation encoding="application/x-tex">b</annotation></semantics></math>)  </span><div id="I9.i2.p1" class="ltx_para">​<p class="ltx_p"><math id="I9.i2.p1.m1" class="ltx_math_unparsed" alttext="(\forall a,b\in\Sigma:(a\not=b\Rightarrow\sigma(a)\not=\sigma(b)))\Rightarrow|%
+\sigma(L)|=|L|" display="inline"><semantics><mrow><mrow><mo stretchy="false">(</mo><mo rspace="0.167em">∀</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>∈</mo><mi mathvariant="normal">Σ</mi><mo lspace="0.278em" rspace="0.278em">:</mo><mrow><mo stretchy="false">(</mo><mi>a</mi><mo>≠</mo><mi>b</mi><mo stretchy="false">⇒</mo><mi>σ</mi><mrow><mo stretchy="false">(</mo><mi>a</mi><mo stretchy="false">)</mo></mrow><mo>≠</mo><mi>σ</mi><mrow><mo stretchy="false">(</mo><mi>b</mi><mo stretchy="false">)</mo></mrow><mo stretchy="false">)</mo></mrow><mo stretchy="false">)</mo></mrow><mo rspace="0em" stretchy="false">⇒</mo><mo fence="false" rspace="0.167em" stretchy="false">|</mo><mi>σ</mi><mrow><mo stretchy="false">(</mo><mi>L</mi><mo stretchy="false">)</mo></mrow><mo fence="false" stretchy="false">|</mo><mo lspace="0.167em" rspace="0em">=</mo><mo fence="false" rspace="0.167em" stretchy="false">|</mo><mi>L</mi><mo fence="false" stretchy="false">|</mo></mrow><annotation encoding="application/x-tex">(\forall a,b\in\Sigma:(a\not=b\Rightarrow\sigma(a)\not=\sigma(b)))\Rightarrow|%
+\sigma(L)|=|L|</annotation></semantics></math>,
+on <math id="I9.i2.p1.m2" class="ltx_Math" alttext="\sigma" display="inline"><semantics><mi>σ</mi><annotation encoding="application/x-tex">\sigma</annotation></semantics></math> és un morfisme.</p>
+</div>
+</li>
+<li id="I9.i3" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I9.i3.m1" class="ltx_Math" alttext="c" display="inline"><semantics><mi>c</mi><annotation encoding="application/x-tex">c</annotation></semantics></math>)  </span><div id="I9.i3.p1" class="ltx_para">​<p class="ltx_p"><math id="I9.i3.p1.m1" class="ltx_Math" alttext="|L^{R}|=|L|" display="inline"><semantics><mrow><mrow><mo stretchy="false">|</mo><msup><mi>L</mi><mi>R</mi></msup><mo stretchy="false">|</mo></mrow><mo>=</mo><mrow><mo stretchy="false">|</mo><mi>L</mi><mo stretchy="false">|</mo></mrow></mrow><annotation encoding="application/x-tex">|L^{R}|=|L|</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I9.i4" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I9.i4.m1" class="ltx_Math" alttext="d" display="inline"><semantics><mi>d</mi><annotation encoding="application/x-tex">d</annotation></semantics></math>)  </span><div id="I9.i4.p1" class="ltx_para ltx_noindent">​<p class="ltx_p"><math id="I9.i4.p1.m1" class="ltx_Math" alttext="|L^{n}|=|L|^{n}" display="inline"><semantics><mrow><mrow><mo stretchy="false">|</mo><msup><mi>L</mi><mi>n</mi></msup><mo stretchy="false">|</mo></mrow><mo>=</mo><msup><mrow><mo stretchy="false">|</mo><mi>L</mi><mo stretchy="false">|</mo></mrow><mi>n</mi></msup></mrow><annotation encoding="application/x-tex">|L^{n}|=|L|^{n}</annotation></semantics></math>.</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div id="Thmex8" class="ltx_theorem ltx_theorem_ex">
+
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem header-section-number"><span class="ltx_text ltx_font_bold">Exercici 1.8</span></span><span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmex8.p1" class="ltx_para">
+<p class="ltx_p">Donat un llenguatge <math id="Thmex8.p1.m1" class="ltx_Math" alttext="L" display="inline"><semantics><mi>L</mi><annotation encoding="application/x-tex">L</annotation></semantics></math>, <span class="ltx_text ltx_font_italic">shiftar</span>
+<math id="Thmex8.p1.m2" class="ltx_Math" alttext="L" display="inline"><semantics><mi>L</mi><annotation encoding="application/x-tex">L</annotation></semantics></math> dóna lloc a un nou llenguatge, que
+denotem <math id="Thmex8.p1.m3" class="ltx_Math" alttext="S(L)" display="inline"><semantics><mrow><mi>S</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>L</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">S(L)</annotation></semantics></math>, i que conté als mots que s’obtenen agafant
+cada mot de <math id="Thmex8.p1.m4" class="ltx_Math" alttext="L" display="inline"><semantics><mi>L</mi><annotation encoding="application/x-tex">L</annotation></semantics></math> i rotant-lo de totes les maneres possibles,
+formalment: <math id="Thmex8.p1.m5" class="ltx_Math" alttext="S(L)=\{vu\mid uv\in L\}" display="inline"><semantics><mrow><mrow><mi>S</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>L</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mo stretchy="false">{</mo><mrow><mi>v</mi><mo>⁢</mo><mi>u</mi></mrow><mo fence="true" lspace="0em" rspace="0em">∣</mo><mrow><mrow><mi>u</mi><mo>⁢</mo><mi>v</mi></mrow><mo>∈</mo><mi>L</mi></mrow><mo stretchy="false">}</mo></mrow></mrow><annotation encoding="application/x-tex">S(L)=\{vu\mid uv\in L\}</annotation></semantics></math>.
+Argumenteu si són certes (amb una justificació)
+o falses (amb un contraexemple) les següents afirmacions
+en general.</p>
+<ol id="I10" class="ltx_enumerate">
+<li id="I10.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I10.i1.m1" class="ltx_Math" alttext="a" display="inline"><semantics><mi>a</mi><annotation encoding="application/x-tex">a</annotation></semantics></math>)  </span><div id="I10.i1.p1" class="ltx_para">​<p class="ltx_p"><math id="I10.i1.p1.m1" class="ltx_Math" alttext="S(L)^{*}\subseteq S(L^{*})" display="inline"><semantics><mrow><mrow><mi>S</mi><mo>⁢</mo><msup><mrow><mo stretchy="false">(</mo><mi>L</mi><mo stretchy="false">)</mo></mrow><mo>*</mo></msup></mrow><mo>⊆</mo><mrow><mi>S</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msup><mi>L</mi><mo>*</mo></msup><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">S(L)^{*}\subseteq S(L^{*})</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I10.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I10.i2.m1" class="ltx_Math" alttext="b" display="inline"><semantics><mi>b</mi><annotation encoding="application/x-tex">b</annotation></semantics></math>)  </span><div id="I10.i2.p1" class="ltx_para">​<p class="ltx_p"><math id="I10.i2.p1.m1" class="ltx_Math" alttext="S(L)^{*}\supseteq S(L^{*})" display="inline"><semantics><mrow><mrow><mi>S</mi><mo>⁢</mo><msup><mrow><mo stretchy="false">(</mo><mi>L</mi><mo stretchy="false">)</mo></mrow><mo>*</mo></msup></mrow><mo>⊇</mo><mrow><mi>S</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msup><mi>L</mi><mo>*</mo></msup><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">S(L)^{*}\supseteq S(L^{*})</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I10.i3" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I10.i3.m1" class="ltx_Math" alttext="c" display="inline"><semantics><mi>c</mi><annotation encoding="application/x-tex">c</annotation></semantics></math>)  </span><div id="I10.i3.p1" class="ltx_para">​<p class="ltx_p"><math id="I10.i3.p1.m1" class="ltx_Math" alttext="\overline{S(L)}=S(\overline{L})" display="inline"><semantics><mrow><mover accent="true"><mrow><mi>S</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>L</mi><mo stretchy="false">)</mo></mrow></mrow><mo>¯</mo></mover><mo>=</mo><mrow><mi>S</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mover accent="true"><mi>L</mi><mo>¯</mo></mover><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">\overline{S(L)}=S(\overline{L})</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I10.i4" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I10.i4.m1" class="ltx_Math" alttext="d" display="inline"><semantics><mi>d</mi><annotation encoding="application/x-tex">d</annotation></semantics></math>)  </span><div id="I10.i4.p1" class="ltx_para">​<p class="ltx_p"><math id="I10.i4.p1.m1" class="ltx_Math" alttext="S(L^{R})=S(L)^{R}" display="inline"><semantics><mrow><mrow><mi>S</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msup><mi>L</mi><mi>R</mi></msup><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mi>S</mi><mo>⁢</mo><msup><mrow><mo stretchy="false">(</mo><mi>L</mi><mo stretchy="false">)</mo></mrow><mi>R</mi></msup></mrow></mrow><annotation encoding="application/x-tex">S(L^{R})=S(L)^{R}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I10.i5" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I10.i5.m1" class="ltx_Math" alttext="e" display="inline"><semantics><mi>e</mi><annotation encoding="application/x-tex">e</annotation></semantics></math>)  </span><div id="I10.i5.p1" class="ltx_para">​<p class="ltx_p"><math id="I10.i5.p1.m1" class="ltx_Math" alttext="S(L_{1}\cup L_{2})=S(L_{1})\cup S(L_{2})" display="inline"><semantics><mrow><mrow><mi>S</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>L</mi><mn>1</mn></msub><mo>∪</mo><msub><mi>L</mi><mn>2</mn></msub></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mrow><mi>S</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>L</mi><mn>1</mn></msub><mo stretchy="false">)</mo></mrow></mrow><mo>∪</mo><mrow><mi>S</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>L</mi><mn>2</mn></msub><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow><annotation encoding="application/x-tex">S(L_{1}\cup L_{2})=S(L_{1})\cup S(L_{2})</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I10.i6" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I10.i6.m1" class="ltx_Math" alttext="f" display="inline"><semantics><mi>f</mi><annotation encoding="application/x-tex">f</annotation></semantics></math>)  </span><div id="I10.i6.p1" class="ltx_para">​<p class="ltx_p"><math id="I10.i6.p1.m1" class="ltx_Math" alttext="S(L_{1}\cap L_{2})=S(L_{1})\cap S(L_{2})" display="inline"><semantics><mrow><mrow><mi>S</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>L</mi><mn>1</mn></msub><mo>∩</mo><msub><mi>L</mi><mn>2</mn></msub></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mrow><mi>S</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>L</mi><mn>1</mn></msub><mo stretchy="false">)</mo></mrow></mrow><mo>∩</mo><mrow><mi>S</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>L</mi><mn>2</mn></msub><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow><annotation encoding="application/x-tex">S(L_{1}\cap L_{2})=S(L_{1})\cap S(L_{2})</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I10.i7" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I10.i7.m1" class="ltx_Math" alttext="g" display="inline"><semantics><mi>g</mi><annotation encoding="application/x-tex">g</annotation></semantics></math>)  </span><div id="I10.i7.p1" class="ltx_para">​<p class="ltx_p"><math id="I10.i7.p1.m1" class="ltx_Math" alttext="S(L_{1}L_{2})=S(L_{1})S(L_{2})" display="inline"><semantics><mrow><mrow><mi>S</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>L</mi><mn>1</mn></msub><mo>⁢</mo><msub><mi>L</mi><mn>2</mn></msub></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mi>S</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>L</mi><mn>1</mn></msub><mo stretchy="false">)</mo></mrow><mo>⁢</mo><mi>S</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>L</mi><mn>2</mn></msub><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">S(L_{1}L_{2})=S(L_{1})S(L_{2})</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I10.i8" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I10.i8.m1" class="ltx_Math" alttext="h" display="inline"><semantics><mi>h</mi><annotation encoding="application/x-tex">h</annotation></semantics></math>)  </span><div id="I10.i8.p1" class="ltx_para ltx_noindent">​<p class="ltx_p"><math id="I10.i8.p1.m1" class="ltx_Math" alttext="S(\sigma(L))=\sigma(S(L))" display="inline"><semantics><mrow><mrow><mi>S</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>σ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>L</mi><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mi>σ</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>S</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>L</mi><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">S(\sigma(L))=\sigma(S(L))</annotation></semantics></math>, on <math id="I10.i8.p1.m2" class="ltx_Math" alttext="\sigma" display="inline"><semantics><mi>σ</mi><annotation encoding="application/x-tex">\sigma</annotation></semantics></math> és un morfisme.</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div id="Thmex9" class="ltx_theorem ltx_theorem_ex">
+
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem header-section-number"><span class="ltx_text ltx_font_bold">Exercici 1.9</span></span><span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmex9.p1" class="ltx_para">
+<p class="ltx_p">Demostreu que no hi ha cap mot <math id="Thmex9.p1.m1" class="ltx_Math" alttext="w" display="inline"><semantics><mi>w</mi><annotation encoding="application/x-tex">w</annotation></semantics></math> que
+satisfaci <math id="Thmex9.p1.m2" class="ltx_Math" alttext="aw=wb" display="inline"><semantics><mrow><mrow><mi>a</mi><mo>⁢</mo><mi>w</mi></mrow><mo>=</mo><mrow><mi>w</mi><mo>⁢</mo><mi>b</mi></mrow></mrow><annotation encoding="application/x-tex">aw=wb</annotation></semantics></math>, essent <math id="Thmex9.p1.m3" class="ltx_Math" alttext="a" display="inline"><semantics><mi>a</mi><annotation encoding="application/x-tex">a</annotation></semantics></math> i <math id="Thmex9.p1.m4" class="ltx_Math" alttext="b" display="inline"><semantics><mi>b</mi><annotation encoding="application/x-tex">b</annotation></semantics></math> símbols de l’alfabet.</p>
+</div>
+</div>
+<div id="Thmex10" class="ltx_theorem ltx_theorem_ex">
+
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem header-section-number"><span class="ltx_text ltx_font_bold">Exercici 1.10</span></span><span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmex10.p1" class="ltx_para">
+<p class="ltx_p">Demostreu que, per a qualsevol alfabet <math id="Thmex10.p1.m1" class="ltx_Math" alttext="\Sigma" display="inline"><semantics><mi mathvariant="normal">Σ</mi><annotation encoding="application/x-tex">\Sigma</annotation></semantics></math>,
+hi ha un únic llenguatge <math id="Thmex10.p1.m2" class="ltx_Math" alttext="L" display="inline"><semantics><mi>L</mi><annotation encoding="application/x-tex">L</annotation></semantics></math> que satisfà <math id="Thmex10.p1.m3" class="ltx_Math" alttext="L=\overline{\Sigma L}" display="inline"><semantics><mrow><mi>L</mi><mo>=</mo><mover accent="true"><mrow><mi mathvariant="normal">Σ</mi><mo>⁢</mo><mi>L</mi></mrow><mo>¯</mo></mover></mrow><annotation encoding="application/x-tex">L=\overline{\Sigma L}</annotation></semantics></math>.
+Quin és aquest llenguatge?</p>
+</div>
+</div>
+</div>
+</section>
+</div>
+</section>
+</div>
+</div>
+</div>
+<a href="index.html" class="navigation navigation-prev" aria-label="Previous page"><i class="fa fa-angle-left"></i></a><a href="S2.html" class="navigation navigation-next" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+</div>
+</div>
+<script src="bookml/gitbook/js/app.min.js"></script>
+<script src="bookml/gitbook/js/plugin-fontsettings.js"></script>
+<script src="bookml/gitbook/js/plugin-bookdown.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script>
+        MathJax = {
+          startup: {
+            ready() {
+              // do not process equations disabled with \bmlDisableMathJax (code suggested by Davide P. Cervone)
+              class bmlFindMathML extends MathJax._.input.mathml.FindMathML.FindMathML {
+                processMath(set) {
+                  const adaptor = this.adaptor;
+                  for (const node of set.values()) {
+                    if (adaptor.hasClass(node, 'bml_disable_mathjax')) {
+                      set.delete(node);
+                    }
+                  }
+                  return super.processMath(set);
+                }
+              }
+
+              MathJax._.components.global.combineDefaults(MathJax.config, 'mml', {FindMathML: new bmlFindMathML()});
+
+              MathJax.startup.defaultReady();
+
+              // preproces MathML to make MathJax aware of certain LaTeXML and BookML additional info
+              const mmlFilters = MathJax.startup.input[0].mmlFilters;
+
+              // convert the LaTeXML calligraphic (chancery) annotation to a form MathJax understands
+              // since the corresponding Unicode characters render as script (rounded)
+              const script2latin = {
+                '𝒜': 'A', 'ℬ': 'B', '𝒞': 'C', '𝒟': 'D', 'ℰ': 'E', 'ℱ': 'F', '𝒢': 'G',
+                'ℋ': 'H', 'ℐ': 'I', '𝒥': 'J', '𝒦': 'K', 'ℒ': 'L', 'ℳ': 'M', '𝒩': 'N',
+                '𝒪': 'O', '𝒫': 'P', '𝒬': 'Q', 'ℛ': 'R', '𝒮': 'S', '𝒯': 'T', '𝒰': 'U',
+                '𝒱': 'V', '𝒲': 'W', '𝒳': 'X', '𝒴': 'Y', '𝒵': 'Z',
+              };
+
+              mmlFilters.add((args) => {
+                for (const n of args.data.getElementsByClassName('ltx_font_mathcaligraphic')) {
+                  n.classList.add('MJX-tex-calligraphic');
+                  const letter = script2latin[n.textContent];
+                  if (letter !== undefined) { n.textContent = letter; }
+                }
+              });
+
+              // adjust characters based on Unicode variation sequences
+              const replacements = {
+                // MathJax renders the empty set as the U+FE00 variant, so the plain character needs adjusting
+                '∅': { variant: 'variant' },
+                // MathJax renders script characters in rounded style, which is fine for no variation and U+FE00
+                '𝒜\xFE00': { text: 'A', variant: 'tex-calligraphic' },
+                'ℬ\xFE00': { text: 'B', variant: 'tex-calligraphic' },
+                '𝒞\xFE00': { text: 'C', variant: 'tex-calligraphic' },
+                '𝒟\xFE00': { text: 'D', variant: 'tex-calligraphic' },
+                'ℰ\xFE00': { text: 'E', variant: 'tex-calligraphic' },
+                'ℱ\xFE00': { text: 'F', variant: 'tex-calligraphic' },
+                '𝒢\xFE00': { text: 'G', variant: 'tex-calligraphic' },
+                'ℋ\xFE00': { text: 'H', variant: 'tex-calligraphic' },
+                'ℐ\xFE00': { text: 'I', variant: 'tex-calligraphic' },
+                '𝒥\xFE00': { text: 'J', variant: 'tex-calligraphic' },
+                '𝒦\xFE00': { text: 'K', variant: 'tex-calligraphic' },
+                'ℒ\xFE00': { text: 'L', variant: 'tex-calligraphic' },
+                'ℳ\xFE00': { text: 'M', variant: 'tex-calligraphic' },
+                '𝒩\xFE00': { text: 'N', variant: 'tex-calligraphic' },
+                '𝒪\xFE00': { text: 'O', variant: 'tex-calligraphic' },
+                '𝒫\xFE00': { text: 'P', variant: 'tex-calligraphic' },
+                '𝒬\xFE00': { text: 'Q', variant: 'tex-calligraphic' },
+                'ℛ\xFE00': { text: 'R', variant: 'tex-calligraphic' },
+                '𝒮\xFE00': { text: 'S', variant: 'tex-calligraphic' },
+                '𝒯\xFE00': { text: 'T', variant: 'tex-calligraphic' },
+                '𝒰\xFE00': { text: 'U', variant: 'tex-calligraphic' },
+                '𝒱\xFE00': { text: 'V', variant: 'tex-calligraphic' },
+                '𝒲\xFE00': { text: 'W', variant: 'tex-calligraphic' },
+                '𝒳\xFE00': { text: 'X', variant: 'tex-calligraphic' },
+                '𝒴\xFE00': { text: 'Y', variant: 'tex-calligraphic' },
+                '𝒵\xFE00': { text: 'Z', variant: 'tex-calligraphic' }
+              };
+
+              mmlFilters.add((args) => {
+                let nodes = document.evaluate('.//m:mi | .//m:mn | .//m:mo | .//m:ms', args.data,
+                  () => 'http://www.w3.org/1998/Math/MathML', XPathResult.UNORDERED_NODE_SNAPSHOT_TYPE);
+                for (let i = 0; i < nodes.snapshotLength; i++) {
+                  const n = nodes.snapshotItem(i);
+                  const repl = replacements[n.innerHTML];
+                  if (repl !== undefined) {
+                    const variant = repl['variant'];
+                    const text = repl['text'];
+                    if (variant !== undefined) { n.classList.add('MJX-' + variant); n.removeAttribute('mathvariant'); }
+                    if (text !== undefined) { n.innerHTML = text; }
+                  }
+                }
+              });
+            }
+          }
+        };
+      </script>
+<script id="MathJax-script" async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/mml-chtml.js"></script>
+<script type="text/javascript">
+              gitbook.require(["gitbook"], function(gitbook) {
+              gitbook.start({
+                "fontsettings": {
+                  "theme": "white",
+                  "family": "sans",
+                  "size": 2
+                },
+                "download": [ [ "TC-exercici.pdf", "PDF (serif)" ], [ "TC-exercici-sans.pdf", "PDF (sans serif)" ], [ "TC-exercici-sans-large.pdf", "PDF (sans, large)" ], ],
+                  "search": false,
+                  "toc": {
+                    "collapse": "none"
+                  }
+                });
+              });
+            </script>
+</body>
+
+</html>

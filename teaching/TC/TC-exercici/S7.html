@@ -1,0 +1,625 @@
+<!DOCTYPE html><html lang="ca">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Tema 7. Indecidibilitat, no semidecidibilitat, no computabilitat. ‣ Teoria de la Computació Exercicis per a l’avaluació contínua‣ Teoria de la Computació Exercicis per a l’avaluació contínua</title>
+<!--Generated on Fri Feb 16 16:14:23 2024 by LaTeXML (version 0.8.7) http://dlmf.nist.gov/LaTeXML/.-->
+
+<link rel="stylesheet" href="LaTeXML.css" type="text/css">
+<link rel="stylesheet" href="bookml/gitbook/css/style.css" type="text/css">
+<link rel="stylesheet" href="bookml/gitbook/css/plugin-table.css" type="text/css">
+<link rel="stylesheet" href="bookml/gitbook/css/plugin-bookdown.css" type="text/css">
+<link rel="stylesheet" href="bookml/gitbook/css/plugin-fontsettings.css" type="text/css">
+<link rel="stylesheet" href="ltx-article.css" type="text/css">
+<link rel="stylesheet" href="bookml/CSS/style.css" type="text/css">
+<link rel="stylesheet" href="bookml/CSS/style.gitbook,plain.css" type="text/css">
+<link rel="stylesheet" href="bookml/CSS/style.gitbook.css" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<link rel="up" href="index.html" title="Teoria de la Computació Exercicis per a l’avaluació contínua">
+<link rel="start" href="index.html" title="Teoria de la Computació Exercicis per a l’avaluació contínua">
+<link rel="prev" href="S6.html" title="Tema 6. Màquines de Turing. Decidibilitat, semidecidibilitat, computabilitat. ‣ Teoria de la Computació Exercicis per a l’avaluació contínua">
+<link rel="next" href="S8.html" title="Tema 8. Problemes naturals indecidibles ‣ Teoria de la Computació Exercicis per a l’avaluació contínua">
+<link rel="section" href="S1.html" title="Tema 1. Teoria de Llenguatges ‣ Teoria de la Computació Exercicis per a l’avaluació contínua">
+<link rel="section" href="S2.html" title="Tema 2. Autòmats Finits ‣ Teoria de la Computació Exercicis per a l’avaluació contínua">
+<link rel="section" href="S3.html" title="Tema 3. Gramàtiques incontextuals ‣ Teoria de la Computació Exercicis per a l’avaluació contínua">
+<link rel="section" href="S4.html" title="Tema 4. Expressions Regulars ‣ Teoria de la Computació Exercicis per a l’avaluació contínua">
+<link rel="section" href="S5.html" title="Tema 5. Autòmats amb pila. Jerarquia de Chomsky ‣ Teoria de la Computació Exercicis per a l’avaluació contínua">
+<link rel="section" href="S6.html" title="Tema 6. Màquines de Turing. Decidibilitat, semidecidibilitat, computabilitat. ‣ Teoria de la Computació Exercicis per a l’avaluació contínua">
+<link rel="section" href="S8.html" title="Tema 8. Problemes naturals indecidibles ‣ Teoria de la Computació Exercicis per a l’avaluació contínua">
+</head>
+<body>
+<div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+<div class="book-summary"><nav class="ltx_page_navbar">
+<ul class="ltx_toclist summary">
+<li>
+<a href="index.html" title="Teoria de la Computació Exercicis per a l’avaluació contínua" class="ltx_ref" rel="start"><span class="ltx_text ltx_font_bold">Teoria de la Computació<span class="ltx_text"> </span></span><span class="ltx_text" style="font-size:120%;">Exercicis per a l’avaluació contínua</span></a>
+</li>
+<li class="divider">
+<li data-level="1" data-path="S1.html" class="ltx_tocentry ltx_tocentry_section  chapter "><a href="S1.html" title="Tema 1. Teoria de Llenguatges ‣ Teoria de la Computació Exercicis per a l’avaluació contínua" class="ltx_ref"><b><span class="ltx_tag ltx_tag_ref">1 </span></b>Teoria de Llenguatges</a></li>
+<li data-level="2" data-path="S2.html" class="ltx_tocentry ltx_tocentry_section  chapter "><a href="S2.html" title="Tema 2. Autòmats Finits ‣ Teoria de la Computació Exercicis per a l’avaluació contínua" class="ltx_ref"><b><span class="ltx_tag ltx_tag_ref">2 </span></b>Autòmats Finits</a></li>
+<li data-level="3" data-path="S3.html" class="ltx_tocentry ltx_tocentry_section  chapter "><a href="S3.html" title="Tema 3. Gramàtiques incontextuals ‣ Teoria de la Computació Exercicis per a l’avaluació contínua" class="ltx_ref"><b><span class="ltx_tag ltx_tag_ref">3 </span></b>Gramàtiques incontextuals</a></li>
+<li data-level="4" data-path="S4.html" class="ltx_tocentry ltx_tocentry_section  chapter "><a href="S4.html" title="Tema 4. Expressions Regulars ‣ Teoria de la Computació Exercicis per a l’avaluació contínua" class="ltx_ref"><b><span class="ltx_tag ltx_tag_ref">4 </span></b>Expressions Regulars</a></li>
+<li data-level="5" data-path="S5.html" class="ltx_tocentry ltx_tocentry_section  chapter "><a href="S5.html" title="Tema 5. Autòmats amb pila. Jerarquia de Chomsky ‣ Teoria de la Computació Exercicis per a l’avaluació contínua" class="ltx_ref"><b><span class="ltx_tag ltx_tag_ref">5 </span></b>Autòmats amb pila. Jerarquia de Chomsky</a></li>
+<li data-level="6" data-path="S6.html" class="ltx_tocentry ltx_tocentry_section  chapter "><a href="S6.html" title="Tema 6. Màquines de Turing. Decidibilitat, semidecidibilitat, computabilitat. ‣ Teoria de la Computació Exercicis per a l’avaluació contínua" class="ltx_ref"><b><span class="ltx_tag ltx_tag_ref">6 </span></b>Màquines de Turing. Decidibilitat, semidecidibilitat, computabilitat.</a></li>
+<li data-level="7" data-path="" class="ltx_tocentry ltx_tocentry_section ltx_ref_self  chapter active"><a href="" title="Tema 7. Indecidibilitat, no semidecidibilitat, no computabilitat. ‣ Teoria de la Computació Exercicis per a l’avaluació contínua" class="ltx_ref"><b><span class="ltx_tag ltx_tag_ref">7 </span></b>Indecidibilitat, no semidecidibilitat, no computabilitat.</a></li>
+<li data-level="8" data-path="S8.html" class="ltx_tocentry ltx_tocentry_section  chapter "><a href="S8.html" title="Tema 8. Problemes naturals indecidibles ‣ Teoria de la Computació Exercicis per a l’avaluació contínua" class="ltx_ref"><b><span class="ltx_tag ltx_tag_ref">8 </span></b>Problemes naturals indecidibles</a></li>
+</ul>
+</nav></div>
+<div class="ltx_page_main book-body fixed">
+<div class="body-inner">
+<div class="book-header fixed" role="navigation"><h1>Tema 7.   Indecidibilitat, no semidecidibilitat, no computabilitat.</h1></div>
+<div class="page-wrapper" tabindex="-1" role="main">
+<div class="ltx_page_content page-inner">
+<section class="ltx_section ltx_authors_1line normal" lang="ca">
+<div class="section level1">
+
+<h1 class="ltx_title ltx_font_bold ltx_title_section" style="font-size:144%;">Tema 7.   Indecidibilitat, no semidecidibilitat, no computabilitat.</h1>
+
+<section id="SS0.SSSx1" class="ltx_subsubsection normal">
+<div class="section level2">
+
+<h2 class="ltx_title ltx_title_subsubsection">Teoria</h2>
+
+<div id="SS0.SSSx1.p1" class="ltx_para ltx_noindent">
+<ul id="I1" class="ltx_itemize">
+<li id="I1.ix1" class="ltx_item" style="list-style-type:none;"><div id="I1.ix1.p1" class="ltx_para ltx_noindent">​<p class="ltx_p">M. Sipser, 
+<br class="ltx_break"><em class="ltx_emph ltx_font_italic">Introduction to the Theory of Computation</em>, Third edition, Cengage Learning, 2012
+
+<br class="ltx_break">Section 4.2 Undecidability
+
+<br class="ltx_break">Chapter 5. Reducibility</p>
+</div></li>
+</ul>
+</div>
+<div id="SS0.SSSx1.p2" class="ltx_para ltx_noindent">
+<p class="ltx_p">Veure els següents vídeos:</p>
+</div>
+<div id="SS0.SSSx1.p3" class="ltx_para ltx_noindent">
+          <div style="max-width: 1920px; width: 100%">
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" height="1080" src="https://www.youtube-nocookie.com/embed/zSKWMjseA7U" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;" title="YouTube: No decidibilitat" width="1920"></iframe>
+</div>
+</div>
+        
+          <div style="max-width: 1920px; width: 100%">
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" height="1080" src="https://www.youtube-nocookie.com/embed/0qSCb-7oR7I" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;" title="YouTube: No semidecidibilitat" width="1920"></iframe>
+</div>
+</div>
+        
+          <div style="max-width: 1920px; width: 100%">
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" height="1080" src="https://www.youtube-nocookie.com/embed/FIIUZfq2eGA" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;" title="YouTube: No computabilitat " width="1920"></iframe>
+</div>
+</div>
+        
+</div>
+</div>
+</section>
+<section id="SS0.SSSx2" class="ltx_subsubsection normal">
+<div class="section level2">
+
+<h2 class="ltx_title ltx_title_subsubsection">Exercicis per a l’avaluació contínua</h2>
+
+<div id="Thmex1" class="ltx_theorem ltx_theorem_ex">
+
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem header-section-number"><span class="ltx_text ltx_font_bold">Exercici 7.1</span></span><span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmex1.p1" class="ltx_para">
+<p class="ltx_p">Clasifica como decidibles, no decidibles
+pero semidecidibles, o no semidecidibles, los siguientes conjuntos.</p>
+<ol id="I2" class="ltx_enumerate">
+<li id="I2.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I2.i1.m1" class="ltx_Math" alttext="a" display="inline"><semantics><mi>a</mi><annotation encoding="application/x-tex">a</annotation></semantics></math>)  </span><div id="I2.i1.p1" class="ltx_para">​<p class="ltx_p"><math id="I2.i1.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ {\mathcal{L}}_{p}\mbox{ es finito}\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.500em">∣</mo><mrow><msub><mi class="ltx_font_mathcaligraphic">ℒ</mi><mi>p</mi></msub><mo>⁢</mo><mtext> es finito</mtext></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ {\mathcal{L}}_{p}\mbox{ es finito}\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I2.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I2.i2.m1" class="ltx_Math" alttext="b" display="inline"><semantics><mi>b</mi><annotation encoding="application/x-tex">b</annotation></semantics></math>)  </span><div id="I2.i2.p1" class="ltx_para">​<p class="ltx_p"><math id="I2.i2.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ {\mathcal{L}}_{p}\mbox{ es infinito}\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.500em">∣</mo><mrow><msub><mi class="ltx_font_mathcaligraphic">ℒ</mi><mi>p</mi></msub><mo>⁢</mo><mtext> es infinito</mtext></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ {\mathcal{L}}_{p}\mbox{ es infinito}\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I2.i3" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I2.i3.m1" class="ltx_Math" alttext="c" display="inline"><semantics><mi>c</mi><annotation encoding="application/x-tex">c</annotation></semantics></math>)  </span><div id="I2.i3.p1" class="ltx_para">​<p class="ltx_p"><math id="I2.i3.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ M_{p}(p)=p\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.500em">∣</mo><mrow><mrow><msub><mi>M</mi><mi>p</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>p</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mi>p</mi></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ M_{p}(p)=p\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I2.i4" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I2.i4.m1" class="ltx_Math" alttext="d" display="inline"><semantics><mi>d</mi><annotation encoding="application/x-tex">d</annotation></semantics></math>)  </span><div id="I2.i4.p1" class="ltx_para">​<p class="ltx_p"><math id="I2.i4.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ \exists y:M_{y}(p)=p\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.667em">∣</mo><mrow><mrow><mo rspace="0.167em">∃</mo><mi>y</mi></mrow><mo lspace="0.278em" rspace="0.278em">:</mo><mrow><mrow><msub><mi>M</mi><mi>y</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>p</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mi>p</mi></mrow></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ \exists y:M_{y}(p)=p\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I2.i5" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I2.i5.m1" class="ltx_Math" alttext="e" display="inline"><semantics><mi>e</mi><annotation encoding="application/x-tex">e</annotation></semantics></math>)  </span><div id="I2.i5.p1" class="ltx_para">​<p class="ltx_p"><math id="I2.i5.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ |{\tt Dom}(\varphi_{p})|\geq 10\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.500em">∣</mo><mrow><mrow><mo stretchy="false">|</mo><mrow><mi>𝙳𝚘𝚖</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>φ</mi><mi>p</mi></msub><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">|</mo></mrow><mo>≥</mo><mn>10</mn></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ |{\tt Dom}(\varphi_{p})|\geq 10\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I2.i6" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I2.i6.m1" class="ltx_Math" alttext="f" display="inline"><semantics><mi>f</mi><annotation encoding="application/x-tex">f</annotation></semantics></math>)  </span><div id="I2.i6.p1" class="ltx_para">​<p class="ltx_p"><math id="I2.i6.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ |{\tt Dom}(\varphi_{p})|\geq 0\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.500em">∣</mo><mrow><mrow><mo stretchy="false">|</mo><mrow><mi>𝙳𝚘𝚖</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>φ</mi><mi>p</mi></msub><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">|</mo></mrow><mo>≥</mo><mn>0</mn></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ |{\tt Dom}(\varphi_{p})|\geq 0\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I2.i7" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I2.i7.m1" class="ltx_Math" alttext="g" display="inline"><semantics><mi>g</mi><annotation encoding="application/x-tex">g</annotation></semantics></math>)  </span><div id="I2.i7.p1" class="ltx_para">​<p class="ltx_p"><math id="I2.i7.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ |{\tt Im}(\varphi_{p})|\geq 10\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.500em">∣</mo><mrow><mrow><mo stretchy="false">|</mo><mrow><mi>𝙸𝚖</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>φ</mi><mi>p</mi></msub><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">|</mo></mrow><mo>≥</mo><mn>10</mn></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ |{\tt Im}(\varphi_{p})|\geq 10\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I2.i8" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I2.i8.m1" class="ltx_Math" alttext="h" display="inline"><semantics><mi>h</mi><annotation encoding="application/x-tex">h</annotation></semantics></math>)  </span><div id="I2.i8.p1" class="ltx_para">​<p class="ltx_p"><math id="I2.i8.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ |{\tt Im}(\varphi_{p})|\geq 0\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.500em">∣</mo><mrow><mrow><mo stretchy="false">|</mo><mrow><mi>𝙸𝚖</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>φ</mi><mi>p</mi></msub><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">|</mo></mrow><mo>≥</mo><mn>0</mn></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ |{\tt Im}(\varphi_{p})|\geq 0\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I2.i9" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I2.i9.m1" class="ltx_Math" alttext="i" display="inline"><semantics><mi>i</mi><annotation encoding="application/x-tex">i</annotation></semantics></math>)  </span><div id="I2.i9.p1" class="ltx_para">​<p class="ltx_p"><math id="I2.i9.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ |{\tt Im}(\varphi_{p})|&lt;|{\tt Dom}(\varphi_{p})|&lt;\infty\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.500em">∣</mo><mrow><mrow><mo stretchy="false">|</mo><mrow><mi>𝙸𝚖</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>φ</mi><mi>p</mi></msub><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">|</mo></mrow><mo>&lt;</mo><mrow><mo stretchy="false">|</mo><mrow><mi>𝙳𝚘𝚖</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>φ</mi><mi>p</mi></msub><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">|</mo></mrow><mo>&lt;</mo><mi mathvariant="normal">∞</mi></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ |{\tt Im}(\varphi_{p})|&lt;|{\tt Dom}(\varphi_{p})|&lt;\infty\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I2.i10" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I2.i10.m1" class="ltx_Math" alttext="j" display="inline"><semantics><mi>j</mi><annotation encoding="application/x-tex">j</annotation></semantics></math>)  </span><div id="I2.i10.p1" class="ltx_para">​<p class="ltx_p"><math id="I2.i10.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ |{\tt Dom}(\varphi_{p})|&lt;|{\tt Im}(\varphi_{p})|&lt;\infty\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.500em">∣</mo><mrow><mrow><mo stretchy="false">|</mo><mrow><mi>𝙳𝚘𝚖</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>φ</mi><mi>p</mi></msub><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">|</mo></mrow><mo>&lt;</mo><mrow><mo stretchy="false">|</mo><mrow><mi>𝙸𝚖</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>φ</mi><mi>p</mi></msub><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">|</mo></mrow><mo>&lt;</mo><mi mathvariant="normal">∞</mi></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ |{\tt Dom}(\varphi_{p})|&lt;|{\tt Im}(\varphi_{p})|&lt;\infty\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I2.i11" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I2.i11.m1" class="ltx_Math" alttext="k" display="inline"><semantics><mi>k</mi><annotation encoding="application/x-tex">k</annotation></semantics></math>)  </span><div id="I2.i11.p1" class="ltx_para">​<p class="ltx_p"><math id="I2.i11.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ \varphi_{p}\mbox{ es inyectiva y total}\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.500em">∣</mo><mrow><msub><mi>φ</mi><mi>p</mi></msub><mo>⁢</mo><mtext> es inyectiva y total</mtext></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ \varphi_{p}\mbox{ es inyectiva y total}\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I2.i12" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I2.i12.m1" class="ltx_Math" alttext="l" display="inline"><semantics><mi>l</mi><annotation encoding="application/x-tex">l</annotation></semantics></math>)  </span><div id="I2.i12.p1" class="ltx_para">​<p class="ltx_p"><math id="I2.i12.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ \varphi_{p}\mbox{ es exhaustiva y total}\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.500em">∣</mo><mrow><msub><mi>φ</mi><mi>p</mi></msub><mo>⁢</mo><mtext> es exhaustiva y total</mtext></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ \varphi_{p}\mbox{ es exhaustiva y total}\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I2.i13" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I2.i13.m1" class="ltx_Math" alttext="m" display="inline"><semantics><mi>m</mi><annotation encoding="application/x-tex">m</annotation></semantics></math>)  </span><div id="I2.i13.p1" class="ltx_para">​<p class="ltx_p"><math id="I2.i13.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ \varphi_{p}\mbox{ es creciente y total}\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.500em">∣</mo><mrow><msub><mi>φ</mi><mi>p</mi></msub><mo>⁢</mo><mtext> es creciente y total</mtext></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ \varphi_{p}\mbox{ es creciente y total}\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I2.i14" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I2.i14.m1" class="ltx_Math" alttext="n" display="inline"><semantics><mi>n</mi><annotation encoding="application/x-tex">n</annotation></semantics></math>)  </span><div id="I2.i14.p1" class="ltx_para">​<p class="ltx_p"><math id="I2.i14.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ \varphi_{p}\mbox{ es total y estríctamente decreciente}\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.500em">∣</mo><mrow><msub><mi>φ</mi><mi>p</mi></msub><mo>⁢</mo><mtext> es total y estríctamente decreciente</mtext></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ \varphi_{p}\mbox{ es total y estríctamente decreciente}\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I2.i15" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I2.i15.m1" class="ltx_Math" alttext="o" display="inline"><semantics><mi>o</mi><annotation encoding="application/x-tex">o</annotation></semantics></math>)  </span><div id="I2.i15.p1" class="ltx_para">​<p class="ltx_p"><math id="I2.i15.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ \varphi_{p}\mbox{ es inyectiva parcial}\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.500em">∣</mo><mrow><msub><mi>φ</mi><mi>p</mi></msub><mo>⁢</mo><mtext> es inyectiva parcial</mtext></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ \varphi_{p}\mbox{ es inyectiva parcial}\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I2.i16" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I2.i16.m1" class="ltx_Math" alttext="p" display="inline"><semantics><mi>p</mi><annotation encoding="application/x-tex">p</annotation></semantics></math>)  </span><div id="I2.i16.p1" class="ltx_para">​<p class="ltx_p"><math id="I2.i16.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ \varphi_{p}\mbox{ es exhaustiva parcial}\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.500em">∣</mo><mrow><msub><mi>φ</mi><mi>p</mi></msub><mo>⁢</mo><mtext> es exhaustiva parcial</mtext></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ \varphi_{p}\mbox{ es exhaustiva parcial}\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I2.i17" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I2.i17.m1" class="ltx_Math" alttext="q" display="inline"><semantics><mi>q</mi><annotation encoding="application/x-tex">q</annotation></semantics></math>)  </span><div id="I2.i17.p1" class="ltx_para">​<p class="ltx_p"><math id="I2.i17.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ \varphi_{p}\mbox{ es creciente parcial}\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.500em">∣</mo><mrow><msub><mi>φ</mi><mi>p</mi></msub><mo>⁢</mo><mtext> es creciente parcial</mtext></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ \varphi_{p}\mbox{ es creciente parcial}\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I2.i18" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I2.i18.m1" class="ltx_Math" alttext="r" display="inline"><semantics><mi>r</mi><annotation encoding="application/x-tex">r</annotation></semantics></math>)  </span><div id="I2.i18.p1" class="ltx_para ltx_noindent">​<p class="ltx_p"><math id="I2.i18.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ \varphi_{p}\mbox{ es estríctamente decreciente parcial}\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.500em">∣</mo><mrow><msub><mi>φ</mi><mi>p</mi></msub><mo>⁢</mo><mtext> es estríctamente decreciente parcial</mtext></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ \varphi_{p}\mbox{ es estríctamente decreciente parcial}\}</annotation></semantics></math>.</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div id="Thmex2" class="ltx_theorem ltx_theorem_ex">
+
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem header-section-number"><span class="ltx_text ltx_font_bold">Exercici 7.2</span></span><span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmex2.p1" class="ltx_para">
+<p class="ltx_p">Clasifica como decidibles, no decidibles
+pero semidecidibles, o no semidecidibles, los siguientes conjuntos.</p>
+<ol id="I3" class="ltx_enumerate">
+<li id="I3.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I3.i1.m1" class="ltx_Math" alttext="a" display="inline"><semantics><mi>a</mi><annotation encoding="application/x-tex">a</annotation></semantics></math>)  </span><div id="I3.i1.p1" class="ltx_para">​<p class="ltx_p"><math id="I3.i1.p1.m1" class="ltx_math_unparsed" alttext="\{\langle p,q\rangle\ \mid\ \forall z:((M_{p}(z)\downarrow\wedge M_{q}(z)%
+\uparrow)\vee(M_{p}(z)\uparrow\wedge M_{q}(z)\downarrow))\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mrow><mo stretchy="false">⟨</mo><mi>p</mi><mo>,</mo><mi>q</mi><mo rspace="0.222em" stretchy="false">⟩</mo></mrow><mo rspace="0.667em">∣</mo><mo rspace="0.167em">∀</mo><mi>z</mi><mo lspace="0.278em" rspace="0.278em">:</mo><mrow><mo stretchy="false">(</mo><mrow><mo stretchy="false">(</mo><msub><mi>M</mi><mi>p</mi></msub><mrow><mo stretchy="false">(</mo><mi>z</mi><mo stretchy="false">)</mo></mrow><mo rspace="0em" stretchy="false">↓</mo><mo lspace="0em">∧</mo><msub><mi>M</mi><mi>q</mi></msub><mrow><mo stretchy="false">(</mo><mi>z</mi><mo stretchy="false">)</mo></mrow><mo rspace="0em" stretchy="false">↑</mo><mo stretchy="false">)</mo></mrow><mo>∨</mo><mrow><mo stretchy="false">(</mo><msub><mi>M</mi><mi>p</mi></msub><mrow><mo stretchy="false">(</mo><mi>z</mi><mo stretchy="false">)</mo></mrow><mo rspace="0em" stretchy="false">↑</mo><mo lspace="0em">∧</mo><msub><mi>M</mi><mi>q</mi></msub><mrow><mo stretchy="false">(</mo><mi>z</mi><mo stretchy="false">)</mo></mrow><mo rspace="0em" stretchy="false">↓</mo><mo stretchy="false">)</mo></mrow><mo stretchy="false">)</mo></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{\langle p,q\rangle\ \mid\ \forall z:((M_{p}(z)\downarrow\wedge M_{q}(z)%
+\uparrow)\vee(M_{p}(z)\uparrow\wedge M_{q}(z)\downarrow))\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I3.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I3.i2.m1" class="ltx_Math" alttext="b" display="inline"><semantics><mi>b</mi><annotation encoding="application/x-tex">b</annotation></semantics></math>)  </span><div id="I3.i2.p1" class="ltx_para">​<p class="ltx_p"><math id="I3.i2.p1.m1" class="ltx_Math" alttext="\{\langle p,z\rangle\ \mid\ \exists y:M_{p}(y)=z\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mrow><mo stretchy="false">⟨</mo><mi>p</mi><mo>,</mo><mi>z</mi><mo rspace="0.222em" stretchy="false">⟩</mo></mrow><mo fence="true" rspace="0.667em">∣</mo><mrow><mrow><mo rspace="0.167em">∃</mo><mi>y</mi></mrow><mo lspace="0.278em" rspace="0.278em">:</mo><mrow><mrow><msub><mi>M</mi><mi>p</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>y</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mi>z</mi></mrow></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{\langle p,z\rangle\ \mid\ \exists y:M_{p}(y)=z\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I3.i3" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I3.i3.m1" class="ltx_Math" alttext="c" display="inline"><semantics><mi>c</mi><annotation encoding="application/x-tex">c</annotation></semantics></math>)  </span><div id="I3.i3.p1" class="ltx_para">​<p class="ltx_p"><math id="I3.i3.p1.m1" class="ltx_Math" alttext="\{\langle p,z\rangle\ \mid\ \exists y:M_{p}(y)\not=z\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mrow><mo stretchy="false">⟨</mo><mi>p</mi><mo>,</mo><mi>z</mi><mo rspace="0.222em" stretchy="false">⟩</mo></mrow><mo fence="true" rspace="0.667em">∣</mo><mrow><mrow><mo rspace="0.167em">∃</mo><mi>y</mi></mrow><mo lspace="0.278em" rspace="0.278em">:</mo><mrow><mrow><msub><mi>M</mi><mi>p</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>y</mi><mo stretchy="false">)</mo></mrow></mrow><mo>≠</mo><mi>z</mi></mrow></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{\langle p,z\rangle\ \mid\ \exists y:M_{p}(y)\not=z\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I3.i4" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I3.i4.m1" class="ltx_Math" alttext="d" display="inline"><semantics><mi>d</mi><annotation encoding="application/x-tex">d</annotation></semantics></math>)  </span><div id="I3.i4.p1" class="ltx_para">​<p class="ltx_p"><math id="I3.i4.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ {\mathcal{L}}_{p}\mbox{ es incontextual}\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.500em">∣</mo><mrow><msub><mi class="ltx_font_mathcaligraphic">ℒ</mi><mi>p</mi></msub><mo>⁢</mo><mtext> es incontextual</mtext></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ {\mathcal{L}}_{p}\mbox{ es incontextual}\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I3.i5" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I3.i5.m1" class="ltx_Math" alttext="e" display="inline"><semantics><mi>e</mi><annotation encoding="application/x-tex">e</annotation></semantics></math>)  </span><div id="I3.i5.p1" class="ltx_para">​<p class="ltx_p"><math id="I3.i5.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ {\mathcal{L}}_{p}\mbox{ no es incontextual}\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.500em">∣</mo><mrow><msub><mi class="ltx_font_mathcaligraphic">ℒ</mi><mi>p</mi></msub><mo>⁢</mo><mtext> no es incontextual</mtext></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ {\mathcal{L}}_{p}\mbox{ no es incontextual}\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I3.i6" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I3.i6.m1" class="ltx_Math" alttext="f" display="inline"><semantics><mi>f</mi><annotation encoding="application/x-tex">f</annotation></semantics></math>)  </span><div id="I3.i6.p1" class="ltx_para">​<p class="ltx_p"><math id="I3.i6.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ {\tt Dom}(\varphi_{p})\in{\tt Dec}\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.500em">∣</mo><mrow><mrow><mi>𝙳𝚘𝚖</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>φ</mi><mi>p</mi></msub><mo stretchy="false">)</mo></mrow></mrow><mo>∈</mo><mi>𝙳𝚎𝚌</mi></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ {\tt Dom}(\varphi_{p})\in{\tt Dec}\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I3.i7" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I3.i7.m1" class="ltx_Math" alttext="g" display="inline"><semantics><mi>g</mi><annotation encoding="application/x-tex">g</annotation></semantics></math>)  </span><div id="I3.i7.p1" class="ltx_para">​<p class="ltx_p"><math id="I3.i7.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ {\tt Dom}(\varphi_{p})\not\in{\tt Dec}\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.500em">∣</mo><mrow><mrow><mi>𝙳𝚘𝚖</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>φ</mi><mi>p</mi></msub><mo stretchy="false">)</mo></mrow></mrow><mo>∉</mo><mi>𝙳𝚎𝚌</mi></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ {\tt Dom}(\varphi_{p})\not\in{\tt Dec}\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I3.i8" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I3.i8.m1" class="ltx_Math" alttext="h" display="inline"><semantics><mi>h</mi><annotation encoding="application/x-tex">h</annotation></semantics></math>)  </span><div id="I3.i8.p1" class="ltx_para">​<p class="ltx_p"><math id="I3.i8.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ {\tt Dom}(\varphi_{p})\not\in{\tt semi-Dec}\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.500em">∣</mo><mrow><mrow><mi>𝙳𝚘𝚖</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>φ</mi><mi>p</mi></msub><mo stretchy="false">)</mo></mrow></mrow><mo>∉</mo><mrow><mi>𝚜𝚎𝚖𝚒</mi><mo>−</mo><mi>𝙳𝚎𝚌</mi></mrow></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ {\tt Dom}(\varphi_{p})\not\in{\tt semi-Dec}\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I3.i9" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I3.i9.m1" class="ltx_Math" alttext="i" display="inline"><semantics><mi>i</mi><annotation encoding="application/x-tex">i</annotation></semantics></math>)  </span><div id="I3.i9.p1" class="ltx_para">​<p class="ltx_p"><math id="I3.i9.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ {\tt Im}(\varphi_{p})\in{\tt Dec}\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.500em">∣</mo><mrow><mrow><mi>𝙸𝚖</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>φ</mi><mi>p</mi></msub><mo stretchy="false">)</mo></mrow></mrow><mo>∈</mo><mi>𝙳𝚎𝚌</mi></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ {\tt Im}(\varphi_{p})\in{\tt Dec}\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I3.i10" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I3.i10.m1" class="ltx_Math" alttext="j" display="inline"><semantics><mi>j</mi><annotation encoding="application/x-tex">j</annotation></semantics></math>)  </span><div id="I3.i10.p1" class="ltx_para">​<p class="ltx_p"><math id="I3.i10.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ {\tt Im}(\varphi_{p})\not\in{\tt Dec}\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.500em">∣</mo><mrow><mrow><mi>𝙸𝚖</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>φ</mi><mi>p</mi></msub><mo stretchy="false">)</mo></mrow></mrow><mo>∉</mo><mi>𝙳𝚎𝚌</mi></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ {\tt Im}(\varphi_{p})\not\in{\tt Dec}\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I3.i11" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I3.i11.m1" class="ltx_Math" alttext="k" display="inline"><semantics><mi>k</mi><annotation encoding="application/x-tex">k</annotation></semantics></math>)  </span><div id="I3.i11.p1" class="ltx_para">​<p class="ltx_p"><math id="I3.i11.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ {\tt Im}(\varphi_{p})\in{\tt semi-Dec}\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.500em">∣</mo><mrow><mrow><mi>𝙸𝚖</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>φ</mi><mi>p</mi></msub><mo stretchy="false">)</mo></mrow></mrow><mo>∈</mo><mrow><mi>𝚜𝚎𝚖𝚒</mi><mo>−</mo><mi>𝙳𝚎𝚌</mi></mrow></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ {\tt Im}(\varphi_{p})\in{\tt semi-Dec}\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I3.i12" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I3.i12.m1" class="ltx_Math" alttext="l" display="inline"><semantics><mi>l</mi><annotation encoding="application/x-tex">l</annotation></semantics></math>)  </span><div id="I3.i12.p1" class="ltx_para">​<p class="ltx_p"><math id="I3.i12.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ {\tt Im}(\varphi_{p})\not\in{\tt semi-Dec}\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.500em">∣</mo><mrow><mrow><mi>𝙸𝚖</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>φ</mi><mi>p</mi></msub><mo stretchy="false">)</mo></mrow></mrow><mo>∉</mo><mrow><mi>𝚜𝚎𝚖𝚒</mi><mo>−</mo><mi>𝙳𝚎𝚌</mi></mrow></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ {\tt Im}(\varphi_{p})\not\in{\tt semi-Dec}\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I3.i13" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I3.i13.m1" class="ltx_Math" alttext="m" display="inline"><semantics><mi>m</mi><annotation encoding="application/x-tex">m</annotation></semantics></math>)  </span><div id="I3.i13.p1" class="ltx_para">​<p class="ltx_p"><math id="I3.i13.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ p\leq 100\wedge{\tt Dom}(\varphi_{p})\in{\tt Dec}\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.500em">∣</mo><mrow><mi>p</mi><mo>≤</mo><mrow><mn>100</mn><mo>∧</mo><mrow><mi>𝙳𝚘𝚖</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>φ</mi><mi>p</mi></msub><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>∈</mo><mi>𝙳𝚎𝚌</mi></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ p\leq 100\wedge{\tt Dom}(\varphi_{p})\in{\tt Dec}\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I3.i14" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I3.i14.m1" class="ltx_Math" alttext="n" display="inline"><semantics><mi>n</mi><annotation encoding="application/x-tex">n</annotation></semantics></math>)  </span><div id="I3.i14.p1" class="ltx_para">​<p class="ltx_p"><math id="I3.i14.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ p\geq 100\wedge{\tt Dom}(\varphi_{p})\in{\tt semi-Dec}\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.500em">∣</mo><mrow><mi>p</mi><mo>≥</mo><mrow><mn>100</mn><mo>∧</mo><mrow><mi>𝙳𝚘𝚖</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>φ</mi><mi>p</mi></msub><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>∈</mo><mrow><mi>𝚜𝚎𝚖𝚒</mi><mo>−</mo><mi>𝙳𝚎𝚌</mi></mrow></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ p\geq 100\wedge{\tt Dom}(\varphi_{p})\in{\tt semi-Dec}\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I3.i15" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I3.i15.m1" class="ltx_Math" alttext="o" display="inline"><semantics><mi>o</mi><annotation encoding="application/x-tex">o</annotation></semantics></math>)  </span><div id="I3.i15.p1" class="ltx_para">​<p class="ltx_p"><math id="I3.i15.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ \forall y&gt;p:\varphi_{y}\mbox{ es biyectiva}\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.667em">∣</mo><mrow><mrow><mrow><mo rspace="0.167em">∀</mo><mi>y</mi></mrow><mo>&gt;</mo><mi>p</mi></mrow><mo lspace="0.278em" rspace="0.278em">:</mo><mrow><msub><mi>φ</mi><mi>y</mi></msub><mo>⁢</mo><mtext> es biyectiva</mtext></mrow></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ \forall y&gt;p:\varphi_{y}\mbox{ es biyectiva}\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I3.i16" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I3.i16.m1" class="ltx_Math" alttext="p" display="inline"><semantics><mi>p</mi><annotation encoding="application/x-tex">p</annotation></semantics></math>)  </span><div id="I3.i16.p1" class="ltx_para">​<p class="ltx_p"><math id="I3.i16.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ \forall y&lt;p:\varphi_{y}\mbox{ es biyectiva}\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.667em">∣</mo><mrow><mrow><mrow><mo rspace="0.167em">∀</mo><mi>y</mi></mrow><mo>&lt;</mo><mi>p</mi></mrow><mo lspace="0.278em" rspace="0.278em">:</mo><mrow><msub><mi>φ</mi><mi>y</mi></msub><mo>⁢</mo><mtext> es biyectiva</mtext></mrow></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ \forall y&lt;p:\varphi_{y}\mbox{ es biyectiva}\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I3.i17" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I3.i17.m1" class="ltx_Math" alttext="q" display="inline"><semantics><mi>q</mi><annotation encoding="application/x-tex">q</annotation></semantics></math>)  </span><div id="I3.i17.p1" class="ltx_para">​<p class="ltx_p"><math id="I3.i17.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ \exists y&gt;p:\varphi_{y}\mbox{ es biyectiva}\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.667em">∣</mo><mrow><mrow><mrow><mo rspace="0.167em">∃</mo><mi>y</mi></mrow><mo>&gt;</mo><mi>p</mi></mrow><mo lspace="0.278em" rspace="0.278em">:</mo><mrow><msub><mi>φ</mi><mi>y</mi></msub><mo>⁢</mo><mtext> es biyectiva</mtext></mrow></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ \exists y&gt;p:\varphi_{y}\mbox{ es biyectiva}\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I3.i18" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I3.i18.m1" class="ltx_Math" alttext="r" display="inline"><semantics><mi>r</mi><annotation encoding="application/x-tex">r</annotation></semantics></math>)  </span><div id="I3.i18.p1" class="ltx_para">​<p class="ltx_p"><math id="I3.i18.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ \exists y&lt;p:\varphi_{y}\mbox{ es biyectiva}\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.667em">∣</mo><mrow><mrow><mrow><mo rspace="0.167em">∃</mo><mi>y</mi></mrow><mo>&lt;</mo><mi>p</mi></mrow><mo lspace="0.278em" rspace="0.278em">:</mo><mrow><msub><mi>φ</mi><mi>y</mi></msub><mo>⁢</mo><mtext> es biyectiva</mtext></mrow></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ \exists y&lt;p:\varphi_{y}\mbox{ es biyectiva}\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I3.i19" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I3.i19.m1" class="ltx_Math" alttext="s" display="inline"><semantics><mi>s</mi><annotation encoding="application/x-tex">s</annotation></semantics></math>)  </span><div id="I3.i19.p1" class="ltx_para">​<p class="ltx_p"><math id="I3.i19.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ \exists y:{\tt Dom}(\varphi_{p})\subseteq{\tt Dom}(\varphi_{y})\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.667em">∣</mo><mrow><mrow><mo rspace="0.167em">∃</mo><mi>y</mi></mrow><mo lspace="0.278em" rspace="0.278em">:</mo><mrow><mrow><mi>𝙳𝚘𝚖</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>φ</mi><mi>p</mi></msub><mo stretchy="false">)</mo></mrow></mrow><mo>⊆</mo><mrow><mi>𝙳𝚘𝚖</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>φ</mi><mi>y</mi></msub><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ \exists y:{\tt Dom}(\varphi_{p})\subseteq{\tt Dom}(\varphi_{y})\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I3.i20" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I3.i20.m1" class="ltx_Math" alttext="t" display="inline"><semantics><mi>t</mi><annotation encoding="application/x-tex">t</annotation></semantics></math>)  </span><div id="I3.i20.p1" class="ltx_para">​<p class="ltx_p"><math id="I3.i20.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ \exists y:{\tt Dom}(\varphi_{p})\supseteq{\tt Dom}(\varphi_{y})\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.667em">∣</mo><mrow><mrow><mo rspace="0.167em">∃</mo><mi>y</mi></mrow><mo lspace="0.278em" rspace="0.278em">:</mo><mrow><mrow><mi>𝙳𝚘𝚖</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>φ</mi><mi>p</mi></msub><mo stretchy="false">)</mo></mrow></mrow><mo>⊇</mo><mrow><mi>𝙳𝚘𝚖</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>φ</mi><mi>y</mi></msub><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ \exists y:{\tt Dom}(\varphi_{p})\supseteq{\tt Dom}(\varphi_{y})\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I3.i21" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I3.i21.m1" class="ltx_Math" alttext="u" display="inline"><semantics><mi>u</mi><annotation encoding="application/x-tex">u</annotation></semantics></math>)  </span><div id="I3.i21.p1" class="ltx_para">​<p class="ltx_p"><math id="I3.i21.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ {\tt Dom}(\varphi_{p})\subseteq\dot{2}\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.500em">∣</mo><mrow><mrow><mi>𝙳𝚘𝚖</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>φ</mi><mi>p</mi></msub><mo stretchy="false">)</mo></mrow></mrow><mo>⊆</mo><mover accent="true"><mn>2</mn><mo>˙</mo></mover></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ {\tt Dom}(\varphi_{p})\subseteq\dot{2}\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I3.i22" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I3.i22.m1" class="ltx_Math" alttext="v" display="inline"><semantics><mi>v</mi><annotation encoding="application/x-tex">v</annotation></semantics></math>)  </span><div id="I3.i22.p1" class="ltx_para ltx_noindent">​<p class="ltx_p"><math id="I3.i22.p1.m1" class="ltx_Math" alttext="\{p\ \mid\ {\tt Dom}(\varphi_{p})\supseteq\dot{2}\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>p</mi><mo fence="true" lspace="0.500em" rspace="0.500em">∣</mo><mrow><mrow><mi>𝙳𝚘𝚖</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msub><mi>φ</mi><mi>p</mi></msub><mo stretchy="false">)</mo></mrow></mrow><mo>⊇</mo><mover accent="true"><mn>2</mn><mo>˙</mo></mover></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{p\ \mid\ {\tt Dom}(\varphi_{p})\supseteq\dot{2}\}</annotation></semantics></math>.</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div id="Thmex3" class="ltx_theorem ltx_theorem_ex">
+
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem header-section-number"><span class="ltx_text ltx_font_bold">Exercici 7.3</span></span><span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmex3.p1" class="ltx_para">
+<p class="ltx_p">Clasifica como decidibles, no decidibles
+pero semidecidibles, o no semidecidibles, los siguientes conjuntos.</p>
+<ol id="I4" class="ltx_enumerate">
+<li id="I4.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I4.i1.m1" class="ltx_Math" alttext="a" display="inline"><semantics><mi>a</mi><annotation encoding="application/x-tex">a</annotation></semantics></math>)  </span><div id="I4.i1.p1" class="ltx_para">​<p class="ltx_p"><math id="I4.i1.p1.m1" class="ltx_Math" alttext="K\times K" display="inline"><semantics><mrow><mi>K</mi><mo lspace="0.222em" rspace="0.222em">×</mo><mi>K</mi></mrow><annotation encoding="application/x-tex">K\times K</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I4.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I4.i2.m1" class="ltx_Math" alttext="b" display="inline"><semantics><mi>b</mi><annotation encoding="application/x-tex">b</annotation></semantics></math>)  </span><div id="I4.i2.p1" class="ltx_para">​<p class="ltx_p"><math id="I4.i2.p1.m1" class="ltx_Math" alttext="\bar{K}\times K" display="inline"><semantics><mrow><mover accent="true"><mi>K</mi><mo>¯</mo></mover><mo lspace="0.222em" rspace="0.222em">×</mo><mi>K</mi></mrow><annotation encoding="application/x-tex">\bar{K}\times K</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I4.i3" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I4.i3.m1" class="ltx_Math" alttext="c" display="inline"><semantics><mi>c</mi><annotation encoding="application/x-tex">c</annotation></semantics></math>)  </span><div id="I4.i3.p1" class="ltx_para">​<p class="ltx_p"><math id="I4.i3.p1.m1" class="ltx_Math" alttext="\bar{K}\times\bar{K}" display="inline"><semantics><mrow><mover accent="true"><mi>K</mi><mo>¯</mo></mover><mo lspace="0.222em" rspace="0.222em">×</mo><mover accent="true"><mi>K</mi><mo>¯</mo></mover></mrow><annotation encoding="application/x-tex">\bar{K}\times\bar{K}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I4.i4" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I4.i4.m1" class="ltx_Math" alttext="d" display="inline"><semantics><mi>d</mi><annotation encoding="application/x-tex">d</annotation></semantics></math>)  </span><div id="I4.i4.p1" class="ltx_para">​<p class="ltx_p"><math id="I4.i4.p1.m1" class="ltx_Math" alttext="\overline{\bar{K}\times K}" display="inline"><semantics><mover accent="true"><mrow><mover accent="true"><mi>K</mi><mo>¯</mo></mover><mo lspace="0.222em" rspace="0.222em">×</mo><mi>K</mi></mrow><mo>¯</mo></mover><annotation encoding="application/x-tex">\overline{\bar{K}\times K}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I4.i5" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I4.i5.m1" class="ltx_Math" alttext="e" display="inline"><semantics><mi>e</mi><annotation encoding="application/x-tex">e</annotation></semantics></math>)  </span><div id="I4.i5.p1" class="ltx_para">​<p class="ltx_p"><math id="I4.i5.p1.m1" class="ltx_Math" alttext="\{x\;|\;\mbox{ el decimal $3$ aparece $x$ veces en el número $\pi$}\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mi>x</mi><mo>|</mo><mrow><mtext> el decimal </mtext><mn>3</mn><mtext> aparece </mtext><mi>x</mi><mtext> veces en el número </mtext><mi>π</mi></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{x\;|\;\mbox{ el decimal $3$ aparece $x$ veces en el número $\pi$}\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I4.i6" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I4.i6.m1" class="ltx_Math" alttext="f" display="inline"><semantics><mi>f</mi><annotation encoding="application/x-tex">f</annotation></semantics></math>)  </span><div id="I4.i6.p1" class="ltx_para ltx_noindent">​<p class="ltx_p"><math id="I4.i6.p1.m1" class="ltx_math_unparsed" alttext="\{\langle x,y\rangle\;|\;0\leq x\leq 9\;\wedge\mbox{ el decimal $x$ aparece $y%
+$ veces
+consecutivas en la secuencia de decimales}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mrow><mo stretchy="false">⟨</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo rspace="0.280em" stretchy="false">⟩</mo></mrow><mo fence="false" rspace="0.167em" stretchy="false">|</mo><mn> 0</mn><mo>≤</mo><mi>x</mi><mo>≤</mo><mn>9</mn><mo lspace="0.502em">∧</mo><mrow><mtext> el decimal </mtext><mi>x</mi><mtext> aparece </mtext><mi>y</mi><mtext> veces
+consecutivas en la secuencia de decimales</mtext></mrow></mrow><annotation encoding="application/x-tex">\{\langle x,y\rangle\;|\;0\leq x\leq 9\;\wedge\mbox{ el decimal $x$ aparece $y%
+$ veces
+consecutivas en la secuencia de decimales}</annotation></semantics></math>
+<br class="ltx_break"><math id="I4.i6.p1.m2" class="ltx_math_unparsed" alttext="\mbox{ del número $\pi$}\}" display="inline"><semantics><mrow><mrow><mtext> del número </mtext><mi>π</mi></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\mbox{ del número $\pi$}\}</annotation></semantics></math>.</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div id="Thmex4" class="ltx_theorem ltx_theorem_ex">
+
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem header-section-number"><span class="ltx_text ltx_font_bold">Exercici 7.4</span></span><span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmex4.p1" class="ltx_para">
+<p class="ltx_p">Demuestra que <math id="Thmex4.p1.m1" class="ltx_Math" alttext="K" display="inline"><semantics><mi>K</mi><annotation encoding="application/x-tex">K</annotation></semantics></math> no se puede reducir a <math id="Thmex4.p1.m2" class="ltx_Math" alttext="\bar{K}" display="inline"><semantics><mover accent="true"><mi>K</mi><mo>¯</mo></mover><annotation encoding="application/x-tex">\bar{K}</annotation></semantics></math>.</p>
+</div>
+</div>
+<div id="Thmex5" class="ltx_theorem ltx_theorem_ex">
+
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem header-section-number"><span class="ltx_text ltx_font_bold">Exercici 7.5</span></span><span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmex5.p1" class="ltx_para">
+<p class="ltx_p">Demuestra que puede ocurrir que
+<math id="Thmex5.p1.m1" class="ltx_Math" alttext="C" display="inline"><semantics><mi>C</mi><annotation encoding="application/x-tex">C</annotation></semantics></math> sea decidible, <math id="Thmex5.p1.m2" class="ltx_Math" alttext="f" display="inline"><semantics><mi>f</mi><annotation encoding="application/x-tex">f</annotation></semantics></math> computable, y
+sin embargo <math id="Thmex5.p1.m3" class="ltx_Math" alttext="f(C)" display="inline"><semantics><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>C</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">f(C)</annotation></semantics></math> no sea decidible.</p>
+</div>
+</div>
+<div id="Thmex6" class="ltx_theorem ltx_theorem_ex">
+
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem header-section-number"><span class="ltx_text ltx_font_bold">Exercici 7.6</span></span><span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmex6.p1" class="ltx_para">
+<p class="ltx_p">Demuestra que puede ocurrir que
+<math id="Thmex6.p1.m1" class="ltx_Math" alttext="C" display="inline"><semantics><mi>C</mi><annotation encoding="application/x-tex">C</annotation></semantics></math> sea decidible, <math id="Thmex6.p1.m2" class="ltx_Math" alttext="f" display="inline"><semantics><mi>f</mi><annotation encoding="application/x-tex">f</annotation></semantics></math> computable y total, y
+sin embargo <math id="Thmex6.p1.m3" class="ltx_Math" alttext="f(C)" display="inline"><semantics><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>C</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">f(C)</annotation></semantics></math> no sea decidible.</p>
+</div>
+</div>
+<div id="Thmex7" class="ltx_theorem ltx_theorem_ex">
+
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem header-section-number"><span class="ltx_text ltx_font_bold">Exercici 7.7</span></span><span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmex7.p1" class="ltx_para">
+<p class="ltx_p">Demuestra que si <math id="Thmex7.p1.m1" class="ltx_Math" alttext="C" display="inline"><semantics><mi>C</mi><annotation encoding="application/x-tex">C</annotation></semantics></math> es semidecidible
+y <math id="Thmex7.p1.m2" class="ltx_Math" alttext="f" display="inline"><semantics><mi>f</mi><annotation encoding="application/x-tex">f</annotation></semantics></math> es computable, entonces <math id="Thmex7.p1.m3" class="ltx_Math" alttext="f(C)" display="inline"><semantics><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>C</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">f(C)</annotation></semantics></math> es
+semidecidible.</p>
+</div>
+</div>
+<div id="Thmex8" class="ltx_theorem ltx_theorem_ex">
+
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem header-section-number"><span class="ltx_text ltx_font_bold">Exercici 7.8</span></span><span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmex8.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p">Para cada una de las siguientes funciones
+indica si son computables, totales y cuál
+es su imagen.</p>
+</div>
+<div id="Thmex8.p2" class="ltx_para">
+<ol id="I5" class="ltx_enumerate">
+<li id="I5.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I5.i1.m1" class="ltx_Math" alttext="a" display="inline"><semantics><mi>a</mi><annotation encoding="application/x-tex">a</annotation></semantics></math>)  </span><div id="I5.i1.p1" class="ltx_para ltx_noindent">​<p class="ltx_p"><math id="I5.i1.p1.m1" class="ltx_Math" alttext="f(x)=\left\{\begin{array}[]{rcl}1&amp;&amp;\mbox{si }\exists n:M_{n}(x)\downarrow\\
+\uparrow&amp;&amp;\mbox{si }\cancel{\exists}n:M_{n}(x)\downarrow\\
+\end{array}\right." display="inline"><semantics><mrow><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mo>{</mo><mtable columnspacing="5pt" rowspacing="0pt"><mtr><mtd class="ltx_align_right" columnalign="right"><mn>1</mn></mtd><mtd></mtd><mtd class="ltx_align_left" columnalign="left"><mrow><mrow><mtext>si </mtext><mo lspace="0.167em">⁢</mo><mrow><mo rspace="0.167em">∃</mo><mi>n</mi></mrow></mrow><mo lspace="0.278em" rspace="0.278em">:</mo><mrow><mrow><msub><mi>M</mi><mi>n</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">↓</mo><mi></mi></mrow></mrow></mtd></mtr><mtr><mtd class="ltx_align_right" columnalign="right"><mo stretchy="false">↑</mo></mtd><mtd></mtd><mtd class="ltx_align_left" columnalign="left"><mrow><mrow><mtext>si </mtext><mo>⁢</mo><menclose notation="updiagonalstrike"><mo>∃</mo></menclose><mo>⁢</mo><mi>n</mi></mrow><mo lspace="0.278em" rspace="0.278em">:</mo><mrow><mrow><msub><mi>M</mi><mi>n</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">↓</mo><mi></mi></mrow></mrow></mtd></mtr></mtable><mi></mi></mrow></mrow><annotation encoding="application/x-tex">f(x)=\left\{\begin{array}[]{rcl}1&amp;&amp;\mbox{si }\exists n:M_{n}(x)\downarrow\\
+\uparrow&amp;&amp;\mbox{si }\cancel{\exists}n:M_{n}(x)\downarrow\\
+\end{array}\right.</annotation></semantics></math></p>
+</div>
+</li>
+<li id="I5.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I5.i2.m1" class="ltx_Math" alttext="b" display="inline"><semantics><mi>b</mi><annotation encoding="application/x-tex">b</annotation></semantics></math>)  </span><div id="I5.i2.p1" class="ltx_para ltx_noindent">​<p class="ltx_p"><math id="I5.i2.p1.m1" class="ltx_Math" alttext="f(x)=\left\{\begin{array}[]{rcl}1&amp;&amp;\mbox{si }\forall n:M_{n}(x)\downarrow\\
+\uparrow&amp;&amp;\mbox{si }\cancel{\forall}n:M_{n}(x)\downarrow\\
+\end{array}\right." display="inline"><semantics><mrow><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mo>{</mo><mtable columnspacing="5pt" rowspacing="0pt"><mtr><mtd class="ltx_align_right" columnalign="right"><mn>1</mn></mtd><mtd></mtd><mtd class="ltx_align_left" columnalign="left"><mrow><mrow><mtext>si </mtext><mo lspace="0.167em">⁢</mo><mrow><mo rspace="0.167em">∀</mo><mi>n</mi></mrow></mrow><mo lspace="0.278em" rspace="0.278em">:</mo><mrow><mrow><msub><mi>M</mi><mi>n</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">↓</mo><mi></mi></mrow></mrow></mtd></mtr><mtr><mtd class="ltx_align_right" columnalign="right"><mo stretchy="false">↑</mo></mtd><mtd></mtd><mtd class="ltx_align_left" columnalign="left"><mrow><mrow><mtext>si </mtext><mo>⁢</mo><menclose notation="updiagonalstrike"><mo>∀</mo></menclose><mo>⁢</mo><mi>n</mi></mrow><mo lspace="0.278em" rspace="0.278em">:</mo><mrow><mrow><msub><mi>M</mi><mi>n</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">↓</mo><mi></mi></mrow></mrow></mtd></mtr></mtable><mi></mi></mrow></mrow><annotation encoding="application/x-tex">f(x)=\left\{\begin{array}[]{rcl}1&amp;&amp;\mbox{si }\forall n:M_{n}(x)\downarrow\\
+\uparrow&amp;&amp;\mbox{si }\cancel{\forall}n:M_{n}(x)\downarrow\\
+\end{array}\right.</annotation></semantics></math></p>
+</div>
+</li>
+<li id="I5.i3" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I5.i3.m1" class="ltx_Math" alttext="c" display="inline"><semantics><mi>c</mi><annotation encoding="application/x-tex">c</annotation></semantics></math>)  </span><div id="I5.i3.p1" class="ltx_para ltx_noindent">​<p class="ltx_p"><math id="I5.i3.p1.m1" class="ltx_Math" alttext="f(x)=\left\{\begin{array}[]{rcl}1&amp;&amp;\mbox{si }\exists n:M_{x}(n)\downarrow\\
+\uparrow&amp;&amp;\mbox{si }\cancel{\exists}n:M_{x}(n)\downarrow\\
+\end{array}\right." display="inline"><semantics><mrow><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mo>{</mo><mtable columnspacing="5pt" rowspacing="0pt"><mtr><mtd class="ltx_align_right" columnalign="right"><mn>1</mn></mtd><mtd></mtd><mtd class="ltx_align_left" columnalign="left"><mrow><mrow><mtext>si </mtext><mo lspace="0.167em">⁢</mo><mrow><mo rspace="0.167em">∃</mo><mi>n</mi></mrow></mrow><mo lspace="0.278em" rspace="0.278em">:</mo><mrow><mrow><msub><mi>M</mi><mi>x</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">↓</mo><mi></mi></mrow></mrow></mtd></mtr><mtr><mtd class="ltx_align_right" columnalign="right"><mo stretchy="false">↑</mo></mtd><mtd></mtd><mtd class="ltx_align_left" columnalign="left"><mrow><mrow><mtext>si </mtext><mo>⁢</mo><menclose notation="updiagonalstrike"><mo>∃</mo></menclose><mo>⁢</mo><mi>n</mi></mrow><mo lspace="0.278em" rspace="0.278em">:</mo><mrow><mrow><msub><mi>M</mi><mi>x</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">↓</mo><mi></mi></mrow></mrow></mtd></mtr></mtable><mi></mi></mrow></mrow><annotation encoding="application/x-tex">f(x)=\left\{\begin{array}[]{rcl}1&amp;&amp;\mbox{si }\exists n:M_{x}(n)\downarrow\\
+\uparrow&amp;&amp;\mbox{si }\cancel{\exists}n:M_{x}(n)\downarrow\\
+\end{array}\right.</annotation></semantics></math></p>
+</div>
+</li>
+<li id="I5.i4" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I5.i4.m1" class="ltx_Math" alttext="d" display="inline"><semantics><mi>d</mi><annotation encoding="application/x-tex">d</annotation></semantics></math>)  </span><div id="I5.i4.p1" class="ltx_para ltx_noindent">​<p class="ltx_p"><math id="I5.i4.p1.m1" class="ltx_Math" alttext="f(x)=\left\{\begin{array}[]{rcl}1&amp;&amp;\mbox{si }\forall n:M_{x}(n)\downarrow\\
+\uparrow&amp;&amp;\mbox{si }\cancel{\forall}n:M_{x}(n)\downarrow\\
+\end{array}\right." display="inline"><semantics><mrow><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mo>{</mo><mtable columnspacing="5pt" rowspacing="0pt"><mtr><mtd class="ltx_align_right" columnalign="right"><mn>1</mn></mtd><mtd></mtd><mtd class="ltx_align_left" columnalign="left"><mrow><mrow><mtext>si </mtext><mo lspace="0.167em">⁢</mo><mrow><mo rspace="0.167em">∀</mo><mi>n</mi></mrow></mrow><mo lspace="0.278em" rspace="0.278em">:</mo><mrow><mrow><msub><mi>M</mi><mi>x</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">↓</mo><mi></mi></mrow></mrow></mtd></mtr><mtr><mtd class="ltx_align_right" columnalign="right"><mo stretchy="false">↑</mo></mtd><mtd></mtd><mtd class="ltx_align_left" columnalign="left"><mrow><mrow><mtext>si </mtext><mo>⁢</mo><menclose notation="updiagonalstrike"><mo>∀</mo></menclose><mo>⁢</mo><mi>n</mi></mrow><mo lspace="0.278em" rspace="0.278em">:</mo><mrow><mrow><msub><mi>M</mi><mi>x</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">↓</mo><mi></mi></mrow></mrow></mtd></mtr></mtable><mi></mi></mrow></mrow><annotation encoding="application/x-tex">f(x)=\left\{\begin{array}[]{rcl}1&amp;&amp;\mbox{si }\forall n:M_{x}(n)\downarrow\\
+\uparrow&amp;&amp;\mbox{si }\cancel{\forall}n:M_{x}(n)\downarrow\\
+\end{array}\right.</annotation></semantics></math></p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div id="Thmex9" class="ltx_theorem ltx_theorem_ex">
+
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem header-section-number"><span class="ltx_text ltx_font_bold">Exercici 7.9</span></span><span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmex9.p1" class="ltx_para ltx_noindent">
+<p class="ltx_p">La función característica de un conjunto <math id="Thmex9.p1.m1" class="ltx_Math" alttext="C" display="inline"><semantics><mi>C</mi><annotation encoding="application/x-tex">C</annotation></semantics></math>
+se define como:</p>
+</div>
+<div id="Thmex9.p2" class="ltx_para ltx_noindent">
+<p class="ltx_p"><math id="Thmex9.p2.m1" class="ltx_Math" alttext="\chi_{C}(x)=\left\{\begin{array}[]{rcl}1&amp;&amp;\mbox{si }x\in C\\
+0&amp;&amp;\mbox{si }x\not\in C\\
+\end{array}\right." display="inline"><semantics><mrow><mrow><msub><mi>χ</mi><mi>C</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mo>{</mo><mtable columnspacing="5pt" rowspacing="0pt"><mtr><mtd class="ltx_align_right" columnalign="right"><mn>1</mn></mtd><mtd></mtd><mtd class="ltx_align_left" columnalign="left"><mrow><mrow><mtext>si </mtext><mo>⁢</mo><mi>x</mi></mrow><mo>∈</mo><mi>C</mi></mrow></mtd></mtr><mtr><mtd class="ltx_align_right" columnalign="right"><mn>0</mn></mtd><mtd></mtd><mtd class="ltx_align_left" columnalign="left"><mrow><mrow><mtext>si </mtext><mo>⁢</mo><mi>x</mi></mrow><mo>∉</mo><mi>C</mi></mrow></mtd></mtr></mtable><mi></mi></mrow></mrow><annotation encoding="application/x-tex">\chi_{C}(x)=\left\{\begin{array}[]{rcl}1&amp;&amp;\mbox{si }x\in C\\
+0&amp;&amp;\mbox{si }x\not\in C\\
+\end{array}\right.</annotation></semantics></math></p>
+</div>
+<div id="Thmex9.p3" class="ltx_para">
+<p class="ltx_p">Demuestra que <math id="Thmex9.p3.m1" class="ltx_Math" alttext="C" display="inline"><semantics><mi>C</mi><annotation encoding="application/x-tex">C</annotation></semantics></math> es decidible si y solo si su
+función característica <math id="Thmex9.p3.m2" class="ltx_Math" alttext="\chi_{C}" display="inline"><semantics><msub><mi>χ</mi><mi>C</mi></msub><annotation encoding="application/x-tex">\chi_{C}</annotation></semantics></math> es computable.</p>
+</div>
+</div>
+<div id="Thmex10" class="ltx_theorem ltx_theorem_ex">
+
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem header-section-number"><span class="ltx_text ltx_font_bold">Exercici 7.10</span></span><span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div id="Thmex10.p1" class="ltx_para">
+<p class="ltx_p">Justifica si los siguientes conjuntos de parejas
+son funciones, y si son funciones computables.</p>
+<ol id="I6" class="ltx_enumerate">
+<li id="I6.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I6.i1.m1" class="ltx_Math" alttext="a" display="inline"><semantics><mi>a</mi><annotation encoding="application/x-tex">a</annotation></semantics></math>)  </span><div id="I6.i1.p1" class="ltx_para">​<p class="ltx_p"><math id="I6.i1.p1.m1" class="ltx_Math" alttext="\varphi_{3}" display="inline"><semantics><msub><mi>φ</mi><mn>3</mn></msub><annotation encoding="application/x-tex">\varphi_{3}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I6.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I6.i2.m1" class="ltx_Math" alttext="b" display="inline"><semantics><mi>b</mi><annotation encoding="application/x-tex">b</annotation></semantics></math>)  </span><div id="I6.i2.p1" class="ltx_para">​<p class="ltx_p"><math id="I6.i2.p1.m1" class="ltx_Math" alttext="\{\langle x,y\rangle\ \mid\ M_{x}(x)=y\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mrow><mo stretchy="false">⟨</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo rspace="0.222em" stretchy="false">⟩</mo></mrow><mo fence="true" rspace="0.500em">∣</mo><mrow><mrow><msub><mi>M</mi><mi>x</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mi>y</mi></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{\langle x,y\rangle\ \mid\ M_{x}(x)=y\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I6.i3" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I6.i3.m1" class="ltx_Math" alttext="c" display="inline"><semantics><mi>c</mi><annotation encoding="application/x-tex">c</annotation></semantics></math>)  </span><div id="I6.i3.p1" class="ltx_para">​<p class="ltx_p"><math id="I6.i3.p1.m1" class="ltx_Math" alttext="\{\langle x,y\rangle\ \mid\ M_{x}(x)\leq y\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mrow><mo stretchy="false">⟨</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo rspace="0.222em" stretchy="false">⟩</mo></mrow><mo fence="true" rspace="0.500em">∣</mo><mrow><mrow><msub><mi>M</mi><mi>x</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><mo>≤</mo><mi>y</mi></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{\langle x,y\rangle\ \mid\ M_{x}(x)\leq y\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I6.i4" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I6.i4.m1" class="ltx_Math" alttext="d" display="inline"><semantics><mi>d</mi><annotation encoding="application/x-tex">d</annotation></semantics></math>)  </span><div id="I6.i4.p1" class="ltx_para">​<p class="ltx_p"><math id="I6.i4.p1.m1" class="ltx_Math" alttext="\{\langle x,y\rangle\ \mid\ M_{x}(x)\geq y\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mrow><mo stretchy="false">⟨</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo rspace="0.222em" stretchy="false">⟩</mo></mrow><mo fence="true" rspace="0.500em">∣</mo><mrow><mrow><msub><mi>M</mi><mi>x</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><mo>≥</mo><mi>y</mi></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{\langle x,y\rangle\ \mid\ M_{x}(x)\geq y\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I6.i5" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I6.i5.m1" class="ltx_Math" alttext="e" display="inline"><semantics><mi>e</mi><annotation encoding="application/x-tex">e</annotation></semantics></math>)  </span><div id="I6.i5.p1" class="ltx_para">​<p class="ltx_p"><math id="I6.i5.p1.m1" class="ltx_Math" alttext="\{\langle x,y\rangle\ \mid\ M_{x}(x)=M_{y}(y)\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mrow><mo stretchy="false">⟨</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo rspace="0.222em" stretchy="false">⟩</mo></mrow><mo fence="true" rspace="0.500em">∣</mo><mrow><mrow><msub><mi>M</mi><mi>x</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><msub><mi>M</mi><mi>y</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>y</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{\langle x,y\rangle\ \mid\ M_{x}(x)=M_{y}(y)\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I6.i6" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I6.i6.m1" class="ltx_Math" alttext="f" display="inline"><semantics><mi>f</mi><annotation encoding="application/x-tex">f</annotation></semantics></math>)  </span><div id="I6.i6.p1" class="ltx_para">​<p class="ltx_p"><math id="I6.i6.p1.m1" class="ltx_Math" alttext="\{\langle x,y\rangle\ \mid\ M_{x}(x)\mbox{ para en $y$ pasos o más}\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mrow><mo stretchy="false">⟨</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo rspace="0.222em" stretchy="false">⟩</mo></mrow><mo fence="true" rspace="0.500em">∣</mo><mrow><msub><mi>M</mi><mi>x</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow><mo>⁢</mo><mrow><mtext> para en </mtext><mi>y</mi><mtext> pasos o más</mtext></mrow></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{\langle x,y\rangle\ \mid\ M_{x}(x)\mbox{ para en $y$ pasos o más}\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I6.i7" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I6.i7.m1" class="ltx_Math" alttext="g" display="inline"><semantics><mi>g</mi><annotation encoding="application/x-tex">g</annotation></semantics></math>)  </span><div id="I6.i7.p1" class="ltx_para">​<p class="ltx_p"><math id="I6.i7.p1.m1" class="ltx_Math" alttext="\{\langle x,y\rangle\ \mid\ M_{x}(x)\mbox{ para en exactamente $y$ pasos}\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mrow><mo stretchy="false">⟨</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo rspace="0.222em" stretchy="false">⟩</mo></mrow><mo fence="true" rspace="0.500em">∣</mo><mrow><msub><mi>M</mi><mi>x</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow><mo>⁢</mo><mrow><mtext> para en exactamente </mtext><mi>y</mi><mtext> pasos</mtext></mrow></mrow><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{\langle x,y\rangle\ \mid\ M_{x}(x)\mbox{ para en exactamente $y$ pasos}\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I6.i8" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I6.i8.m1" class="ltx_Math" alttext="h" display="inline"><semantics><mi>h</mi><annotation encoding="application/x-tex">h</annotation></semantics></math>)  </span><div id="I6.i8.p1" class="ltx_para">​<p class="ltx_p"><math id="I6.i8.p1.m1" class="ltx_math_unparsed" alttext="\{\langle x,1\rangle\ \mid\ M_{x}(x)\downarrow\}\cup\{\langle x,0\rangle\ \mid%
+\ M_{x}(x)\uparrow\}" display="inline"><semantics><mrow><mrow><mo stretchy="false">{</mo><mrow><mo stretchy="false">⟨</mo><mi>x</mi><mo>,</mo><mn>1</mn><mo rspace="0.222em" stretchy="false">⟩</mo></mrow><mo rspace="0.667em">∣</mo><msub><mi>M</mi><mi>x</mi></msub><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow><mo rspace="0em" stretchy="false">↓</mo><mo stretchy="false">}</mo></mrow><mo>∪</mo><mrow><mo stretchy="false">{</mo><mrow><mo stretchy="false">⟨</mo><mi>x</mi><mo>,</mo><mn>0</mn><mo rspace="0.222em" stretchy="false">⟩</mo></mrow><mo rspace="0.667em">∣</mo><msub><mi>M</mi><mi>x</mi></msub><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow><mo rspace="0em" stretchy="false">↑</mo><mo stretchy="false">}</mo></mrow></mrow><annotation encoding="application/x-tex">\{\langle x,1\rangle\ \mid\ M_{x}(x)\downarrow\}\cup\{\langle x,0\rangle\ \mid%
+\ M_{x}(x)\uparrow\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I6.i9" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I6.i9.m1" class="ltx_Math" alttext="i" display="inline"><semantics><mi>i</mi><annotation encoding="application/x-tex">i</annotation></semantics></math>)  </span><div id="I6.i9.p1" class="ltx_para">​<p class="ltx_p"><math id="I6.i9.p1.m1" class="ltx_math_unparsed" alttext="\{\langle x,1\rangle\ \mid\ M_{x}(x)\downarrow\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mrow><mo stretchy="false">⟨</mo><mi>x</mi><mo>,</mo><mn>1</mn><mo rspace="0.222em" stretchy="false">⟩</mo></mrow><mo rspace="0.667em">∣</mo><msub><mi>M</mi><mi>x</mi></msub><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow><mo rspace="0em" stretchy="false">↓</mo><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{\langle x,1\rangle\ \mid\ M_{x}(x)\downarrow\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I6.i10" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I6.i10.m1" class="ltx_Math" alttext="j" display="inline"><semantics><mi>j</mi><annotation encoding="application/x-tex">j</annotation></semantics></math>)  </span><div id="I6.i10.p1" class="ltx_para">​<p class="ltx_p"><math id="I6.i10.p1.m1" class="ltx_math_unparsed" alttext="\{\langle x,0\rangle\ \mid\ M_{x}(x)\uparrow\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mrow><mo stretchy="false">⟨</mo><mi>x</mi><mo>,</mo><mn>0</mn><mo rspace="0.222em" stretchy="false">⟩</mo></mrow><mo rspace="0.667em">∣</mo><msub><mi>M</mi><mi>x</mi></msub><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow><mo rspace="0em" stretchy="false">↑</mo><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{\langle x,0\rangle\ \mid\ M_{x}(x)\uparrow\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li id="I6.i11" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(<math id="I6.i11.m1" class="ltx_Math" alttext="k" display="inline"><semantics><mi>k</mi><annotation encoding="application/x-tex">k</annotation></semantics></math>)  </span><div id="I6.i11.p1" class="ltx_para ltx_noindent">​<p class="ltx_p"><math id="I6.i11.p1.m1" class="ltx_math_unparsed" alttext="\{\langle x,y\rangle\ \mid\ y=|\{z|M_{x}(z)\downarrow\}|\}" display="inline"><semantics><mrow><mo stretchy="false">{</mo><mrow><mo stretchy="false">⟨</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo rspace="0.222em" stretchy="false">⟩</mo></mrow><mo rspace="0.667em">∣</mo><mi>y</mi><mo rspace="0em">=</mo><mo fence="false" rspace="0.167em" stretchy="false">|</mo><mrow><mo stretchy="false">{</mo><mi>z</mi><mo fence="false" rspace="0.167em" stretchy="false">|</mo><msub><mi>M</mi><mi>x</mi></msub><mrow><mo stretchy="false">(</mo><mi>z</mi><mo stretchy="false">)</mo></mrow><mo rspace="0em" stretchy="false">↓</mo><mo stretchy="false">}</mo></mrow><mo fence="false" rspace="0.167em" stretchy="false">|</mo><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{\langle x,y\rangle\ \mid\ y=|\{z|M_{x}(z)\downarrow\}|\}</annotation></semantics></math>.</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+</div>
+</section>
+</div>
+</div>
+</div>
+<a href="S6.html" class="navigation navigation-prev" aria-label="Previous page"><i class="fa fa-angle-left"></i></a><a href="S8.html" class="navigation navigation-next" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+</div>
+</div>
+<script src="bookml/gitbook/js/app.min.js"></script>
+<script src="bookml/gitbook/js/plugin-fontsettings.js"></script>
+<script src="bookml/gitbook/js/plugin-bookdown.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script>
+        MathJax = {
+          startup: {
+            ready() {
+              // do not process equations disabled with \bmlDisableMathJax (code suggested by Davide P. Cervone)
+              class bmlFindMathML extends MathJax._.input.mathml.FindMathML.FindMathML {
+                processMath(set) {
+                  const adaptor = this.adaptor;
+                  for (const node of set.values()) {
+                    if (adaptor.hasClass(node, 'bml_disable_mathjax')) {
+                      set.delete(node);
+                    }
+                  }
+                  return super.processMath(set);
+                }
+              }
+
+              MathJax._.components.global.combineDefaults(MathJax.config, 'mml', {FindMathML: new bmlFindMathML()});
+
+              MathJax.startup.defaultReady();
+
+              // preproces MathML to make MathJax aware of certain LaTeXML and BookML additional info
+              const mmlFilters = MathJax.startup.input[0].mmlFilters;
+
+              // convert the LaTeXML calligraphic (chancery) annotation to a form MathJax understands
+              // since the corresponding Unicode characters render as script (rounded)
+              const script2latin = {
+                '𝒜': 'A', 'ℬ': 'B', '𝒞': 'C', '𝒟': 'D', 'ℰ': 'E', 'ℱ': 'F', '𝒢': 'G',
+                'ℋ': 'H', 'ℐ': 'I', '𝒥': 'J', '𝒦': 'K', 'ℒ': 'L', 'ℳ': 'M', '𝒩': 'N',
+                '𝒪': 'O', '𝒫': 'P', '𝒬': 'Q', 'ℛ': 'R', '𝒮': 'S', '𝒯': 'T', '𝒰': 'U',
+                '𝒱': 'V', '𝒲': 'W', '𝒳': 'X', '𝒴': 'Y', '𝒵': 'Z',
+              };
+
+              mmlFilters.add((args) => {
+                for (const n of args.data.getElementsByClassName('ltx_font_mathcaligraphic')) {
+                  n.classList.add('MJX-tex-calligraphic');
+                  const letter = script2latin[n.textContent];
+                  if (letter !== undefined) { n.textContent = letter; }
+                }
+              });
+
+              // adjust characters based on Unicode variation sequences
+              const replacements = {
+                // MathJax renders the empty set as the U+FE00 variant, so the plain character needs adjusting
+                '∅': { variant: 'variant' },
+                // MathJax renders script characters in rounded style, which is fine for no variation and U+FE00
+                '𝒜\xFE00': { text: 'A', variant: 'tex-calligraphic' },
+                'ℬ\xFE00': { text: 'B', variant: 'tex-calligraphic' },
+                '𝒞\xFE00': { text: 'C', variant: 'tex-calligraphic' },
+                '𝒟\xFE00': { text: 'D', variant: 'tex-calligraphic' },
+                'ℰ\xFE00': { text: 'E', variant: 'tex-calligraphic' },
+                'ℱ\xFE00': { text: 'F', variant: 'tex-calligraphic' },
+                '𝒢\xFE00': { text: 'G', variant: 'tex-calligraphic' },
+                'ℋ\xFE00': { text: 'H', variant: 'tex-calligraphic' },
+                'ℐ\xFE00': { text: 'I', variant: 'tex-calligraphic' },
+                '𝒥\xFE00': { text: 'J', variant: 'tex-calligraphic' },
+                '𝒦\xFE00': { text: 'K', variant: 'tex-calligraphic' },
+                'ℒ\xFE00': { text: 'L', variant: 'tex-calligraphic' },
+                'ℳ\xFE00': { text: 'M', variant: 'tex-calligraphic' },
+                '𝒩\xFE00': { text: 'N', variant: 'tex-calligraphic' },
+                '𝒪\xFE00': { text: 'O', variant: 'tex-calligraphic' },
+                '𝒫\xFE00': { text: 'P', variant: 'tex-calligraphic' },
+                '𝒬\xFE00': { text: 'Q', variant: 'tex-calligraphic' },
+                'ℛ\xFE00': { text: 'R', variant: 'tex-calligraphic' },
+                '𝒮\xFE00': { text: 'S', variant: 'tex-calligraphic' },
+                '𝒯\xFE00': { text: 'T', variant: 'tex-calligraphic' },
+                '𝒰\xFE00': { text: 'U', variant: 'tex-calligraphic' },
+                '𝒱\xFE00': { text: 'V', variant: 'tex-calligraphic' },
+                '𝒲\xFE00': { text: 'W', variant: 'tex-calligraphic' },
+                '𝒳\xFE00': { text: 'X', variant: 'tex-calligraphic' },
+                '𝒴\xFE00': { text: 'Y', variant: 'tex-calligraphic' },
+                '𝒵\xFE00': { text: 'Z', variant: 'tex-calligraphic' }
+              };
+
+              mmlFilters.add((args) => {
+                let nodes = document.evaluate('.//m:mi | .//m:mn | .//m:mo | .//m:ms', args.data,
+                  () => 'http://www.w3.org/1998/Math/MathML', XPathResult.UNORDERED_NODE_SNAPSHOT_TYPE);
+                for (let i = 0; i < nodes.snapshotLength; i++) {
+                  const n = nodes.snapshotItem(i);
+                  const repl = replacements[n.innerHTML];
+                  if (repl !== undefined) {
+                    const variant = repl['variant'];
+                    const text = repl['text'];
+                    if (variant !== undefined) { n.classList.add('MJX-' + variant); n.removeAttribute('mathvariant'); }
+                    if (text !== undefined) { n.innerHTML = text; }
+                  }
+                }
+              });
+            }
+          }
+        };
+      </script>
+<script id="MathJax-script" async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/mml-chtml.js"></script>
+<script type="text/javascript">
+              gitbook.require(["gitbook"], function(gitbook) {
+              gitbook.start({
+                "fontsettings": {
+                  "theme": "white",
+                  "family": "sans",
+                  "size": 2
+                },
+                "download": [ [ "TC-exercici.pdf", "PDF (serif)" ], [ "TC-exercici-sans.pdf", "PDF (sans serif)" ], [ "TC-exercici-sans-large.pdf", "PDF (sans, large)" ], ],
+                  "search": false,
+                  "toc": {
+                    "collapse": "none"
+                  }
+                });
+              });
+            </script>
+</body>
+
+</html>
