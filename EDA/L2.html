@@ -188,20 +188,11 @@
   </header>
 
   <article>
-    
-<ul id="markdown-toc">
-  <li>
-<a href="#jutgeorg-" id="markdown-toc-jutgeorg-">Jutge.org </a><a href="https://www.jutge.org" rel="external nofollow noopener" target="_blank"><img src="/assets/img/EDA/jutge.png" alt="Jutge.org" width="30"></a>    <ul>
-      <li><a href="#posible-flujo-de-trabajo" id="markdown-toc-posible-flujo-de-trabajo">Posible flujo de trabajo</a></li>
-      <li><a href="#problemas-sobre-divide-and-conquer" id="markdown-toc-problemas-sobre-divide-and-conquer">Problemas sobre Divide and Conquer</a></li>
-      <li><a href="#problemas-resueltos-en-clase" id="markdown-toc-problemas-resueltos-en-clase">Problemas resueltos en clase</a></li>
-    </ul>
-  </li>
+    <ul id="markdown-toc">
+  <li><a href="#posible-flujo-de-trabajo" id="markdown-toc-posible-flujo-de-trabajo">Posible flujo de trabajo</a></li>
+  <li><a href="#problemas-sobre-divide-and-conquer" id="markdown-toc-problemas-sobre-divide-and-conquer">Problemas sobre Divide and Conquer</a></li>
+  <li><a href="#problemas-resueltos-en-clase" id="markdown-toc-problemas-resueltos-en-clase">Problemas resueltos en clase</a></li>
 </ul>
-
-<h1 id="jutgeorg-">
-<a href="https://www.jutge.org" rel="external nofollow noopener" target="_blank">Jutge.org</a> <a href="https://www.jutge.org" rel="external nofollow noopener" target="_blank"><img src="/assets/img/EDA/jutge.png" alt="Jutge.org" width="30"></a>
-</h1>
 
 <h2 id="posible-flujo-de-trabajo">Posible flujo de trabajo</h2>
 <ul>
@@ -239,19 +230,163 @@
 <p>P81966   <strong><a href="https://jutge.org/problems/P81966_en" rel="external nofollow noopener" target="_blank">Dichotomic search</a></strong><br>
 P84219   <strong><a href="https://jutge.org/problems/P84219_en" rel="external nofollow noopener" target="_blank">First occurrence</a></strong><br>
 P29212   <strong><a href="https://jutge.org/problems/P29212_en" rel="external nofollow noopener" target="_blank">Modular exponentiation</a></strong><br>
-P33412   <strong><a href="https://jutge.org/problems/P33412_en" rel="external nofollow noopener" target="_blank">Resistant dichotomic search</a></strong><br>
-P34682   <strong><a href="https://jutge.org/problems/P34682_en" rel="external nofollow noopener" target="_blank">Fixed points</a></strong><br>
+P33412   <strong><a href="https://jutge.org/problems/P33412_en" rel="external nofollow noopener" target="_blank">Resistant dichotomic search</a></strong> (~ Problem 2.12 seen in Problem class P3)<br>
+P34682   <strong><a href="https://jutge.org/problems/P34682_en" rel="external nofollow noopener" target="_blank">Fixed points</a></strong> <img class="emoji" title=":exclamation:" alt=":exclamation:" src="https://github.githubassets.com/images/icons/emoji/unicode/2757.png" height="20" width="20"><br>
 P61833   <strong><a href="https://jutge.org/problems/P61833_en" rel="external nofollow noopener" target="_blank">Powers of a matrix</a></strong><br>
 P74219   <strong><a href="https://jutge.org/problems/P74219_en" rel="external nofollow noopener" target="_blank">Fibonacci numbers (2)</a></strong><br>
-P80595   <strong><a href="https://jutge.org/problems/P80595_en" rel="external nofollow noopener" target="_blank">How many inversions?</a></strong><br>
-P58512   <strong><a href="https://jutge.org/problems/P58512_en" rel="external nofollow noopener" target="_blank">Interest rates</a></strong><br>
+P80595   <strong><a href="https://jutge.org/problems/P80595_en" rel="external nofollow noopener" target="_blank">How many inversions?</a></strong> (~ Problem 2.11 seen in Problem class P3) <br>
+P58512   <strong><a href="https://jutge.org/problems/P58512_en" rel="external nofollow noopener" target="_blank">Interest rates</a></strong> <img class="emoji" title=":exclamation:" alt=":exclamation:" src="https://github.githubassets.com/images/icons/emoji/unicode/2757.png" height="20" width="20"><br>
 X39049   <strong><a href="https://jutge.org/problems/X39049_en" rel="external nofollow noopener" target="_blank">Powers of permutations</a></strong> <br>
-X82938   <strong><a href="https://jutge.org/problems/X82938_en" rel="external nofollow noopener" target="_blank">Search in a unimodal vector</a></strong><br>
+X82938   <strong><a href="https://jutge.org/problems/X82938_en" rel="external nofollow noopener" target="_blank">Search in a unimodal vector</a></strong>  (~ Problem 2.9 seen in Problem class P3)<br>
 <img class="emoji" title=":exclamation:" alt=":exclamation:" src="https://github.githubassets.com/images/icons/emoji/unicode/2757.png" height="20" width="20"> = the problem might be harder than the rest</p>
 
 <h2 id="problemas-resueltos-en-clase">Problemas resueltos en clase</h2>
 
-<p><span style="color:red"> Available closer to the class…</span></p>
+<p>P29212   <strong><a href="https://jutge.org/problems/P29212_en" rel="external nofollow noopener" target="_blank">Modular exponentiation</a></strong></p>
+
+<details>
+<summary>Possible C++ code to start problem P29212</summary>
+<div>
+    <div class="language-cpp highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="cp">#include</span><span class="cpf">&lt;iostream&gt;</span><span class="cp">
+</span>
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+
+<span class="kt">int</span> <span class="nf">power</span><span class="p">(</span><span class="kt">int</span> <span class="n">n</span><span class="p">,</span> <span class="kt">int</span> <span class="n">k</span><span class="p">,</span> <span class="kt">int</span> <span class="n">m</span><span class="p">){</span>
+    <span class="c1">// do something here</span>
+<span class="p">}</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
+    <span class="cm">/*
+    const int M_MAX = 30000;
+    const int N_MAX = 30000;
+    */</span>
+    <span class="kt">int</span> <span class="n">n</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">m</span><span class="p">;</span>
+    <span class="k">while</span><span class="p">(</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">n</span> <span class="o">&gt;&gt;</span> <span class="n">k</span> <span class="o">&gt;&gt;</span> <span class="n">m</span><span class="p">){</span>
+        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">power</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">m</span><span class="p">)</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+</code></pre></div>    </div>
+  </div>
+</details>
+
+<details>
+  <summary>Possible solution</summary>
+<div>
+    <p><span style="color:red"> Available after the class…</span></p>
+
+  </div>
+</details>
+<p><br></p>
+
+<p>P61833   <strong><a href="https://jutge.org/problems/P61833_en" rel="external nofollow noopener" target="_blank">Powers of a matrix</a></strong></p>
+
+<details>
+<summary>Possible C++ code to start problem P61833</summary>
+<div>
+    <div class="language-cpp highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="cp">#include</span><span class="cpf">&lt;iostream&gt;</span><span class="cp">
+#include</span><span class="cpf">&lt;vector&gt;</span><span class="cp">
+</span>
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+
+<span class="k">typedef</span> <span class="n">vector</span><span class="o">&lt;</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;&gt;</span> <span class="n">Matrix</span><span class="p">;</span>
+
+<span class="kt">int</span> <span class="n">m</span><span class="p">;</span>
+
+<span class="n">ostream</span><span class="o">&amp;</span> <span class="k">operator</span> <span class="o">&lt;&lt;</span> <span class="p">(</span><span class="n">ostream</span><span class="o">&amp;</span> <span class="n">out</span><span class="p">,</span> <span class="k">const</span> <span class="n">Matrix</span><span class="o">&amp;</span> <span class="n">a</span><span class="p">){</span>
+    <span class="c1">// to format the output</span>
+<span class="p">}</span>
+
+<span class="n">Matrix</span> <span class="k">operator</span><span class="o">*</span><span class="p">(</span><span class="k">const</span> <span class="n">Matrix</span><span class="o">&amp;</span> <span class="n">a</span><span class="p">,</span> <span class="k">const</span> <span class="n">Matrix</span><span class="o">&amp;</span> <span class="n">b</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// Matrix multiplication. The textbook algorithm is enough</span>
+    <span class="c1">// No need to implement Strassen here</span>
+<span class="p">}</span>
+
+<span class="n">Matrix</span> <span class="k">operator</span><span class="o">%</span><span class="p">(</span><span class="k">const</span> <span class="n">Matrix</span><span class="o">&amp;</span> <span class="n">a</span><span class="p">,</span> <span class="kt">int</span> <span class="n">m</span><span class="p">){</span>
+   <span class="c1">// Modulo operator on a matrix is entrywise</span>
+<span class="p">}</span>
+
+<span class="n">Matrix</span> <span class="nf">identity</span><span class="p">(){</span>
+    <span class="c1">// For the identity matrix</span>
+<span class="p">}</span>
+
+<span class="n">Matrix</span> <span class="nf">power</span><span class="p">(</span><span class="k">const</span> <span class="n">Matrix</span><span class="o">&amp;</span> <span class="n">a</span><span class="p">,</span> <span class="kt">int</span> <span class="n">n</span><span class="p">,</span> <span class="kt">int</span> <span class="n">m</span><span class="p">){</span>
+    <span class="c1">// Power of a matrix. Similar to P29212 Modular exponentiation</span>
+<span class="p">}</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
+    <span class="n">Matrix</span> <span class="n">a</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="p">(</span><span class="mi">2</span><span class="p">));</span>
+    <span class="kt">int</span> <span class="n">n</span><span class="p">;</span>
+    <span class="k">while</span><span class="p">(</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">a</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">&gt;&gt;</span> <span class="n">a</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">&gt;&gt;</span> <span class="n">a</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">&gt;&gt;</span><span class="n">a</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">&gt;&gt;</span> <span class="n">n</span> <span class="o">&gt;&gt;</span> <span class="n">m</span><span class="p">){</span>
+        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">power</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">n</span><span class="p">,</span><span class="n">m</span><span class="p">)</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+</code></pre></div>    </div>
+  </div>
+</details>
+
+<details>
+  <summary>Possible solution</summary>
+<div>
+    <p><span style="color:red"> Available after the class…</span></p>
+
+  </div>
+</details>
+<p><br></p>
+
+<p>P34682   <strong><a href="https://jutge.org/problems/P34682_en" rel="external nofollow noopener" target="_blank">Fixed points</a></strong> <img class="emoji" title=":exclamation:" alt=":exclamation:" src="https://github.githubassets.com/images/icons/emoji/unicode/2757.png" height="20" width="20"></p>
+
+<details>
+<summary>Possible C++ code to start problem P34682</summary>
+<div>
+
+    <div class="language-cpp highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="cp">#include</span><span class="cpf">&lt;iostream&gt;</span><span class="cp">
+#include</span><span class="cpf">&lt;vector&gt;</span><span class="cp">
+</span>
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+
+<span class="kt">int</span> <span class="nf">fixpoint</span><span class="p">(</span><span class="k">const</span> <span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">v</span><span class="p">,</span> <span class="kt">int</span> <span class="n">left</span><span class="p">,</span> <span class="kt">int</span> <span class="n">right</span><span class="p">,</span> <span class="kt">int</span> <span class="n">a</span><span class="p">){</span>
+  <span class="c1">// This procedure should return the smallest fixed point, </span>
+  <span class="c1">// i.e. the smallest i s.t. v[i] + a == i</span>
+  <span class="c1">// Would your divide and conquer approach work if v[1] &lt;= v[2] &lt;= v[3] ...?</span>
+<span class="p">}</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
+    <span class="kt">int</span> <span class="n">cnt</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="kt">int</span> <span class="n">n</span><span class="p">;</span>
+    <span class="k">while</span> <span class="p">(</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">n</span> <span class="p">){</span>
+        <span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">v</span><span class="p">(</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">);</span><span class="c1">//Indices start at 1</span>
+        <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;=</span><span class="n">n</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> 
+            <span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">v</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+        <span class="kt">int</span> <span class="n">m</span><span class="p">;</span>
+        <span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">m</span><span class="p">;</span>
+        <span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">a</span><span class="p">(</span><span class="n">m</span><span class="p">);</span>
+        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">m</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> 
+            <span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"Sequence #"</span> <span class="o">&lt;&lt;</span> <span class="n">cnt</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">m</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">){</span>
+            <span class="c1">// Call fixpoint(v, 1, n, a[i]); and do something</span>
+         <span class="p">}</span>
+        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+        <span class="o">++</span><span class="n">cnt</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+</code></pre></div>    </div>
+  </div>
+</details>
+
+<details>
+  <summary>Possible solution</summary>
+<div>
+    <p><span style="color:red"> Available after the class…</span></p>
+
+  </div>
+</details>
 
   </article>
 
@@ -274,7 +409,7 @@ X82938   <strong><a href="https://jutge.org/problems/X82938_en" rel="external no
       Bonacina. 
       
       
-        Last updated: February 21, 2024.
+        Last updated: March 12, 2024.
       
     </div>
   </footer>
