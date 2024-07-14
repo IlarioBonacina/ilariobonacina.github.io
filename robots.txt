@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://ilariobonacina.github.io/sitemap.xml

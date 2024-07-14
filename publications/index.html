@@ -1,3829 +1,1123 @@
 <!DOCTYPE html>
-<html lang="en">
-  <!-- Head -->
-  <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    <!-- Metadata, OpenGraph and Schema.org -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
-
-
-
-<!-- Standard metadata -->
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>
+<meta name="generator" content="quarto-1.4.553">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2024-07-14">
+
+<title>Ilario Bonacina - Publications</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../assets/favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
+<script src="../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-papers .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-co-authors','listing-abstract','listing-journal','listing-year','listing-conference','listing-categories',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-co-authors","listing-abstract","listing-journal","listing-year","listing-conference","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-papers'] = new List('listing-papers', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-preprints .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-co-authors','listing-abstract','listing-preprint',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-co-authors","listing-abstract","listing-preprint"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-preprints'] = new List('listing-preprints', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   
-    
-      Publications | Ilario Bonacina
-    
-  
-</title>
-<meta name="author" content="Ilario Bonacina">
-<meta name="description" content="Publications by categories in reversed chronological order.">
 
-  <meta name="keywords" content="proof-complexity, theory-of-computation, computational-complexity">
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-books .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
+    const options = {
+      valueNames: ['listing-title','listing-abstract','listing-book','listing-extra',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-abstract","listing-book","listing-extra"],
+    };
 
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-books'] = new List('listing-books', options);
 
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
 
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
-
-
-
-<!-- Bootstrap & MDB -->
-<link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
-<!-- <link rel="stylesheet" href="/assets/css/mdb.min.css?62a43d1430ddb46fc4886f9d0e3b49b8"> -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
-
-<!-- Bootstrap Table -->
-
-
-<!-- Fonts & Icons -->
-<link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5">
-<link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap">
-
-<!-- Code Syntax Highlighting -->
-<link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light">
-
-
-
-<!-- Styles -->
-
-<link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
-<link rel="canonical" href="https://ilariobonacina.github.io/publications/">
-
-<!-- Dark Mode -->
-
-  <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark">
-  <script src="/assets/js/theme.js?0afe9f0ae161375728f7bcc5eb5b4ab4"></script>
-
-
-<!-- GeoJSON support via Leaflet -->
-
-
-<!-- diff2html -->
-
-
-
-
-
-
-  <script src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">MathJax.Hub.Config({         tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] }       });</script>
+<link rel="stylesheet" href="styles.css">
 </head>
 
-  <!-- Body -->
-  <body class="fixed-top-nav ">
-    <!-- Header -->
-    <header>
-  <!-- Nav Bar -->
-  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
-    <div class="container">
-      
-        <a class="navbar-brand title font-weight-lighter" href="/">
-          
-            
-              <span class="font-weight-bold">Ilario </span>
-            
-            
-            Bonacina
-          
-        </a>
-      
-      <!-- Navbar Toggle -->
-      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar top-bar"></span>
-        <span class="icon-bar middle-bar"></span>
-        <span class="icon-bar bottom-bar"></span>
-      </button>
+<body class="nav-fixed">
 
-      <div class="collapse navbar-collapse text-right" id="navbarNav">
-        <ul class="navbar-nav ml-auto flex-nowrap">
-          
-
-          <!-- About -->
-          <li class="nav-item ">
-            <a class="nav-link" href="/">About
-              
-            </a>
-          </li>
-
-          <!-- Other pages -->
-          
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-              
-                <li class="nav-item active">
-                  
-                  <a class="nav-link" href="/publications/">Publications
-                    
-                      <span class="sr-only">(current)</span>
-                    
-                  </a>
-                </li>
-              
-            
-          
-            
-              
-                <li class="nav-item ">
-                  
-                  <a class="nav-link" href="/teaching/">Teaching
-                    
-                  </a>
-                </li>
-              
-            
-          
-          
-            <!-- Toogle theme mode -->
-            <li class="toggle-container">
-              <button id="light-toggle" title="Change theme">
-                <i class="fa-solid fa-moon"></i>
-                <i class="fa-solid fa-sun"></i>
-              </button>
-            </li>
-          
-        </ul>
-      </div>
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Ilario Bonacina</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../blog/index.html"> <i class="bi bi-newspaper" role="img">
+</i> 
+<span class="menu-text">Blog/All News</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../publications/index.html" aria-current="page"> <i class="bi bi-book" role="img">
+</i> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../teaching/index.html"> <i class="bi bi-chat-left-text-fill" role="img">
+</i> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#journals-and-confereces" id="toc-journals-and-confereces" class="nav-link active" data-scroll-target="#journals-and-confereces">Journals and Confereces</a></li>
+  <li><a href="#manuscripts-and-preprints" id="toc-manuscripts-and-preprints" class="nav-link" data-scroll-target="#manuscripts-and-preprints">Manuscripts and Preprints</a></li>
+  <li><a href="#books-and-phd-thesis" id="toc-books-and-phd-thesis" class="nav-link" data-scroll-target="#books-and-phd-thesis">Books and PhD Thesis</a></li>
+  </ul>
+</nav>
     </div>
-  </nav>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Publications</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Last update</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 14, 2024</p>
+    </div>
+  </div>
   
-    <!-- Scrolling Progress Bar -->
-    <progress id="progress" value="0">
-      <div class="progress-container">
-        <span class="progress-bar"></span>
-      </div>
-    </progress>
+    
+  </div>
   
+
+
 </header>
 
 
-    <!-- Content -->
-    <div class="container mt-5" role="main">
-      
-        <div class="post">
-  <header class="post-header">
-    <h1 class="post-title">Publications</h1>
-    <p class="post-description">Publications by categories in reversed chronological order.</p>
-  </header>
+<p>My research spans over aspects of Theoretical Computer Science, in particular</p>
+<ul>
+<li>Computational Complexity,</li>
+<li>Logic in Computer Science,</li>
+<li>Proof Complexity,</li>
+<li>SAT-solving, and</li>
+<li>Optimization.</li>
+</ul>
+<section id="journals-and-confereces" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="journals-and-confereces">Journals and Confereces</h2>
+<p>A full list of my works is also available on <a href="https://dblp.org/pid/120/3998.html"><i class="ai  ai-dblp"></i> dblp</a>.</p>
 
-  <article>
-    <p><span style="color:red">This page is currently being updated. The list of talks and the corresponding slides will be up soon.</span>
-<!-- _pages/publications.md --></p>
-<div class="publications">
-
-<h2 class="bibliography">2024</h2>
-<ol class="bibliography"><li>
-<div class="row">
-  
-    <div class="col-sm-2 preview">
-      
-        
-          
-          
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/JAIR-480.webp 480w,/assets/img/publication_preview/JAIR-800.webp 800w,/assets/img/publication_preview/JAIR-1400.webp 1400w," sizes="200px" type="image/webp"></source>
-    
-    <img src="/assets/img/publication_preview/JAIR.jpg" class="preview z-depth-1 rounded" width="100%" height="auto" alt="JAIR.jpg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-  
-</figure>
-
-        
-      
-    </div>
-  
-
-  <!-- Entry bib key -->
-  <div id="BBL24-jair" class="col-sm-8">
-    <!-- Title -->
-    <div class="title">Weighted, circular and semi-algebraic proofs</div>
-    <!-- Author -->
-    <div class="author">
-      
-
-      
-      
-
-      
-        
-        
-        
-        
-        
-        
-
-        
-          
-          
-        
-        
-          <em>Ilario
-            Bonacina</em>
-        
-      
-        
-        
-        
-        
-        
-        
-
-        
-          , 
-          
-        
-        
-          
-            Maria Luisa
-            Bonet
-          
-        
-      
-        
-        
-        
-        
-        
-        
-
-        
-          , 
-          and 
-        
-        
-          
-            Jordi
-            Levy
-          
-        
-      
-      
-
-      
-      
-    </div>
-
-    <!-- Journal/Book title and date -->
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="periodical">
-      <em>Journal of Artificial Intelligence Research (JAIR)</em>,  Feb 2024
-    </div>
-    <div class="periodical">
-      
-    </div>
-
-    <!-- Links/Buttons -->
-    <div class="links">
-      
-        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-      
-      
-      
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-      
-      
-        <a href="https://jair.org/index.php/jair/article/view/15075" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-      
-      
-        
-          <a href="/assets/pdf/BBL24-jair.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-        
-      
-      
-      
-      
-      
-      
-      
-      
-    </div>
-    
-      
-      
-      
-    
-
-    
-      <!-- Hidden abstract block -->
-      <div class="abstract hidden">
-        <p>In recent years there has been an increasing interest in studying proof systems stronger than Resolution, with the aim of building more efficient SAT solvers based on them. In defining these proof systems, we try to find a balance between the power of the proof system (the size of the proofs required to refute a formula) and the difficulty of finding the proofs.
-
-In this paper we consider the proof systems circular Resolution, Sherali-Adams, Nullstellensatz and Weighted Resolution and we study their relative power from a theoretical perspective. We prove that circular Resolution, Sherali-Adams and Weighted Resolution are polynomially equivalent proof systems. We also prove that Nullstellensatz is polynomially equivalent to a restricted version of Weighted Resolution. The equivalences carry on also for versions of the systems where the coefficients/weights are expressed in unary.
-
-The practical interest in these systems comes from the fact that they admit efficient algorithms to find proofs in case these have small width/degree.</p>
-      </div>
-    
-
-    
-      <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
-        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">BBL24-jair</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Weighted, circular and semi-algebraic proofs}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Bonacina, Ilario and Bonet, Maria Luisa and Levy, Jordi}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Journal of Artificial Intelligence Research (JAIR)}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{79}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{447--482}</span><span class="p">,</span>
-  <span class="na">month</span> <span class="p">=</span> <span class="nv">feb</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1613/jair.1.15075}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-      </div>
-    
-
-    
-  </div>
+<div class="no-row-height column-margin column-container"><div class="">
+<p><span class="green"><span class="math inline">\(\blacksquare\)</span></span> = the publication has a journal full version <br> <span class="blue"><span class="math inline">\(\blacksquare\)</span></span> = the publication has (at the time being) only a preliminary conference version</p>
+</div></div><div id="listing-papers" class="quarto-listing quarto-listing-container-custom">
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
 </div>
-</li></ol>
-<h2 class="bibliography">2023</h2>
-<ol class="bibliography">
-<li>
-<div class="row">
-  
-    <div class="col-sm-2 preview">
-      
-        
-          
-          
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/computcompl-480.webp 480w,/assets/img/publication_preview/computcompl-800.webp 800w,/assets/img/publication_preview/computcompl-1400.webp 1400w," sizes="200px" type="image/webp"></source>
-    
-    <img src="/assets/img/publication_preview/computcompl.jpg" class="preview z-depth-1 rounded" width="100%" height="auto" alt="computcompl.jpg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-  
-</figure>
-
-        
-      
-    </div>
-  
-
-  <!-- Entry bib key -->
-  <div id="BGL23-compcompl" class="col-sm-8">
-    <!-- Title -->
-    <div class="title">On vanishing sums of roots of unity in polynomial calculus and sum-of-squares</div>
-    <!-- Author -->
-    <div class="author">
-      
-
-      
-      
-
-      
-        
-        
-        
-        
-        
-        
-
-        
-          
-          
-        
-        
-          <em>Ilario
-            Bonacina</em>
-        
-      
-        
-        
-        
-        
-        
-        
-
-        
-          , 
-          
-        
-        
-          
-            Nicola
-            Galesi
-          
-        
-      
-        
-        
-        
-        
-        
-        
-
-        
-          , 
-          and 
-        
-        
-          
-            Massimo
-            Lauria
-          
-        
-      
-      
-
-      
-      
-    </div>
-
-    <!-- Journal/Book title and date -->
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="periodical">
-      <em>computational complexity</em>,  Feb 2023
-    </div>
-    <div class="periodical">
-      
-    </div>
-
-    <!-- Links/Buttons -->
-    <div class="links">
-      
-        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-      
-      
-      
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-      
-      
-        <a href="https://link.springer.com/article/10.1007/s00037-023-00242-z" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-      
-      
-        
-          <a href="/assets/pdf/BGL23-compcompl.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-        
-      
-      
-      
-      
-      
-      
-      
-      
-    </div>
-    
-      
-      
-      
-    
-
-    
-      <!-- Hidden abstract block -->
-      <div class="abstract hidden">
-        <p>We introduce a novel take on sum-of-squares that is able to reason with complex numbers and still make use of polynomial inequalities. This proof system might be of independent interest since it allows to represent multivalued domains both with Boolean and Fourier encoding. We show degree and size lower bounds in this system for a natural generalization of knapsack: the vanishing sums of roots of unity. These lower bounds naturally apply to polynomial calculus as-well.</p>
-      </div>
-    
-
-    
-      <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
-        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">BGL23-compcompl</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Bonacina, Ilario and Galesi, Nicola and Lauria, Massimo}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{On vanishing sums of roots of unity in polynomial calculus and sum-of-squares}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{computational complexity}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{32}</span><span class="p">,</span>
-  <span class="na">number</span> <span class="p">=</span> <span class="s">{2}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{12}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1007/S00037-023-00242-Z}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-      </div>
-    
-
-    
-  </div>
+<div class="callout-title-container flex-fill">
+<span class="small-title">Weighted, Circular and Semi-Algebraic Proofs</span>
 </div>
-</li>
-<li>
-<div class="row">
-  
-    <div class="col-sm-2 preview">
-      
-        
-          
-          
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/SAT23-480.webp 480w,/assets/img/publication_preview/SAT23-800.webp 800w,/assets/img/publication_preview/SAT23-1400.webp 1400w," sizes="200px" type="image/webp"></source>
-    
-    <img src="/assets/img/publication_preview/SAT23.jpg" class="preview z-depth-1 rounded" width="100%" height="auto" alt="SAT23.jpg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-  
-</figure>
-
-        
-      
-    </div>
-  
-
-  <!-- Entry bib key -->
-  <div id="BBL23-sat" class="col-sm-8">
-    <!-- Title -->
-    <div class="title">Polynomial Calculus for MaxSAT</div>
-    <!-- Author -->
-    <div class="author">
-      
-
-      
-      
-
-      
-        
-        
-        
-        
-        
-        
-
-        
-          
-          
-        
-        
-          <em>Ilario
-            Bonacina</em>
-        
-      
-        
-        
-        
-        
-        
-        
-
-        
-          , 
-          
-        
-        
-          
-            Maria Luisa
-            Bonet
-          
-        
-      
-        
-        
-        
-        
-        
-        
-
-        
-          , 
-          and 
-        
-        
-          
-            Jordi
-            Levy
-          
-        
-      
-      
-
-      
-      
-    </div>
-
-    <!-- Journal/Book title and date -->
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="periodical">
-      <em>In Proceedings of SAT’23 (26th International Conference on Theory and Applications of Satisfiability Testing)</em> ,  Feb 2023
-    </div>
-    <div class="periodical">
-      
-    </div>
-
-    <!-- Links/Buttons -->
-    <div class="links">
-      
-      
-      
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-      
-      
-        <a href="https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.SAT.2023.5" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-      
-      
-        
-          <a href="/assets/pdf/BBL23-sat.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-        
-      
-      
-      
-      
-      
-      
-      
-      
-    </div>
-    
-      
-      
-      
-    
-
-    
-
-    
-      <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
-        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">BBL23-sat</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Bonacina, Ilario and Bonet, Maria Luisa and Levy, Jordi}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Polynomial Calculus for MaxSAT}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{SAT'23 (26th International Conference on Theory and Applications of Satisfiability Testing)}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.4230/LIPIcs.SAT.2023.5}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-      </div>
-    
-
-    
-  </div>
 </div>
-</li>
-</ol>
-<h2 class="bibliography">2022</h2>
-<ol class="bibliography">
-<li>
-<div class="row">
-  
-    <div class="col-sm-2 preview">
-      
-        
-          
-          
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/MFCS22-480.webp 480w,/assets/img/publication_preview/MFCS22-800.webp 800w,/assets/img/publication_preview/MFCS22-1400.webp 1400w," sizes="200px" type="image/webp"></source>
-    
-    <img src="/assets/img/publication_preview/MFCS22.jpg" class="preview z-depth-1 rounded" width="100%" height="auto" alt="MFCS22.jpg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-  
-</figure>
-
-        
-      
-    </div>
-  
-
-  <!-- Entry bib key -->
-  <div id="BGL22-mfcs" class="col-sm-8">
-    <!-- Title -->
-    <div class="title">On Vanishing Sums of Roots of Unity in Polynomial Calculus and Sum-Of-Squares</div>
-    <!-- Author -->
-    <div class="author">
-      
-
-      
-      
-
-      
-        
-        
-        
-        
-        
-        
-
-        
-          
-          
-        
-        
-          <em>Ilario
-            Bonacina</em>
-        
-      
-        
-        
-        
-        
-        
-        
-
-        
-          , 
-          
-        
-        
-          
-            Nicola
-            Galesi
-          
-        
-      
-        
-        
-        
-        
-        
-        
-
-        
-          , 
-          and 
-        
-        
-          
-            Massimo
-            Lauria
-          
-        
-      
-      
-
-      
-      
-    </div>
-
-    <!-- Journal/Book title and date -->
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="periodical">
-      <em>In Proceedings of MFCS’22 (47th International Symposium on Mathematical Foundations of Computer
-               Science)</em> ,  Feb 2022
-    </div>
-    <div class="periodical">
-      
-    </div>
-
-    <!-- Links/Buttons -->
-    <div class="links">
-      
-      
-      
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-      
-      
-        <a href="https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.MFCS.2022.23" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-      
-      
-        
-          <a href="/assets/pdf/BGL22-mfcs.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-        
-      
-      
-      
-      
-      
-      
-      
-      
-    </div>
-    
-      
-      
-      
-    
-
-    
-
-    
-      <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
-        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">BGL22-mfcs</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Bonacina, Ilario and Galesi, Nicola and Lauria, Massimo}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{On Vanishing Sums of Roots of Unity in Polynomial Calculus and Sum-Of-Squares}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{MFCS'22 (47th International Symposium on Mathematical Foundations of Computer
-                 Science)}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{241}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{23:1--23:15}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.4230/LIPIcs.MFCS.2022.23}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-      </div>
-    
-
-    
-  </div>
+<div class="callout-body-container callout-body">
+joint work with Maria Luisa Bonet, Jordi Levy.<br>
+<a href="https://doi.org/10.1613/jair.1.15075">Journal of Artificial Intelligence Research</a>, 2024 <a href="2024-BBL-jair.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<details>
+<summary>
+Abstract
+</summary>
+<p style="text-align: justify;">
+In recent years there has been an increasing interest in studying proof systems stronger than Resolution, with the aim of building more efficient SAT solvers based on them. In defining these proof systems, we try to find a balance between the power of the proof system (the size of the proofs required to refute a formula) and the difficulty of finding the proofs. In this paper we consider the proof systems circular Resolution, Sherali-Adams, Nullstellensatz and Weighted Resolution and we study their relative power from a theoretical perspective. We prove that circular Resolution, Sherali-Adams and Weighted Resolution are polynomially equivalent proof systems. We also prove that Nullstellensatz is polynomially equivalent to a restricted version of Weighted Resolution. The equivalences carry on also for versions of the systems where the coefficients/weights are expressed in unary. The practical interest in these systems comes from the fact that they admit efficient algorithms to find proofs in case these have small width/degree.
+</p>
+</details>
 </div>
-</li>
-<li>
-<div class="row">
-  
-    <div class="col-sm-2 preview">
-      
-        
-          
-          
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/lics-480.webp 480w,/assets/img/publication_preview/lics-800.webp 800w,/assets/img/publication_preview/lics-1400.webp 1400w," sizes="200px" type="image/webp"></source>
-    
-    <img src="/assets/img/publication_preview/lics.jpg" class="preview z-depth-1 rounded" width="100%" height="auto" alt="lics.jpg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-  
-</figure>
-
-        
-      
-    </div>
-  
-
-  <!-- Entry bib key -->
-  <div id="BB22-lics" class="col-sm-8">
-    <!-- Title -->
-    <div class="title">On the strength of Sherali-Adams and Nullstellensatz as propositional proof systems</div>
-    <!-- Author -->
-    <div class="author">
-      
-
-      
-      
-
-      
-        
-        
-        
-        
-        
-        
-
-        
-          
-          
-        
-        
-          <em>Ilario
-            Bonacina</em>
-        
-      
-        
-        
-        
-        
-        
-        
-
-        
-          , 
-          and 
-        
-        
-          
-            Maria Luisa
-            Bonet
-          
-        
-      
-      
-
-      
-      
-    </div>
-
-    <!-- Journal/Book title and date -->
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="periodical">
-      <em>In Proceedings of LICS ’22 (37th Annual ACM/IEEE Symposium on Logic in Computer Science)</em> ,  Feb 2022
-    </div>
-    <div class="periodical">
-      
-    </div>
-
-    <!-- Links/Buttons -->
-    <div class="links">
-      
-      
-      
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-      
-      
-        <a href="https://dl.acm.org/doi/10.1145/3531130.3533344" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-      
-      
-        
-          <a href="/assets/pdf/BB22-lics.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-        
-      
-      
-      
-      
-      
-      
-      
-      
-    </div>
-    
-      
-      
-      
-    
-
-    
-
-    
-      <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
-        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">BB22-lics</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{On the strength of Sherali-Adams and Nullstellensatz as propositional proof systems}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Bonacina, Ilario and Bonet, Maria Luisa}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{LICS '22 (37th Annual {ACM/IEEE} Symposium on Logic in Computer Science)}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1145/3531130.3533344}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{25:1--25:12}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-      </div>
-    
-
-    
-  </div>
 </div>
-</li>
-</ol>
-<h2 class="bibliography">2021</h2>
-<ol class="bibliography"><li>
-<div class="row">
-  
-    <div class="col-sm-2 preview">
-      
-        
-          
-          
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/JACM-480.webp 480w,/assets/img/publication_preview/JACM-800.webp 800w,/assets/img/publication_preview/JACM-1400.webp 1400w," sizes="200px" type="image/webp"></source>
-    
-    <img src="/assets/img/publication_preview/JACM.jpg" class="preview z-depth-1 rounded" width="100%" height="auto" alt="JACM.jpg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-  
-</figure>
-
-        
-      
-    </div>
-  
-
-  <!-- Entry bib key -->
-  <div id="ABDLNR21-jacm" class="col-sm-8">
-    <!-- Title -->
-    <div class="title">Clique Is Hard on Average for Regular Resolution</div>
-    <!-- Author -->
-    <div class="author">
-      
-
-      
-      
-
-      
-        
-        
-        
-        
-        
-        
-
-        
-          
-          
-        
-        
-          
-            Albert
-            Atserias
-          
-        
-      
-        
-        
-        
-        
-        
-        
-
-        
-          , 
-          
-        
-        
-          <em>Ilario
-            Bonacina</em>
-        
-      
-        
-        
-        
-        
-        
-        
-
-        
-          , 
-          
-        
-        
-          
-            Susanna F.
-            De Rezende
-          
-        
-      
-      
-
-      
-      
-        
-        
-        
-        , and
-        <span class="more-authors" title="click to view 3 more authors" onclick="
-              var element = $(this);
-              element.attr('title', '');
-              var more_authors_text = element.text() == '3 more authors' ? 'Massimo Lauria, Jakob Nordström, Alexander Razborov' : '3 more authors';
-              var cursorPosition = 0;
-              var textAdder = setInterval(function(){
-                element.text(more_authors_text.substring(0, cursorPosition + 1));
-                if (++cursorPosition == more_authors_text.length){
-                  clearInterval(textAdder);
-                }
-            }, '10');
-          ">3 more authors</span>
-      
-    </div>
-
-    <!-- Journal/Book title and date -->
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="periodical">
-      <em>Journal of the ACM  (JACM)</em>,  Feb 2021
-    </div>
-    <div class="periodical">
-      
-    </div>
-
-    <!-- Links/Buttons -->
-    <div class="links">
-      
-        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-      
-      
-      
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-      
-      
-        <a href="https://dl.acm.org/doi/10.1145/3449352" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-      
-      
-        
-          <a href="/assets/pdf/ABDLNR21-jacm.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-        
-      
-      
-      
-      
-      
-      
-      
-      
-    </div>
-    
-      
-      
-      
-    
-
-    
-      <!-- Hidden abstract block -->
-      <div class="abstract hidden">
-        <p>We prove that for k≪n^1/4 regular resolution requires
-	length n^Ω(k) to establish that an Erdos–Renyi graph with appropriately
-	chosen edge density does not contain a k-clique.
-	This lower bound is optimal up to the multiplicative constant in the exponent
-	and also implies unconditional n^Ω(k) lower bounds on running time for several
-	state-of-the-art algorithms for finding maximum cliques in graphs.</p>
-      </div>
-    
-
-    
-      <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
-        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">ABDLNR21-jacm</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Atserias, Albert and Bonacina, Ilario and De Rezende, Susanna F. and Lauria, Massimo and Nordstr\"{o}m, Jakob and Razborov, Alexander}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1145/3449352}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Journal of the ACM  (JACM)}</span><span class="p">,</span>
-  <span class="na">number</span> <span class="p">=</span> <span class="s">{4}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{1--26}</span><span class="p">,</span>
-  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Association for Computing Machinery}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Clique Is Hard on Average for Regular Resolution}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{68}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-      </div>
-    
-
-    
-  </div>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
 </div>
-</li></ol>
-<h2 class="bibliography">2020</h2>
-<ol class="bibliography"><li>
-<div class="row">
-  
-    <div class="col-sm-2 preview">
-      
-        
-          
-          
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/JACM-480.webp 480w,/assets/img/publication_preview/JACM-800.webp 800w,/assets/img/publication_preview/JACM-1400.webp 1400w," sizes="200px" type="image/webp"></source>
-    
-    <img src="/assets/img/publication_preview/JACM.jpg" class="preview z-depth-1 rounded" width="100%" height="auto" alt="JACM.jpg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-  
-</figure>
-
-        
-      
-    </div>
-  
-
-  <!-- Entry bib key -->
-  <div id="BBCP20-jacm" class="col-sm-8">
-    <!-- Title -->
-    <div class="title">Frege Systems for Quantified Boolean Logic</div>
-    <!-- Author -->
-    <div class="author">
-      
-
-      
-      
-
-      
-        
-        
-        
-        
-        
-        
-
-        
-          
-          
-        
-        
-          
-            Olaf
-            Beyersdorff
-          
-        
-      
-        
-        
-        
-        
-        
-        
-
-        
-          , 
-          
-        
-        
-          <em>Ilario
-            Bonacina</em>
-        
-      
-        
-        
-        
-        
-        
-        
-
-        
-          , 
-          
-        
-        
-          
-            Leroy
-            Chew
-          
-        
-      
-      
-
-      
-      
-        
-        
-        
-        , and
-        <span class="more-authors" title="click to view 1 more author" onclick="
-              var element = $(this);
-              element.attr('title', '');
-              var more_authors_text = element.text() == '1 more author' ? 'Jan Pich' : '1 more author';
-              var cursorPosition = 0;
-              var textAdder = setInterval(function(){
-                element.text(more_authors_text.substring(0, cursorPosition + 1));
-                if (++cursorPosition == more_authors_text.length){
-                  clearInterval(textAdder);
-                }
-            }, '10');
-          ">1 more author</span>
-      
-    </div>
-
-    <!-- Journal/Book title and date -->
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="periodical">
-      <em>Journal of the ACM (JACM)</em>,  Feb 2020
-    </div>
-    <div class="periodical">
-      
-    </div>
-
-    <!-- Links/Buttons -->
-    <div class="links">
-      
-        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-      
-      
-      
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-      
-      
-        <a href="https://dl.acm.org/doi/10.1145/3381881" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-      
-      
-        
-          <a href="/assets/pdf/BBCP20-jacm.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-        
-      
-      
-      
-      
-      
-      
-      
-      
-    </div>
-    
-      
-      
-      
-    
-
-    
-      <!-- Hidden abstract block -->
-      <div class="abstract hidden">
-        <p>We define and investigate Frege systems for quantified Boolean formulas (QBF).
-	For these new proof systems, we develop a lower bound technique that directly
-	lifts circuit lower bounds for a circuit class C to the QBF Frege system operating
-	with lines from C . Such a direct transfer from circuit to proof complexity
-	lower bounds has often been postulated for propositional systems but had not been
-	formally established in such generality for any proof systems prior to this work.
-This leads to strong lower bounds for restricted versions of QBF Frege, in particular
-an exponential lower bound for QBF Frege systems operating with AC0[p] circuits.
-In contrast, any non-trivial lower bound for propositional AC0[p]-Frege constitutes
-a major open problem.
-Improving these lower bounds to unrestricted QBF Frege tightly corresponds to the
-major problems in circuit complexity and propositional proof complexity.
-In particular, proving a lower bound for QBF Frege systems operating with arbitrary
-P/poly circuits is equivalent to either showing a lower bound for P/poly or for
-propositional extended Frege (which operates with P/poly circuits).
-We also compare our new QBF Frege systems to standard sequent calculi for QBF and
-establish a correspondence to intuitionistic bounded arithmetic.</p>
-      </div>
-    
-
-    
-      <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
-        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">BBCP20-jacm</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Beyersdorff, Olaf and Bonacina, Ilario and Chew, Leroy and Pich, Jan}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1145/3381881}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Journal of the ACM (JACM)}</span><span class="p">,</span>
-  <span class="na">number</span> <span class="p">=</span> <span class="s">{2}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{1--36}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Frege Systems for Quantified Boolean Logic}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{67}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2020}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-      </div>
-    
-
-    
-  </div>
+<div class="callout-title-container flex-fill">
+<span class="small-title">MaxSAT Resolution with Inclusion Redundancy</span>
 </div>
-</li></ol>
-<h2 class="bibliography">2018</h2>
-<ol class="bibliography"><li>
-<div class="row">
-  
-    <div class="col-sm-2 preview">
-      
-        
-          
-          
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/STOC18-480.webp 480w,/assets/img/publication_preview/STOC18-800.webp 800w,/assets/img/publication_preview/STOC18-1400.webp 1400w," sizes="200px" type="image/webp"></source>
-    
-    <img src="/assets/img/publication_preview/STOC18.jpg" class="preview z-depth-1 rounded" width="100%" height="auto" alt="STOC18.jpg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-  
-</figure>
-
-        
-      
-    </div>
-  
-
-  <!-- Entry bib key -->
-  <div id="ABDLNR18-stoc" class="col-sm-8">
-    <!-- Title -->
-    <div class="title">Clique is Hard on Average for Regular Resolution</div>
-    <!-- Author -->
-    <div class="author">
-      
-
-      
-      
-
-      
-        
-        
-        
-        
-        
-        
-
-        
-          
-          
-        
-        
-          
-            Albert
-            Atserias
-          
-        
-      
-        
-        
-        
-        
-        
-        
-
-        
-          , 
-          
-        
-        
-          <em>Ilario
-            Bonacina</em>
-        
-      
-        
-        
-        
-        
-        
-        
-
-        
-          , 
-          
-        
-        
-          
-            Susanna F.
-            de Rezende
-          
-        
-      
-      
-
-      
-      
-        
-        
-        
-        , and
-        <span class="more-authors" title="click to view 3 more authors" onclick="
-              var element = $(this);
-              element.attr('title', '');
-              var more_authors_text = element.text() == '3 more authors' ? 'Massimo Lauria, Jakob Nordström, Alexander Razborov' : '3 more authors';
-              var cursorPosition = 0;
-              var textAdder = setInterval(function(){
-                element.text(more_authors_text.substring(0, cursorPosition + 1));
-                if (++cursorPosition == more_authors_text.length){
-                  clearInterval(textAdder);
-                }
-            }, '10');
-          ">3 more authors</span>
-      
-    </div>
-
-    <!-- Journal/Book title and date -->
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="periodical">
-      <em>In Proceedings of STOC’18 (50th Annual ACM SIGACT Symposium on Theory of Computing)</em> ,  Feb 2018
-    </div>
-    <div class="periodical">
-      
-    </div>
-
-    <!-- Links/Buttons -->
-    <div class="links">
-      
-      
-      
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-      
-      
-        <a href="https://dl.acm.org/doi/10.1145/3188745.3188856" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-      
-      
-        
-          <a href="/assets/pdf/ABDLNR18-stoc.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-        
-      
-      
-      
-      
-      
-      
-      
-      
-    </div>
-    
-      
-      
-      
-    
-
-    
-
-    
-      <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
-        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">ABDLNR18-stoc</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Atserias, Albert and Bonacina, Ilario and de\ Rezende, Susanna F. and Lauria, Massimo and Nordstr\"{o}m, Jakob and Razborov, Alexander}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{STOC'18 (50th Annual ACM SIGACT Symposium on Theory of Computing)}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1145/3188745.3188856}</span><span class="p">,</span>
-  <span class="na">numpages</span> <span class="p">=</span> <span class="s">{12}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{866--877}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Clique is Hard on Average for Regular Resolution}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2018}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-      </div>
-    
-
-    
-  </div>
 </div>
-</li></ol>
-<h2 class="bibliography">2017</h2>
-<ol class="bibliography">
-<li>
-<div class="row">
-  
-    <div class="col-sm-2 preview">
-      
-        
-          
-          
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/algorithmica-480.webp 480w,/assets/img/publication_preview/algorithmica-800.webp 800w,/assets/img/publication_preview/algorithmica-1400.webp 1400w," sizes="200px" type="image/webp"></source>
-    
-    <img src="/assets/img/publication_preview/algorithmica.jpg" class="preview z-depth-1 rounded" width="100%" height="auto" alt="algorithmica.jpg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-  
-</figure>
-
-        
-      
-    </div>
-  
-
-  <!-- Entry bib key -->
-  <div id="BT16-algorithmica" class="col-sm-8">
-    <!-- Title -->
-    <div class="title">Strong ETH and Resolution via Games and the Multiplicity of Strategies</div>
-    <!-- Author -->
-    <div class="author">
-      
-
-      
-      
-
-      
-        
-        
-        
-        
-        
-        
-
-        
-          
-          
-        
-        
-          <em>Ilario
-            Bonacina</em>
-        
-      
-        
-        
-        
-        
-        
-        
-
-        
-          , 
-          and 
-        
-        
-          
-            Navid
-            Talebanfard
-          
-        
-      
-      
-
-      
-      
-    </div>
-
-    <!-- Journal/Book title and date -->
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="periodical">
-      <em>Algorithmica</em>,  Feb 2017
-    </div>
-    <div class="periodical">
-      
-    </div>
-
-    <!-- Links/Buttons -->
-    <div class="links">
-      
-        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-      
-      
-      
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-      
-      
-        <a href="https://link.springer.com/article/10.1007/s00453-016-0228-6" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-      
-      
-        
-          <a href="/assets/pdf/BT16-algorithmica.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-        
-      
-      
-      
-      
-      
-      
-      
-      
-    </div>
-    
-      
-      
-      
-    
-
-    
-      <!-- Hidden abstract block -->
-      <div class="abstract hidden">
-        <p>We consider a proof system intermediate between regular Resolution, in which no variable can be resolved more than once along any refutation path, and general Resolution. We call }}\backslashdelta }}-regular Resolution such system, in which at most a fraction }}\backslashdelta }}of the variables can be resolved more than once along each refutation path (however, the re-resolved variables along different paths do not need to be the same). We show that when for }}\backslashdelta }}not too large, }}\backslashdelta }}-regular Resolution is consistent with the Strong Exponential Time Hypothesis (SETH). More precisely, for large n and k, we show that there are unsatisfiable k-CNF formulas which require }}\backslashdelta }}-regular Resolution refutations of size }}2\^{(1 - \backslashepsilon _k)n}}}, where n is the number of variables and }}\backslashepsilon _k=\backslashwidetilde{O}(k\^{-1/4})}}and }}\backslashdelta =\backslashwidetilde{O}(k\^{-1/4})}}is the number of variables that can be resolved multiple times.</p>
-      </div>
-    
-
-    
-      <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
-        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">BT16-algorithmica</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Bonacina, Ilario and Talebanfard, Navid}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Strong {ETH} and Resolution via Games and the Multiplicity of Strategies}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1007/s00453-016-0228-6}</span><span class="p">,</span>
-  <span class="na">isbn</span> <span class="p">=</span> <span class="s">{1432-0541}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Algorithmica}</span><span class="p">,</span>
-  <span class="na">number</span> <span class="p">=</span> <span class="s">{1}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{29--41}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{79}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2017}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-      </div>
-    
-
-    
-  </div>
+<div class="callout-body-container callout-body">
+joint work with Maria Luisa Bonet, Massimo Lauria.<br>
+<em>In Proceedings of <a href="https://doi.org/10.4230/LIPIcs.SAT.2024.19">SAT</a></em>, 2024 <a href="2024-BBL-sat.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<details>
+<summary>
+Abstract
+</summary>
+<p style="text-align: justify;">
+Popular redundancy rules for SAT are not necessarily sound for MaxSAT. The works of [Bonacina-Bonet-Buss-Lauria’24] and [Ihalainen-Berg-Järvisalo’22] proposed ways to adapt them, but required specific encodings and more sophisticated checks during proof verification. Here, we propose a different way to adapt redundancy rules from SAT to MaxSAT. Our rules do not require specific encodings, their correctness is simpler to check, but they are slightly less expressive. However, the proposed redundancy rules, when added to MaxSAT-Resolution, are already strong enough to capture Branch-and-bound algorithms, enable short proofs of the optimal cost of notable principles (e.g., the Pigeonhole Principle and the Parity Principle), and allow to break simple symmetries (e.g., XOR-ification does not make formulas harder).
+</p>
+</details>
 </div>
-</li>
-<li>
-<div class="row">
-  
-    <div class="col-sm-2 preview">
-      
-        
-          
-          
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/springer-480.webp 480w,/assets/img/publication_preview/springer-800.webp 800w,/assets/img/publication_preview/springer-1400.webp 1400w," sizes="200px" type="image/webp"></source>
-    
-    <img src="/assets/img/publication_preview/springer.jpg" class="preview z-depth-1 rounded" width="100%" height="auto" alt="springer.jpg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-  
-</figure>
-
-        
-      
-    </div>
-  
-
-  <!-- Entry bib key -->
-  <div id="B17-springer" class="col-sm-8">
-    <!-- Title -->
-    <div class="title">Space in Weak Propositional Proof Systems</div>
-    <!-- Author -->
-    <div class="author">
-      
-
-      
-      
-
-      
-        
-        
-        
-        
-        
-        
-
-        
-        
-          <em>Ilario
-            Bonacina</em>
-        
-      
-      
-
-      
-      
-    </div>
-
-    <!-- Journal/Book title and date -->
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="periodical">
-      Feb 2017
-    </div>
-    <div class="periodical">
-      
-    </div>
-
-    <!-- Links/Buttons -->
-    <div class="links">
-      
-      
-      
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-      
-      
-        <a href="https://doi.org/10.1007/978-3-319-73453-8" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-    </div>
-    
-      
-      
-      
-    
-
-    
-
-    
-      <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
-        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@book</span><span class="p">{</span><span class="nl">B17-springer</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Bonacina, Ilario}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Space in Weak Propositional Proof Systems}</span><span class="p">,</span>
-  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Springer}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2017}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1007/978-3-319-73453-8}</span><span class="p">,</span>
-  <span class="na">isbn</span> <span class="p">=</span> <span class="s">{978-3-319-73452-1}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-      </div>
-    
-
-    
-  </div>
 </div>
-</li>
-<li>
-<div class="row">
-  
-    <div class="col-sm-2 preview">
-      
-        
-          
-          
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/infocomp-480.webp 480w,/assets/img/publication_preview/infocomp-800.webp 800w,/assets/img/publication_preview/infocomp-1400.webp 1400w," sizes="200px" type="image/webp"></source>
-    
-    <img src="/assets/img/publication_preview/infocomp.jpg" class="preview z-depth-1 rounded" width="100%" height="auto" alt="infocomp.jpg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-  
-</figure>
-
-        
-      
-    </div>
-  
-
-  <!-- Entry bib key -->
-  <div id="BBGHMW17-infocomp" class="col-sm-8">
-    <!-- Title -->
-    <div class="title">Space proof complexity for random 3-CNFs</div>
-    <!-- Author -->
-    <div class="author">
-      
-
-      
-      
-
-      
-        
-        
-        
-        
-        
-        
-
-        
-          
-          
-        
-        
-          
-            Patrick
-            Bennett
-          
-        
-      
-        
-        
-        
-        
-        
-        
-
-        
-          , 
-          
-        
-        
-          <em>Ilario
-            Bonacina</em>
-        
-      
-        
-        
-        
-        
-        
-        
-
-        
-          , 
-          
-        
-        
-          
-            Nicola
-            Galesi
-          
-        
-      
-      
-
-      
-      
-        
-        
-        
-        , and
-        <span class="more-authors" title="click to view 3 more authors" onclick="
-              var element = $(this);
-              element.attr('title', '');
-              var more_authors_text = element.text() == '3 more authors' ? 'Tony Huynh, Mike Molloy, Paul Wollan' : '3 more authors';
-              var cursorPosition = 0;
-              var textAdder = setInterval(function(){
-                element.text(more_authors_text.substring(0, cursorPosition + 1));
-                if (++cursorPosition == more_authors_text.length){
-                  clearInterval(textAdder);
-                }
-            }, '10');
-          ">3 more authors</span>
-      
-    </div>
-
-    <!-- Journal/Book title and date -->
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="periodical">
-      <em>Information and Computation</em>,  Feb 2017
-    </div>
-    <div class="periodical">
-      
-    </div>
-
-    <!-- Links/Buttons -->
-    <div class="links">
-      
-      
-      
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-      
-      
-        <a href="https://www.sciencedirect.com/science/article/pii/S0890540117300974?via%3Dihub" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-      
-      
-        
-          <a href="/assets/pdf/BBGHMW17-infocomp.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-        
-      
-      
-      
-      
-      
-      
-      
-      
-    </div>
-    
-      
-      
-      
-    
-
-    
-
-    
-      <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
-        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">BBGHMW17-infocomp</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Bennett, Patrick and Bonacina, Ilario and Galesi, Nicola and Huynh, Tony and Molloy, Mike and Wollan, Paul}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Space proof complexity for random $3$-{CNF}s}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1016/j.ic.2017.06.003}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Information and Computation}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{165--176}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{255}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2017}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-      </div>
-    
-
-    
-  </div>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
 </div>
-</li>
-</ol>
-<h2 class="bibliography">2016</h2>
-<ol class="bibliography">
-<li>
-<div class="row">
-  
-    <div class="col-sm-2 abbr">
-      
-    </div>
-  
-
-  <!-- Entry bib key -->
-  <div id="BT16-ipl" class="col-sm-8">
-    <!-- Title -->
-    <div class="title">Improving resolution width lower bounds for k-CNFs with applications to the Strong Exponential Time Hypothesis</div>
-    <!-- Author -->
-    <div class="author">
-      
-
-      
-      
-
-      
-        
-        
-        
-        
-        
-        
-
-        
-          
-          
-        
-        
-          <em>Ilario
-            Bonacina</em>
-        
-      
-        
-        
-        
-        
-        
-        
-
-        
-          , 
-          and 
-        
-        
-          
-            Navid
-            Talebanfard
-          
-        
-      
-      
-
-      
-      
-    </div>
-
-    <!-- Journal/Book title and date -->
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="periodical">
-      <em>Inf. Process. Lett.</em>,  Feb 2016
-    </div>
-    <div class="periodical">
-      
-    </div>
-
-    <!-- Links/Buttons -->
-    <div class="links">
-      
-      
-      
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-      
-      
-        <a href="https://www.sciencedirect.com/science/article/abs/pii/S0020019015001684?via%3Dihub" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-      
-      
-        
-          <a href="/assets/pdf/BT16-ipl.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-        
-      
-      
-      
-      
-      
-      
-      
-      
-    </div>
-    
-      
-      
-      
-    
-
-    
-
-    
-      <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
-        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">BT16-ipl</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Bonacina, Ilario and Talebanfard, Navid}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1016/j.ipl.2015.09.013}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Inf. Process. Lett.}</span><span class="p">,</span>
-  <span class="na">number</span> <span class="p">=</span> <span class="s">{2}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{120--124}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Improving resolution width lower bounds for k-CNFs with applications to the Strong Exponential Time Hypothesis}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{116}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2016}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-      </div>
-    
-
-    
-  </div>
+<div class="callout-title-container flex-fill">
+<span class="small-title">Polynomial Calculus for MaxSAT</span>
 </div>
-</li>
-<li>
-<div class="row">
-  
-    <div class="col-sm-2 abbr">
-      
-    </div>
-  
-
-  <!-- Entry bib key -->
-  <div id="BT16-ipl-old" class="col-sm-8">
-    <!-- Title -->
-    <div class="title">Improving resolution width lower bounds for k-CNFs with applications to the Strong Exponential Time Hypothesis</div>
-    <!-- Author -->
-    <div class="author">
-      
-
-      
-      
-
-      
-        
-        
-        
-        
-        
-        
-
-        
-          
-          
-        
-        
-          <em>Ilario
-            Bonacina</em>
-        
-      
-        
-        
-        
-        
-        
-        
-
-        
-          , 
-          and 
-        
-        
-          
-            Navid
-            Talebanfard
-          
-        
-      
-      
-
-      
-      
-    </div>
-
-    <!-- Journal/Book title and date -->
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="periodical">
-      <em>Inf. Process. Lett.</em>,  Feb 2016
-    </div>
-    <div class="periodical">
-      
-    </div>
-
-    <!-- Links/Buttons -->
-    <div class="links">
-      
-      
-      
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-      
-      
-        <a href="https://www.sciencedirect.com/science/article/abs/pii/S0020019015001684?via%3Dihub" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-      
-      
-        
-          <a href="/assets/pdf/BT16-ipl.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-        
-      
-      
-      
-      
-      
-      
-      
-      
-    </div>
-    
-      
-      
-      
-    
-
-    
-
-    
-      <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
-        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">BT16-ipl-old</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Bonacina, Ilario and Talebanfard, Navid}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1016/j.ipl.2015.09.013}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Inf. Process. Lett.}</span><span class="p">,</span>
-  <span class="na">number</span> <span class="p">=</span> <span class="s">{2}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{120--124}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Improving resolution width lower bounds for k-CNFs with applications to the Strong Exponential Time Hypothesis}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{116}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2016}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-      </div>
-    
-
-    
-  </div>
 </div>
-</li>
-<li>
-<div class="row">
-  
-    <div class="col-sm-2 preview">
-      
-        
-          
-          
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/SICOMP-alt-480.webp 480w,/assets/img/publication_preview/SICOMP-alt-800.webp 800w,/assets/img/publication_preview/SICOMP-alt-1400.webp 1400w," sizes="200px" type="image/webp"></source>
-    
-    <img src="/assets/img/publication_preview/SICOMP-alt.jpg" class="preview z-depth-1 rounded" width="100%" height="auto" alt="SICOMP-alt.jpg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-  
-</figure>
-
-        
-      
-    </div>
-  
-
-  <!-- Entry bib key -->
-  <div id="BGT16-siamjcomp" class="col-sm-8">
-    <!-- Title -->
-    <div class="title">Total Space in Resolution</div>
-    <!-- Author -->
-    <div class="author">
-      
-
-      
-      
-
-      
-        
-        
-        
-        
-        
-        
-
-        
-          
-          
-        
-        
-          <em>Ilario
-            Bonacina</em>
-        
-      
-        
-        
-        
-        
-        
-        
-
-        
-          , 
-          
-        
-        
-          
-            Nicola
-            Galesi
-          
-        
-      
-        
-        
-        
-        
-        
-        
-
-        
-          , 
-          and 
-        
-        
-          
-            Neil
-            Thapen
-          
-        
-      
-      
-
-      
-      
-    </div>
-
-    <!-- Journal/Book title and date -->
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="periodical">
-      <em>SIAM J. Comput.</em>,  Jan 2016
-    </div>
-    <div class="periodical">
-      
-    </div>
-
-    <!-- Links/Buttons -->
-    <div class="links">
-      
-      
-      
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-      
-      
-        <a href="https://epubs.siam.org/doi/10.1137/15M1023269" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-      
-      
-        
-          <a href="/assets/pdf/BGT16-siamjcomp.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-        
-      
-      
-      
-      
-      
-      
-      
-      
-    </div>
-    
-      
-      
-      
-    
-
-    
-
-    
-      <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
-        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">BGT16-siamjcomp</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Bonacina, Ilario and Galesi, Nicola and Thapen, Neil}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1137/15M1023269}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{SIAM J. Comput.}</span><span class="p">,</span>
-  <span class="na">month</span> <span class="p">=</span> <span class="nv">jan</span><span class="p">,</span>
-  <span class="na">number</span> <span class="p">=</span> <span class="s">{5}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{1894--1909}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{{Total Space in Resolution}}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{45}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2016}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-      </div>
-    
-
-    
-  </div>
+<div class="callout-body-container callout-body">
+joint work with Maria Luisa Bonet, Jordi Jevy.<br>
+<em>In Proceedings of <a href="https://doi.org/10.4230/LIPIcs.SAT.2023.5">SAT</a></em>, 2023 <a href="2023-BBL-sat.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<details>
+<summary>
+Abstract
+</summary>
+<p style="text-align: justify;">
+MaxSAT is the problem of finding an assignment satisfying the maximum number of clauses in a CNF formula. We consider a natural generalization of this problem to generic sets of polynomials and propose a weighted version of Polynomial Calculus to address this problem. Weighted Polynomial Calculus is a natural generalization of MaxSAT-Resolution and weighted Resolution that manipulates polynomials with coefficients in a finite field and either weights in <span class="math inline">\(\mathbb N\)</span> or <span class="math inline">\(\mathbb Z\)</span>. We show the soundness and completeness of these systems via an algorithmic procedure. Weighted Polynomial Calculus, with weights in <span class="math inline">\(\mathbb N\)</span> and coefficients in <span class="math inline">\(\mathbb F_2\)</span>, is able to prove efficiently that Tseitin formulas on a connected graph are minimally unsatisfiable. Using weights in <span class="math inline">\(\mathbb Z\)</span>, it also proves efficiently that the Pigeonhole Principle is minimally unsatisfiable.
+</p>
+</details>
 </div>
-</li>
-<li>
-<div class="row">
-  
-    <div class="col-sm-2 abbr">
-      
-    </div>
-  
-
-  <!-- Entry bib key -->
-  <div id="Bon16-icalp" class="col-sm-8">
-    <!-- Title -->
-    <div class="title">Total Space in Resolution is at Least Width Squared</div>
-    <!-- Author -->
-    <div class="author">
-      
-
-      
-      
-
-      
-        
-        
-        
-        
-        
-        
-
-        
-        
-          <em>Ilario
-            Bonacina</em>
-        
-      
-      
-
-      
-      
-    </div>
-
-    <!-- Journal/Book title and date -->
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="periodical">
-      <em>In Proceedings of ICALP’16 (43rd International Colloquium on Automata, Languages, and Programming)</em> ,  Jan 2016
-    </div>
-    <div class="periodical">
-      
-    </div>
-
-    <!-- Links/Buttons -->
-    <div class="links">
-      
-      
-      
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-      
-      
-        <a href="https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICALP.2016.56" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-      
-      
-        
-          <a href="/assets/pdf/Bon16-icalp.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-        
-      
-      
-      
-      
-      
-      
-      
-      
-    </div>
-    
-      
-      
-      
-    
-
-    
-
-    
-      <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
-        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">Bon16-icalp</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Bonacina, Ilario}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{ICALP'16 (43rd International Colloquium on Automata, Languages, and Programming)}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.4230/LIPIcs.ICALP.2016.56}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{56:1--56:13}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Total Space in Resolution is at Least Width Squared}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{55}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2016}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-      </div>
-    
-
-    
-  </div>
 </div>
-</li>
-<li>
-<div class="row">
-  
-    <div class="col-sm-2 preview">
-      
-        
-          
-          
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/itcs-480.webp 480w,/assets/img/publication_preview/itcs-800.webp 800w,/assets/img/publication_preview/itcs-1400.webp 1400w," sizes="200px" type="image/webp"></source>
-    
-    <img src="/assets/img/publication_preview/itcs.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="itcs.png" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-  
-</figure>
-
-        
-      
-    </div>
-  
-
-  <!-- Entry bib key -->
-  <div id="BBC16-itcs" class="col-sm-8">
-    <!-- Title -->
-    <div class="title">Lower Bounds: From Circuits to QBF Proof Systems</div>
-    <!-- Author -->
-    <div class="author">
-      
-
-      
-      
-
-      
-        
-        
-        
-        
-        
-        
-
-        
-          
-          
-        
-        
-          
-            Olaf
-            Beyersdorff
-          
-        
-      
-        
-        
-        
-        
-        
-        
-
-        
-          , 
-          
-        
-        
-          <em>Ilario
-            Bonacina</em>
-        
-      
-        
-        
-        
-        
-        
-        
-
-        
-          , 
-          and 
-        
-        
-          
-            Leroy
-            Chew
-          
-        
-      
-      
-
-      
-      
-    </div>
-
-    <!-- Journal/Book title and date -->
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="periodical">
-      <em>In Proceedings of ITCS’16 (7th Conference on Innovations in Theoretical Computer Science)</em> ,  Jan 2016
-    </div>
-    <div class="periodical">
-      
-    </div>
-
-    <!-- Links/Buttons -->
-    <div class="links">
-      
-      
-      
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-      
-      
-        <a href="https://dl.acm.org/doi/10.1145/2840728.2840740" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-      
-      
-        
-          <a href="/assets/pdf/BBC16-itcs.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-        
-      
-      
-      
-      
-      
-      
-      
-      
-    </div>
-    
-      
-      
-      
-    
-
-    
-
-    
-      <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
-        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">BBC16-itcs</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Beyersdorff, Olaf and Bonacina, Ilario and Chew, Leroy}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{ITCS'16 (7th Conference on Innovations in Theoretical Computer Science)}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1145/2840728.2840740}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{249--260}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Lower Bounds: From Circuits to {QBF} Proof Systems}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2016}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-      </div>
-    
-
-    
-  </div>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
 </div>
-</li>
-</ol>
-<h2 class="bibliography">2015</h2>
-<ol class="bibliography">
-<li>
-<div class="row">
-  
-    <div class="col-sm-2 preview">
-      
-        
-          
-          
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/JACM-480.webp 480w,/assets/img/publication_preview/JACM-800.webp 800w,/assets/img/publication_preview/JACM-1400.webp 1400w," sizes="200px" type="image/webp"></source>
-    
-    <img src="/assets/img/publication_preview/JACM.jpg" class="preview z-depth-1 rounded" width="100%" height="auto" alt="JACM.jpg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-  
-</figure>
-
-        
-      
-    </div>
-  
-
-  <!-- Entry bib key -->
-  <div id="BG15-jacm" class="col-sm-8">
-    <!-- Title -->
-    <div class="title">A Framework for Space Complexity in Algebraic Proof Systems</div>
-    <!-- Author -->
-    <div class="author">
-      
-
-      
-      
-
-      
-        
-        
-        
-        
-        
-        
-
-        
-          
-          
-        
-        
-          <em>Ilario
-            Bonacina</em>
-        
-      
-        
-        
-        
-        
-        
-        
-
-        
-          , 
-          and 
-        
-        
-          
-            Nicola
-            Galesi
-          
-        
-      
-      
-
-      
-      
-    </div>
-
-    <!-- Journal/Book title and date -->
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="periodical">
-      <em>Journal of the ACM (J. ACM)</em>,  Jan 2015
-    </div>
-    <div class="periodical">
-      
-    </div>
-
-    <!-- Links/Buttons -->
-    <div class="links">
-      
-      
-      
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-      
-      
-        <a href="https://dl.acm.org/doi/10.1145/2699438" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-      
-      
-        
-          <a href="/assets/pdf/BG15-jacm.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-        
-      
-      
-      
-      
-      
-      
-      
-      
-    </div>
-    
-      
-      
-      
-    
-
-    
-
-    
-      <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
-        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">BG15-jacm</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Bonacina, Ilario and Galesi, Nicola}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1145/2699438}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Journal of the ACM (J. ACM)}</span><span class="p">,</span>
-  <span class="na">number</span> <span class="p">=</span> <span class="s">{3}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{1--20}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{A Framework for Space Complexity in Algebraic Proof Systems}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{62}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2015}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-      </div>
-    
-
-    
-  </div>
+<div class="callout-title-container flex-fill">
+<span class="small-title">On vanishing sums of roots of unity in polynomial calculus and sum-of-squares</span>
 </div>
-</li>
-<li>
-<div class="row">
-  
-    <div class="col-sm-2 abbr">
-      
-    </div>
-  
-
-  <!-- Entry bib key -->
-  <div id="BT15-ipec" class="col-sm-8">
-    <!-- Title -->
-    <div class="title">Strong ETH and Resolution via Games and the Multiplicity of Strategies</div>
-    <!-- Author -->
-    <div class="author">
-      
-
-      
-      
-
-      
-        
-        
-        
-        
-        
-        
-
-        
-          
-          
-        
-        
-          <em>Ilario
-            Bonacina</em>
-        
-      
-        
-        
-        
-        
-        
-        
-
-        
-          , 
-          and 
-        
-        
-          
-            Navid
-            Talebanfard
-          
-        
-      
-      
-
-      
-      
-    </div>
-
-    <!-- Journal/Book title and date -->
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="periodical">
-      <em>In Proceedings of IPEC’15 (10th International Symposium on Parameterized and Exact Computation)</em> ,  Jan 2015
-    </div>
-    <div class="periodical">
-      
-    </div>
-
-    <!-- Links/Buttons -->
-    <div class="links">
-      
-      
-      
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-      
-      
-        <a href="https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.IPEC.2015.248" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-      
-      
-        
-          <a href="/assets/pdf/BT15-ipec.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-        
-      
-      
-      
-      
-      
-      
-      
-      
-    </div>
-    
-      
-      
-      
-    
-
-    
-
-    
-      <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
-        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">BT15-ipec</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Bonacina, Ilario and Talebanfard, Navid}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{IPEC'15 (10th International Symposium on Parameterized and Exact Computation)}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.4230/LIPIcs.IPEC.2015.248}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{248--257}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Strong {ETH} and Resolution via Games and the Multiplicity of Strategies}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2015}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-      </div>
-    
-
-    
-  </div>
 </div>
-</li>
-<li>
-<div class="row">
-  
-    <div class="col-sm-2 abbr">
-      
-    </div>
-  
-
-  <!-- Entry bib key -->
-  <div id="Bonacina-phdthesis" class="col-sm-8">
-    <!-- Title -->
-    <div class="title">Space in weak propositional proof systems</div>
-    <!-- Author -->
-    <div class="author">
-      
-
-      
-      
-
-      
-        
-        
-        
-        
-        
-        
-
-        
-        
-          <em>Ilario
-            Bonacina</em>
-        
-      
-      
-
-      
-      
-    </div>
-
-    <!-- Journal/Book title and date -->
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="periodical">
-      <em>Sapienza University of Rome</em> ,  Dec 2015
-    </div>
-    <div class="periodical">
-      
-    </div>
-
-    <!-- Links/Buttons -->
-    <div class="links">
-      
-      
-      
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-      
-      
-      
-        
-          <a href="/assets/pdf/Bonacina-phdthesis.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-        
-      
-      
-      
-      
-      
-      
-      
-      
-    </div>
-    
-      
-      
-      
-    
-
-    
-
-    
-      <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
-        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@phdthesis</span><span class="p">{</span><span class="nl">Bonacina-phdthesis</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Bonacina, Ilario}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1007/978-3-319-73453-8}</span><span class="p">,</span>
-  <span class="na">month</span> <span class="p">=</span> <span class="nv">dec</span><span class="p">,</span>
-  <span class="na">school</span> <span class="p">=</span> <span class="s">{Sapienza University of Rome}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Space in weak propositional proof systems}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2015}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-      </div>
-    
-
-    
-  </div>
+<div class="callout-body-container callout-body">
+joint work with Nicola Galesi, Massimo Lauria.<br>
+<a href="https://doi.org/10.1007/s00037-023-00242-z">Computational Complexity</a>, 2023 <a href="2023-BGL-compcompl.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a><br>Preliminary (conference) version: <em>In Proceedings of <a href="https://doi.org/10.4230/LIPIcs.MFCS.2022.23">MFCS</a></em>, 2022 <a href="2022-BGL-mfcs.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<details>
+<summary>
+Abstract
+</summary>
+<p style="text-align: justify;">
+We introduce a novel take on sum-of-squares that is able to reason with complex numbers and still make use of polynomial inequalities. This proof system might be of independent interest since it allows to represent multivalued domains both with Boolean and Fourier encoding. We show degree and size lower bounds in this system for a natural generalization of knapsack: the vanishing sums of roots of unity. These lower bounds naturally apply to polynomial calculus as-well.
+</p>
+</details>
 </div>
-</li>
-</ol>
-<h2 class="bibliography">2014</h2>
-<ol class="bibliography">
-<li>
-<div class="row">
-  
-    <div class="col-sm-2 preview">
-      
-        
-          
-          
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/focs-480.webp 480w,/assets/img/publication_preview/focs-800.webp 800w,/assets/img/publication_preview/focs-1400.webp 1400w," sizes="200px" type="image/webp"></source>
-    
-    <img src="/assets/img/publication_preview/focs.gif" class="preview z-depth-1 rounded" width="100%" height="auto" alt="focs.gif" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-  
-</figure>
-
-        
-      
-    </div>
-  
-
-  <!-- Entry bib key -->
-  <div id="BGT14-focs" class="col-sm-8">
-    <!-- Title -->
-    <div class="title">Total Space in Resolution</div>
-    <!-- Author -->
-    <div class="author">
-      
-
-      
-      
-
-      
-        
-        
-        
-        
-        
-        
-
-        
-          
-          
-        
-        
-          <em>Ilario
-            Bonacina</em>
-        
-      
-        
-        
-        
-        
-        
-        
-
-        
-          , 
-          
-        
-        
-          
-            Nicola
-            Galesi
-          
-        
-      
-        
-        
-        
-        
-        
-        
-
-        
-          , 
-          and 
-        
-        
-          
-            Neil
-            Thapen
-          
-        
-      
-      
-
-      
-      
-    </div>
-
-    <!-- Journal/Book title and date -->
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="periodical">
-      <em>In Proceedings of FOCS’14 (55th IEEE Symposium on Foundations of Computer Science)</em> ,  Dec 2014
-    </div>
-    <div class="periodical">
-      
-    </div>
-
-    <!-- Links/Buttons -->
-    <div class="links">
-      
-      
-      
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-      
-      
-        <a href="https://ieeexplore.ieee.org/document/6979049" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-      
-      
-        
-          <a href="/assets/pdf/BGT14-focs.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-        
-      
-      
-      
-      
-      
-      
-      
-      
-    </div>
-    
-      
-      
-      
-    
-
-    
-
-    
-      <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
-        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">BGT14-focs</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Bonacina, Ilario and Galesi, Nicola and Thapen, Neil}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Total Space in Resolution}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{FOCS'14 (55th IEEE Symposium on Foundations of Computer Science)}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/FOCS.2014.74}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{641--650}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{38}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2014}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-      </div>
-    
-
-    
-  </div>
 </div>
-</li>
-<li>
-<div class="row">
-  
-    <div class="col-sm-2 abbr">
-      
-    </div>
-  
-
-  <!-- Entry bib key -->
-  <div id="ABFG14-scn" class="col-sm-8">
-    <!-- Title -->
-    <div class="title">Proofs of Space: When Space Is of the Essence</div>
-    <!-- Author -->
-    <div class="author">
-      
-
-      
-      
-
-      
-        
-        
-        
-        
-        
-        
-
-        
-          
-          
-        
-        
-          
-            Giuseppe
-            Ateniese
-          
-        
-      
-        
-        
-        
-        
-        
-        
-
-        
-          , 
-          
-        
-        
-          <em>Ilario
-            Bonacina</em>
-        
-      
-        
-        
-        
-        
-        
-        
-
-        
-          , 
-          
-        
-        
-          
-            Antonio
-            Faonio
-          
-        
-      
-      
-
-      
-      
-        
-        
-        
-        , and
-        <span class="more-authors" title="click to view 1 more author" onclick="
-              var element = $(this);
-              element.attr('title', '');
-              var more_authors_text = element.text() == '1 more author' ? 'Nicola Galesi' : '1 more author';
-              var cursorPosition = 0;
-              var textAdder = setInterval(function(){
-                element.text(more_authors_text.substring(0, cursorPosition + 1));
-                if (++cursorPosition == more_authors_text.length){
-                  clearInterval(textAdder);
-                }
-            }, '10');
-          ">1 more author</span>
-      
-    </div>
-
-    <!-- Journal/Book title and date -->
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="periodical">
-      <em>In Proceedings of SCN’14 (9th International Conference on Security and Cryptography for Networks)</em> ,  Dec 2014
-    </div>
-    <div class="periodical">
-      
-    </div>
-
-    <!-- Links/Buttons -->
-    <div class="links">
-      
-      
-      
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-      
-      
-        <a href="https://link.springer.com/chapter/10.1007/978-3-319-10879-7_31" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-      
-      
-        
-          <a href="/assets/pdf/ABFG14-scn.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-        
-      
-      
-      
-      
-      
-      
-      
-      
-    </div>
-    
-      
-      
-      
-    
-
-    
-
-    
-      <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
-        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">ABFG14-scn</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Ateniese, Giuseppe and Bonacina, Ilario and Faonio, Antonio and Galesi, Nicola}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{SCN'14 (9th International Conference on Security and Cryptography for Networks)}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1007/978-3-319-10879-7_31}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{538--557}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Proofs of Space: When Space Is of the Essence}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2014}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-      </div>
-    
-
-    
-  </div>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
 </div>
-</li>
-</ol>
-<h2 class="bibliography">2013</h2>
-<ol class="bibliography"><li>
-<div class="row">
-  
-    <div class="col-sm-2 preview">
-      
-        
-          
-          
-
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/itcs-480.webp 480w,/assets/img/publication_preview/itcs-800.webp 800w,/assets/img/publication_preview/itcs-1400.webp 1400w," sizes="200px" type="image/webp"></source>
-    
-    <img src="/assets/img/publication_preview/itcs.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="itcs.png" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-  
-</figure>
-
-        
-      
-    </div>
-  
-
-  <!-- Entry bib key -->
-  <div id="BG13-itcs" class="col-sm-8">
-    <!-- Title -->
-    <div class="title">Pseudo-partitions, transversality and locality: A Combinatorial Characterization for the Space Measure in Algebraic Proof Systems</div>
-    <!-- Author -->
-    <div class="author">
-      
-
-      
-      
-
-      
-        
-        
-        
-        
-        
-        
-
-        
-          
-          
-        
-        
-          <em>Ilario
-            Bonacina</em>
-        
-      
-        
-        
-        
-        
-        
-        
-
-        
-          , 
-          and 
-        
-        
-          
-            Nicola
-            Galesi
-          
-        
-      
-      
-
-      
-      
-    </div>
-
-    <!-- Journal/Book title and date -->
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="periodical">
-      <em>In Proceedings of ITCS’13 (4th Conference on Innovations in Theoretical Computer Science)</em> ,  Dec 2013
-    </div>
-    <div class="periodical">
-      
-    </div>
-
-    <!-- Links/Buttons -->
-    <div class="links">
-      
-      
-      
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-      
-      
-        <a href="https://dl.acm.org/doi/10.1145/2422436.2422486" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-      
-      
-        
-          <a href="/assets/pdf/BG13-itcs.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-        
-      
-      
-      
-      
-      
-      
-      
-      
-    </div>
-    
-      
-      
-      
-    
-
-    
-
-    
-      <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
-        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">BG13-itcs</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Bonacina, Ilario and Galesi, Nicola}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{ITCS'13 (4th Conference on Innovations in Theoretical Computer Science)}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1145/2422436.2422486}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{455--472}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Pseudo-partitions, transversality and locality: A Combinatorial Characterization for the Space Measure in Algebraic Proof Systems}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2013}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-      </div>
-    
-
-    
-  </div>
+<div class="callout-title-container flex-fill">
+<span class="small-title">On the strength of Sherali-Adams and Nullstellensatz as propositional proof systems</span>
 </div>
-</li></ol>
-
 </div>
-
-  </article>
-
-  
-
-
-  
+<div class="callout-body-container callout-body">
+joint work with Maria Luisa Bonet.<br>
+<em>In Proceedings of <a href="https://doi.org/10.1145/3531130.3533344">LICS</a></em>, 2022 <a href="2022-BB-lics.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<details>
+<summary>
+Abstract
+</summary>
+<p style="text-align: justify;">
+We characterize the strength of the algebraic proof systems Sherali-Adams (SA) and Nullstellensatz (NS) in terms of Frege-style proof systems. Unlike bounded-depth Frege, SA has polynomial-size proofs of the pigeonhole principle (PHP). A natural question is whether adding PHP to bounded-depth Frege is enough to simulate SA. We show that SA, with unary integer coefficients, lies strictly between tree-like depth-1 Frege + PHP and tree-like Resolution. We introduce a weighted version of PHP (wPHP) and we show that SA with integer coefficients lies strictly between tree-like depth-1 Frege + wPHP and Resolution. Analogous results are shown for NS using the bijective (i.e.&nbsp;onto and functional) pigeonhole principle and a weighted version of it.
+</p>
+</details>
 </div>
+</div>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="small-title">Clique Is Hard on Average for Regular Resolution</span>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+joint work with Albert Atserias, Susanna F. de Rezende, Massimo Lauria, Jakob Nordström, Alexander A. Razborov.<br>
+<a href="https://doi.org/10.1145/3449352">Journal of the ACM</a>, 2021 <a href="2021-ABDLNR-jacm.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a><br>Preliminary (conference) version: <em>In Proceedings of <a href="https://doi.org/10.1145/3188745.3188856">STOC</a></em>, 2018 <a href="2018-ABDLNR-stoc.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<details>
+<summary>
+Abstract
+</summary>
+<p style="text-align: justify;">
+We prove that for <span class="math inline">\(k \ll 4\sqrt{n}\)</span> regular resolution requires length <span class="math inline">\(n^{\Omega(k)}\)</span> to establish that an Erdős-Rényi graph with appropriately chosen edge density does not contain a <span class="math inline">\(k\)</span>-clique. This lower bound is optimal up to the multiplicative constant in the exponent and also implies unconditional <span class="math inline">\(n^{\Omega(k)}\)</span> lower bounds on running time for several state-of-the-art algorithms for finding maximum cliques in graphs.
+</p>
+</details>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="small-title">Frege Systems for Quantified Boolean Logic</span>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+joint work with Olaf Beyersdorff, Leroy Chew, Ján Pich.<br>
+<a href="https://doi.org/10.1145/3381881">Journal of the ACM</a>, 2020 <a href="2020-BBCP-jacm.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a><br>Preliminary (conference) version: <em>In Proceedings of <a href="https://doi.org/10.1145/2840728.2840740">ITCS</a></em>, 2016 <a href="2016-BBC-itcs.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<details>
+<summary>
+Abstract
+</summary>
+<p style="text-align: justify;">
+We define and investigate Frege systems for quantified Boolean formulas (QBF). For these new proof systems, we develop a lower bound technique that directly lifts circuit lower bounds for a circuit class C to the QBF Frege system operating with lines from C. Such a direct transfer from circuit to proof complexity lower bounds has often been postulated for propositional systems but had not been formally established in such generality for any proof systems prior to this work. This leads to strong lower bounds for restricted versions of QBF Frege, in particular an exponential lower bound for QBF Frege systems operating with <span class="math inline">\(AC^0[p]\)</span>-circuits. In contrast, any non-trivial lower bound for propositional <span class="math inline">\(AC^0[p]\)</span>-Frege constitutes a major open problem. Improving these lower bounds to unrestricted QBF Frege tightly corresponds to the major problems in circuit complexity and propositional proof complexity. In particular, proving a lower bound for QBF Frege systems operating with arbitrary P/poly circuits is equivalent to either showing a lower bound for P/poly or for propositional extended Frege (which operates with P/poly circuits). We also compare our new QBF Frege systems to standard sequent calculi for QBF and establish a correspondence to intuitionistic bounded arithmetic.
+</p>
+</details>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="small-title">Strong ETH and Resolution via Games and the Multiplicity of Strategies</span>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+joint work with Navid Talebanfard.<br>
+<a href="https://doi.org/10.1007/s00453-016-0228-6">Algorithmica</a>, 2017 <a href="BT16-algorithmica.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a><br>Preliminary (conference) version: <em>In Proceedings of <a href="https://doi.org/10.4230/LIPIcs.IPEC.2015.248">IPEC</a></em>, 2015 <a href="2015-BT-ipec.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<details>
+<summary>
+Abstract
+</summary>
+<p style="text-align: justify;">
+We consider a proof system intermediate between regular Resolution, in which no variable can be resolved more than once along any refutation path, and general Resolution. We call <span class="math inline">\(\delta\)</span>-regular Resolution such system, in which at most a fraction <span class="math inline">\(\delta\)</span> of the variables can be resolved more than once along each refutation path (however, the re-resolved variables along different paths do not need to be the same). We show that when for <span class="math inline">\(\delta\)</span> not too large, <span class="math inline">\(\delta\)</span>-regular Resolution is consistent with the Strong Exponential Time Hypothesis (SETH). More precisely, for large <span class="math inline">\(n\)</span> and <span class="math inline">\(k\)</span>, we show that there are unsatisfiable <span class="math inline">\(k\)</span>-CNF formulas which require <span class="math inline">\(\delta\)</span>-regular Resolution refutations of size <span class="math inline">\(2^{(1-\epsilon_k)n}\)</span>, where <span class="math inline">\(n\)</span> is the number of variables and <span class="math inline">\(\epsilon_k = \tilde O(k^{-1/4})\)</span> and <span class="math inline">\(\delta = \tilde O(k^{-1/4})\)</span> is the number of variables that can be resolved multiple times.
+</p>
+</details>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="small-title">Space proof complexity for random 3-CNFs</span>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+joint work with Patrick Bennett, Nicola Galesi, Tony Huynh, Mike Molloy, Paul Wollan.<br>
+<a href="https://doi.org/10.1016/j.ic.2017.06.003">Information and Computation</a>, 2017 <a href="2017-BBGHMW-infocomp.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<details>
+<summary>
+Abstract
+</summary>
+<p style="text-align: justify;">
+We investigate the space complexity of refuting 3-CNFs in Resolution and algebraic systems. We prove that every Polynomial Calculus with Resolution refutation of a random 3-CNF <span class="math inline">\(\phi\)</span> in <span class="math inline">\(n\)</span> variables requires, with high probability, <span class="math inline">\(\Omega(n)\)</span> distinct monomials to be kept simultaneously in memory. The same construction also proves that every Resolution refutation of <span class="math inline">\(\phi\)</span> requires, with high probability, <span class="math inline">\(\Omega(n)\)</span> clauses each of width <span class="math inline">\(\Omega(n)\)</span> to be kept at the same time in memory. This gives a <span class="math inline">\(\Omega(n^2)\)</span> lower bound for the total space needed in Resolution to refute <span class="math inline">\(\phi.\)</span> These results are best possible (up to a constant factor) and answer questions about space complexity of 3-CNFs. The main technical innovation is a variant of Hall’s Lemma. We show that in bipartite graphs with bipartition (L, R) and left-degree at most 3, L can be covered by certain families of disjoint paths, called VW-matchings, provided that L expands in R by a factor of <span class="math inline">\((2 −\epsilon)\)</span>, for <span class="math inline">\(\epsilon &lt; 1\)</span>.
+</p>
+</details>
+</div>
+</div>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="small-title">Total space in Resolution is at least width squared</span>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<em>In Proceedings of <a href="https://doi.org/10.4230/LIPIcs.ICALP.2016.56">ICALP</a></em>, <a href="2016-B-icalp.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<details>
+<summary>
+Abstract
+</summary>
+<p style="text-align: justify;">
+Given an unsatisfiable <span class="math inline">\(k\)</span>-CNF formula <span class="math inline">\(\varphi\)</span> we consider two complexity measures in Resolution: width and total space. The width is the minimal <span class="math inline">\(W\)</span> such that there exists a Resolution refutation of <span class="math inline">\(\varphi\)</span> with clauses of at most <span class="math inline">\(W\)</span> literals. The total space is the minimal size <span class="math inline">\(T\)</span> of a memory used to write down a Resolution refutation of <span class="math inline">\(\varphi\)</span>, where the size of the memory is measured as the total number of literals it can contain. We prove that <span class="math inline">\(T = \Omega((W - k)^2)\)</span>.
+</p>
+</details>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="small-title">Improving resolution width lower bounds for k-CNFs with applications to the Strong Exponential Time Hypothesis</span>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+joint work with Navid Talebanfard.<br>
+<a href="https://doi.org/10.1016/j.ipl.2015.09.013">Information Processing Letters</a>, 2016 <a href="2016-BT-ipl.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<details>
+<summary>
+Abstract
+</summary>
+<p style="text-align: justify;">
+A Strong Exponential Time Hypothesis lower bound for resolution has the form <span class="math inline">\(2^{(1-\epsilon_k)n}\)</span> for some <span class="math inline">\(k\)</span>-CNF on <span class="math inline">\(n\)</span> variables such that <span class="math inline">\(\epsilon_k \to 0\)</span> as <span class="math inline">\(k \to \infty\)</span>. For every large <span class="math inline">\(k\)</span> we prove that there exists an unsatisfiable <span class="math inline">\(k\)</span>-CNF formula on <span class="math inline">\(n\)</span> variables which requires resolution width <span class="math inline">\((1-\tilde O(k^{-1/3}))n\)</span> and hence tree-like resolution refutations of size at least <span class="math inline">\(2^{(1-\tilde O(k^{-1/3}))n}\)</span>. We also show that for every unsatisfiable <span class="math inline">\(k\)</span>-CNF <span class="math inline">\(\varphi\)</span> on <span class="math inline">\(n\)</span> variables, there exists a tree-like resolution refutation of <span class="math inline">\(\varphi\)</span> of size at most <span class="math inline">\(2^{(1-\Omega(1/k))n}\)</span>.
+</p>
+</details>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="small-title">Total Space in Resolution</span>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+joint work with Nicola Galesi, Neil Thapen.<br>
+<a href="https://doi.org/10.1137/15M1023269">SIAM Journal on Computing</a>, 2016 <a href="2016-BGT-siamjcomp.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a><br>Preliminary (conference) version: <em>In Proceedings of <a href="https://doi.org/10.1109/FOCS.2014.74">FOCS</a></em>, 2014 <a href="2014-BGT-focs.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<details>
+<summary>
+Abstract
+</summary>
+<p style="text-align: justify;">
+We show quadratic lower bounds on the total space used in resolution refutations of random <span class="math inline">\(k\)</span>-CNFs over n variables and of the graph pigeonhole principle and the bit pigeonhole principle for <span class="math inline">\(n\)</span> holes. This answers the open problem of whether there are families of <span class="math inline">\(k\)</span>-CNF formulas of polynomial size that require quadratic total space in resolution. The results follow from a more general theorem showing that, for formulas satisfying certain conditions, in every resolution refutation there is a memory configuration containing many clauses of large width.
+</p>
+</details>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="small-title">A Framework for Space Complexity in Algebraic Proof Systems</span>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+joint work with Nicola Galesi.<br>
+<a href="https://doi.org/10.1145/2699438">Journal of the ACM</a>, 2015 <a href="2015-BG-jacm.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a><br>Preliminary (conference) version: <em>In Proceedings of <a href="https://doi.org/10.1145/2422436.2422486">ITCS</a></em>, 2013 <a href="2013-BG-itcs.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<details>
+<summary>
+Abstract
+</summary>
+<p style="text-align: justify;">
+Algebraic proof systems, such as Polynomial Calculus (PC) and Polynomial Calculus with Resolution (PCR), refute contradictions using polynomials. Space complexity for such systems measures the number of distinct monomials to be kept in memory while verifying a proof. We introduce a new combinatorial framework for proving space lower bounds in algebraic proof systems. As an immediate application, we obtain the space lower bounds previously provided for PC/PCR [Alekhnovich et al.&nbsp;2002; Filmus et al.&nbsp;2012]. More importantly, using our approach in its full potential, we prove <span class="math inline">\(\Omega(n)\)</span> space lower bounds in PC/PCR for random <span class="math inline">\(k\)</span>-CNFs (<span class="math inline">\(k\ge 4\)</span>) in <span class="math inline">\(n\)</span> variables, thus solving an open problem posed in Alekhnovich et al.&nbsp;[2002] and Filmus et al.&nbsp;[2012]. Our method also applies to the Graph Pigeonhole Principle, which is a variant of the Pigeonhole Principle defined over a constant (left) degree expander graph.
+</p>
+</details>
+</div>
+</div>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="small-title">Proofs of Space: When Space Is of the Essence</span>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+joint work with Giuseppe Ateniese, Antonio Faonio, Nicola Galesi.<br>
+<em>In Proceedings of <a href="https://doi.org/10.1007/978-3-319-10879-7_31">SCN</a></em>, 2014 <a href="2014-ABFG-scn.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<details>
+<summary>
+Abstract
+</summary>
+<p style="text-align: justify;">
+Proofs of computational effort were devised to control denial of service attacks. Dwork and Naor (CRYPTO ’92), for example, proposed to use such proofs to discourage spam. The idea is to couple each email message with a proof of work that demonstrates the sender performed some computational task. A proof of work can be either CPU-bound or memory-bound. In a CPU-bound proof, the prover must com- pute a CPU-intensive function that is easy to check by the verifier. A memory-bound proof, instead, forces the prover to access the main memory several times, effectively replacing CPU cycles with memory accesses. In this paper we put forward a new concept dubbed proof of space. To compute such a proof, the prover must use a specified amount of space, i.e., we are not interested in the number of accesses to the main memory (as in memory-bound proof of work) but rather on the amount of actual memory the prover must employ to compute the proof. We give a complete and detailed algorithmic description of our model. We develop a full theoretical analysis which uses combinatorial tools from Complexity Theory (such as pebbling games) which are essential in studying space lower bounds.
+</p>
+</details>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="manuscripts-and-preprints" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="manuscripts-and-preprints">Manuscripts and Preprints</h2>
+<p>This page does not index preprints of works which have been published either in conference proceedings or journals. For those you can have a look at <a href="https://eccc.weizmann.ac.il/author/1498/">ECCC</a> or <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Bonacina,+I"><i class="ai  ai-arxiv"></i> Arxiv</a>.</p>
 
-      
-    </div>
-
-    <!-- Footer -->
-    
-  <footer class="fixed-bottom" role="contentinfo">
-    <div class="container mt-0">
-      © Copyright 2024
-      Ilario
-      
-      Bonacina. 
-      
-      
-        Last updated: May 12, 2024.
-      
-    </div>
-  </footer>
-
-
-
-    <!-- JavaScripts -->
-    <!-- jQuery -->
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
-    <!-- Bootsrap & MDB scripts -->
-<script src="/assets/js/bootstrap.bundle.min.js"></script>
-<!-- <script src="/assets/js/mdb.min.js"></script> -->
-<script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
-
-    
-  <!-- Masonry & imagesLoaded -->
-  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
-  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
-
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-  <!-- Medium Zoom JS -->
-  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script>
-  <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script>
-
+<div class="no-row-height column-margin column-container"><div class="">
+<p><span class="orange"><span class="math inline">\(\blacksquare\)</span></span> = this indicates a pre-print not peer reviewed</p>
+</div></div><div id="listing-preprints" class="quarto-listing quarto-listing-container-custom">
+<div class="callout callout-style-default callout-warning no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="small-title">Redundancy for MaxSAT</span>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+joint work with Maria Luisa Bonet, Sam Buss, Massimo Lauria.<br>
+<a href="https://eccc.weizmann.ac.il/report/2024/045">ECCC</a>, TR24–045, 2024 <a href="2024-BBBL-ECCC-TR24-045.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<details>
+<summary>
+Abstract
+</summary>
+<p style="text-align: justify;">
+The concept of redundancy in SAT lead to more expressive and powerful proof search techniques, e.g.&nbsp;able to express various inprocessing techniques, and to interesting hierarchies of proof systems [Heule et.al’20, Buss-Thapen’19]. We propose a general way to integrate redundancy rules in MaxSAT, that is we define MaxSAT variants of proof systems such as SPR, PR, SR, and others. The main difference compared to the recent alternative approach in [Ihalainen et.al’22] is that our redundancy rules are polynomially checkable. We discuss the strength of the systems introduced and we give a short cost-SR proof that any assignment for the weak pigeonhole principle <span class="math inline">\(PHP^m_n\)</span> falsifies at least <span class="math inline">\(m-n\)</span> clauses.
+</p>
+</details>
+</div>
+</div>
+<div class="callout callout-style-default callout-warning no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="small-title">A separation of PLS from PPP</span>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+joint work with Neil Thapen.<br>
+<a href="https://eccc.weizmann.ac.il/report/2022/089">ECCC</a>, TR22–089, 2022 <a href="2022-BT-ECCC-TR22-089.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<details>
+<summary>
+Abstract
+</summary>
+<p style="text-align: justify;">
+Recently it was shown that PLS is not contained in PPADS (ECCC report TR22-058). We show that this separation already implies that PLS is not contained in PPP. These separations are shown for the decision tree model of TFNP and imply similar separations in the type-2, relativized model. Important note. This manuscript is based on an early preprint of report TR22-058, which did not contain the result that PLS is not contained in PPP. Our work is superseded by the revised version of the report of 10 June 2022 which, independently, contains this result. The manuscript has not been edited to reflect this, and in particular references to the report are to the early version.
+</p>
+</details>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="books-and-phd-thesis" class="level2">
+<h2 class="anchored" data-anchor-id="books-and-phd-thesis">Books and PhD Thesis</h2>
 
 
-<!-- Bootstrap Table -->
 
+</section>
 
-<!-- Load Common JS -->
-<script src="/assets/js/no_defer.js?2930004b8d7fcd0a8e00fdcfc8fc9f24"></script>
-<script defer src="/assets/js/common.js?4a129fbf39254905f505c7246e641eaf"></script>
-<script defer src="/assets/js/copy_code.js?12775fdf7f95e901d7119054556e495f" type="text/javascript"></script>
+<div class="quarto-listing quarto-listing-container-custom page-columns page-full" id="listing-books">
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="small-title">Space in Weak Propositional Proof Systems</span>
+</div>
+</div>
+<div class="callout-body-container callout-body">
 
-    
-  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-
-
-  <script async src="https://badge.dimensions.ai/badge.js"></script>
-
-
-    
-  <!-- MathJax -->
-  <script type="text/javascript">
-    window.MathJax = {
-      tex: {
-        tags: 'ams',
-      },
-    };
-  </script>
-  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
-  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-
-
-    
-
-
-    
-  <!-- Scrolling Progress Bar -->
-  <script type="text/javascript">
-    /*
-     * This JavaScript code has been adapted from the article
-     * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar,
-     * published on the website https://css-tricks.com on the 7th of May, 2014.
-     * Couple of changes were made to the original code to make it compatible
-     * with the `al-foio` theme.
-     */
-    const progressBar = $('#progress');
-    /*
-     * We set up the bar after all elements are done loading.
-     * In some cases, if the images in the page are larger than the intended
-     * size they'll have on the page, they'll be resized via CSS to accomodate
-     * the desired size. This mistake, however, breaks the computations as the
-     * scroll size is computed as soon as the elements finish loading.
-     * To account for this, a minimal delay was introduced before computing the
-     * values.
-     */
-    window.onload = function () {
-      setTimeout(progressBarSetup, 50);
-    };
-    /*
-     * We set up the bar according to the browser.
-     * If the browser supports the progress element we use that.
-     * Otherwise, we resize the bar thru CSS styling
-     */
-    function progressBarSetup() {
-      if ('max' in document.createElement('progress')) {
-        initializeProgressElement();
-        $(document).on('scroll', function () {
-          progressBar.attr({ value: getCurrentScrollPosition() });
-        });
-        $(window).on('resize', initializeProgressElement);
-      } else {
-        resizeProgressBar();
-        $(document).on('scroll', resizeProgressBar);
-        $(window).on('resize', resizeProgressBar);
+<p><a href="https://doi.org/10.1007/978-3-319-73453-8">Springer</a>, 2017 <br>This book is based on my PhD thesis defended on December 14, 2015 at the Sapienza University of Rome (supervision of Prof.&nbsp;Nicola Galesi). It was awarded “Best Italian PhD Thesis in Theoretical Computer Science, 2016” by the Italian Chapter of the EATCS.</p>
+<p>A ~14 pages abstract appeared in the <a href="http://eatcs.org/beatcs/index.php/beatcs/article/view/454">Bulletin of the EATCS</a>, 2016 <a href="2016-B-BEATCS-thesis-abstract.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a> <br> A preliminary version appeared as my <strong>PhD thesis</strong>. Sapienza University, Rome, December 2015 <a href="2015-B-PhD-thesis.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a></p>
+<details>
+<summary>
+Abstract
+</summary>
+<p style="text-align: justify;">
+This book considers logical proof systems from the point of view of their space complexity. After an introduction to propositional proof complexity the author structures the book into three main parts. Part I contains two chapters on resolution, one containing results already known in the literature before this work and one focused on space in resolution, and the author then moves on to polynomial calculus and its space complexity with a focus on the combinatorial technique to prove monomial space lower bounds. The first chapter in Part II addresses the proof complexity and space complexity of the pigeon principles. Then there is an interlude on a new type of game, defined on bipartite graphs, essentially independent from the rest of the book, collecting some results on graph theory. Finally Part III analyzes the size of resolution proofs in connection with the Strong Exponential Time Hypothesis (SETH) in complexity theory.
+</p>
+</details>
+</div>
+</div>
+<div class="no-row-height column-margin column-container"><div class="callout-margin-content">
+<p><img src="phd-thesis.webp" height="200"></p>
+</div></div><div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
       }
     }
-    /*
-     * The vertical scroll position is the same as the number of pixels that
-     * are hidden from view above the scrollable area. Thus, a value > 0 is
-     * how much the user has scrolled from the top
-     */
-    function getCurrentScrollPosition() {
-      return $(window).scrollTop();
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
-
-    function initializeProgressElement() {
-      let navbarHeight = $('#navbar').outerHeight(true);
-      $('body').css({ 'padding-top': navbarHeight });
-      $('progress-container').css({ 'padding-top': navbarHeight });
-      progressBar.css({ top: navbarHeight });
-      progressBar.attr({
-        max: getDistanceToScroll(),
-        value: getCurrentScrollPosition(),
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
     }
-    /*
-     * The offset between the html document height and the browser viewport
-     * height will be greater than zero if vertical scroll is possible.
-     * This is the distance the user can scroll
-     */
-    function getDistanceToScroll() {
-      return $(document).height() - $(window).height();
-    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>© 2024-today Ilario Bonacina ∙ Powered by <a href="https://quarto.org">Quarto</a></p>
+</div>
+  </div>
+</footer>
 
-    function resizeProgressBar() {
-      progressBar.css({ width: getWidthPercentage() + '%' });
-    }
-    // The scroll ratio equals the percentage to resize the bar
-    function getWidthPercentage() {
-      return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
-    }
-  </script>
 
 
-    
 
-    
-
-  </body>
-</html>
+</body></html>
