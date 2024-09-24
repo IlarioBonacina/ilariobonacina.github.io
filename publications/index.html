@@ -82,9 +82,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-co-authors','listing-abstract','listing-journal','listing-year','listing-conference','listing-categories',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-co-authors','listing-abstract','listing-journal','listing-conference','listing-year','listing-categories',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-co-authors","listing-abstract","listing-journal","listing-year","listing-conference","listing-categories"],
+      searchColumns: ["listing-title","listing-co-authors","listing-abstract","listing-journal","listing-conference","listing-year","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -294,18 +294,18 @@ window.Quarto = {
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="small-title">Weighted, Circular and Semi-Algebraic Proofs</span>
+<span class="small-title">Polynomial Calculus for optimization</span>
 </div>
 </div>
 <div class="callout-body-container callout-body">
-joint work with Maria Luisa Bonet, Jordi Levy.<br>
-<a href="https://doi.org/10.1613/jair.1.15075">Journal of Artificial Intelligence Research</a>, 2024 <a href="2024-BBL-jair.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+joint work with Maria Luisa Bonet, Jordi Jevy.<br>
+<a href="https://doi.org/10.1016/j.artint.2024.104208">Artificial Intelligence</a>, 2024 <a href="2024-BBL-aij.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a><br>Preliminary (conference) version: Polynomial Calculus for MaxSAT. <em>In Proceedings of <a href="https://doi.org/10.4230/LIPIcs.SAT.2023.5">SAT</a></em>, 2023 <a href="2023-BBL-sat.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
 <details>
 <summary>
 Abstract
 </summary>
 <p style="text-align: justify;">
-In recent years there has been an increasing interest in studying proof systems stronger than Resolution, with the aim of building more efficient SAT solvers based on them. In defining these proof systems, we try to find a balance between the power of the proof system (the size of the proofs required to refute a formula) and the difficulty of finding the proofs. In this paper we consider the proof systems circular Resolution, Sherali-Adams, Nullstellensatz and Weighted Resolution and we study their relative power from a theoretical perspective. We prove that circular Resolution, Sherali-Adams and Weighted Resolution are polynomially equivalent proof systems. We also prove that Nullstellensatz is polynomially equivalent to a restricted version of Weighted Resolution. The equivalences carry on also for versions of the systems where the coefficients/weights are expressed in unary. The practical interest in these systems comes from the fact that they admit efficient algorithms to find proofs in case these have small width/degree.
+MaxSAT is the problem of finding an assignment satisfying the maximum number of clauses in a CNF formula. We consider a natural generalization of this problem to generic sets of polynomials and propose a weighted version of Polynomial Calculus to address this problem. Weighted Polynomial Calculus is a natural generalization of MaxSAT-Resolution and weighted Resolution that manipulates polynomials with coefficients in a finite field and either weights in <span class="math inline">\(\mathbb N\)</span> or <span class="math inline">\(\mathbb Z\)</span>. We show the soundness and completeness of these systems via an algorithmic procedure. Weighted Polynomial Calculus, with weights in <span class="math inline">\(\mathbb N\)</span> and coefficients in <span class="math inline">\(\mathbb F_2\)</span>, is able to prove efficiently that Tseitin formulas on a connected graph are minimally unsatisfiable. Using weights in <span class="math inline">\(\mathbb Z\)</span>, it also proves efficiently that the Pigeonhole Principle is minimally unsatisfiable.
 </p>
 </details>
 </div>
@@ -332,24 +332,24 @@ Popular redundancy rules for SAT are not necessarily sound for MaxSAT. The works
 </details>
 </div>
 </div>
-<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="small-title">Polynomial Calculus for MaxSAT</span>
+<span class="small-title">Weighted, Circular and Semi-Algebraic Proofs</span>
 </div>
 </div>
 <div class="callout-body-container callout-body">
-joint work with Maria Luisa Bonet, Jordi Jevy.<br>
-<em>In Proceedings of <a href="https://doi.org/10.4230/LIPIcs.SAT.2023.5">SAT</a></em>, 2023 <a href="2023-BBL-sat.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+joint work with Maria Luisa Bonet, Jordi Levy.<br>
+<a href="https://doi.org/10.1613/jair.1.15075">Journal of Artificial Intelligence Research</a>, 2024 <a href="2024-BBL-jair.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
 <details>
 <summary>
 Abstract
 </summary>
 <p style="text-align: justify;">
-MaxSAT is the problem of finding an assignment satisfying the maximum number of clauses in a CNF formula. We consider a natural generalization of this problem to generic sets of polynomials and propose a weighted version of Polynomial Calculus to address this problem. Weighted Polynomial Calculus is a natural generalization of MaxSAT-Resolution and weighted Resolution that manipulates polynomials with coefficients in a finite field and either weights in <span class="math inline">\(\mathbb N\)</span> or <span class="math inline">\(\mathbb Z\)</span>. We show the soundness and completeness of these systems via an algorithmic procedure. Weighted Polynomial Calculus, with weights in <span class="math inline">\(\mathbb N\)</span> and coefficients in <span class="math inline">\(\mathbb F_2\)</span>, is able to prove efficiently that Tseitin formulas on a connected graph are minimally unsatisfiable. Using weights in <span class="math inline">\(\mathbb Z\)</span>, it also proves efficiently that the Pigeonhole Principle is minimally unsatisfiable.
+In recent years there has been an increasing interest in studying proof systems stronger than Resolution, with the aim of building more efficient SAT solvers based on them. In defining these proof systems, we try to find a balance between the power of the proof system (the size of the proofs required to refute a formula) and the difficulty of finding the proofs. In this paper we consider the proof systems circular Resolution, Sherali-Adams, Nullstellensatz and Weighted Resolution and we study their relative power from a theoretical perspective. We prove that circular Resolution, Sherali-Adams and Weighted Resolution are polynomially equivalent proof systems. We also prove that Nullstellensatz is polynomially equivalent to a restricted version of Weighted Resolution. The equivalences carry on also for versions of the systems where the coefficients/weights are expressed in unary. The practical interest in these systems comes from the fact that they admit efficient algorithms to find proofs in case these have small width/degree.
 </p>
 </details>
 </div>
@@ -431,7 +431,7 @@ We prove that for <span class="math inline">\(k \ll 4\sqrt{n}\)</span> regular r
 </div>
 <div class="callout-body-container callout-body">
 joint work with Olaf Beyersdorff, Leroy Chew, Ján Pich.<br>
-<a href="https://doi.org/10.1145/3381881">Journal of the ACM</a>, 2020 <a href="2020-BBCP-jacm.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a><br>Preliminary (conference) version: <em>In Proceedings of <a href="https://doi.org/10.1145/2840728.2840740">ITCS</a></em>, 2016 <a href="2016-BBC-itcs.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<a href="https://doi.org/10.1145/3381881">Journal of the ACM</a>, 2020 <a href="2020-BBCP-jacm.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a><br>Preliminary (conference) version: Lower Bounds: From Circuits to QBF Proof Systems. <em>In Proceedings of <a href="https://doi.org/10.1145/2840728.2840740">ITCS</a></em>, 2016 <a href="2016-BBC-itcs.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
 <details>
 <summary>
 Abstract
@@ -562,7 +562,7 @@ We show quadratic lower bounds on the total space used in resolution refutations
 </div>
 <div class="callout-body-container callout-body">
 joint work with Nicola Galesi.<br>
-<a href="https://doi.org/10.1145/2699438">Journal of the ACM</a>, 2015 <a href="2015-BG-jacm.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a><br>Preliminary (conference) version: <em>In Proceedings of <a href="https://doi.org/10.1145/2422436.2422486">ITCS</a></em>, 2013 <a href="2013-BG-itcs.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<a href="https://doi.org/10.1145/2699438">Journal of the ACM</a>, 2015 <a href="2015-BG-jacm.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a><br>Preliminary (conference) version: Pseudo-partitions, Transversality and Locality: A Combinatorial Characterization for the Space Measure in Algebraic Proof Systems. <em>In Proceedings of <a href="https://doi.org/10.1145/2422436.2422486">ITCS</a></em>, 2013 <a href="2013-BG-itcs.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
 <details>
 <summary>
 Abstract
