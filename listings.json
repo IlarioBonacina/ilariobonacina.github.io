@@ -1,0 +1,42 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/2025_08_SAT/index.html",
+      "/posts/2025_01_BDMM/index.html",
+      "/posts/2024_12_APAL/index.html",
+      "/posts/2024_10_dagstuhl/index.html",
+      "/posts/2024_09_teaching_EDA/index.html",
+      "/posts/2024_09_barcelona/index.html",
+      "/posts/2024_09_oxford/index.html",
+      "/posts/2024_09_AIJ/index.html",
+      "/posts/2024_08_SAT/index.html",
+      "/posts/2024_08_IJCAI/index.html",
+      "/posts/2024_06_RaTtLoC/index.html",
+      "/posts/2024_03_Oberwolfach/index.html",
+      "/posts/2024_02_JAIR/index.html"
+    ]
+  },
+  {
+    "listing": "/publications/index.html",
+    "items": []
+  },
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/posts/2025_08_SAT/index.html",
+      "/posts/2025_01_BDMM/index.html",
+      "/posts/2024_12_APAL/index.html",
+      "/posts/2024_10_dagstuhl/index.html",
+      "/posts/2024_09_teaching_EDA/index.html",
+      "/posts/2024_09_barcelona/index.html",
+      "/posts/2024_09_oxford/index.html",
+      "/posts/2024_09_AIJ/index.html",
+      "/posts/2024_08_SAT/index.html",
+      "/posts/2024_08_IJCAI/index.html",
+      "/posts/2024_06_RaTtLoC/index.html",
+      "/posts/2024_03_Oberwolfach/index.html",
+      "/posts/2024_02_JAIR/index.html"
+    ]
+  }
+]
