@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Ilario Bonacina",
     "section": "",
-    "text": "I’m an Assistant Professor (Profesor Lector) in the Computer Science Department of the UPC Barcelona Tech, a member of the ALBCOM research group and I participate to the PROOFS-BEYOND research project.\nI obtained my PhD in December 2015 at Sapienza University of Rome under the supervision of Prof. Nicola Galesi. Between 2016 and August 2017 I was a postdoctoral researcher at the KTH Royal Institute of Technology hosted by Prof. Jakob Nordström. Since September 2017 I am affiliated with UPC Barcelona Tech, first as a postdoctoral researcher hosted by Prof. Albert Atserias and then supported by a Juan de la Cierva-incorporation fellowship.\nE-mail ilario.bonacina@upc.edu\n\n\nFor students\n\nPlease do not use the email above but the email provided in the course page.\n\nAddress UPC Barcelona Tech Dept. Ciències de la Computació Jordi Girona 1-3, Omega-223 08034 Barcelona SPAIN\nKey research interestsMy research spans over aspects of Theoretical Computer Science, in particular Computational Complexity, Logic in Computer Science, Proof Complexity, SAT-solving, and Optimization.\n\n\nLatest News & Upcoming events\n\n\n\n\n\n\n\n\n\n\nSAT’25\n\n\n\n\n\n\n\n\n\nAug 15, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nBARCELONA DISCRETE MATHEMATICS MEETING 2025 (BDMM)\n\n\n\n\n\n\n\n\n\nJan 30, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew article in APAL\n\n\n\n\n\n\n\n\n\nDec 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nDagsthul Seminar SAT and Interactions\n\n\n\n\n\n\n\n\n\nOct 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Structures and Algorithms (EDA) Course\n\n\n\n\n\n\n\n\n\nSep 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nMathematical Aspects of Learning Theory’24\n\n\n\n\n\n\n\n\n\nSep 9, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "I’m an Assistant Professor (Profesor Lector) in the Computer Science Department of the UPC Barcelona Tech, a member of the ALBCOM research group and I participate to the PROOFS-BEYOND research project.\nI obtained my PhD in December 2015 at Sapienza University of Rome under the supervision of Prof. Nicola Galesi. Between 2016 and August 2017 I was a postdoctoral researcher at the KTH Royal Institute of Technology hosted by Prof. Jakob Nordström. Since September 2017 I am affiliated with UPC Barcelona Tech, first as a postdoctoral researcher hosted by Prof. Albert Atserias and then supported by a Juan de la Cierva-incorporation fellowship.\nE-mail ilario.bonacina@upc.edu\n\n\nFor students\n\nPlease do not use the email above but the email provided in the course page.\n\nAddress UPC Barcelona Tech Dept. Ciències de la Computació Jordi Girona 1-3, Omega-223 08034 Barcelona SPAIN\nKey research interestsMy research spans over aspects of Theoretical Computer Science, in particular Computational Complexity, Logic in Computer Science, Proof Complexity, SAT-solving, and Optimization.\n\n\nLatest News & Upcoming events\n\n\n\n\n\n\n\n\n\n\nSAT’25\n\n\n\n\n\n\n\n\n\nAug 15, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nBARCELONA DISCRETE MATHEMATICS MEETING 2025 (BDMM)\n\n\n\n\n\n\n\n\n\nJan 30, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew article in APAL\n\n\n\n\n\n\n\n\n\nDec 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nDagsthul Seminar SAT and Interactions\n\n\n\n\n\n\n\n\n\nOct 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nMathematical Aspects of Learning Theory’24\n\n\n\n\n\n\n\n\n\nSep 9, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nProof Complexity Workshop\n\n\n\n\n\n\n\n\n\nSep 3, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "students-visitors/index.html",
@@ -63,18 +63,11 @@
     "text": "The article Weighted, Circular and Semi-Algebraic Proofs just appeared in the Journal of Artificial Intelligence Research (JAIR)!\nThis is joint work with Maria Luisa Bonet (UPC) and Jordi Levy (IIIA-CSIC).\nread the article \n\nAbstract\nIn recent years there has been an increasing interest in studying proof systems stronger than Resolution, with the aim of building more efficient SAT solvers based on them. In defining these proof systems, we try to find a balance between the power of the proof system (the size of the proofs required to refute a formula) and the difficulty of finding the proofs.\nIn this paper we consider the proof systems circular Resolution, Sherali-Adams, Nullstellensatz and Weighted Resolution and we study their relative power from a theoretical perspective. We prove that circular Resolution, Sherali-Adams and Weighted Resolution are polynomially equivalent proof systems. We also prove that Nullstellensatz is polynomially equivalent to a restricted version of Weighted Resolution. The equivalences carry on also for versions of the systems where the coefficients/weights are expressed in unary.\nThe practical interest in these systems comes from the fact that they admit efficient algorithms to find proofs in case these have small width/degree.\n\n\n\nBibTeX\n@article{BBL24-JAIR,\n  author       = {Ilario Bonacina and\n                  Maria Luisa Bonet and\n                  Jordi Levy},\n  title        = {Weighted, Circular and Semi-Algebraic Proofs},\n  journal      = {J. Artif. Intell. Res.},\n  volume       = {79},\n  pages        = {447--482},\n  year         = {2024},\n  doi          = {10.1613/JAIR.1.15075}\n}"
   },
   {
-    "objectID": "posts/2024_09_teaching_EDA/index.html",
-    "href": "posts/2024_09_teaching_EDA/index.html",
-    "title": "Data Structures and Algorithms (EDA) Course",
+    "objectID": "posts/2024_10_dagstuhl/index.html",
+    "href": "posts/2024_10_dagstuhl/index.html",
+    "title": "Dagsthul Seminar SAT and Interactions",
     "section": "",
-    "text": "This semester I’m teaching problem classes and labs of Data Structures and Algorithmics.\nIf you are a student you might want to look at https://ilariobonacina.github.io/EDA/.\nEste semestre doy clases de problemas y laboratorios en el curso Estructuras de Datos y Algoritmos.\nSi eres un estudiante, deberías mirar https://ilariobonacina.github.io/EDA/."
-  },
-  {
-    "objectID": "posts/2024_09_oxford/index.html",
-    "href": "posts/2024_09_oxford/index.html",
-    "title": "Proof Complexity Workshop",
-    "section": "",
-    "text": "Between September 3 and September 5, 2024 I was in Oxford (UK) attending the workshop Proof Complexity 2024."
+    "text": "Schloss Dagsthul\n\n\nBetwen October 13 and October 18, 2024 I was participating to my 6th Dagstuhl seminar, the Dagstuhl Seminar 24421 SAT and Interactions."
   },
   {
     "objectID": "posts/2024_06_RaTtLoC/index.html",
@@ -84,11 +77,11 @@
     "text": "Leaning Tower, Pisa\n\n\nBetwen June 14 and June 18, 2024 I was in Pisa (Italy) attending the workshop RaTLoCC 2024 (Ramsey Theory in Logic, Combinatorics and Complexity).\nThis event was hosted in the Math Department of the University of Pisa, my Alma Mater."
   },
   {
-    "objectID": "posts/2024_10_dagstuhl/index.html",
-    "href": "posts/2024_10_dagstuhl/index.html",
-    "title": "Dagsthul Seminar SAT and Interactions",
+    "objectID": "posts/2024_09_oxford/index.html",
+    "href": "posts/2024_09_oxford/index.html",
+    "title": "Proof Complexity Workshop",
     "section": "",
-    "text": "Schloss Dagsthul\n\n\nBetwen October 13 and October 18, 2024 I was participating to my 6th Dagstuhl seminar, the Dagstuhl Seminar 24421 SAT and Interactions."
+    "text": "Between September 3 and September 5, 2024 I was in Oxford (UK) attending the workshop Proof Complexity 2024."
   },
   {
     "objectID": "posts/2025_08_SAT/index.html",
@@ -158,6 +151,6 @@
     "href": "blog/index.html",
     "title": "Blog/All News",
     "section": "",
-    "text": "Welcome! This page logs my participation to conferences, workshops, but also collects talks and notes from 2024-onward.\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nSAT’25\n\n\n\nconferences\n\nslides\n\n\n\n\n\n\n\n\n\n\nAug 15, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nBARCELONA DISCRETE MATHEMATICS MEETING 2025 (BDMM)\n\n\n\nworkshops\n\n\n\n\n\n\n\n\n\n\nJan 30, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew article in APAL\n\n\n\npublications\n\n\n\n\n\n\n\n\n\n\nDec 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nDagsthul Seminar SAT and Interactions\n\n\n\nworkshops\n\n\n\n\n\n\n\n\n\n\nOct 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Structures and Algorithms (EDA) Course\n\n\n\nteaching\n\n\n\n\n\n\n\n\n\n\nSep 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nMathematical Aspects of Learning Theory’24\n\n\n\nconferences\n\n\n\n\n\n\n\n\n\n\nSep 9, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nProof Complexity Workshop\n\n\n\nworkshops\n\n\n\n\n\n\n\n\n\n\nSep 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew article in Artificial Intelligence\n\n\n\npublications\n\n\n\n\n\n\n\n\n\n\nAug 29, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nSAT’24\n\n\n\nconferences\n\n\n\n\n\n\n\n\n\n\nAug 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nIJCAI’24\n\n\n\nconferences\n\n\n\n\n\n\n\n\n\n\nAug 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nRaTLoCC’24\n\n\n\nworkshops\n\n\n\n\n\n\n\n\n\n\nJun 14, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nOberwolfach workshop Proof Complexity and Beyond\n\n\n\nworkshops\n\nslides\n\n\n\n\n\n\n\n\n\n\nMar 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew article in JAIR\n\n\n\npublications\n\n\n\n\n\n\n\n\n\n\nFeb 11, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "Welcome! This page logs my participation to conferences, workshops, but also collects talks and notes from 2024-onward.\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nSAT’25\n\n\n\nconferences\n\nslides\n\n\n\n\n\n\n\n\n\n\nAug 15, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nBARCELONA DISCRETE MATHEMATICS MEETING 2025 (BDMM)\n\n\n\nworkshops\n\n\n\n\n\n\n\n\n\n\nJan 30, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew article in APAL\n\n\n\npublications\n\n\n\n\n\n\n\n\n\n\nDec 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nDagsthul Seminar SAT and Interactions\n\n\n\nworkshops\n\n\n\n\n\n\n\n\n\n\nOct 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nMathematical Aspects of Learning Theory’24\n\n\n\nconferences\n\n\n\n\n\n\n\n\n\n\nSep 9, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nProof Complexity Workshop\n\n\n\nworkshops\n\n\n\n\n\n\n\n\n\n\nSep 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew article in Artificial Intelligence\n\n\n\npublications\n\n\n\n\n\n\n\n\n\n\nAug 29, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nSAT’24\n\n\n\nconferences\n\n\n\n\n\n\n\n\n\n\nAug 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nIJCAI’24\n\n\n\nconferences\n\n\n\n\n\n\n\n\n\n\nAug 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nRaTLoCC’24\n\n\n\nworkshops\n\n\n\n\n\n\n\n\n\n\nJun 14, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nOberwolfach workshop Proof Complexity and Beyond\n\n\n\nworkshops\n\nslides\n\n\n\n\n\n\n\n\n\n\nMar 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew article in JAIR\n\n\n\npublications\n\n\n\n\n\n\n\n\n\n\nFeb 11, 2024\n\n\n\n\n\n\nNo matching items"
   }
 ]
