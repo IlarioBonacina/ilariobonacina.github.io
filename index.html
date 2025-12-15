@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href=".//assets/favicon.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -41,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3a2c503f0262f519094f2aea19c90efb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-88b97b04c7dd5b6c2ce8ba71a7b7a022.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -71,65 +69,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" rel="stylesheet">
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-news .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-news'] = new List('listing-news', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -158,7 +101,7 @@ window.Quarto = {
   <li class="nav-item">
     <a class="nav-link" href="./publications/index.html"> <i class="bi bi-book" role="img">
 </i> 
-<span class="menu-text">Publications</span></a>
+<span class="menu-text">Publications/Research</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./teaching/index.html"> <i class="bi bi-chat-left-text-fill" role="img">
@@ -212,171 +155,19 @@ window.Quarto = {
 </div></div><div style="text-align: justify;">
 <p>I’m an <em>Assistant Professor</em> (Profesor Lector) in the <a href="https://www.fib.upc.edu/en">Computer Science Department</a> of the <a href="https://www.upc.edu/en?set_language=en">UPC Barcelona Tech</a>, a member of the <a href="https://albcom.cs.upc.edu">ALBCOM</a> research group and I participate to the PROOFS-BEYOND research project.</p>
 <p>I obtained my PhD in December 2015 at Sapienza University of Rome under the supervision of Prof.&nbsp;<a href="https://sites.google.com/diag.uniroma1.it/nicolagalesi">Nicola Galesi</a>. Between 2016 and August 2017 I was a postdoctoral researcher at the KTH Royal Institute of Technology hosted by Prof.&nbsp;<a href="https://jakobnordstrom.se">Jakob Nordström</a>. Since September 2017 I am affiliated with UPC Barcelona Tech, first as a postdoctoral researcher hosted by Prof.&nbsp;<a href="https://www.cs.upc.edu/~atserias/">Albert Atserias</a> and then supported by a <em>Juan de la Cierva-incorporation</em> fellowship.</p>
-<span class="small-title">E-mail <i class="fa-solid fa-envelope" aria-label="envelope"></i></span><br>ilario.bonacina@upc.edu
-<details>
-<summary>
-For students
-</summary>
-Please <strong>do not</strong> use the email above but the email provided in the course page. Or <a href="https://calendar.app.google/VuaH5K2tptn94XP87">click here</a> to book some office time directly.
-</details>
-<p><span class="small-title">Address <i class="fa-solid fa-location-dot" aria-label="location-dot"></i></span><br>UPC Barcelona Tech<br> Dept. Ciències de la Computació<br> Jordi Girona 1-3, Omega-223<br> 08034 Barcelona SPAIN</p>
-<p><span class="small-title">Key research interests</span><br>My research spans over aspects of Theoretical Computer Science, in particular Computational Complexity, Logic in Computer Science, Proof Complexity, SAT-solving, and Optimization.</p>
-</div>
-<section id="latest-news-upcoming-events" class="level3">
-<h3 class="anchored" data-anchor-id="latest-news-upcoming-events">Latest News &amp; Upcoming events</h3>
-<div id="listing-news" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Y29uZmVyZW5jZXMlMkNzbGlkZXM=" data-listing-date-sort="1755208800000" data-listing-file-modified-sort="1755595858918" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="191">
-<a href="./posts/2025_08_SAT/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2025_08_SAT/glasgow.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-SAT’25
-</h5>
-<div class="card-text listing-description delink">
-The works <em>Redundancy rules for MaxSAT <iconify-icon inline="" icon="flat-color-icons:reading" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></em> (joint work with Maria Luisa Bonet, Sam Buss and Massimo Lauria), <em>Semi-Algebraic Proof Systems for QBF <iconify-icon inline="" icon="flat-color-icons:reading" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></em> (joint work with Olaf…<em><iconify-icon inline="" icon="flat-color-icons:reading" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></em>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><span class="small-title"><i class="fa-solid fa-envelope" aria-label="envelope"></i> E-mail</span><br>ilario.bonacina@upc.edu<br>
+<strong>For students:</strong> Please <strong>do not</strong> use the email above but the email provided in the course page. Or <a href="https://calendar.app.google/VuaH5K2tptn94XP87">click here</a> to book some office time directly.</p>
+</div><div class="column" style="width:10%;">
 
-</div>
-<div class="listing-date">
-Aug 15, 2025
-</div>
+</div><div class="column" style="width:40%;">
+<p><span class="small-title"><i class="fa-solid fa-location-dot" aria-label="location-dot"></i> Address</span><br>UPC Barcelona Tech<br> Dept. Ciències de la Computació<br> Jordi Girona 1-3, Omega-223<br> 08034 Barcelona SPAIN</p>
 </div>
 </div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="d29ya3Nob3Bz" data-listing-date-sort="1738191600000" data-listing-file-modified-sort="1746010190325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
-<a href="./posts/2025_01_BDMM/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2025_01_BDMM/BDMM.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-BARCELONA DISCRETE MATHEMATICS MEETING 2025 (BDMM)
-</h5>
-<div class="card-text listing-description delink">
-The <strong>Barcelona Discrete Mathematics Meeting</strong> (BDMM) is a new initiative organized by members of seven research groups in Barcelona working in different areas of Discrete…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Jan 30, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="cHVibGljYXRpb25z" data-listing-date-sort="1733785200000" data-listing-file-modified-sort="1746010190324" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="158">
-<a href="./posts/2024_12_APAL/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2024_12_APAL/apal.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-New article in APAL
-</h5>
-<div class="card-text listing-description delink">
-The article Strength and limitations of Sherali-Adams and Nullstellensatz proof systems just appeared in the Annals of Pure and Applied Logic (APAL)!
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Dec 10, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="d29ya3Nob3Bz" data-listing-date-sort="1728684000000" data-listing-file-modified-sort="1746010190322" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="27">
-<a href="./posts/2024_10_dagstuhl/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2024_10_dagstuhl/dagstuhl-large.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Dagsthul Seminar<br> <em>SAT and Interactions</em>
-</h5>
-<div class="card-text listing-description delink">
-Betwen October 13 and October 18, 2024 I was participating to my 6th Dagstuhl seminar, the Dagstuhl Seminar 24421 <em>SAT and Interactions</em>.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Oct 12, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="Y29uZmVyZW5jZXM=" data-listing-date-sort="1725832800000" data-listing-file-modified-sort="1746010190321" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="35">
-<a href="./posts/2024_09_barcelona/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2024_09_barcelona/barcelona.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Mathematical Aspects of Learning Theory’24
-</h5>
-<div class="card-text listing-description delink">
-Between September 9 and September 13, 2024 I was attending the conference Mathematical Aspects of Learning Theory - 20 Years Later organized by the Centre de Recerca…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Sep 9, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="d29ya3Nob3Bz" data-listing-date-sort="1725314400000" data-listing-file-modified-sort="1746010190321" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="22">
-<a href="./posts/2024_09_oxford/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2024_09_oxford/oxford.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Proof Complexity Workshop
-</h5>
-<div class="card-text listing-description delink">
-Between September 3 and September 5, 2024 I was in Oxford (UK) attending the workshop Proof Complexity 2024.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Sep 3, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
 </div>
 
 
-
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
