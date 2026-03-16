@@ -1,0 +1,122 @@
+---
+title: From DFAs to regular expressions (Arden's Rule)
+format:
+  html:
+    filters:
+      - callouty-theorem
+callouty-theorem:
+    proof:
+        override-title: true
+        callout:
+            type: tip
+            appearance: minimal
+            collapse: true
+            icon: true
+---
+
+Given a DFA $A$, Arden's lemma (below) gives a way to construct a regular expression $r$ s.t. $\mathscr{L}(r)=\mathscr{L}(A)$. The same approach adapts naturally to $\lambda$-NFAs but for simplicity we describe it for DFAs.
+
+:::{#lem-arden}
+## Arden's lemma
+Given $A,B\subseteq \Sigma^*$, consider the equation 
+$$
+X=A X\cup B\ ,
+$${#eq-arden}
+then $X=A^* B$ is the smallest solution of [@eq-arden].  
+If $\lambda\notin A$ then, this is the only solution.
+If $\lambda\in A$, then for every $C\subseteq \Sigma^*$, $X=A^*(B\cup C)$ is a solution of [@eq-arden].
+
+:::{.proof}
+First we check that $A^* B$ is always a solution of [@eq-arden]:
+$$
+A(A^* B)\cup B = A^+ B\cup B = (A^+\cup \{\lambda\}) B = A^* B\ .
+$$
+If $L$ is a solution of [@eq-arden], we show, by induction on $n$ that $L\supseteq A^nB$. This implies immediately that $L\supseteq A^*B$.
+
+Base case ($n=0$): $L=AL\cup B$, so in particular $L\supseteq B=A^0B$.  
+Inductive case: if $L\supseteq A^nB$, then $L=AL\cup B\supseteq AA^nB=A^{n+1}B$.
+
+Hence $X=A^*B$ is the smallest (w.r.t. inclusion) solution of [@eq-arden].
+
+If $\lambda\in A$, then 
+$$
+A(A^*(B\cup C))=A^+(B\cup C)\stackrel{\lambda\in A}{=}A^*(B\cup C)\ ,
+$$
+for every language $C\subseteq \Sigma^*$.
+
+If $\lambda \notin A$, assume $L$ is a solution of [@eq-arden] but, for sake of contradiction, $L\neq A^*B$. Since every solution must contain $A^*B$, it must be the case that $L\not\subseteq A^*B$. Let $w$ be the shortest word in $L$ but not in $A^*B$. Since $L$ is a solution of [@eq-arden], then $w\in AL\cup B$. But clearly $w\notin B$ (since $B\subseteq A^*B$ and $w\notin A^*B$), hence $w\in AL$. This means $w=w^\prime w^{\prime\prime}$ with $w^\prime\in A$ and $w^{\prime\prime}\in L$. Since $\lambda\notin A$, then $|w^\prime|>0$ and $|w^{\prime\prime}|<|w|$. 
+
+We have now that $w^{\prime\prime}\in L$ but $w^{\prime\prime}\notin A^*B$, otherwise $w\in A^*B$. This is a contradiction, since we assumed $w$ to be the shortest word in $L\setminus A^*B$.
+:::
+:::
+
+Let $A=(S,Q,\delta,q_0,F)$ be a DFA ($S$ is the alphabet). For each $q_j\in Q$, let $X_j$ be the language of all words that would be accepted by $A$ if $q_j$ were the initial state (instead of $q_0$). 
+Notice that
+$$
+X_j=
+\begin{cases}
+\displaystyle
+\bigcup_{\substack{s\in S\\\delta(q_j,s)=q_i}} \{s\}X_i&\text{ if } q_j\notin F\ ,
+\\
+\displaystyle
+\{\lambda\}\cup \bigcup_{\substack{s\in S\\\delta(q_j,s)=q_i}} \{s\}X_i &\text{ if } q_j\in F\ .
+\end{cases}
+$${#eq-Xj}
+This give a system of equations where the variables are $X_j$ and with Arden's lemma we can find a way to express each $X_j$ only using unions, concatenations, and Kleene stars, that is we have found a regular expression for it. 
+This is analogous to the way to solve linear equations by eliminating variables. This analogy is even more clear if we write down [@eq-Xj] using the notation for regular expressions:
+$$
+X_j=
+\begin{cases}
+\displaystyle
+\sum_{\substack{s\in S\\\delta(q_j,s)=q_i}} sX_i&\text{ if } q_j\notin F\ ,
+\\
+\displaystyle
+\lambda+ \sum_{\substack{s\in S\\\delta(q_j,s)=q_i}} sX_i &\text{ if } q_j\in F\ .
+\end{cases}
+$$
+Therefore, to find a regular expression for $\mathscr{L}(A)$ we just need to solve the system above and the regular expression for $X_0$ gives the answer.
+
+:::{#exm-first}
+Consider the language $L=\{w\in \{a,b\}^* \mid |w|_a\in 2\mathbb N\}$. The minimal DFA recognizing it is the following and the system of equations associated to it is
+
+$$
+\left\{
+\begin{align*}
+X_0 &= \{b\}X_0\cup \{a\}X_1\cup\{\lambda\}\\
+X_1 &= \{b\}X_1\cup \{a\}X_0
+\end{align*}
+\right.
+$$
+Since in the end we are interested into giving a regular expression usually the system above is written directly as equations on regular expressions 
+$$
+\left\{
+\begin{align*}
+X_0 &= bX_0+ aX_1+\lambda\\
+X_1 &= bX_1+ aX_0
+\end{align*}
+\right.
+$$
+We can apply Arden's rule to both equations, but since in the end we are interested into writing down a regular expression for $X_0$ let's use the rule on the second equation:
+
+$$
+X_1=b^*aX_0\ ,
+$$
+and substitute it into the first:
+$$
+\begin{align*}
+X_0 &= bX_0+ ab^*aX_0+\lambda 
+\\
+& =(b+ab^*a)X_0+\lambda\ .
+\end{align*}
+$$
+Applying Arden's rule again we get
+$$
+\begin{align*}
+X_0 &= (b+ab^*a)^*\lambda
+\\
+&= (b+ab^*a)^*\ .
+\end{align*}
+$$
+Hence we got a regular expression for $L$: $(b+ab^*a)^*$.
+$\diamond$
+:::
