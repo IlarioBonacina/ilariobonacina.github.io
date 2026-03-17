@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-03-17">
 
-<title>Pumping lemma for context-free languages – Ilario Bonacina</title>
+<title>Depuration of context-free grammars – Ilario Bonacina</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -173,7 +172,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Pumping lemma for context-free languages</h1>
+<h1 class="title">Depuration of context-free grammars</h1>
 </div>
 
 
@@ -181,12 +180,6 @@ window.Quarto = {
 <div class="quarto-title-meta">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">Date</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">March 17, 2026</p>
-    </div>
-  </div>
   
     
   </div>
@@ -196,139 +189,57 @@ window.Quarto = {
 </header>
 
 
-<div id="thm-anbncn_not_context_free" class="theorem">
-<p><span class="theorem-title"><strong>Theorem 1</strong></span> The language <span class="math inline">\{a^nb^nc^n \mid n\in \mathbb N\}</span> is not a context-free language.</p>
-</div>
-<div class="callout callout-style-simple callout-tip no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<p>Given a context-free grammar <span class="math inline">G=(V,T,\mathcal P,S)</span>, the term <em>depuration</em> refers to the process of constructing an equivalent grammar <span class="math inline">G'</span> more structured and without clealy redundant variables.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Removing <em>useless</em> variables</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Removing all <span class="math inline">A\to \lambda</span></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Removing all <span class="math inline">A\to B</span></a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p>A variable of <span class="math inline">G</span> is useful if it is involved in a production of a string of <em>only</em> terminal symbols, that is a variable is useful if it is <em>reachable</em> from <span class="math inline">S</span> and it is <em>productive</em>.</p>
+<p>We can define the <em>reachable</em> variables recursively follows: <span class="math inline">S</span> is reachable from <span class="math inline">S</span> (clearly), and if <span class="math inline">A</span> is reachable and we have a rule <span class="math inline">A\to \alpha</span> with <span class="math inline">\alpha\in (V\cup T)^*</span> then all the variables in <span class="math inline">\alpha</span> are also reachable. Once we identified the reachable variables <span class="math inline">R\subseteq T</span>, we can then remove all the the productions <span class="math inline">B\to \beta</span> with <span class="math inline">B\notin R</span>.</p>
+<p>We can define <em>productive</em> variables as the ones that eventually are able to generate a terminal string. The definition is recursive similar to the one before: if <span class="math inline">A\to \alpha</span> and <span class="math inline">\alpha\in T^*</span>, then <span class="math inline">A</span> is productive; if <span class="math inline">A\to\alpha</span> with <span class="math inline">\alpha\in (V\cup T)^*</span> and every variable in <span class="math inline">\alpha</span> is productive, then <span class="math inline">A</span> is productive. Once we identified the productive variables <span class="math inline">R\subseteq T</span>, we can then remove all the the productions <span class="math inline">B\to \beta</span> with <span class="math inline">B\notin R</span> or with some variable in <span class="math inline">\beta</span> not in <span class="math inline">R</span>.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Proof (click to expand)
+Warning
 </div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>We prove this by contradiction. Suppose <span class="math inline">L=\{a^nb^nc^n \mid n\in \mathbb N\}</span> was context-free and let <span class="math inline">G</span> a context-free grammar generating it. Since every context-free grammar can be put in Chomsky Normal Form we can assume w.l.o.g. that <span class="math inline">G</span> is in Chomsky Normal Form. The crucial point of having the grammar in Chomsky Normal Form is that the parse trees are binary trees. Hence, in particular, to generate a word <span class="math inline">w</span> the parse tree <em>must</em> have depth at least <span class="math inline">\log_2|w|</span>.</p>
-<p>The idea of the argument is similar to the one for the regular languages: start with a <em>very long</em> word in <span class="math inline">L</span>, which the grammar hence must generate, and show that we can construct another word not in <span class="math inline">L</span> which <span class="math inline">G</span> also generates.</p>
-<p>Let <span class="math inline">N</span> be the number of non-terminals of <span class="math inline">G</span>. Take the word <span class="math inline">z=a^{2^N}b^{2^N}c^{2^N}</span>. The parse tree for <span class="math inline">z</span> must have depth at least <span class="math inline">\log_2|a^{2^N}b^{2^N}c^{2^N}|&gt;N+1</span>. So there is a root-to-leaf path <span class="math inline">\pi</span> in the tree mentioning at least <span class="math inline">N+1</span> non-terminals. By the pigeonhole principle, there must be a non-terminal which appears in <span class="math inline">\pi</span> at least twice. There might be more than one non-terminal that repeats multiple times or one that repeats more than twice. Choose as repeated terminal the first occurrence of a repetition in <span class="math inline">\pi</span> scanning it <em>from the leaf</em>. Let <span class="math inline">A</span> be this non-terminal. The bottom-most occurrence of <span class="math inline">A</span> and occurrence of <span class="math inline">A</span> immediately before that in <span class="math inline">\pi</span> give 3 trees inside the parsing tree for <span class="math inline">z</span>:</p>
+<p>The order in which we perform the operations matters. Consider the grammar <span class="math display">
+\begin{align*}
+S&amp;\to AB \mid a\\
+B&amp;\to b
+\end{align*}
+</span> if we remove first the unreachable and then the unproductive variables you still get a grammar with useless symbols. <strong>You need first to remove the unproductive variables, and then the unreachable ones.</strong></p>
+</div>
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>A production of the form <span class="math inline">A\to \lambda</span> is a <em><span class="math inline">\lambda</span>-production</em>.</p>
+<p>A variable <span class="math inline">A</span> is <em>nullable</em> if it can derive the empty word <span class="math inline">\lambda</span>. We can define recursively nullable variables: if <span class="math inline">A\to \lambda</span> is a production, then <span class="math inline">A</span> is nullable; if <span class="math inline">A\to\alpha</span> and <span class="math inline">\alpha\in V^*</span> with <em>all</em> the variables in <span class="math inline">\alpha</span> nullable then <span class="math inline">A</span> is also nullable.</p>
+<p>Once we identified the nullable variables, we can then remove all productions of the form <span class="math inline">A\to \lambda</span> (with <span class="math inline">A\neq S</span>), and for every production <span class="math inline">A\to \alpha B\beta</span> with <span class="math inline">B</span> nullable, add the production <span class="math inline">A\to \alpha\beta</span>, and keep symplifying the new set of productions. Unless <span class="math inline">A=S</span>, never write productions <span class="math inline">A\to\lambda</span> that might occur.</p>
+<p>For example removing the <span class="math inline">\lambda</span>-productions from the grammar <span class="math display">
+\begin{align*}
+S&amp;\to ABC \mid \lambda\\
+A&amp;\to \lambda\\
+B&amp;\to\lambda\\
+C&amp;\to\lambda
+\end{align*}
+</span> gives the grammar <span class="math inline">S\to ABC \mid AB \mid AC \mid BC \mid A \mid B \mid C \mid \lambda</span>.</p>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<p>A production of the form <span class="math inline">A\to B</span> is called <em>unit</em> production. The variable <span class="math inline">A</span> is clearly redundant, its only job is to get expanded into <span class="math inline">B</span>. Productions of the form <span class="math inline">A\to a</span> where <span class="math inline">a</span> is a terminal <strong>are not</strong> unit productions. The technique to remove all unit productions that simply expands them until they disappear often works but not always. Conside for instance the productions <span class="math inline">A\to B,\ B\to C,\ C\to A</span>. What works is the following:</p>
 <ul>
-<li>the one rooted at the starting symbol (<span class="math inline">T_0</span>);</li>
-<li>the one rooted at the bottom-most occurrence of <span class="math inline">A</span> (<span class="math inline">T_1</span>);</li>
-<li>the one rooted at the occurrence of <span class="math inline">A</span> immediately before that (<span class="math inline">T_2</span>).</li>
+<li>find all <em>unit</em> pairs, i.e.&nbsp;pairs of variables <span class="math inline">(A,B)</span> where <span class="math inline">B</span> can be derived from <span class="math inline">A</span>. For example <span class="math inline">(A,B)</span> are a unit pair in the grammar <span class="math inline">A\to BC,\ C\to \lambda</span>. As for the other cases, there is an inductive construction of unit pairs: for each variable <span class="math inline">A</span>, <span class="math inline">(A,A)</span> is a unit pair; and if <span class="math inline">(A,B)</span> is a unit pair and <span class="math inline">B\to C</span> is a production, the <span class="math inline">(A,C)</span> is also a unit pair.</li>
+<li>for each unit pair <span class="math inline">(A,B)</span> add all the productions <span class="math inline">A\to \alpha</span> to <span class="math inline">G'</span>, where <span class="math inline">B\to \alpha</span> is a nonunit production in <span class="math inline">\mathcal P</span>. For the unit pair <span class="math inline">(A,A)</span> we add as productions in <span class="math inline">G'</span> all nonunit productions of <span class="math inline">A</span>.</li>
 </ul>
-<p>This partitions <span class="math inline">z</span> naturally into 5 parts, <span class="math inline">z=uvwxy</span>:</p>
-<ul>
-<li><span class="math inline">u</span> and <span class="math inline">y</span> are the parts of <span class="math inline">z</span> belonging to <span class="math inline">T_0</span> but not <span class="math inline">T_1</span> (<span class="math inline">u</span> at the left and <span class="math inline">y</span> at the right);</li>
-<li><span class="math inline">v</span> and <span class="math inline">x</span> are the parts of <span class="math inline">z</span> belonging to <span class="math inline">T_1</span> but not <span class="math inline">T_2</span> (<span class="math inline">v</span> at the left and <span class="math inline">x</span> at the right);</li>
-<li><span class="math inline">w</span> is the part of <span class="math inline">z</span> that belongs to <span class="math inline">T_2</span>.</li>
-</ul>
-<p>See <a href="#fig-pumping" class="quarto-xref">Figure&nbsp;1</a> below for a diagram representing <span class="math inline">T_0,T_1,T_2</span> and <span class="math inline">uvwxy</span>.</p>
-<div id="fig-pumping" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-pumping-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="pumping_lemma_for_CFGs_files/mediabag/9f75afd585c981270c5ec09ae3283f4fd79013af.svg" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pumping-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: The decomposition induced by the two repeated variables <span class="math inline">A</span>.
-</figcaption>
-</figure>
-</div>
-<p>Now, we can take the tree <span class="math inline">T_1</span> and place it at the root of <span class="math inline">T_2</span> over and over. This gives valid productions in <span class="math inline">G</span> for all the words of the form <span class="math inline">uv^iwx^iy</span>, for each <span class="math inline">i\in \mathbb N</span>.</p>
-<p>See <a href="#fig-pumping-down" class="quarto-xref">Figure&nbsp;2</a> and <a href="#fig-pumping-up" class="quarto-xref">Figure&nbsp;3</a> for a diagram representing the parsing tree resulting from <span class="math inline">i=0</span> and <span class="math inline">i=2</span>.</p>
-<div id="fig-pumping-down" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-pumping-down-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="pumping_lemma_for_CFGs_files/mediabag/896076dd6868fd229d1e38c0679bdac80eca08da.svg" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pumping-down-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2: The diagram corresponding to pumping with <span class="math inline">i=0</span>.
-</figcaption>
-</figure>
-</div>
-<div id="fig-pumping-up" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-pumping-up-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="pumping_lemma_for_CFGs_files/mediabag/98de9d1439d25c0c79be16a6a66cc92254ea9d8a.svg" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pumping-up-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;3: The diagram corresponding to pumping with <span class="math inline">i=2</span>.
-</figcaption>
-</figure>
-</div>
-<p>What do we know about <span class="math inline">u,v,w,x,y</span>? By the choice of <span class="math inline">A</span>, the depth of <span class="math inline">T_1</span> is at most <span class="math inline">N</span> and hence <span class="math inline">|vwx|\leq 2^N</span>. Moreover, since the parsing tree is binary, <span class="math inline">T_1\neq T_2</span>, which means <span class="math inline">|vx|\geq 1</span>.</p>
-<p>We can take <span class="math inline">i=0</span>, that is the word <span class="math inline">uwy</span> and show it cannot belong to <span class="math inline">L</span>. Since <span class="math inline">|vwx|\leq 2^N</span> this word cannot mention <span class="math inline">a</span>s, <span class="math inline">b</span>s, and <span class="math inline">c</span>s at the same time. No matter what <span class="math inline">vwx</span> is there is always at least one symbol <span class="math inline">s\in \{a,b,c\}</span> not mentioned in <span class="math inline">vwx</span> and hence modifying <span class="math inline">vwx</span> into <span class="math inline">w</span> will not change the <span class="math inline">s^{2^N}</span> part of <span class="math inline">z</span>. But <span class="math inline">|vx|\geq 1</span>, so going from <span class="math inline">vwx</span> to <span class="math inline">w</span> we removed at least one symbol different from <span class="math inline">s</span>. Hence it is impossible that <span class="math inline">uwy</span> has the form <span class="math inline">a^kb^kc^k</span> for some <span class="math inline">k</span>, that is <span class="math inline">uwy\notin L</span>. Contradiction.</p>
 </div>
 </div>
 </div>
-<p>The argument used to prove <a href="#thm-anbncn_not_context_free" class="quarto-xref">Theorem&nbsp;1</a> can be abstracted to the following statement which is known as the <em>pumping lemma for context-free languages</em>.</p>
-<p>If we can show that<br>
-<em>for every <span class="math inline">n\in \mathbb N</span> there exists a word <span class="math inline">z\in L</span> with <span class="math inline">|z|\geq n</span> s.t. for every possible decomposition of <span class="math inline">z</span> as <span class="math inline">z=uvwxy</span> with <span class="math inline">|vwx|\leq n</span> and <span class="math inline">|vx|\geq 1</span>, there exists <span class="math inline">i\in \mathbb N</span> s.t. <span class="math inline">uv^iwx^iy\notin L</span></em>,<br>
-then <span class="math inline">L</span> is not a context-free language.</p>
-<p>As for the pumping lemma for regular languages, the use of the pumping lemma for context-free languages is essentially describing a winning strategy for the following game. Given a language we want to prove is not context-free:</p>
-<ul>
-<li>the “<em>adversary</em>” picks <span class="math inline">n\in \mathbb N</span>;</li>
-<li><span class="orange">we choose a word <span class="math inline">z\in L</span> with <span class="math inline">|z|\geq n</span> (as a function of <span class="math inline">n</span>)</span>;</li>
-<li>the adversary chooses <span class="math inline">u,v,w,x,y</span> s.t.
-<ul>
-<li><span class="math inline">z=uvwxy</span></li>
-<li><span class="math inline">|vwx|\leq n</span></li>
-<li><span class="math inline">|vx|\geq 1</span></li>
-</ul></li>
-<li><span class="orange">we choose <span class="math inline">i\in \mathbb N</span> (as a function of <span class="math inline">n,u,v,w,x,y</span>)</span></li>
-<li>if <span class="orange">we prove that <span class="math inline">uv^iwx^iy\notin L</span></span> we win (<em>i.e.</em> we proved <span class="math inline">L</span> is not context-free).</li>
-</ul>
-<p>Hence a “template” for a proof using the pumping lemma for context-free languages is as follow:</p>
-<blockquote class="blockquote">
-<p>We prove that <span class="math inline">L</span> is not context-free using the pumping lemma for context-free languages. Let <span class="math inline">n</span> be the pumping-lemma contant. Consider the word <span class="orange"><span class="math inline">z=....</span></span>. We have that <span class="math inline">|z|\geq n</span> and <span class="math inline">z\in L</span> <span class="orange">(this needs an argument, possibly trivial, but you need to check it)</span>. Given a decomposition of <span class="math inline">z</span> as <span class="math inline">z=uvwxy</span>, with <span class="math inline">|vwx|\leq n</span> and <span class="math inline">|vx|\geq 1</span>, consider <span class="orange"><span class="math inline">i=....</span></span>. We prove that <span class="math inline">uv^iwx^iy\notin L</span> <span class="orange">(this needs an argument, usually quite non-trivial)</span>.</p>
-</blockquote>
-<p>As an example, see how the template is filled following the argument we saw for <a href="#thm-anbncn_not_context_free" class="quarto-xref">Theorem&nbsp;1</a>:</p>
-<blockquote class="blockquote">
-<p>We prove that <span class="math inline">L</span> is not context-free using the pumping lemma for context-free languages. Let <span class="math inline">n</span> be the pumping-lemma contant. Consider the word <span class="orange"><span class="math inline">z=a^nb^nc^n</span></span>. <span class="orange">It is immediate to check</span> that <span class="math inline">|z|\geq n</span> and <span class="math inline">z\in L</span>. Given a decomposition of <span class="math inline">z</span> as <span class="math inline">z=uvwxy</span>, with <span class="math inline">|vwx|\leq n</span> and <span class="math inline">|vx|\geq 1</span>, consider <span class="orange"><span class="math inline">i=0</span></span>. We prove that <span class="math inline">uv^iwx^iy\notin L</span>. <span class="orange">Since <span class="math inline">|vwx|\leq n</span> this word cannot mention <span class="math inline">a</span>s, <span class="math inline">b</span>s, and <span class="math inline">c</span>s at the same time. No matter what <span class="math inline">vwx</span> is there is always at least one symbol <span class="math inline">s\in \{a,b,c\}</span> not mentioned in <span class="math inline">vwx</span> and hence modifying <span class="math inline">vwx</span> into <span class="math inline">w</span> will not change the <span class="math inline">s^n</span> part of <span class="math inline">z</span>. But <span class="math inline">|vx|\geq 1</span>, so going from <span class="math inline">vwx</span> to <span class="math inline">w</span> we removed at least one symbol different from <span class="math inline">s</span>. Hence it is impossible that <span class="math inline">uwy</span> has the form <span class="math inline">a^kb^kc^k</span> for some <span class="math inline">k</span>, that is <span class="math inline">uwy\notin L</span>.</span></p>
-</blockquote>
-<p>Although the overall structure is similar, usually applications of the pumping-lemma for context-free languages require a more detailed case analysis than the pumping lemma for regular languages. This typicaly leads to quite “inelegant” proofs, and as in the case of regular languages often it is possible to prove the non-context-freenes of languages using closure properties and the known fact that some notable language is not context-free.</p>
-<div id="cor-" class="theorem corollary">
-<p><span class="theorem-title"><strong>Corollary 1</strong></span> The language <span class="math inline">\{w\in \{a,b,c\} \mid |w|_a=|w|_b=|w|_c\}</span> is not context-free.</p>
-</div>
-<div class="callout callout-style-simple callout-tip no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Proof (click to expand)
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>The set of context-free languages is closed under intersection with a regular language, that is if <span class="math inline">A</span> is context-free and <span class="math inline">B</span> is regular then <span class="math inline">A\cap B</span> is also context-free. If <span class="math inline">L=\{w\in \{a,b,c\} \mid |w|_a=|w|_b=|w|_c\}</span> was a context free language, then <span class="math display">
-L\cap \mathscr{L}(a^*b^*c^*)=\{a^nb^nc^n\mid n\in \mathbb N\}
-</span> would also be context-free. The language <span class="math inline">\mathscr{L}(a^*b^*c^*)</span> is obviously regular (we wrote a regular expression for it). This contradicts <a href="#thm-anbncn_not_context_free" class="quarto-xref">Theorem&nbsp;1</a>, hence <span class="math inline">L</span> cannot be a context-free language.</p>
-</div>
-</div>
-</div>
-<p>Another consequence of <a href="#thm-anbncn_not_context_free" class="quarto-xref">Theorem&nbsp;1</a> is for instance that the set of context-free languages is not closed under intersection.</p>
-<div id="cor-" class="theorem corollary">
-<p><span class="theorem-title"><strong>Corollary 2</strong></span> The set of context-free languages is not closed under intersection.</p>
-</div>
-<div class="callout callout-style-simple callout-tip no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Proof (click to expand)
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-3" class="callout-3-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>The two languages <span class="math inline">\{a^nb^mc^m\mid n,m\in \mathbb N\}</span> and <span class="math inline">\{a^mb^mc^n\mid n,m\in \mathbb N\}</span> are context-free and their intersection is the language <span class="math inline">\{a^nb^nc^n\mid n\in \mathbb N\}</span>. By <a href="#thm-anbncn_not_context_free" class="quarto-xref">Theorem&nbsp;1</a> this is not context-free, so the set of context-free languages cannot be closed under intersection.</p>
-</div>
-</div>
+<div id="thm-" class="theorem">
+<p><span class="theorem-title"><strong>Theorem 1</strong></span> There is an order in which to apply the removal of useless variables, <span class="math inline">\lambda</span>-productions, and unit production to obtain an equivalent grammar. <span class="orange">What is this order?</span></p>
 </div>
 <p><a href="javascript:history.back()"><iconify-icon inline="" icon="twemoji:back-arrow" style="font-size: 2em;" aria-label="Icon back-arrow from twemoji Iconify.design set." title="Icon back-arrow from twemoji Iconify.design set."></iconify-icon></a></p>
 
