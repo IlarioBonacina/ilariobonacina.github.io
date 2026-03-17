@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-03-17">
 
 <title>Depuration of context-free grammars – Ilario Bonacina</title>
 <style>
@@ -180,6 +181,12 @@ window.Quarto = {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Date</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 17, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -235,11 +242,29 @@ C&amp;\to\lambda
 <li>find all <em>unit</em> pairs, i.e.&nbsp;pairs of variables <span class="math inline">(A,B)</span> where <span class="math inline">B</span> can be derived from <span class="math inline">A</span>. For example <span class="math inline">(A,B)</span> are a unit pair in the grammar <span class="math inline">A\to BC,\ C\to \lambda</span>. As for the other cases, there is an inductive construction of unit pairs: for each variable <span class="math inline">A</span>, <span class="math inline">(A,A)</span> is a unit pair; and if <span class="math inline">(A,B)</span> is a unit pair and <span class="math inline">B\to C</span> is a production, the <span class="math inline">(A,C)</span> is also a unit pair.</li>
 <li>for each unit pair <span class="math inline">(A,B)</span> add all the productions <span class="math inline">A\to \alpha</span> to <span class="math inline">G'</span>, where <span class="math inline">B\to \alpha</span> is a nonunit production in <span class="math inline">\mathcal P</span>. For the unit pair <span class="math inline">(A,A)</span> we add as productions in <span class="math inline">G'</span> all nonunit productions of <span class="math inline">A</span>.</li>
 </ul>
+<p>For example, removing the unit rules from the grammar <span class="math display">
+\begin{align*}
+S&amp;\to X_1\\
+X_1&amp;\to X_2\\
+\vdots &amp;\\
+X_{n-1} &amp;\to X_n\\
+X_n&amp;\to w
+\end{align*}
+</span> with <span class="math inline">w</span> terminal word, gives the grammar</p>
+<p><span class="math display">
+\begin{align*}
+S&amp;\to w\\
+X_1&amp;\to w\\
+\vdots &amp;\\
+X_{n-1} &amp;\to w\\
+X_n&amp;\to w
+\end{align*}
+</span></p>
 </div>
 </div>
 </div>
 <div id="thm-" class="theorem">
-<p><span class="theorem-title"><strong>Theorem 1</strong></span> There is an order in which to apply the removal of useless variables, <span class="math inline">\lambda</span>-productions, and unit production to obtain an equivalent grammar. <span class="orange">What is this order?</span></p>
+<p><span class="theorem-title"><strong>Theorem 1</strong></span> There is an order in which to apply the removal of useless variables, <span class="math inline">\lambda</span>-productions, and unit productions to obtain an equivalent grammar. <span class="orange">What is this order?</span></p>
 </div>
 <p><a href="javascript:history.back()"><iconify-icon inline="" icon="twemoji:back-arrow" style="font-size: 2em;" aria-label="Icon back-arrow from twemoji Iconify.design set." title="Icon back-arrow from twemoji Iconify.design set."></iconify-icon></a></p>
 
