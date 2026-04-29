@@ -44,7 +44,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-1b7a0550d9b3cd115220d1418e38b381.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-7a6b941b083f5a576e782b89895cf389.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -340,19 +340,20 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x6
 <section id="upcoming-talks" class="level2">
 <h2 class="anchored" data-anchor-id="upcoming-talks">Upcoming talks</h2>
 <div id="listing-next-talk" class="quarto-listing quarto-listing-container-custom">
-<ul>
-<li>
-<p>May 13, 2026 (Room C6 003, h. 12:00–13:00) – <i>Albert Oliveras</i> (UPC)<br> <strong>TBD</strong> <br> <br><br></p>
+<ul class="talks-list">
+<li class="talk-upcoming-item">
+<p>May 13, 2026 (Room C6 003, h. 12:00–13:00) – <i>Albert Oliveras</i> (UPC)<br> <strong>TBD</strong> <br></p>
+<p><br></p>
 </li>
 </ul>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 <div id="listing-future-talks" class="quarto-listing quarto-listing-container-custom">
-<ul>
-<li>
+<ul class="talks-list">
+<li class="talk-planned-item">
 Jun 3, 2026 – <i>Gabriel Mel</i> (CRM) <br>
 </li>
-<li>
+<li class="talk-planned-item">
 Jul 1, 2026 – <i>(speaker to decide)</i> <br>
 </li>
 </ul>
@@ -362,8 +363,8 @@ Jul 1, 2026 – <i>(speaker to decide)</i> <br>
 <section id="past-talks" class="level2">
 <h2 class="anchored" data-anchor-id="past-talks">Past talks</h2>
 <div id="listing-past-talks" class="quarto-listing quarto-listing-container-custom">
-<ul>
-<li>
+<ul class="talks-list">
+<li class="talk-item">
 Apr 8, 2026 – <i>Albert Dorador</i> (University of Wisconsin - Madison) <br> <strong>From Black to White Boxes: Interpretable Regression with the trust-free Python package</strong>
 <details>
 <summary>
@@ -374,7 +375,7 @@ Abstract
 <p>By the end, you will be able to train high-performing, interpretable regression models and generate automated, natural-language explanation reports for individual predictions and deterministic feature importance.</p>
 </details>
 </li>
-<li>
+<li class="talk-item">
 Mar 11, 2026 – <i>Antoni Perez-Poch</i> (UPC) <br> <strong>Research in microgravity: Computational space medicine</strong>
 <details>
 <summary>
@@ -385,7 +386,7 @@ Abstract
 <p>Future implications of later developments such as Artificial Intelligence applied to astronautics, as well as educational and outreach parabolic flight campaigns conducted in Sabadell Airport by our laboratory will be finally discussed.</p>
 </details>
 </li>
-<li>
+<li class="talk-item">
 Feb 11, 2026 – <i>Óscar Argudo Medrano</i> (UPC) <br> <strong>Simulation and modeling of realistic 3D forest scenes</strong>
 <details>
 <summary>
@@ -395,7 +396,7 @@ Abstract
 <p>In this talk, I will present a framework for the simulation and modeling of realistic 3D forest scenes that explicitly incorporates life history, disturbance events, and death and decay. The approach decouples ecosystem simulation from geometric realization, allowing forests with millions of trees to be generated efficiently while preserving visual diversity and plausibility. The pipeline proceeds in three stages: (1) simulation of individual tree growth under varying environmental conditions to sample feasible plant forms and derive scaling relationships; (2) an individual-based ecosystem simulation that models competition, disturbance, and decay over time; and (3) a model quantization and instantiation step that selects and places representative geometric models consistent with each tree’s simulated history. Beyond computer graphics, this work illustrates how combining long-term simulation with deferred model realization enables scalable, history-aware synthesis of complex ecosystems spanning millions of plants and several square kilometers.</p>
 </details>
 </li>
-<li>
+<li class="talk-item">
 Jan 9, 2026 – <i>Conrado Martinez</i> (UPC) <br> <strong>Sublinear Random Sampling and Applications</strong> (<a href="slides/2026_01_09_Conrado_Martinez.pdf">slides</a>)
 <details>
 <summary>
@@ -409,7 +410,7 @@ Abstract
 <p>We will end briefly describing some of the applications and implications of these algorithms, besides the initial example motivated in computational biology.</p>
 </details>
 </li>
-<li>
+<li class="talk-item">
 Dec 10, 2025 – <i>David Garcia Soriano</i> (UPC) <br> <strong>Randomization for individual fairness</strong>
 <details>
 <summary>
@@ -419,7 +420,7 @@ Abstract
 <p>To this end, we introduce the <em>distributional maxmin fairness</em> framework, grounded in a Rawlsian principle of justice. It ensures a fair selection by randomizing over valid solutions so as to maximize the minimum probability that any individual gets a desirable outcome. Equivalently, a probability distribution over feasible solutions is maxmin-fair if it is not possible to improve the satisfaction probability of any individual without decreasing it for some other individual which is no better off. We present efficient algorithms for three core problems: fair matching, fair ranking under group constraints, and fair route recommendation, showing that our maxmin-fair-by- design methodology provides a rigorous and practical foundation for building equitable algorithms.</p>
 </details>
 </li>
-<li>
+<li class="talk-item">
 Nov 5, 2025 – <i>Henryk Gzyl</i> (IESA, Caracas) <br> <strong>Determinación de la Matriz de Transición Crediticia a Partir de Data de Mercado</strong>
 <details>
 <summary>
@@ -428,7 +429,7 @@ Abstract
 <p>Las matrices de transición crediticia son una manera de entender como las corporaciones cambian de calificación crediticia. La propuesta consiste en suponer que el cambio se modela por una cadena Markoviana con un número finito de estados. El problema consiste en determinar las probabilidades de transición. Les contaré una manera de hacerlo usando la data que proveen las agencias calificadoras, que consiste en la probabilidad acumulada de incumplimiento por clase de riesgo. El problema de hallar la matriz de transición crediticia se formula como un problema inverso, que usa esa data, y tiene restricciones convexas sobre las incógnitas, que se resuelve usando un método de minimización de entropía.</p>
 </details>
 </li>
-<li>
+<li class="talk-item">
 Oct 1, 2025 – <i>Elisabet Burjons</i> (UPC) <br> <strong>Online General Knapsack with Reservation Costs</strong>
 <details>
 <summary>
