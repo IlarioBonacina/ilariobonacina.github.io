@@ -110,9 +110,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-speaker','listing-affiliation','listing-date','listing-when','listing-where','listing-abstract','listing-slides',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-title','listing-speaker','listing-affiliation','listing-date','listing-when','listing-where','listing-slides','listing-language','listing-abstract',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-speaker","listing-affiliation","listing-date","listing-when","listing-where","listing-abstract","listing-slides"],
+      searchColumns: ["listing-title","listing-speaker","listing-affiliation","listing-date","listing-when","listing-where","listing-slides","listing-language","listing-abstract"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -342,19 +342,13 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x6
 <div id="listing-next-talk" class="quarto-listing quarto-listing-container-custom">
 <ul class="talks-list">
 <li class="talk-upcoming-item">
-<p>May 13, 2026 (Room C6 003, h. 12:00–13:00) <br> Albert Oliveras (UPC)<br> <strong>The Power of SAT: Defying NP-Completeness in the Real World</strong> <br> <i>The talk will be in english or catalan depending on the audience.</i> <br><br> The SAT problem, determining the satisfiability of a formula in propositional logic, is known by every computer scientist as the canonical NP-complete problem. However, its practical side is far less renowned: nowadays, many industrial problems are solved by encoding them as SAT instances and subsequently processing them with a SAT solver. Concrete examples include the formal verification of software and hardware, cryptographic protocols, and the resolution of open mathematical problems.</p>
-<p>In the first part of this talk, we will introduce SAT solvers from a near-user perspective. We will mention specific areas of application, existing tools, and their functionalities.</p>
-<p>In the second part, we will delve into the algorithmic details of these tools, as well as specific implementation aspects. We will also explain the characterization of their power by relating them to well-known proof systems.</p>
-<p>Finally, we will conclude by discussing more recent work, such as SDCL or DIP-based Extended Resolution, where the aim is to extend the reasoning capabilities of these solvers so that they can simulate more powerful proof systems.</p>
+<p>Jun 3, 2026 (Room D3 004, h. 12:00–13:00) <br> Gabriel Mel (CRM)<br> <strong>TBD</strong> <br> <i>The talk will be in English.</i> <br><br> TBD</p>
 </li>
 </ul>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 <div id="listing-future-talks" class="quarto-listing quarto-listing-container-custom">
 <ul class="talks-list">
-<li class="talk-planned-item">
-Jun 3, 2026 – <i>Gabriel Mel</i> (CRM) <br>
-</li>
 <li class="talk-planned-item">
 Jul 1, 2026 – <i>(speaker to decide)</i> <br>
 </li>
@@ -367,6 +361,18 @@ Jul 1, 2026 – <i>(speaker to decide)</i> <br>
 <div id="listing-past-talks" class="quarto-listing quarto-listing-container-custom">
 <ul class="talks-list">
 <li class="talk-item">
+<i>May 13, 2026</i> <br> Albert Oliveras (UPC) <br> <strong>The Power of SAT: Defying NP-Completeness in the Real World</strong> (<a href="slides/2026_05_13_Albert_Oliveras.pdf">slides</a>)
+<details>
+<summary>
+Abstract
+</summary>
+<p>The SAT problem, determining the satisfiability of a formula in propositional logic, is known by every computer scientist as the canonical NP-complete problem. However, its practical side is far less renowned: nowadays, many industrial problems are solved by encoding them as SAT instances and subsequently processing them with a SAT solver. Concrete examples include the formal verification of software and hardware, cryptographic protocols, and the resolution of open mathematical problems.</p>
+<p>In the first part of this talk, we will introduce SAT solvers from a near-user perspective. We will mention specific areas of application, existing tools, and their functionalities.</p>
+<p>In the second part, we will delve into the algorithmic details of these tools, as well as specific implementation aspects. We will also explain the characterization of their power by relating them to well-known proof systems.</p>
+<p>Finally, we will conclude by discussing more recent work, such as SDCL or DIP-based Extended Resolution, where the aim is to extend the reasoning capabilities of these solvers so that they can simulate more powerful proof systems.</p>
+</details>
+</li>
+<li class="talk-item">
 <i>Apr 8, 2026</i> <br> Albert Dorador (University of Wisconsin - Madison) <br> <strong>From Black to White Boxes: Interpretable Regression with the trust-free Python package</strong>
 <details>
 <summary>
@@ -378,7 +384,7 @@ Abstract
 </details>
 </li>
 <li class="talk-item">
-<i>Mar 11, 2026</i> <br> Antoni Perez-Poch (UPC) <br> <strong>Research in microgravity: Computational space medicine</strong>
+<i>Mar 11, 2026</i> <br> Antoni Perez-Poch (UPC) <br> <strong>Research in microgravity: Computational space medicine</strong> (<a href="slides/2026_03_11_Antoni_Perez-Poch.pdf">slides</a>)
 <details>
 <summary>
 Abstract
