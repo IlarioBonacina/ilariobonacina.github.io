@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.29">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -10,6 +10,9 @@
 
 <title>New article in JAIR – Ilario Bonacina</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -38,11 +41,11 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-1b7a0550d9b3cd115220d1418e38b381.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script src="../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-eb8a65e149da6063e3420c72d03a5b8a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/iconify-3.0.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -141,14 +144,14 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">LI</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+      </ul>
+  </li>
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../teaching/seminari-CS/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../seminari-CS/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Seminari CS</span></a>
   </div>
 </li>
-      </ul>
-  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../students-visitors/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-people" role="img">
@@ -207,13 +210,13 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="jair.png" class="img-fluid"></p>
 </div></div><p>The article <a href="https://jair.org/index.php/jair/article/view/15075">Weighted, Circular and Semi-Algebraic Proofs</a> just appeared in the Journal of Artificial Intelligence Research (JAIR)!</p>
 <p>This is joint work with <a href="https://www.cs.upc.edu/~bonet/">Maria Luisa Bonet</a> (UPC) and <a href="https://www.iiia.csic.es/~levy/">Jordi Levy</a> (IIIA-CSIC).</p>
-<p><a href="2024-BBL-jair.pdf">read the article <iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a></p>
+<p><a href="2024-BBL-jair.pdf">read the article <iconify-icon role="img" inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a></p>
 <section id="abstract" class="level3">
 <h3 class="anchored" data-anchor-id="abstract">Abstract</h3>
 <p>In recent years there has been an increasing interest in studying proof systems stronger than Resolution, with the aim of building more efficient SAT solvers based on them. In defining these proof systems, we try to find a balance between the power of the proof system (the size of the proofs required to refute a formula) and the difficulty of finding the proofs.</p>
 <p>In this paper we consider the proof systems circular Resolution, Sherali-Adams, Nullstellensatz and Weighted Resolution and we study their relative power from a theoretical perspective. We prove that circular Resolution, Sherali-Adams and Weighted Resolution are polynomially equivalent proof systems. We also prove that Nullstellensatz is polynomially equivalent to a restricted version of Weighted Resolution. The equivalences carry on also for versions of the systems where the coefficients/weights are expressed in unary.</p>
 <p>The practical interest in these systems comes from the fact that they admit efficient algorithms to find proofs in case these have small width/degree.</p>
-<p><a href="javascript:history.back()"><iconify-icon inline="" icon="twemoji:back-arrow" style="font-size: 2em;" aria-label="Icon back-arrow from twemoji Iconify.design set." title="Icon back-arrow from twemoji Iconify.design set."></iconify-icon></a></p>
+<p><a href="javascript:history.back()"><iconify-icon role="img" inline="" icon="twemoji:back-arrow" style="font-size: 2em;" aria-label="Icon back-arrow from twemoji Iconify.design set." title="Icon back-arrow from twemoji Iconify.design set."></iconify-icon></a></p>
 </section>
 <section id="bibtex" class="level3 hidden">
 <h3 class="anchored" data-anchor-id="bibtex">BibTeX</h3>
@@ -284,13 +287,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

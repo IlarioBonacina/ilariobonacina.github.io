@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.29">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -10,6 +10,9 @@
 
 <title>Publications/Research – Ilario Bonacina</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -42,13 +45,13 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-1b7a0550d9b3cd115220d1418e38b381.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-eb8a65e149da6063e3420c72d03a5b8a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
-<script src="../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
+<script src="../site_libs/quarto-contrib/iconify-3.0.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -193,7 +196,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -273,14 +276,14 @@ window.Quarto = {
  <span class="menu-text">LI</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+      </ul>
+  </li>
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../teaching/seminari-CS/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../seminari-CS/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Seminari CS</span></a>
   </div>
 </li>
-      </ul>
-  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../students-visitors/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-people" role="img">
@@ -353,12 +356,12 @@ window.Quarto = {
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="small-title">Semi-Algebraic Proof Systems for QBF</span>
+<span class="screen-reader-only">Note</span><span class="small-title">Semi-Algebraic Proof Systems for QBF</span>
 </div>
 </div>
 <div class="callout-body-container callout-body">
 joint work with Olaf Beyersdorff, Kaspar Kasche, Meena Mahajan, Luc Nicolas Spachmann.<br>
-<em>In Proceedings of <a href="https://doi.org/10.4230/LIPIcs.SAT.2025.5">SAT</a></em>, 2025 <a href="2025-BBKMS-sat.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<em>In Proceedings of <a href="https://doi.org/10.4230/LIPIcs.SAT.2025.5">SAT</a></em>, 2025 <a href="2025-BBKMS-sat.pdf"><iconify-icon role="img" inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
 <details>
 <summary>
 Abstract
@@ -375,12 +378,12 @@ We introduce new semi-algebraic proof systems for Quantified Boolean Formulas (Q
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="small-title">An Algebraic Approach to MaxCSP</span>
+<span class="screen-reader-only">Note</span><span class="small-title">An Algebraic Approach to MaxCSP</span>
 </div>
 </div>
 <div class="callout-body-container callout-body">
 joint work with Jordi Levy.<br>
-<em>In Proceedings of <a href="https://doi.org/10.4230/LIPIcs.SAT.2025.6">SAT</a></em>, 2025 <a href="2025-BL-sat.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<em>In Proceedings of <a href="https://doi.org/10.4230/LIPIcs.SAT.2025.6">SAT</a></em>, 2025 <a href="2025-BL-sat.pdf"><iconify-icon role="img" inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
 <details>
 <summary>
 Abstract
@@ -397,12 +400,12 @@ Recently, there have been some attempts to base SAT and MaxSAT solvers on calcul
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="small-title">Redundancy rules for MaxSAT</span>
+<span class="screen-reader-only">Note</span><span class="small-title">Redundancy rules for MaxSAT</span>
 </div>
 </div>
 <div class="callout-body-container callout-body">
 joint work with Maria Luisa Bonet, Sam Buss, Massimo Lauria.<br>
-<em>In Proceedings of <a href="https://doi.org/10.4230/LIPIcs.SAT.2025.7">SAT</a></em>, 2025 <a href="2025-BBBL-sat.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<em>In Proceedings of <a href="https://doi.org/10.4230/LIPIcs.SAT.2025.7">SAT</a></em>, 2025 <a href="2025-BBBL-sat.pdf"><iconify-icon role="img" inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
 <details>
 <summary>
 Abstract
@@ -419,12 +422,12 @@ The concept of redundancy in SAT leads to more expressive and powerful proof sea
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="small-title">On the strength of Sherali-Adams and Nullstellensatz as propositional proof systems</span>
+<span class="screen-reader-only">Tip</span><span class="small-title">On the strength of Sherali-Adams and Nullstellensatz as propositional proof systems</span>
 </div>
 </div>
 <div class="callout-body-container callout-body">
 joint work with Maria Luisa Bonet.<br>
-<a href="https://doi.org/10.1016/j.apal.2024.103538">Annals of Pure and Applied Logic</a>, 2024 <a href="2024-BB-apal.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a><br>Preliminary (conference) version: <em>In Proceedings of <a href="https://doi.org/10.1145/3531130.3533344">LICS</a></em>, 2022 <a href="2022-BB-lics.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<a href="https://doi.org/10.1016/j.apal.2024.103538">Annals of Pure and Applied Logic</a>, 2024 <a href="2024-BB-apal.pdf"><iconify-icon role="img" inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a><br>Preliminary (conference) version: <em>In Proceedings of <a href="https://doi.org/10.1145/3531130.3533344">LICS</a></em>, 2022 <a href="2022-BB-lics.pdf"><iconify-icon role="img" inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
 <details>
 <summary>
 Abstract
@@ -441,12 +444,12 @@ We characterize the strength of the algebraic proof systems Sherali-Adams (SA) a
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="small-title">Polynomial Calculus for optimization</span>
+<span class="screen-reader-only">Tip</span><span class="small-title">Polynomial Calculus for optimization</span>
 </div>
 </div>
 <div class="callout-body-container callout-body">
 joint work with Maria Luisa Bonet, Jordi Jevy.<br>
-<a href="https://doi.org/10.1016/j.artint.2024.104208">Artificial Intelligence</a>, 2024 <a href="2024-BBL-aij.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a><br>Preliminary (conference) version: Polynomial Calculus for MaxSAT. <em>In Proceedings of <a href="https://doi.org/10.4230/LIPIcs.SAT.2023.5">SAT</a></em>, 2023 <a href="2023-BBL-sat.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<a href="https://doi.org/10.1016/j.artint.2024.104208">Artificial Intelligence</a>, 2024 <a href="2024-BBL-aij.pdf"><iconify-icon role="img" inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a><br>Preliminary (conference) version: Polynomial Calculus for MaxSAT. <em>In Proceedings of <a href="https://doi.org/10.4230/LIPIcs.SAT.2023.5">SAT</a></em>, 2023 <a href="2023-BBL-sat.pdf"><iconify-icon role="img" inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
 <details>
 <summary>
 Abstract
@@ -463,12 +466,12 @@ MaxSAT is the problem of finding an assignment satisfying the maximum number of 
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="small-title">MaxSAT Resolution with Inclusion Redundancy</span>
+<span class="screen-reader-only">Note</span><span class="small-title">MaxSAT Resolution with Inclusion Redundancy</span>
 </div>
 </div>
 <div class="callout-body-container callout-body">
 joint work with Maria Luisa Bonet, Massimo Lauria.<br>
-<em>In Proceedings of <a href="https://doi.org/10.4230/LIPIcs.SAT.2024.7">SAT</a></em>, 2024 <a href="2024-BBL-sat.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<em>In Proceedings of <a href="https://doi.org/10.4230/LIPIcs.SAT.2024.7">SAT</a></em>, 2024 <a href="2024-BBL-sat.pdf"><iconify-icon role="img" inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
 <details>
 <summary>
 Abstract
@@ -485,12 +488,12 @@ Popular redundancy rules for SAT are not necessarily sound for MaxSAT. The works
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="small-title">Weighted, Circular and Semi-Algebraic Proofs</span>
+<span class="screen-reader-only">Tip</span><span class="small-title">Weighted, Circular and Semi-Algebraic Proofs</span>
 </div>
 </div>
 <div class="callout-body-container callout-body">
 joint work with Maria Luisa Bonet, Jordi Levy.<br>
-<a href="https://doi.org/10.1613/jair.1.15075">Journal of Artificial Intelligence Research</a>, 2024 <a href="2024-BBL-jair.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<a href="https://doi.org/10.1613/jair.1.15075">Journal of Artificial Intelligence Research</a>, 2024 <a href="2024-BBL-jair.pdf"><iconify-icon role="img" inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
 <details>
 <summary>
 Abstract
@@ -507,12 +510,12 @@ In recent years there has been an increasing interest in studying proof systems 
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="small-title">On vanishing sums of roots of unity in polynomial calculus and sum-of-squares</span>
+<span class="screen-reader-only">Tip</span><span class="small-title">On vanishing sums of roots of unity in polynomial calculus and sum-of-squares</span>
 </div>
 </div>
 <div class="callout-body-container callout-body">
 joint work with Nicola Galesi, Massimo Lauria.<br>
-<a href="https://doi.org/10.1007/s00037-023-00242-z">Computational Complexity</a>, 2023 <a href="2023-BGL-compcompl.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a><br>Preliminary (conference) version: <em>In Proceedings of <a href="https://doi.org/10.4230/LIPIcs.MFCS.2022.23">MFCS</a></em>, 2022 <a href="2022-BGL-mfcs.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<a href="https://doi.org/10.1007/s00037-023-00242-z">Computational Complexity</a>, 2023 <a href="2023-BGL-compcompl.pdf"><iconify-icon role="img" inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a><br>Preliminary (conference) version: <em>In Proceedings of <a href="https://doi.org/10.4230/LIPIcs.MFCS.2022.23">MFCS</a></em>, 2022 <a href="2022-BGL-mfcs.pdf"><iconify-icon role="img" inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
 <details>
 <summary>
 Abstract
@@ -529,12 +532,12 @@ We introduce a novel take on sum-of-squares that is able to reason with complex 
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="small-title">Clique Is Hard on Average for Regular Resolution</span>
+<span class="screen-reader-only">Tip</span><span class="small-title">Clique Is Hard on Average for Regular Resolution</span>
 </div>
 </div>
 <div class="callout-body-container callout-body">
 joint work with Albert Atserias, Susanna F. de Rezende, Massimo Lauria, Jakob Nordström, Alexander A. Razborov.<br>
-<a href="https://doi.org/10.1145/3449352">Journal of the ACM</a>, 2021 <a href="2021-ABDLNR-jacm.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a><br>Preliminary (conference) version: <em>In Proceedings of <a href="https://doi.org/10.1145/3188745.3188856">STOC</a></em>, 2018 <a href="2018-ABDLNR-stoc.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<a href="https://doi.org/10.1145/3449352">Journal of the ACM</a>, 2021 <a href="2021-ABDLNR-jacm.pdf"><iconify-icon role="img" inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a><br>Preliminary (conference) version: <em>In Proceedings of <a href="https://doi.org/10.1145/3188745.3188856">STOC</a></em>, 2018 <a href="2018-ABDLNR-stoc.pdf"><iconify-icon role="img" inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
 <details>
 <summary>
 Abstract
@@ -551,12 +554,12 @@ We prove that for <span class="math inline">k \ll 4\sqrt{n}</span> regular resol
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="small-title">Frege Systems for Quantified Boolean Logic</span>
+<span class="screen-reader-only">Tip</span><span class="small-title">Frege Systems for Quantified Boolean Logic</span>
 </div>
 </div>
 <div class="callout-body-container callout-body">
 joint work with Olaf Beyersdorff, Leroy Chew, Ján Pich.<br>
-<a href="https://doi.org/10.1145/3381881">Journal of the ACM</a>, 2020 <a href="2020-BBCP-jacm.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a><br>Preliminary (conference) version: Lower Bounds: From Circuits to QBF Proof Systems. <em>In Proceedings of <a href="https://doi.org/10.1145/2840728.2840740">ITCS</a></em>, 2016 <a href="2016-BBC-itcs.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<a href="https://doi.org/10.1145/3381881">Journal of the ACM</a>, 2020 <a href="2020-BBCP-jacm.pdf"><iconify-icon role="img" inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a><br>Preliminary (conference) version: Lower Bounds: From Circuits to QBF Proof Systems. <em>In Proceedings of <a href="https://doi.org/10.1145/2840728.2840740">ITCS</a></em>, 2016 <a href="2016-BBC-itcs.pdf"><iconify-icon role="img" inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
 <details>
 <summary>
 Abstract
@@ -573,12 +576,12 @@ We define and investigate Frege systems for quantified Boolean formulas (QBF). F
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="small-title">Strong ETH and Resolution via Games and the Multiplicity of Strategies</span>
+<span class="screen-reader-only">Tip</span><span class="small-title">Strong ETH and Resolution via Games and the Multiplicity of Strategies</span>
 </div>
 </div>
 <div class="callout-body-container callout-body">
 joint work with Navid Talebanfard.<br>
-<a href="https://doi.org/10.1007/s00453-016-0228-6">Algorithmica</a>, 2017 <a href="BT16-algorithmica.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a><br>Preliminary (conference) version: <em>In Proceedings of <a href="https://doi.org/10.4230/LIPIcs.IPEC.2015.248">IPEC</a></em>, 2015 <a href="2015-BT-ipec.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<a href="https://doi.org/10.1007/s00453-016-0228-6">Algorithmica</a>, 2017 <a href="BT16-algorithmica.pdf"><iconify-icon role="img" inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a><br>Preliminary (conference) version: <em>In Proceedings of <a href="https://doi.org/10.4230/LIPIcs.IPEC.2015.248">IPEC</a></em>, 2015 <a href="2015-BT-ipec.pdf"><iconify-icon role="img" inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
 <details>
 <summary>
 Abstract
@@ -595,12 +598,12 @@ We consider a proof system intermediate between regular Resolution, in which no 
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="small-title">Space proof complexity for random 3-CNFs</span>
+<span class="screen-reader-only">Tip</span><span class="small-title">Space proof complexity for random 3-CNFs</span>
 </div>
 </div>
 <div class="callout-body-container callout-body">
 joint work with Patrick Bennett, Nicola Galesi, Tony Huynh, Mike Molloy, Paul Wollan.<br>
-<a href="https://doi.org/10.1016/j.ic.2017.06.003">Information and Computation</a>, 2017 <a href="2017-BBGHMW-infocomp.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<a href="https://doi.org/10.1016/j.ic.2017.06.003">Information and Computation</a>, 2017 <a href="2017-BBGHMW-infocomp.pdf"><iconify-icon role="img" inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
 <details>
 <summary>
 Abstract
@@ -617,11 +620,11 @@ We investigate the space complexity of refuting 3-CNFs in Resolution and algebra
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="small-title">Total space in Resolution is at least width squared</span>
+<span class="screen-reader-only">Note</span><span class="small-title">Total space in Resolution is at least width squared</span>
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<em>In Proceedings of <a href="https://doi.org/10.4230/LIPIcs.ICALP.2016.56">ICALP</a></em>, 2016 <a href="2016-B-icalp.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<em>In Proceedings of <a href="https://doi.org/10.4230/LIPIcs.ICALP.2016.56">ICALP</a></em>, 2016 <a href="2016-B-icalp.pdf"><iconify-icon role="img" inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
 <details>
 <summary>
 Abstract
@@ -638,12 +641,12 @@ Given an unsatisfiable <span class="math inline">k</span>-CNF formula <span clas
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="small-title">Improving resolution width lower bounds for k-CNFs with applications to the Strong Exponential Time Hypothesis</span>
+<span class="screen-reader-only">Tip</span><span class="small-title">Improving resolution width lower bounds for k-CNFs with applications to the Strong Exponential Time Hypothesis</span>
 </div>
 </div>
 <div class="callout-body-container callout-body">
 joint work with Navid Talebanfard.<br>
-<a href="https://doi.org/10.1016/j.ipl.2015.09.013">Information Processing Letters</a>, 2016 <a href="2016-BT-ipl.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<a href="https://doi.org/10.1016/j.ipl.2015.09.013">Information Processing Letters</a>, 2016 <a href="2016-BT-ipl.pdf"><iconify-icon role="img" inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
 <details>
 <summary>
 Abstract
@@ -660,12 +663,12 @@ A Strong Exponential Time Hypothesis lower bound for resolution has the form <sp
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="small-title">Total Space in Resolution</span>
+<span class="screen-reader-only">Tip</span><span class="small-title">Total Space in Resolution</span>
 </div>
 </div>
 <div class="callout-body-container callout-body">
 joint work with Nicola Galesi, Neil Thapen.<br>
-<a href="https://doi.org/10.1137/15M1023269">SIAM Journal on Computing</a>, 2016 <a href="2016-BGT-siamjcomp.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a><br>Preliminary (conference) version: <em>In Proceedings of <a href="https://doi.org/10.1109/FOCS.2014.74">FOCS</a></em>, 2014 <a href="2014-BGT-focs.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<a href="https://doi.org/10.1137/15M1023269">SIAM Journal on Computing</a>, 2016 <a href="2016-BGT-siamjcomp.pdf"><iconify-icon role="img" inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a><br>Preliminary (conference) version: <em>In Proceedings of <a href="https://doi.org/10.1109/FOCS.2014.74">FOCS</a></em>, 2014 <a href="2014-BGT-focs.pdf"><iconify-icon role="img" inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
 <details>
 <summary>
 Abstract
@@ -682,12 +685,12 @@ We show quadratic lower bounds on the total space used in resolution refutations
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="small-title">A Framework for Space Complexity in Algebraic Proof Systems</span>
+<span class="screen-reader-only">Tip</span><span class="small-title">A Framework for Space Complexity in Algebraic Proof Systems</span>
 </div>
 </div>
 <div class="callout-body-container callout-body">
 joint work with Nicola Galesi.<br>
-<a href="https://doi.org/10.1145/2699438">Journal of the ACM</a>, 2015 <a href="2015-BG-jacm.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a><br>Preliminary (conference) version: Pseudo-partitions, Transversality and Locality: A Combinatorial Characterization for the Space Measure in Algebraic Proof Systems. <em>In Proceedings of <a href="https://doi.org/10.1145/2422436.2422486">ITCS</a></em>, 2013 <a href="2013-BG-itcs.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<a href="https://doi.org/10.1145/2699438">Journal of the ACM</a>, 2015 <a href="2015-BG-jacm.pdf"><iconify-icon role="img" inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a><br>Preliminary (conference) version: Pseudo-partitions, Transversality and Locality: A Combinatorial Characterization for the Space Measure in Algebraic Proof Systems. <em>In Proceedings of <a href="https://doi.org/10.1145/2422436.2422486">ITCS</a></em>, 2013 <a href="2013-BG-itcs.pdf"><iconify-icon role="img" inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
 <details>
 <summary>
 Abstract
@@ -704,12 +707,12 @@ Algebraic proof systems, such as Polynomial Calculus (PC) and Polynomial Calculu
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="small-title">Proofs of Space: When Space Is of the Essence</span>
+<span class="screen-reader-only">Note</span><span class="small-title">Proofs of Space: When Space Is of the Essence</span>
 </div>
 </div>
 <div class="callout-body-container callout-body">
 joint work with Giuseppe Ateniese, Antonio Faonio, Nicola Galesi.<br>
-<em>In Proceedings of <a href="https://doi.org/10.1007/978-3-319-10879-7_31">SCN</a></em>, 2014 <a href="2014-ABFG-scn.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<em>In Proceedings of <a href="https://doi.org/10.1007/978-3-319-10879-7_31">SCN</a></em>, 2014 <a href="2014-ABFG-scn.pdf"><iconify-icon role="img" inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
 <details>
 <summary>
 Abstract
@@ -736,12 +739,12 @@ Proofs of computational effort were devised to control denial of service attacks
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="small-title">A separation of PLS from PPP</span>
+<span class="screen-reader-only">Warning</span><span class="small-title">A separation of PLS from PPP</span>
 </div>
 </div>
 <div class="callout-body-container callout-body">
 joint work with Neil Thapen.<br>
-<a href="https://eccc.weizmann.ac.il/report/2022/089">ECCC</a>, TR22–089, 2022 <a href="2022-BT-ECCC-TR22-089.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<a href="https://eccc.weizmann.ac.il/report/2022/089">ECCC</a>, TR22–089, 2022 <a href="2022-BT-ECCC-TR22-089.pdf"><iconify-icon role="img" inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
 <details>
 <summary>
 Abstract
@@ -769,13 +772,13 @@ Recently it was shown that PLS is not contained in PPADS (ECCC report TR22-058).
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="small-title">Space in Weak Propositional Proof Systems</span>
+<span class="screen-reader-only">Tip</span><span class="small-title">Space in Weak Propositional Proof Systems</span>
 </div>
 </div>
 <div class="callout-body-container callout-body">
 
 <p><a href="https://doi.org/10.1007/978-3-319-73453-8">Springer</a>, 2017 <br>This book is based on my PhD thesis defended on December 14, 2015 at the Sapienza University of Rome (supervision of Prof.&nbsp;Nicola Galesi). It was awarded “<em>Best Italian PhD Thesis in Theoretical Computer Science, 2016</em>” by the Italian Chapter of the European Association for Theoretical Computer Science (EATCS).</p>
-<p>A ~14 pages abstract appeared in the <a href="http://eatcs.org/beatcs/index.php/beatcs/article/view/454">Bulletin of the EATCS</a>, 2016 <a href="2016-B-BEATCS-thesis-abstract.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a> <br> A preliminary version appeared as my <strong>PhD thesis</strong>. Sapienza University, Rome, December 2015 <a href="2015-B-PhD-thesis.pdf"><iconify-icon inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a></p>
+<p>A ~14 pages abstract appeared in the <a href="http://eatcs.org/beatcs/index.php/beatcs/article/view/454">Bulletin of the EATCS</a>, 2016 <a href="2016-B-BEATCS-thesis-abstract.pdf"><iconify-icon role="img" inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a> <br> A preliminary version appeared as my <strong>PhD thesis</strong>. Sapienza University, Rome, December 2015 <a href="2015-B-PhD-thesis.pdf"><iconify-icon role="img" inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a></p>
 <details>
 <summary>
 Abstract
@@ -841,13 +844,14 @@ This book considers logical proof systems from the point of view of their space 
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

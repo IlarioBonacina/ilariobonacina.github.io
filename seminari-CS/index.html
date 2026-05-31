@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.29">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Seminari CS – Ilario Bonacina</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -41,10 +44,11 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-0f596ceae817bddb1a77cab99b8f319c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-eb8a65e149da6063e3420c72d03a5b8a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/iconify-3.0.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -128,34 +132,6 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-future-talks .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-speaker','listing-affiliation','listing-date','listing-when','listing-where','listing-abstract',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
-      
-      searchColumns: ["listing-title","listing-speaker","listing-affiliation","listing-date","listing-when","listing-where","listing-abstract"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-future-talks'] = new List('listing-future-talks', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
   </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
@@ -189,7 +165,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -328,29 +304,32 @@ window.Quarto = {
 </header>
 
 
-<p>The <em>Seminari CS</em> is the monthly seminar of the Computer Science Department at UPC. The seminar is announced internally and on the <a href="https://www.cs.upc.edu/en">webpage of the department</a>. Alternatively, you can also subscribe to the <a href="https://calendar.google.com/calendar/u/1?cid=Y19jZjhhYTk5OTE5YWJhNTU2ODk4NmZhMjFjMGUxMjdhNWFiZThlYTE3MzljYzZjYTRjMDI5YzYzN2RmMzI5OWU4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20">Google Calendar</a>.</p>
+<p>The <em>Seminari CS</em> is the monthly seminar of the Computer Science Department at UPC. The seminar is announced internally and on the <a href="https://www.cs.upc.edu/en">webpage of the department</a>. Alternatively, you can also subscribe to the <a href="https://calendar.google.com/calendar/u/1?cid=Y19jZjhhYTk5OTE5YWJhNTU2ODk4NmZhMjFjMGUxMjdhNWFiZThlYTE3MzljYzZjYTRjMDI5YzYzN2RmMzI5OWU4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20"><iconify-icon role="img" inline="" icon="octicon:calendar" aria-label="Icon calendar from octicon Iconify.design set." title="Icon calendar from octicon Iconify.design set."></iconify-icon> Google Calendar</a>.</p>
 <p><strong>Where/When?</strong> usually room C6 003, the first wednesday of each month 12:00–13:00 (unless announced otherwise)<br>
 <strong>In what language?</strong> english/spanish/catalan (depending on the speaker/audience)</p>
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
 <p>If you (or a visitor of yours) want to give a talk please send me <script type="text/javascript">
 <!--
 h='&#x75;&#112;&#x63;&#46;&#x65;&#100;&#x75;';a='&#64;';n='&#x69;&#108;&#x61;&#114;&#x69;&#x6f;&#46;&#98;&#x6f;&#110;&#x61;&#x63;&#x69;&#110;&#x61;';e=n+a+h;
 document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x61;&#110;&#32;&#x65;&#x6d;&#x61;&#x69;&#108;'+'<\/'+'a'+'>');
 // -->
 </script><noscript>an email (ilario.bonacina at upc dot edu)</noscript>.</p>
+</div>
+</div>
+</div>
 <section id="upcoming-talks" class="level2">
 <h2 class="anchored" data-anchor-id="upcoming-talks">Upcoming talks</h2>
 <div id="listing-next-talk" class="quarto-listing quarto-listing-container-custom">
 <ul class="talks-list">
 <li class="talk-upcoming-item">
-<p>Jun 3, 2026 (Room D3 004, h. 12:00–13:00) <br> Gabriel Mel (CRM)<br> <strong>TBD</strong> <br> <i>The talk will be in English.</i> <br><br> TBD</p>
-</li>
-</ul>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-<div id="listing-future-talks" class="quarto-listing quarto-listing-container-custom">
-<ul class="talks-list">
-<li class="talk-planned-item">
-Jul 1, 2026 – <i>(speaker to decide)</i> <br>
+<p>Jun 3, 2026 (Room <strong>D3 004</strong>, h. 12:00–13:00) <br> Gabriel Mel (CRM)<br> <strong>Beyond Spectra: Eigenvector Overlaps and Generalization in Machine Learning</strong> <br> <i>The talk will be in English.</i> <br><br> Modern machine learning often interprets “loss geometry” through the Hessian spectrum, motivating ideas such as flat versus sharp directions. I will argue that this view is incomplete: learning is inherently a two-loss problem (train and test), so local geometry depends not only on eigenvalues but also on how the corresponding train and test eigendirections align. I will introduce a simple, universal fluctuation law showing how small training perturbations translate into test error, which reframes the usual intuition: flat directions of the training loss are not intrinsically good or bad – their effect depends on whether they align with sensitive directions of the test loss.</p>
+<p>I will then turn to ridge regression, which provides a simple tractable model. In this setting, we obtain closed-form expressions that fully explain both domain shift and the phenomenon of multiple descent. The key takeaway is that generalization is controlled by how training variability projects onto test-sensitive directions – captured precisely by train-test eigenspace alignment – rather than by Hessian spectra alone. Finally, I will briefly discuss scalable methods for estimating these overlaps in large networks, and an application to a class imbalance in a trained ResNet model.</p>
+<p>Together, these results suggest a shift in perspective: spectra describe curvature, but overlaps determine how that curvature matters for generalization. This perspective provides both a conceptual and practical framework for analyzing modern learning systems.</p>
 </li>
 </ul>
 <div class="listing-no-matching d-none">No matching items</div>
@@ -506,13 +485,14 @@ Abstract
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
