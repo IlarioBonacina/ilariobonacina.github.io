@@ -32,161 +32,19 @@
   {
     "objectID": "teaching/index.html",
     "href": "teaching/index.html",
-    "title": "Teaching & co",
+    "title": "Teaching",
     "section": "",
-    "text": "Theory of Computation (Teoria de la Computació, TC)\n2025-2026 Q2 @ UPC (in Spanish/Catalan)\nLogics in Information Technology (Lògica en la Informàtica, LI)\n2025-2026 Q2 @ UPC (in Spanish/Catalan)\nSeminari CS\nThe montly seminar of the Computer Science Department at UPC\n2025 Q2 – now (in spanish/english/catalan)\n\n\n\n\n\n\nNotePast courses\n\n\n\n\n\nEstructuras de Datos y Algoritmos (EDA)\n2024-2025 Q2 @ UPC (in Spanish) 2024-2025 Q1 @ UPC (in Spanish and English)\n2023-2024 Q2 @ UPC (in Spanish)\n2023-2024 Q1 @ UPC (in Spanish and English)\nTeoria de la Computació (TC)\n2025-2026 Q1 @ UPC (in Spanish/Catalan)\n2024-2025 Q2 @ UPC (in Spanish) 2023-2024 Q2 @ UPC (in Spanish)\n2022-2023 Q2 @ UPC (in Spanish)\nDisseny d’Algorismes 2022-2023 Q2 @ UPF (in English)\nSeminars on Theoretical Computer Science: Proof Complexity 2016-2017 Q1 @ KTH (in English)\nComplexity Theory 2015-2016 Q2 @ KTH (in English)\nIntroduzione agli Algoritmi 2014-2015 Q2 @ Sapienza (in Italian)\n\n\n\nMy office time for students is on Wednesdays between 11:00 and 13:00. If you want to meet (also possibly online) please book a time slot here."
+    "text": "Theory of Computation (Teoria de la Computació, TC)\n2025-2026 Q2 @ UPC (in Spanish/Catalan)\nLogics in Information Technology (Lògica en la Informàtica, LI)\n2025-2026 Q2 @ UPC (in Spanish/Catalan)\nSeminari CS\nThe montly seminar of the Computer Science Department at UPC\n2025 Q2 – now (in spanish/english/catalan)\n\n\n\n\n\n\nNotePast courses\n\n\n\n\n\nLògica en la Informàtica (LI)\n2025-2026 Q2 @ UPC (in Spanish/Catalan)\nTeoria de la Computació (TC)\n2025-2026 Q2 @ UPC (in Spanish/Catalan)\n2025-2026 Q1 @ UPC (in Spanish/Catalan)\n2024-2025 Q2 @ UPC (in Spanish) 2023-2024 Q2 @ UPC (in Spanish)\n2022-2023 Q2 @ UPC (in Spanish)\nEstructuras de Datos y Algoritmos (EDA)\n2024-2025 Q2 @ UPC (in Spanish) 2024-2025 Q1 @ UPC (in Spanish and English)\n2023-2024 Q2 @ UPC (in Spanish)\n2023-2024 Q1 @ UPC (in Spanish and English)\nDisseny d’Algorismes 2022-2023 Q2 @ UPF (in English)\nSeminars on Theoretical Computer Science: Proof Complexity 2016-2017 Q1 @ KTH (in English)\nComplexity Theory 2015-2016 Q2 @ KTH (in English)\nIntroduzione agli Algoritmi 2014-2015 Q2 @ Sapienza (in Italian)\n\n\n\nMy office time for students is on Wednesdays between 11:00 and 13:00. If you want to meet (also possibly online) please book a time slot here."
   },
   {
-    "objectID": "teaching/TC/arden_lemma.html",
-    "href": "teaching/TC/arden_lemma.html",
-    "title": "From DFAs to regular expressions (Arden’s rule)",
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog/All News",
     "section": "",
-    "text": "Given a DFA A, Arden’s lemma (below) gives a way to construct a regular expression r s.t. \\mathscr{L}(r)=\\mathscr{L}(A).1 The same approach adapts naturally to \\lambda-NFAs but for simplicity we describe it for DFAs.\nLet A=(S,Q,\\delta,q_0,F) be a DFA (S is the alphabet). For each q_j\\in Q, let X_j be the language of all words that would be accepted by A if q_j were the initial state (instead of q_0). Notice that \nX_j=\n\\begin{cases}\n\\displaystyle\n\\bigcup_{\\substack{s\\in S\\\\\\delta(q_j,s)=q_i}} \\{s\\}X_i&\\text{ if } q_j\\notin F\\ ,\n\\\\\n\\displaystyle\n\\{\\lambda\\}\\cup \\bigcup_{\\substack{s\\in S\\\\\\delta(q_j,s)=q_i}} \\{s\\}X_i &\\text{ if } q_j\\in F\\ .\n\\end{cases}\n\\tag{2} This give a system of equations where the variables are X_j and with Arden’s lemma we can find a way to express each X_j only using unions, concatenations, and Kleene stars, that is we have found a regular expression for it. This is analogous to the way to solve linear equations by eliminating variables. This analogy is even more clear if we write down Equation 2 using the notation for regular expressions: \nX_j=\n\\begin{cases}\n\\displaystyle\n\\sum_{\\substack{s\\in S\\\\\\delta(q_j,s)=q_i}} sX_i&\\text{ if } q_j\\notin F\\ ,\n\\\\\n\\displaystyle\n\\lambda+ \\sum_{\\substack{s\\in S\\\\\\delta(q_j,s)=q_i}} sX_i &\\text{ if } q_j\\in F\\ .\n\\end{cases}\n Therefore, to find a regular expression for \\mathscr{L}(A) we just need to solve the system above and the regular expression for X_0 gives the answer."
-  },
-  {
-    "objectID": "teaching/TC/arden_lemma.html#footnotes",
-    "href": "teaching/TC/arden_lemma.html#footnotes",
-    "title": "From DFAs to regular expressions (Arden’s rule)",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nRecall that with \\mathscr{L}(\\cdot) we denote the language associated to a DFA/NFA/regular expression/CFG/PDA/TM/…↩︎"
-  },
-  {
-    "objectID": "teaching/TC/pumping_lemma_for_CFGs.html",
-    "href": "teaching/TC/pumping_lemma_for_CFGs.html",
-    "title": "Pumping lemma for context-free languages",
-    "section": "",
-    "text": "Theorem 1 The language \\{a^nb^nc^n \\mid n\\in \\mathbb N\\} is not a context-free language.\n\n\n\n\n\n\n\nTipProof (click to expand)\n\n\n\n\n\nWe prove this by contradiction. Suppose L=\\{a^nb^nc^n \\mid n\\in \\mathbb N\\} was context-free and let G a context-free grammar generating it. Since every context-free grammar can be put in Chomsky Normal Form we can assume w.l.o.g. that G is in Chomsky Normal Form. The crucial point of having the grammar in Chomsky Normal Form is that the parse trees are binary trees. Hence, in particular, to generate a word w the parse tree must have depth at least \\log_2|w|.\nThe idea of the argument is similar to the one for the regular languages: start with a very long word in L, which the grammar hence must generate, and show that we can construct another word not in L which G also generates.\nLet N be the number of non-terminals of G. Take the word z=a^{2^N}b^{2^N}c^{2^N}. The parse tree for z must have depth at least \\log_2|a^{2^N}b^{2^N}c^{2^N}|&gt;N+1. So there is a root-to-leaf path \\pi in the tree mentioning at least N+1 non-terminals. By the pigeonhole principle, there must be a non-terminal which appears in \\pi at least twice. There might be more than one non-terminal that repeats multiple times or one that repeats more than twice. Choose as repeated terminal the first occurrence of a repetition in \\pi scanning it from the leaf. Let A be this non-terminal. The bottom-most occurrence of A and occurrence of A immediately before that in \\pi give 3 trees inside the parsing tree for z:\n\nthe one rooted at the starting symbol (T_0);\nthe one rooted at the bottom-most occurrence of A (T_2);\nthe one rooted at the occurrence of A immediately before that (T_1).\n\nThis partitions z naturally into 5 parts, z=uvwxy:\n\nu and y are the parts of z belonging to T_0 but not T_1 (u at the left and y at the right);\nv and x are the parts of z belonging to T_1 but not T_2 (v at the left and x at the right);\nw is the part of z that belongs to T_2.\n\nSee Figure 1 below for a diagram representing T_0,T_1,T_2 and uvwxy.\n\n\n\n\n\n\nFigure 1: The decomposition induced by the two repeated variables A.\n\n\n\nNow, we can take the tree T_1 and place it at the root of T_2 over and over. This gives valid productions in G for all the words of the form uv^iwx^iy, for each i\\in \\mathbb N.\nSee Figure 2 and Figure 3 for a diagram representing the parsing tree resulting from i=0 and i=2.\n\n\n\n\n\n\nFigure 2: The diagram corresponding to pumping with i=0.\n\n\n\n\n\n\n\n\n\nFigure 3: The diagram corresponding to pumping with i=2.\n\n\n\nWhat do we know about u,v,w,x,y? By the choice of A, the depth of T_1 is at most N and hence |vwx|\\leq 2^N. Moreover, since the parsing tree is binary, T_1\\neq T_2, which means |vx|\\geq 1.\nWe can take i=0, that is the word uwy and show it cannot belong to L. Since |vwx|\\leq 2^N this word cannot mention as, bs, and cs at the same time. No matter what vwx is there is always at least one symbol s\\in \\{a,b,c\\} not mentioned in vwx and hence modifying vwx into w will not change the s^{2^N} part of z. But |vx|\\geq 1, so going from vwx to w we removed at least one symbol different from s. Hence it is impossible that uwy has the form a^kb^kc^k for some k, that is uwy\\notin L. Contradiction.\n\n\n\nThe argument used to prove Theorem 1 can be abstracted to the following statement which is known as the pumping lemma for context-free languages.\nIf we can show that\nfor every n\\in \\mathbb N there exists a word z\\in L with |z|\\geq n s.t. for every possible decomposition of z as z=uvwxy with |vwx|\\leq n and |vx|\\geq 1, there exists i\\in \\mathbb N s.t. uv^iwx^iy\\notin L,\nthen L is not a context-free language.\nAs for the pumping lemma for regular languages, the use of the pumping lemma for context-free languages is essentially describing a winning strategy for the following game. Given a language we want to prove is not context-free:\n\nthe “adversary” picks n\\in \\mathbb N;\nwe choose a word z\\in L with |z|\\geq n (as a function of n);\nthe adversary chooses u,v,w,x,y s.t.\n\nz=uvwxy\n|vwx|\\leq n\n|vx|\\geq 1\n\nwe choose i\\in \\mathbb N (as a function of n,u,v,w,x,y)\nif we prove that uv^iwx^iy\\notin L we win (i.e. we proved L is not context-free).\n\nHence a “template” for a proof using the pumping lemma for context-free languages is as follow:\n\nWe prove that L is not context-free using the pumping lemma for context-free languages. Let n be the pumping-lemma contant. Consider the word z=..... We have that |z|\\geq n and z\\in L (this needs an argument, possibly trivial, but you need to check it). Given a decomposition of z as z=uvwxy, with |vwx|\\leq n and |vx|\\geq 1, consider i=..... We prove that uv^iwx^iy\\notin L (this needs an argument, usually quite non-trivial).\n\nAs an example, see how the template is filled following the argument we saw for Theorem 1:\n\nWe prove that L is not context-free using the pumping lemma for context-free languages. Let n be the pumping-lemma contant. Consider the word z=a^nb^nc^n. It is immediate to check that |z|\\geq n and z\\in L. Given a decomposition of z as z=uvwxy, with |vwx|\\leq n and |vx|\\geq 1, consider i=0. We prove that uv^iwx^iy\\notin L. Since |vwx|\\leq n this word cannot mention as, bs, and cs at the same time. No matter what vwx is there is always at least one symbol s\\in \\{a,b,c\\} not mentioned in vwx and hence modifying vwx into w will not change the s^n part of z. But |vx|\\geq 1, so going from vwx to w we removed at least one symbol different from s. Hence it is impossible that uwy has the form a^kb^kc^k for some k, that is uwy\\notin L.\n\nAlthough the overall structure is similar, usually applications of the pumping-lemma for context-free languages require a more detailed case analysis than the pumping lemma for regular languages. This typicaly leads to quite “inelegant” proofs, and as in the case of regular languages often it is possible to prove the non-context-freenes of languages using closure properties and the known fact that some notable language is not context-free.\n\nCorollary 1 The language \\{w\\in \\{a,b,c\\} \\mid |w|_a=|w|_b=|w|_c\\} is not context-free.\n\n\n\n\n\n\n\nTipProof (click to expand)\n\n\n\n\n\nThe set of context-free languages is closed under intersection with a regular language, that is if A is context-free and B is regular then A\\cap B is also context-free. If L=\\{w\\in \\{a,b,c\\} \\mid |w|_a=|w|_b=|w|_c\\} was a context free language, then \nL\\cap \\mathscr{L}(a^*b^*c^*)=\\{a^nb^nc^n\\mid n\\in \\mathbb N\\}\n would also be context-free. The language \\mathscr{L}(a^*b^*c^*) is obviously regular (we wrote a regular expression for it). This contradicts Theorem 1, hence L cannot be a context-free language.\n\n\n\nAnother consequence of Theorem 1 is for instance that the set of context-free languages is not closed under intersection.\n\nCorollary 2 The set of context-free languages is not closed under intersection.\n\n\n\n\n\n\n\nTipProof (click to expand)\n\n\n\n\n\nThe two languages \\{a^nb^mc^m\\mid n,m\\in \\mathbb N\\} and \\{a^mb^mc^n\\mid n,m\\in \\mathbb N\\} are context-free and their intersection is the language \\{a^nb^nc^n\\mid n\\in \\mathbb N\\}. By Theorem 1 this is not context-free, so the set of context-free languages cannot be closed under intersection."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Ilario Bonacina",
-    "section": "",
-    "text": "I’m an Assistant Professor (Professor Lector) in the Computer Science Department of the UPC Barcelona Tech, a member of the ALBCOM research group and I participate to the PROOFS-BEYOND research project.\nI obtained my PhD in December 2015 at Sapienza University of Rome under the supervision of Prof. Nicola Galesi. Between 2016 and August 2017 I was a postdoctoral researcher at the KTH Royal Institute of Technology hosted by Prof. Jakob Nordström. Since September 2017 I am affiliated with UPC Barcelona Tech, first as a postdoctoral researcher hosted by Prof. Albert Atserias and then supported by a Juan de la Cierva-incorporation fellowship.\n\n\n\n\n\n\n\nImportantFor students\n\n\n\nClick here to book some office time directly\n(or send me an email (ilario.bonacina at upc dot edu)).\n\n\n\n\nilario.bonacina at upc dot edu UPC Barcelona Tech Dept. Ciències de la Computació Jordi Girona 1-3, Omega-223 08034 Barcelona SPAIN",
+    "text": "Welcome! This page is an attempt to systematically log my participation to conferences, workshops, but also collect talks and notes from 2024-onward.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDate\n\n\n\n\n\n\n\n\nBIRS Workshop Theory and Practice of SAT and Combinatorial Solving\n\n\nJan 11, 2026\n\n\n\n\n\n\nSAT’25\n\n\nAug 15, 2025\n\n\n\n\n\n\nBARCELONA DISCRETE MATHEMATICS MEETING 2025 (BDMM)\n\n\nJan 30, 2025\n\n\n\n\n\n\nNew article in APAL\n\n\nDec 10, 2024\n\n\n\n\n\n\nDagsthul Seminar SAT and Interactions\n\n\nOct 12, 2024\n\n\n\n\n\n\nMathematical Aspects of Learning Theory’24\n\n\nSep 9, 2024\n\n\n\n\n\n\nProof Complexity Workshop\n\n\nSep 3, 2024\n\n\n\n\n\n\nNew article in Artificial Intelligence\n\n\nAug 29, 2024\n\n\n\n\n\n\nSAT’24\n\n\nAug 20, 2024\n\n\n\n\n\n\nIJCAI’24\n\n\nAug 3, 2024\n\n\n\n\n\n\nRaTLoCC’24\n\n\nJun 14, 2024\n\n\n\n\n\n\nOberwolfach workshop Proof Complexity and Beyond\n\n\nMar 24, 2024\n\n\n\n\n\n\nNew article in JAIR\n\n\nFeb 11, 2024\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
-      "[Ilario Bonacina]{.my-name}"
+      "Blog/All News"
     ]
-  },
-  {
-    "objectID": "students-visitors/index.html",
-    "href": "students-visitors/index.html",
-    "title": "Students & Visitors",
-    "section": "",
-    "text": "Ion Mikel Liberal (co-advised with Prof. Jordi Levy)",
-    "crumbs": [
-      "Students & Visitors"
-    ]
-  },
-  {
-    "objectID": "students-visitors/index.html#phd-students",
-    "href": "students-visitors/index.html#phd-students",
-    "title": "Students & Visitors",
-    "section": "",
-    "text": "Ion Mikel Liberal (co-advised with Prof. Jordi Levy)",
-    "crumbs": [
-      "Students & Visitors"
-    ]
-  },
-  {
-    "objectID": "students-visitors/index.html#recent-visitors",
-    "href": "students-visitors/index.html#recent-visitors",
-    "title": "Students & Visitors",
-    "section": "Recent visitors",
-    "text": "Recent visitors\nAntonina Kolokova (April 2025)\nMassimo Lauria (April 2025)\nLea Kasche (November 2024)",
-    "crumbs": [
-      "Students & Visitors"
-    ]
-  },
-  {
-    "objectID": "posts/2025_01_BDMM/index.html",
-    "href": "posts/2025_01_BDMM/index.html",
-    "title": "BARCELONA DISCRETE MATHEMATICS MEETING 2025 (BDMM)",
-    "section": "",
-    "text": "The Barcelona Discrete Mathematics Meeting (BDMM) is a new initiative organized by members of seven research groups in Barcelona working in different areas of Discrete Mathematics. The aim is to bring together these different groups in the area and host a day of talks with both internal and external speakers to learn more about each others research interests and foster future collaboration between the groups.\nRegistration is free but mandatory for logistic reasons.\n\n\n\n\n\n\nTipINVITED SPEAKERS\n\n\n\nAmanda Montejano (National Autonomous University of Mexico)\nMaria José Jiménez (Universitat Politècnica de Catalunya)\nFrancisco Santos (Universidad de Cantabria)\nMoritz Müller (Passau University)\nMercè Villanueva (Universitat Autònoma de Barcelona)\nEulalia Nualart (Universitat Pompeu Fabra)\nTorsten Ueckerdt (Karlsruhe Institute of Technology)\n\n\nThis is a meeting I’m helping organizing together with\nDipak Bhunia (Universitat Autònoma de Barcelona)\nFabian Klute (Universitat Politècnica de Catalunya)\nEnric Monsó (Universitat Politècnica de Catalunya)\nPatrick Morris (Universitat Politècnica de Catalunya)\nVincent Pilaud (Universitat de Barcelona)\nRui Zhang (Universitat Pompeu Fabra)"
-  },
-  {
-    "objectID": "posts/2024_03_Oberwolfach/index.html",
-    "href": "posts/2024_03_Oberwolfach/index.html",
-    "title": "Oberwolfach workshop Proof Complexity and Beyond",
-    "section": "",
-    "text": "MFO, Oberwolfach Research Institute for Mathematics\n\n\nBetwen March 24 and March 29, 2024 I was participating to my second Oberwolfach workshop, the Oberwolfach workshop 2413 Proof Complexity and Beyond.\nI gave a presentation with title Proof systems for MaxSAT based on joint works with Maria Luisa Bonet (UPC) and Jordi Levy (IIIA-CSIC).\n Download the presentation"
-  },
-  {
-    "objectID": "posts/2024_12_APAL/index.html",
-    "href": "posts/2024_12_APAL/index.html",
-    "title": "New article in APAL",
-    "section": "",
-    "text": "The article Strength and limitations of Sherali-Adams and Nullstellensatz proof systems just appeared in the Annals of Pure and Applied Logic (APAL)!\nThis is joint work with Maria Luisa Bonet (UPC).\nread the article \n\nAbstract\nWe compare the strength of the algebraic proof systems Sherali-Adams (SA) and Nullstellensatz (NS) with Frege-style proof systems. Unlike bounded-depth Frege, SA has polynomial-size proofs of the pigeonhole principle (PHP). A natural question is whether adding PHP to bounded-depth Frege is enough to simulate SA. We show that SA, with unary integer coefficients, lies strictly between tree-like depth-1 Frege + PHP and tree-like Resolution. We introduce a levelled version of PHP (LPHP) and we show that with integer coefficients lies strictly between tree-like depth-1 Frege + LPHP and Resolution. Analogous results are shown for NS using the bijective (i.e. onto and functional) pigeonhole principle and a leveled version of it."
-  },
-  {
-    "objectID": "posts/2024_02_JAIR/index.html",
-    "href": "posts/2024_02_JAIR/index.html",
-    "title": "New article in JAIR",
-    "section": "",
-    "text": "The article Weighted, Circular and Semi-Algebraic Proofs just appeared in the Journal of Artificial Intelligence Research (JAIR)!\nThis is joint work with Maria Luisa Bonet (UPC) and Jordi Levy (IIIA-CSIC).\nread the article \n\nAbstract\nIn recent years there has been an increasing interest in studying proof systems stronger than Resolution, with the aim of building more efficient SAT solvers based on them. In defining these proof systems, we try to find a balance between the power of the proof system (the size of the proofs required to refute a formula) and the difficulty of finding the proofs.\nIn this paper we consider the proof systems circular Resolution, Sherali-Adams, Nullstellensatz and Weighted Resolution and we study their relative power from a theoretical perspective. We prove that circular Resolution, Sherali-Adams and Weighted Resolution are polynomially equivalent proof systems. We also prove that Nullstellensatz is polynomially equivalent to a restricted version of Weighted Resolution. The equivalences carry on also for versions of the systems where the coefficients/weights are expressed in unary.\nThe practical interest in these systems comes from the fact that they admit efficient algorithms to find proofs in case these have small width/degree.\n\n\n\nBibTeX\n@article{BBL24-JAIR,\n  author       = {Ilario Bonacina and\n                  Maria Luisa Bonet and\n                  Jordi Levy},\n  title        = {Weighted, Circular and Semi-Algebraic Proofs},\n  journal      = {J. Artif. Intell. Res.},\n  volume       = {79},\n  pages        = {447--482},\n  year         = {2024},\n  doi          = {10.1613/JAIR.1.15075}\n}"
-  },
-  {
-    "objectID": "posts/2024_10_dagstuhl/index.html",
-    "href": "posts/2024_10_dagstuhl/index.html",
-    "title": "Dagsthul Seminar SAT and Interactions",
-    "section": "",
-    "text": "Schloss Dagsthul\n\n\nBetwen October 13 and October 18, 2024 I was participating to my 6th Dagstuhl seminar, the Dagstuhl Seminar 24421 SAT and Interactions."
-  },
-  {
-    "objectID": "posts/2024_06_RaTtLoC/index.html",
-    "href": "posts/2024_06_RaTtLoC/index.html",
-    "title": "RaTLoCC’24",
-    "section": "",
-    "text": "Leaning Tower, Pisa\n\n\nBetwen June 14 and June 18, 2024 I was in Pisa (Italy) attending the workshop RaTLoCC 2024 (Ramsey Theory in Logic, Combinatorics and Complexity).\nThis event was hosted in the Math Department of the University of Pisa, my Alma Mater."
-  },
-  {
-    "objectID": "posts/2026_01_11_Banff/index.html",
-    "href": "posts/2026_01_11_Banff/index.html",
-    "title": "BIRS Workshop Theory and Practice of SAT and Combinatorial Solving",
-    "section": "",
-    "text": "BIRS, CA\n\n\nBetween January 11 and January 16, 2026 I was in Banff (CA) participating to the BIRS workshop Theory and Practice of SAT and Combinatorial Solving, below there the slides of my talk.\n\n    View slides in full screen"
-  },
-  {
-    "objectID": "posts/2024_09_oxford/index.html",
-    "href": "posts/2024_09_oxford/index.html",
-    "title": "Proof Complexity Workshop",
-    "section": "",
-    "text": "Between September 3 and September 5, 2024 I was in Oxford (UK) attending the workshop Proof Complexity 2024."
-  },
-  {
-    "objectID": "posts/2025_08_SAT/index.html",
-    "href": "posts/2025_08_SAT/index.html",
-    "title": "SAT’25",
-    "section": "",
-    "text": "Glasgow skyline, UK\n\n\nThe works Redundancy rules for MaxSAT  (joint work with Maria Luisa Bonet, Sam Buss and Massimo Lauria), Semi-Algebraic Proof Systems for QBF  (joint work with Olaf Beyersdorff, Kaspar Kasche, Meena Mahajan and Luc Nicolas Spachmann), and An Algebraic Approach to MaxCSP  (joint work with Jordi Levy) have been accepted at SAT 2025!\nBetween August 10 and August 16, 2025 I was in Glasgow (UK) presenting the work An Algebraic Approach to MaxCSP  (joint work with Jordi Levy):\n    View slides in full screen\n       \n      \n    \n  \n The work Redundancy rules for MaxSAT  (joint work with Maria Luisa Bonet, Sam Buss and Massimo Lauria) was presented by Massimo Lauria:\n  Download PDF File\n   \n    Unable to display PDF file. Download instead.\n  \n  \n The work Semi-Algebraic Proof Systems for QBF  (joint work with Olaf Beyersdorff, Kaspar Kasche, Meena Mahajan and Luc Nicolas Spachmann) was presented by Kaspar Kasche:\n  Download PDF File\n   \n    Unable to display PDF file. Download instead.\n  \n  \n\nread the article \n\n\n\n\n\n\nWarning\n\n\n\nCloser to the actual date of the conference I will post here the slides of the presentation."
-  },
-  {
-    "objectID": "posts/2024_08_IJCAI/index.html",
-    "href": "posts/2024_08_IJCAI/index.html",
-    "title": "IJCAI’24",
-    "section": "",
-    "text": "Jeju Island, South Korea\n\n\nBetwen August 3 and August 9, 2024 I was in Jeju (Korea) attending IJCAI 2024. On August 8, I presented the work Weighted, circular and semi-algebraic proofs in the journal track of IJCAI’24.\nread the article \n\n\n\n\n\nIJCAI poster\n\n\n\n\n\n\n\n\n\nWarning\n\n\n\nCloser to the actual date of the conference I will post here the slides of the presentation."
-  },
-  {
-    "objectID": "posts/2024_09_AIJ/index.html",
-    "href": "posts/2024_09_AIJ/index.html",
-    "title": "New article in Artificial Intelligence",
-    "section": "",
-    "text": "The article Polynomial Calculus for Optimization just appeared in the journal Artificial Intelligence!\nThis is joint work with Maria Luisa Bonet (UPC) and Jordi Levy (IIIA-CSIC).\nread the article \n\nAbstract\nMaxSAT is the problem of finding an assignment satisfying the maximum number of clauses in a CNF formula. We consider a natural generalization of this problem to generic sets of polynomials and propose a weighted version of Polynomial Calculus to address this problem. Weighted Polynomial Calculus is a natural generalization of MaxSAT-Resolution and weighted Resolution that manipulates polynomials with coefficients in a finite field and either weights in \\mathbb N or \\mathbb Z. We show the soundness and completeness of these systems via an algorithmic procedure. Weighted Polynomial Calculus, with weights in \\mathbb N and coefficients in \\mathbb F_2, is able to prove efficiently that Tseitin formulas on a connected graph are minimally unsatisfiable. Using weights in \\mathbb Z, it also proves efficiently that the Pigeonhole Principle is minimally unsatisfiable.\n\n\n\nBibTeX\n@article{BBL24-JAIR,\n  author       = {Ilario Bonacina and\n                  Maria Luisa Bonet and\n                  Jordi Levy},\n  title        = {Weighted, Circular and Semi-Algebraic Proofs},\n  journal      = {J. Artif. Intell. Res.},\n  volume       = {79},\n  pages        = {447--482},\n  year         = {2024},\n  doi          = {10.1613/JAIR.1.15075}\n}"
-  },
-  {
-    "objectID": "posts/2024_09_barcelona/index.html",
-    "href": "posts/2024_09_barcelona/index.html",
-    "title": "Mathematical Aspects of Learning Theory’24",
-    "section": "",
-    "text": "Between September 9 and September 13, 2024 I was attending the conference Mathematical Aspects of Learning Theory - 20 Years Later organized by the Centre de Recerca Matematica (CRM) in Barcelona."
-  },
-  {
-    "objectID": "posts/2024_08_SAT/index.html",
-    "href": "posts/2024_08_SAT/index.html",
-    "title": "SAT’24",
-    "section": "",
-    "text": "Aga Khan Palace, Pune, India\n\n\nBetween August 20 and August 24, 2024 I was in Pune (India) presenting the work MaxSAT Resolution with Inclusion Redundancy at SAT 2024.\nread the article \n\n\n\n\n\n\n\nWarning\n\n\n\nCloser to the actual date of the conference I will post here the slides of the presentation."
   },
   {
     "objectID": "publications/index.html",
@@ -229,28 +87,142 @@
     ]
   },
   {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "Blog/All News",
+    "objectID": "posts/2024_08_SAT/index.html",
+    "href": "posts/2024_08_SAT/index.html",
+    "title": "SAT’24",
     "section": "",
-    "text": "Welcome! This page is an attempt to systematically log my participation to conferences, workshops, but also collect talks and notes from 2024-onward.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDate\n\n\n\n\n\n\n\n\nBIRS Workshop Theory and Practice of SAT and Combinatorial Solving\n\n\nJan 11, 2026\n\n\n\n\n\n\nSAT’25\n\n\nAug 15, 2025\n\n\n\n\n\n\nBARCELONA DISCRETE MATHEMATICS MEETING 2025 (BDMM)\n\n\nJan 30, 2025\n\n\n\n\n\n\nNew article in APAL\n\n\nDec 10, 2024\n\n\n\n\n\n\nDagsthul Seminar SAT and Interactions\n\n\nOct 12, 2024\n\n\n\n\n\n\nMathematical Aspects of Learning Theory’24\n\n\nSep 9, 2024\n\n\n\n\n\n\nProof Complexity Workshop\n\n\nSep 3, 2024\n\n\n\n\n\n\nNew article in Artificial Intelligence\n\n\nAug 29, 2024\n\n\n\n\n\n\nSAT’24\n\n\nAug 20, 2024\n\n\n\n\n\n\nIJCAI’24\n\n\nAug 3, 2024\n\n\n\n\n\n\nRaTLoCC’24\n\n\nJun 14, 2024\n\n\n\n\n\n\nOberwolfach workshop Proof Complexity and Beyond\n\n\nMar 24, 2024\n\n\n\n\n\n\nNew article in JAIR\n\n\nFeb 11, 2024\n\n\n\n\n\n\nNo matching items",
+    "text": "Aga Khan Palace, Pune, India\n\n\nBetween August 20 and August 24, 2024 I was in Pune (India) presenting the work MaxSAT Resolution with Inclusion Redundancy at SAT 2024.\nread the article \n\n\n\n\n\n\n\nWarning\n\n\n\nCloser to the actual date of the conference I will post here the slides of the presentation."
+  },
+  {
+    "objectID": "posts/2024_09_barcelona/index.html",
+    "href": "posts/2024_09_barcelona/index.html",
+    "title": "Mathematical Aspects of Learning Theory’24",
+    "section": "",
+    "text": "Between September 9 and September 13, 2024 I was attending the conference Mathematical Aspects of Learning Theory - 20 Years Later organized by the Centre de Recerca Matematica (CRM) in Barcelona."
+  },
+  {
+    "objectID": "posts/2024_09_AIJ/index.html",
+    "href": "posts/2024_09_AIJ/index.html",
+    "title": "New article in Artificial Intelligence",
+    "section": "",
+    "text": "The article Polynomial Calculus for Optimization just appeared in the journal Artificial Intelligence!\nThis is joint work with Maria Luisa Bonet (UPC) and Jordi Levy (IIIA-CSIC).\nread the article \n\nAbstract\nMaxSAT is the problem of finding an assignment satisfying the maximum number of clauses in a CNF formula. We consider a natural generalization of this problem to generic sets of polynomials and propose a weighted version of Polynomial Calculus to address this problem. Weighted Polynomial Calculus is a natural generalization of MaxSAT-Resolution and weighted Resolution that manipulates polynomials with coefficients in a finite field and either weights in \\mathbb N or \\mathbb Z. We show the soundness and completeness of these systems via an algorithmic procedure. Weighted Polynomial Calculus, with weights in \\mathbb N and coefficients in \\mathbb F_2, is able to prove efficiently that Tseitin formulas on a connected graph are minimally unsatisfiable. Using weights in \\mathbb Z, it also proves efficiently that the Pigeonhole Principle is minimally unsatisfiable.\n\n\n\nBibTeX\n@article{BBL24-JAIR,\n  author       = {Ilario Bonacina and\n                  Maria Luisa Bonet and\n                  Jordi Levy},\n  title        = {Weighted, Circular and Semi-Algebraic Proofs},\n  journal      = {J. Artif. Intell. Res.},\n  volume       = {79},\n  pages        = {447--482},\n  year         = {2024},\n  doi          = {10.1613/JAIR.1.15075}\n}"
+  },
+  {
+    "objectID": "posts/2024_08_IJCAI/index.html",
+    "href": "posts/2024_08_IJCAI/index.html",
+    "title": "IJCAI’24",
+    "section": "",
+    "text": "Jeju Island, South Korea\n\n\nBetwen August 3 and August 9, 2024 I was in Jeju (Korea) attending IJCAI 2024. On August 8, I presented the work Weighted, circular and semi-algebraic proofs in the journal track of IJCAI’24.\nread the article \n\n\n\n\n\nIJCAI poster\n\n\n\n\n\n\n\n\n\nWarning\n\n\n\nCloser to the actual date of the conference I will post here the slides of the presentation."
+  },
+  {
+    "objectID": "posts/2025_08_SAT/index.html",
+    "href": "posts/2025_08_SAT/index.html",
+    "title": "SAT’25",
+    "section": "",
+    "text": "Glasgow skyline, UK\n\n\nThe works Redundancy rules for MaxSAT  (joint work with Maria Luisa Bonet, Sam Buss and Massimo Lauria), Semi-Algebraic Proof Systems for QBF  (joint work with Olaf Beyersdorff, Kaspar Kasche, Meena Mahajan and Luc Nicolas Spachmann), and An Algebraic Approach to MaxCSP  (joint work with Jordi Levy) have been accepted at SAT 2025!\nBetween August 10 and August 16, 2025 I was in Glasgow (UK) presenting the work An Algebraic Approach to MaxCSP  (joint work with Jordi Levy):\n    View slides in full screen\n       \n      \n    \n  \n The work Redundancy rules for MaxSAT  (joint work with Maria Luisa Bonet, Sam Buss and Massimo Lauria) was presented by Massimo Lauria:\n  Download PDF File\n   \n    Unable to display PDF file. Download instead.\n  \n  \n The work Semi-Algebraic Proof Systems for QBF  (joint work with Olaf Beyersdorff, Kaspar Kasche, Meena Mahajan and Luc Nicolas Spachmann) was presented by Kaspar Kasche:\n  Download PDF File\n   \n    Unable to display PDF file. Download instead.\n  \n  \n\nread the article \n\n\n\n\n\n\nWarning\n\n\n\nCloser to the actual date of the conference I will post here the slides of the presentation."
+  },
+  {
+    "objectID": "posts/2024_09_oxford/index.html",
+    "href": "posts/2024_09_oxford/index.html",
+    "title": "Proof Complexity Workshop",
+    "section": "",
+    "text": "Between September 3 and September 5, 2024 I was in Oxford (UK) attending the workshop Proof Complexity 2024."
+  },
+  {
+    "objectID": "posts/2026_01_11_Banff/index.html",
+    "href": "posts/2026_01_11_Banff/index.html",
+    "title": "BIRS Workshop Theory and Practice of SAT and Combinatorial Solving",
+    "section": "",
+    "text": "BIRS, CA\n\n\nBetween January 11 and January 16, 2026 I was in Banff (CA) participating to the BIRS workshop Theory and Practice of SAT and Combinatorial Solving, below there the slides of my talk.\n\n    View slides in full screen"
+  },
+  {
+    "objectID": "posts/2024_06_RaTtLoC/index.html",
+    "href": "posts/2024_06_RaTtLoC/index.html",
+    "title": "RaTLoCC’24",
+    "section": "",
+    "text": "Leaning Tower, Pisa\n\n\nBetwen June 14 and June 18, 2024 I was in Pisa (Italy) attending the workshop RaTLoCC 2024 (Ramsey Theory in Logic, Combinatorics and Complexity).\nThis event was hosted in the Math Department of the University of Pisa, my Alma Mater."
+  },
+  {
+    "objectID": "posts/2024_10_dagstuhl/index.html",
+    "href": "posts/2024_10_dagstuhl/index.html",
+    "title": "Dagsthul Seminar SAT and Interactions",
+    "section": "",
+    "text": "Schloss Dagsthul\n\n\nBetwen October 13 and October 18, 2024 I was participating to my 6th Dagstuhl seminar, the Dagstuhl Seminar 24421 SAT and Interactions."
+  },
+  {
+    "objectID": "posts/2024_02_JAIR/index.html",
+    "href": "posts/2024_02_JAIR/index.html",
+    "title": "New article in JAIR",
+    "section": "",
+    "text": "The article Weighted, Circular and Semi-Algebraic Proofs just appeared in the Journal of Artificial Intelligence Research (JAIR)!\nThis is joint work with Maria Luisa Bonet (UPC) and Jordi Levy (IIIA-CSIC).\nread the article \n\nAbstract\nIn recent years there has been an increasing interest in studying proof systems stronger than Resolution, with the aim of building more efficient SAT solvers based on them. In defining these proof systems, we try to find a balance between the power of the proof system (the size of the proofs required to refute a formula) and the difficulty of finding the proofs.\nIn this paper we consider the proof systems circular Resolution, Sherali-Adams, Nullstellensatz and Weighted Resolution and we study their relative power from a theoretical perspective. We prove that circular Resolution, Sherali-Adams and Weighted Resolution are polynomially equivalent proof systems. We also prove that Nullstellensatz is polynomially equivalent to a restricted version of Weighted Resolution. The equivalences carry on also for versions of the systems where the coefficients/weights are expressed in unary.\nThe practical interest in these systems comes from the fact that they admit efficient algorithms to find proofs in case these have small width/degree.\n\n\n\nBibTeX\n@article{BBL24-JAIR,\n  author       = {Ilario Bonacina and\n                  Maria Luisa Bonet and\n                  Jordi Levy},\n  title        = {Weighted, Circular and Semi-Algebraic Proofs},\n  journal      = {J. Artif. Intell. Res.},\n  volume       = {79},\n  pages        = {447--482},\n  year         = {2024},\n  doi          = {10.1613/JAIR.1.15075}\n}"
+  },
+  {
+    "objectID": "posts/2024_12_APAL/index.html",
+    "href": "posts/2024_12_APAL/index.html",
+    "title": "New article in APAL",
+    "section": "",
+    "text": "The article Strength and limitations of Sherali-Adams and Nullstellensatz proof systems just appeared in the Annals of Pure and Applied Logic (APAL)!\nThis is joint work with Maria Luisa Bonet (UPC).\nread the article \n\nAbstract\nWe compare the strength of the algebraic proof systems Sherali-Adams (SA) and Nullstellensatz (NS) with Frege-style proof systems. Unlike bounded-depth Frege, SA has polynomial-size proofs of the pigeonhole principle (PHP). A natural question is whether adding PHP to bounded-depth Frege is enough to simulate SA. We show that SA, with unary integer coefficients, lies strictly between tree-like depth-1 Frege + PHP and tree-like Resolution. We introduce a levelled version of PHP (LPHP) and we show that with integer coefficients lies strictly between tree-like depth-1 Frege + LPHP and Resolution. Analogous results are shown for NS using the bijective (i.e. onto and functional) pigeonhole principle and a leveled version of it."
+  },
+  {
+    "objectID": "posts/2024_03_Oberwolfach/index.html",
+    "href": "posts/2024_03_Oberwolfach/index.html",
+    "title": "Oberwolfach workshop Proof Complexity and Beyond",
+    "section": "",
+    "text": "MFO, Oberwolfach Research Institute for Mathematics\n\n\nBetwen March 24 and March 29, 2024 I was participating to my second Oberwolfach workshop, the Oberwolfach workshop 2413 Proof Complexity and Beyond.\nI gave a presentation with title Proof systems for MaxSAT based on joint works with Maria Luisa Bonet (UPC) and Jordi Levy (IIIA-CSIC).\n Download the presentation"
+  },
+  {
+    "objectID": "posts/2025_01_BDMM/index.html",
+    "href": "posts/2025_01_BDMM/index.html",
+    "title": "BARCELONA DISCRETE MATHEMATICS MEETING 2025 (BDMM)",
+    "section": "",
+    "text": "The Barcelona Discrete Mathematics Meeting (BDMM) is a new initiative organized by members of seven research groups in Barcelona working in different areas of Discrete Mathematics. The aim is to bring together these different groups in the area and host a day of talks with both internal and external speakers to learn more about each others research interests and foster future collaboration between the groups.\nRegistration is free but mandatory for logistic reasons.\n\n\n\n\n\n\nTipINVITED SPEAKERS\n\n\n\nAmanda Montejano (National Autonomous University of Mexico)\nMaria José Jiménez (Universitat Politècnica de Catalunya)\nFrancisco Santos (Universidad de Cantabria)\nMoritz Müller (Passau University)\nMercè Villanueva (Universitat Autònoma de Barcelona)\nEulalia Nualart (Universitat Pompeu Fabra)\nTorsten Ueckerdt (Karlsruhe Institute of Technology)\n\n\nThis is a meeting I’m helping organizing together with\nDipak Bhunia (Universitat Autònoma de Barcelona)\nFabian Klute (Universitat Politècnica de Catalunya)\nEnric Monsó (Universitat Politècnica de Catalunya)\nPatrick Morris (Universitat Politècnica de Catalunya)\nVincent Pilaud (Universitat de Barcelona)\nRui Zhang (Universitat Pompeu Fabra)"
+  },
+  {
+    "objectID": "students-visitors/index.html",
+    "href": "students-visitors/index.html",
+    "title": "Students & Visitors",
+    "section": "",
+    "text": "Ion Mikel Liberal (co-advised with Prof. Jordi Levy)",
     "crumbs": [
-      "Blog/All News"
+      "Students & Visitors"
     ]
   },
   {
-    "objectID": "teaching/TC/depuration_of_CFGs.html",
-    "href": "teaching/TC/depuration_of_CFGs.html",
-    "title": "Depuration of context-free grammars",
+    "objectID": "students-visitors/index.html#phd-students",
+    "href": "students-visitors/index.html#phd-students",
+    "title": "Students & Visitors",
     "section": "",
-    "text": "Given a context-free grammar G=(V,T,\\mathcal P,S), the term depuration refers to the process of constructing an equivalent grammar G' more structured and without clearly redundant variables.\n\nRemoving useless variablesRemoving all A\\to \\lambdaRemoving all A\\to B\n\n\nA variable of G is useful if it is involved in a production of a string of only terminal symbols, that is a variable is useful if it is reachable from S and it is productive.\nWe can define the reachable variables recursively follows: S is reachable from S (clearly), and if A is reachable and we have a rule A\\to \\alpha with \\alpha\\in (V\\cup T)^* then all the variables in \\alpha are also reachable. Once we identified the reachable variables R\\subseteq T, we can then remove all the the productions B\\to \\beta with B\\notin R.\nWe can define productive variables as the ones that eventually are able to generate a terminal string. The definition is recursive similar to the one before: if A\\to \\alpha and \\alpha\\in T^*, then A is productive; if A\\to\\alpha with \\alpha\\in (V\\cup T)^* and every variable in \\alpha is productive, then A is productive. Once we identified the productive variables R\\subseteq T, we can then remove all the the productions B\\to \\beta with B\\notin R or with some variable in \\beta not in R.\n\n\n\n\n\n\nWarning\n\n\n\nThe order in which we perform the operations matters. Consider the grammar \n\\begin{align*}\nS&\\to AB \\mid a\\\\\nB&\\to b\n\\end{align*}\n if we remove first the unreachable and then the unproductive variables you still get a grammar with useless symbols. You need first to remove the unproductive variables, and then the unreachable ones.\n\n\n\n\nA production of the form A\\to \\lambda is a \\lambda-production.\nA variable A is nullable if it can derive the empty word \\lambda. We can define recursively nullable variables: if A\\to \\lambda is a production, then A is nullable; if A\\to\\alpha and \\alpha\\in V^* with all the variables in \\alpha nullable then A is also nullable.\nOnce we identified the nullable variables, we can then remove all productions of the form A\\to \\lambda (with A\\neq S), and for every production A\\to \\alpha B\\beta with B nullable, add the production A\\to \\alpha\\beta, and keep symplifying the new set of productions. Unless A=S, never write productions A\\to\\lambda that might occur.\nFor example removing the \\lambda-productions from the grammar \n\\begin{align*}\nS&\\to ABC \\mid \\lambda\\\\\nA&\\to \\lambda\\\\\nB&\\to\\lambda\\\\\nC&\\to\\lambda\n\\end{align*}\n gives the grammar S\\to ABC \\mid AB \\mid AC \\mid BC \\mid A \\mid B \\mid C \\mid \\lambda.\n\n\nA production of the form A\\to B is called unit production. The variable A is clearly redundant, its only job is to get expanded into B. Productions of the form A\\to a where a is a terminal are not unit productions. The technique to remove all unit productions that simply expands them until they disappear often works but not always. Consider for instance the productions A\\to B,\\ B\\to C,\\ C\\to A. What works is the following:\n\nfind all unit pairs, i.e. pairs of variables (A,B) where B can be derived from A. For example (A,B) are a unit pair in the grammar A\\to BC,\\ C\\to \\lambda. As for the other cases, there is an inductive construction of unit pairs: for each variable A, (A,A) is a unit pair; and if (A,B) is a unit pair and B\\to C is a production, the (A,C) is also a unit pair.\nfor each unit pair (A,B) add all the productions A\\to \\alpha to G', where B\\to \\alpha is a nonunit production in \\mathcal P. For the unit pair (A,A) we add as productions in G' all nonunit productions of A.\n\nFor example, removing the unit rules from the grammar \n\\begin{align*}\nS&\\to X_1\\\\\nX_1&\\to X_2\\\\\n\\vdots &\\\\\nX_{n-1} &\\to X_n\\\\\nX_n&\\to w\n\\end{align*}\n with w terminal word, gives the grammar\n\n\\begin{align*}\nS&\\to w\\\\\nX_1&\\to w\\\\\n\\vdots &\\\\\nX_{n-1} &\\to w\\\\\nX_n&\\to w\n\\end{align*}\n\n\n\n\n\nTheorem 1 There is an order in which to apply the removal of useless variables, \\lambda-productions, and unit productions to obtain an equivalent grammar. What is this order?"
+    "text": "Ion Mikel Liberal (co-advised with Prof. Jordi Levy)",
+    "crumbs": [
+      "Students & Visitors"
+    ]
+  },
+  {
+    "objectID": "students-visitors/index.html#recent-visitors",
+    "href": "students-visitors/index.html#recent-visitors",
+    "title": "Students & Visitors",
+    "section": "Recent visitors",
+    "text": "Recent visitors\nAntonina Kolokova (April 2025)\nMassimo Lauria (April 2025)\nLea Kasche (November 2024)",
+    "crumbs": [
+      "Students & Visitors"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ilario Bonacina",
+    "section": "",
+    "text": "I’m an Assistant Professor (Professor Lector) in the Computer Science Department of the UPC Barcelona Tech, a member of the ALBCOM research group and I participate to the PROOFS-BEYOND research project.\nI obtained my PhD in December 2015 at Sapienza University of Rome under the supervision of Prof. Nicola Galesi. Between 2016 and August 2017 I was a postdoctoral researcher at the KTH Royal Institute of Technology hosted by Prof. Jakob Nordström. Since September 2017 I am affiliated with UPC Barcelona Tech, first as a postdoctoral researcher hosted by Prof. Albert Atserias and then supported by a Juan de la Cierva-incorporation fellowship.\n\n\n\n\n\n\n\nImportantFor students\n\n\n\nClick here to book some office time directly\n(or send me an email (ilario.bonacina at upc dot edu)).\n\n\n\n\nilario.bonacina at upc dot edu UPC Barcelona Tech Dept. Ciències de la Computació Jordi Girona 1-3, Omega-223 08034 Barcelona SPAIN",
+    "crumbs": [
+      "[Ilario Bonacina]{.my-name}"
+    ]
   },
   {
     "objectID": "teaching/TC/index.html",
     "href": "teaching/TC/index.html",
     "title": "Theory of Computation",
     "section": "",
-    "text": "This page collects some material used for the Theory of Computation (Teoria de la Computació, TC) course group 11 which is not (yet) in the main page of the course. In particular, below there are theory bits on some selected topics of the course.\n\nFrom DFAs/NFAs to regular expressions (Arden’s rule)\nThe pumping lemma for context-free languages\nDepuration of context-free grammars\n\n\n\n\n\n\n\nCaution\n\n\n\nThe slides below are just provided as a visual reminder of what seen in class. They do not even cover the material seen using the blackboard! To study please use the resources (books/videos) provided in the main page of the course!\nThe style of the first two classes has been updated to match the rest of the slides.\n\n\n\nMay 5\nApril 28\nApril 21\nApril 14\nMarch 17\nMarch 10\n\nMarch 3\nFebruary 24\nFebruary 17\nFebruary 10",
+    "text": "This page usually collects some material used for the Theory of Computation (Teoria de la Computació, TC) course which is not (yet) in the main page of the course.\nNow the course is not active. I will teach this again in 2026-2027 Q1. See you in September!",
     "crumbs": [
       "Teaching & co",
       "TC"
@@ -261,7 +233,7 @@
     "href": "teaching/LI/index.html",
     "title": "Logics in Information Technology",
     "section": "",
-    "text": "This page is to host a snapshot of the slides used for the labs of Logics in Information Technology (Lògica en la Informàtica, LI) course group 11 and 22.\n\n\n\n\n\n\nCaution\n\n\n\nThe slides are just provided as a visual reminder of what seen in the lab. They do not even cover the material seen using the blackboard! To study please use the resources provided in the main page of the course!\n\n\n    View slides in full screen\n       \n      \n    \n       View slides in full screen\n       \n      \n    \n       View slides in full screen\n       \n      \n    \n       View slides in full screen\n       \n      \n    \n       View slides in full screen",
+    "text": "This page usually hosts a snapshot of the slides I used for the labs of Logics in Information Technology (Lògica en la Informàtica, LI).\nMy next iteration in this course will be in 2026-2027 Q2. See you in February!",
     "crumbs": [
       "Teaching & co",
       "LI"
