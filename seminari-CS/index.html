@@ -47,7 +47,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eb8a65e149da6063e3420c72d03a5b8a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-b405cf1a7cff4cec9505faf65ff2faba.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/iconify-3.0.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
@@ -79,34 +79,6 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-next-talk .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-speaker','listing-affiliation','listing-date','listing-when','listing-where','listing-language','listing-abstract',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
-      
-      searchColumns: ["listing-title","listing-speaker","listing-affiliation","listing-date","listing-when","listing-where","listing-language","listing-abstract"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-next-talk'] = new List('listing-next-talk', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-past-talks .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -114,9 +86,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-speaker','listing-affiliation','listing-date','listing-when','listing-where','listing-slides','listing-language','listing-abstract',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-title','listing-speaker','listing-affiliation','listing-date','listing-when','listing-where','listing-language','listing-abstract','listing-slides',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-speaker","listing-affiliation","listing-date","listing-when","listing-where","listing-slides","listing-language","listing-abstract"],
+      searchColumns: ["listing-title","listing-speaker","listing-affiliation","listing-date","listing-when","listing-where","listing-language","listing-abstract","listing-slides"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -203,12 +175,19 @@ window.Quarto = {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="../">Ilario Bonacina</a> 
-    </div>
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../assets/me_color.jpg" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="../assets/me_color.jpg" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
+      </a>
       </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="my-name">Ilario Bonacina</span></span></a>
+  </div>
+</li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../blog/index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-newspaper" role="img">
@@ -324,21 +303,26 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x6
 </div>
 <section id="upcoming-talks" class="level2">
 <h2 class="anchored" data-anchor-id="upcoming-talks">Upcoming talks</h2>
-<div id="listing-next-talk" class="quarto-listing quarto-listing-container-custom">
-<ul class="talks-list">
-<li class="talk-upcoming-item">
-<p>Jun 3, 2026 (Room <strong>D3 004</strong>, h. 12:00–13:00) <br> Gabriel Mel (CRM)<br> <strong>Beyond Spectra: Eigenvector Overlaps and Generalization in Machine Learning</strong> <br> <i>The talk will be in English.</i> <br><br> Modern machine learning often interprets “loss geometry” through the Hessian spectrum, motivating ideas such as flat versus sharp directions. I will argue that this view is incomplete: learning is inherently a two-loss problem (train and test), so local geometry depends not only on eigenvalues but also on how the corresponding train and test eigendirections align. I will introduce a simple, universal fluctuation law showing how small training perturbations translate into test error, which reframes the usual intuition: flat directions of the training loss are not intrinsically good or bad – their effect depends on whether they align with sensitive directions of the test loss.</p>
-<p>I will then turn to ridge regression, which provides a simple tractable model. In this setting, we obtain closed-form expressions that fully explain both domain shift and the phenomenon of multiple descent. The key takeaway is that generalization is controlled by how training variability projects onto test-sensitive directions – captured precisely by train-test eigenspace alignment – rather than by Hessian spectra alone. Finally, I will briefly discuss scalable methods for estimating these overlaps in large networks, and an application to a class imbalance in a trained ResNet model.</p>
-<p>Together, these results suggest a shift in perspective: spectra describe curvature, but overlaps determine how that curvature matters for generalization. This perspective provides both a conceptual and practical framework for analyzing modern learning systems.</p>
-</li>
-</ul>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
+<p>The next talk will be in September. <!--
+:::{#next-talk}
+:::
+--></p>
 </section>
 <section id="past-talks" class="level2">
 <h2 class="anchored" data-anchor-id="past-talks">Past talks</h2>
 <div id="listing-past-talks" class="quarto-listing quarto-listing-container-custom">
 <ul class="talks-list">
+<li class="talk-item">
+<i>Jun 3, 2026</i> <br> Gabriel Mel (CRM) <br> <strong>Beyond Spectra: Eigenvector Overlaps and Generalization in Machine Learning</strong>
+<details>
+<summary>
+Abstract
+</summary>
+<p>Modern machine learning often interprets “loss geometry” through the Hessian spectrum, motivating ideas such as flat versus sharp directions. I will argue that this view is incomplete: learning is inherently a two-loss problem (train and test), so local geometry depends not only on eigenvalues but also on how the corresponding train and test eigendirections align. I will introduce a simple, universal fluctuation law showing how small training perturbations translate into test error, which reframes the usual intuition: flat directions of the training loss are not intrinsically good or bad – their effect depends on whether they align with sensitive directions of the test loss.</p>
+<p>I will then turn to ridge regression, which provides a simple tractable model. In this setting, we obtain closed-form expressions that fully explain both domain shift and the phenomenon of multiple descent. The key takeaway is that generalization is controlled by how training variability projects onto test-sensitive directions – captured precisely by train-test eigenspace alignment – rather than by Hessian spectra alone. Finally, I will briefly discuss scalable methods for estimating these overlaps in large networks, and an application to a class imbalance in a trained ResNet model.</p>
+<p>Together, these results suggest a shift in perspective: spectra describe curvature, but overlaps determine how that curvature matters for generalization. This perspective provides both a conceptual and practical framework for analyzing modern learning systems.</p>
+</details>
+</li>
 <li class="talk-item">
 <i>May 13, 2026</i> <br> Albert Oliveras (UPC) <br> <strong>The Power of SAT: Defying NP-Completeness in the Real World</strong> (<a href="slides/2026_05_13_Albert_Oliveras.pdf">slides</a>)
 <details>
