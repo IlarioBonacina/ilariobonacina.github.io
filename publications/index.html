@@ -363,6 +363,55 @@ window.Quarto = {
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span><span class="small-title">Beyond Core-Guided MaxSAT</span>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+joint work with Jordi Levy, Ion Mikel Liberal.<br>
+<em>In Proceedings of <a href="https://doi.org/">SAT (to appear)</a></em>, 2026
+<details>
+<summary>
+Abstract
+</summary>
+<p style="text-align: justify;">
+</p><p>Several proof systems for MaxSAT have been proposed in the literature, including MaxSAT resolution and, more recently, systems based on polynomial calculus and tableaux. Although these systems are sound and complete and have varying strengths, they fail to capture the specific inferential strategies used by practical MaxSAT solvers, particularly those used in core-guided approaches. As a result, a formula that is hard to prove in these proof systems may not be hard for a solver, and vice versa.</p>
+<p>In this paper, we describe a new proof system for MaxSAT, the (CC), which models the inferential strategies used in core-guided MaxSAT solvers. Inspired by this formalism, we introduce two new MaxSAT algorithms: a core-guided one (Simple) and one non-core-guided (CSat), which uses heuristics to construct new soft formulas and calls a SAT solver on a single soft formula. We also define a hybrid mechanism (core-guided CSat) that uses cores to guide the heuristics.</p>
+We evaluate and compare our solvers with OLL on instances from the MaxSAT evaluation 2024, random 2-CNFs, and PHP formulas. Experimental results suggest that, in general, the performance of the different MaxSAT solvers depends on the structure of the instances. On the set of industrial instances of the MaxSAT Evaluation 2024, Simple performs better than the others (including OLL).
+<p></p>
+</details>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span><span class="small-title">Conditional Autarkies: Hard Formulas Made Easy</span>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+joint work with Maria Luisa Bonet, Antonina Kolokolova, Massimo Lauria.<br>
+<em>In Proceedings of <a href="https://doi.org/">SAT (to appear)</a></em>, 2026
+<details>
+<summary>
+Abstract
+</summary>
+<p style="text-align: justify;">
+</p><p>State-of-the-art SAT solvers increasingly use techniques beyond resolution. For instance, adding redundant clauses allows the solver to reduce the solution space, <em>eg</em> to break symmetries.</p>
+<p>We investigate the strength of relatively weak redundancy reasoning: conditional autarkies and set-blocked clauses, with no new variables and no deletions.</p>
+<p>We show that adding conditional autarkies (as set-blocked clauses) on top of resolution allows efficient refutations of a number of natural combinatorial principles that may occur in SAT benchmarks.</p>
+In particular, we give efficient proofs of the perfect matching on a grid, the mutilated chessboard, the counting principle modulo 3, and the relativized pigeonhole principle.
+<p></p>
+</details>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
 <span class="screen-reader-only">Note</span><span class="small-title">Semi-Algebraic Proof Systems for QBF</span>
 </div>
 </div>
@@ -758,6 +807,27 @@ Abstract
 </summary>
 <p style="text-align: justify;">
 Recently it was shown that PLS is not contained in PPADS (ECCC report TR22-058). We show that this separation already implies that PLS is not contained in PPP. These separations are shown for the decision tree model of TFNP and imply similar separations in the type-2, relativized model. Important note. This manuscript is based on an early preprint of report TR22-058, which did not contain the result that PLS is not contained in PPP. Our work is superseded by the revised version of the report of 10 June 2022 which, independently, contains this result. The manuscript has not been edited to reflect this, and in particular references to the report are to the early version.
+</p>
+</details>
+</div>
+</div>
+<div class="callout callout-style-simple callout-warning no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span><span class="small-title">Razborov’ Switching Lemma for <span class="math inline">k</span>-DNF Resolution (an exposition)</span>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+2018 <a href="2018-B-manuscript.pdf"><iconify-icon role="img" inline="" icon="flat-color-icons:reading" style="font-size: 2em;" aria-label="Icon reading from flat-color-icons Iconify.design set." title="Icon reading from flat-color-icons Iconify.design set."></iconify-icon></a>
+<details>
+<summary>
+Abstract
+</summary>
+<p style="text-align: justify;">
+In this note we prove (a simplified version of) the small restrictions Switching Lemma for k-DNF resolution by Razborov.
 </p>
 </details>
 </div>
