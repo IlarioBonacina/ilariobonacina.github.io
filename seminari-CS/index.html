@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -44,10 +47,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-b405cf1a7cff4cec9505faf65ff2faba.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-bcf390ffc34b5a52165072dce03f23e9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/iconify-3.0.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
@@ -79,7 +82,63 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-past-talks .list');
+    const listingTargetEl = window.document.querySelector('#listing-next-talk .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-speaker','listing-affiliation','listing-date','listing-when','listing-where','listing-language','listing-abstract',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-speaker","listing-affiliation","listing-date","listing-when","listing-where","listing-language","listing-abstract"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-next-talk'] = new List('listing-next-talk', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-talks-2025 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-speaker','listing-affiliation','listing-date','listing-when','listing-where','listing-abstract',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-speaker","listing-affiliation","listing-date","listing-when","listing-where","listing-abstract"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-talks-2025'] = new List('listing-talks-2025', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-talks-2026 .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -92,7 +151,35 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-past-talks'] = new List('listing-past-talks', options);
+    window['quarto-listings']['listing-talks-2026'] = new List('listing-talks-2026', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-future-talks .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-speaker','listing-affiliation','listing-date','listing-when','listing-where','listing-language','listing-abstract',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-speaker","listing-affiliation","listing-date","listing-when","listing-where","listing-language","listing-abstract"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-future-talks'] = new List('listing-future-talks', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -303,14 +390,51 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x6
 </div>
 <section id="upcoming-talks" class="level2">
 <h2 class="anchored" data-anchor-id="upcoming-talks">Upcoming talks</h2>
-<p>The next talk will be in September. <!--
-:::{#next-talk}
-:::
---></p>
+<p>The next talk will be the following.</p>
+<div id="listing-next-talk" class="quarto-listing quarto-listing-container-custom">
+<ul class="talks-list">
+<li class="talk-upcoming-item">
+<p>Oct 7, 2026 (Room <strong>C6 003</strong>, h. 12:00–13:00) <br> Various Speakers (UPC)<br> <strong>Students Session: SISAP accepted papers</strong> <br> <i>The talk will be in English.</i> <br><br> The <a href="https://sisap-challenges.github.io/2026/index.html">SISAP 2026 Indexing Challenge</a>, part of the <a href="https://sisap.org/2026">SISAP 2026 (Similarity Search and Applications) conference</a>, focuses on advancing state-of-the-art similarity search and indexing techniques across diverse data modalities and scalability benchmarks. This session highlights innovative approaches to address the complex computational and structural bottlenecks inherent in high-dimensional and large-scale retrieval tasks. To showcase these developments, four short technical presentations will be delivered, each introducing original and efficient solutions tailored to the challenge’s distinct tasks. These are:</p>
+<ul>
+<li><p>Luis Solsona Sánchez and Luis Fernando Chávez Quevedo<br>
+<em>Memory-Bounded Approximate Nearest Neighbour Search for Dense, MIPS, and Sparse Vectors</em></p></li>
+<li><p>Aftab Ahmed Choudhry<br>
+<em>Hardware-Sympathetic Optimization for High-Dimensional Vector Search</em></p></li>
+<li><p>Eneko Sabaté Iturgaiz<br>
+<em>NMF-IVF: Learning Latent Semantic Topics for Approximate Retrieval</em></p></li>
+<li><p>Sergi Guimerà Roig and Iván Sánchez Gala<br>
+<em>PiPNN for k-NN Graph Construction: Inverse-Size Merging and Diversified Beam Search</em></p></li>
+</ul>
+<p>The talks will cover key methodological breakthroughs, experimental evaluations, and practical insights gained from tackling real-world indexing constraints.</p>
+<p>The seminar will conclude with a short talk by Àlex Font, former MIRI student, where he will present the work that was accepted as a full regular paper at the SISAP 2026 main conference.</p>
+<ul>
+<li>Àlex Font, Conrado Martínez, Mahmudur R. Hera and David Koslicki<br>
+<em>A Detailed Analysis of MaxGeomHash Sketches</em></li>
+</ul>
+</li>
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<p>Other planned speakers/talks are the following.</p>
+<div id="listing-future-talks" class="quarto-listing quarto-listing-container-custom">
+<ul class="talks-list">
+<li class="talk-planned-item">
+Nov 4, 2026 – <i>Fabián Riquelme</i> (UPC) <br>
+</li>
+<li class="talk-planned-item">
+Dec 2, 2026 – <i>Carlos Escolano Peinado</i> (UPC) <br>
+</li>
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 </section>
 <section id="past-talks" class="level2">
 <h2 class="anchored" data-anchor-id="past-talks">Past talks</h2>
-<div id="listing-past-talks" class="quarto-listing quarto-listing-container-custom">
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">2026</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">2025</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<div id="listing-talks-2026" class="quarto-listing quarto-listing-container-custom">
 <ul class="talks-list">
 <li class="talk-item">
 <i>Jun 3, 2026</i> <br> Gabriel Mel (CRM) <br> <strong>Beyond Spectra: Eigenvector Overlaps and Generalization in Machine Learning</strong>
@@ -381,6 +505,13 @@ Abstract
 <p>We will end briefly describing some of the applications and implications of these algorithms, besides the initial example motivated in computational biology.</p>
 </details>
 </li>
+</ul>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<div id="listing-talks-2025" class="quarto-listing quarto-listing-container-custom">
+<ul class="talks-list">
 <li class="talk-item">
 <i>Dec 10, 2025</i> <br> David Garcia Soriano (UPC) <br> <strong>Randomization for individual fairness</strong>
 <details>
@@ -411,6 +542,9 @@ Abstract
 </li>
 </ul>
 <div class="listing-no-matching d-none">No matching items</div>
+</div>
+</div>
+</div>
 </div>
 
 
